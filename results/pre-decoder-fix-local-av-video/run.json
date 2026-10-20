@@ -1,0 +1,70 @@
+{
+  "corpus_fingerprint": "1fa763a3296e14094acd6bd57f9714c6292e76dbbffe2bf567b3c12c38dd3dfc",
+  "generator_config": {
+    "adapter_sha256": "dcc9f9047ed7a667f3c7c48201a27e230c8bba831026de709a2423eb582d5109",
+    "experiment_runner_fingerprint": "08ff8559c0fa68a06f6b15dcf525d54704a411108be7deb2d540f4d1b0f0db69",
+    "format_retries": 1,
+    "generation_parameters": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "max_tokens": 4096,
+      "min_p": 0.0,
+      "reasoning_effort": "none",
+      "repeat_penalty": 1.0,
+      "seed": 42,
+      "stream": false,
+      "temperature": 1.0,
+      "top_k": 64,
+      "top_p": 0.95
+    },
+    "invalid_response_policy": {
+      "action": "record_as_unanswered_and_incorrect_after_existing_format_retries",
+      "all_other_failures": "abort_with_completed_predictions_preserved",
+      "eligible_exception": "GenerationError",
+      "eligible_message": "Local Gemma did not return a valid grounded JSON answer; no score was recorded",
+      "implementation_sha256": "5b6b5dc8ede9513bfe8e02ed18052be3d02afaeb4ad701df42b4241581998b7c",
+      "version": 1
+    },
+    "media_protocol": {
+      "audio": "native wav/mp3/flac, unchanged bytes",
+      "ffmpeg_version": "ffmpeg version 8.1.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+      "jpeg_quality": 3,
+      "max_audio_seconds_per_request": 30,
+      "max_images_and_frames": 64,
+      "max_video_seconds_per_request": 60,
+      "version": 1,
+      "video": "silent source; timestamped JPEG frames sampled at 0,1,... seconds",
+      "video_fps": 1,
+      "video_frame_long_edge": 768
+    },
+    "model_revision": "675cff42a74c774d6cb76f76d8eacb49b48c9b93",
+    "response_format": "grounded JSON schema with exact evidence citation IDs",
+    "runtime_adapter_sha256": "7835e2db70863ef822b809c4169ff03d9701ad8c519b5306f2bce78851c79d9e",
+    "runtime_manifest_sha256": "1e8f2720b840e73f9a3e2194ba759262fcc01aaab863ea8ee82c1f44aabec488",
+    "runtime_version": "b11429",
+    "subset_manifest_fingerprint": "7adab46d9ee5e37ddf4973f77c2c8265531f27cd7eb0832bfc33716e09afd8f8"
+  },
+  "implementation": {
+    "embeddings.py": "801491498d59ffb7a40ee0f5fbaf2b8b98d4599e98e069f8b636336be32efcf1",
+    "generation.py": "60a0dd006044f302c1352eb7a2fe3e9caef8b68cdedab69b79549528adb04b72",
+    "local_generation.py": "ec9babc30f65d1d614b1a93d6456717a65696304c6ae4b2abbcbc67ff805d5ec",
+    "localruntime.py": "c0581424902f42cf58a9b3fa68599acb2664178d60269673cf43651fbbee115f",
+    "nvidia.py": "3cbc9772781c9c4a40dcdb662c6410e4e1f41bf91239a1934439ce1452ed51d6",
+    "rag.py": "ef47f39d7c128c87e4231ac4d3e693663a6135e8b8248d04036893437e9b5a14",
+    "retrieval.py": "4353b55ff8f4e9d8f9c7b6200e173aedbd97a11f90e8954f6bcb02533f7731d7"
+  },
+  "k": 5,
+  "max_output_tokens": 4096,
+  "media_mode": "video",
+  "method": "supplied-media",
+  "model": "google/gemma-4-E2B-it-qat-q4_0-gguf",
+  "prediction_only": false,
+  "provider": "local",
+  "query_fingerprint": "b8e03f826d63dd2ed4d45876d507c9dd892514a39522f85a1456f30c8dfc6495",
+  "questions": 20,
+  "reasoning_budget": null,
+  "retriever_config": {},
+  "schema_version": 2,
+  "split": null
+}

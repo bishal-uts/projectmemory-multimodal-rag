@@ -1,0 +1,113 @@
+{
+  "evidence": [
+    {
+      "id": "ami:ES2006a:utterances:00230-00239",
+      "metadata": {
+        "dataset": "ami_qmsum",
+        "representation": "human_transcript",
+        "span_end_inclusive": true,
+        "split": "dev",
+        "team_id": "ES2006",
+        "utterance_end": 239,
+        "utterance_index_base": 0,
+        "utterance_start": 230
+      },
+      "modality": "text",
+      "retrieval_score": 10.674205393745074,
+      "score": 10.674205393745074,
+      "source_id": "ES2006a",
+      "text": "Marketing: {vocalsound}\nIndustrial Designer: Mm-hmm .\nUser Interface: {vocalsound}\nProject Manager: there we go . Okay , so this is the um overall budget for our project . We've got {disfmarker} um we're planning to sell these remote controls for {disfmarker} let's make that go away , that means we've got five minutes . Um we're planning to sell the remote controls for twenty five Euros each . Um and with that we're aiming for a profit of fifty million Euros . And that's selling them on the international market , not just in the U_K_ . Um so to do that our finance people estimate that we need production costs of maximum twelve and a half Euro so that we can reach that profit target . So that's something to keep in mind while you're designing . Okay . Hmm . This is {disfmarker} let me just skip ahead to see {disfmarker} that's the last thing , okay . We've only got a couple of minutes . Does anyone have any first ideas to bounce around about um what we're thinking of this remote control ?\nUser Interface: Yep . I'm just wondering whether whether there is like any special feature that we want to have {disfmarker} w want this remote control have as opposed to the already existing ones .\nProject Manager: Mm-hmm . I think that's probably something that w it's best if we take away with us ,\nIndustrial Designer: Mm-hmm .\nProject Manager: but if we all have a think , when we go away from the meeting , what specific things could be um included in this remote control that that {vocalsound} are out of the ordinary .\nIndustrial Designer: {vocalsound} I think uh i in the beginning uh one thing was {disfmarker} that was mentioned was that it should be mm trendy , user friendly and original so um I think your point is relevant as far as the originality is concerned , that we should provide some features that are quite unique to this .\nProject Manager: Something something new .",
+      "title": "AMI ES2006a, utterances 230-239"
+    },
+    {
+      "id": "ami:ES2006a:utterances:00010-00019",
+      "metadata": {
+        "dataset": "ami_qmsum",
+        "representation": "human_transcript",
+        "span_end_inclusive": true,
+        "split": "dev",
+        "team_id": "ES2006",
+        "utterance_end": 19,
+        "utterance_index_base": 0,
+        "utterance_start": 10
+      },
+      "modality": "text",
+      "retrieval_score": 6.161158902538398,
+      "score": 6.161158902538398,
+      "source_id": "ES2006a",
+      "text": "Industrial Designer: {gap} {vocalsound} {gap} .\nProject Manager: Is i {gap} not at this point .\nUser Interface: Not at this point .\nProject Manager: So this is our project . What we're aiming to do is to create a new remote control for a television . Um we want it to be something original , something trendy and also something user friendly , so it has to be quite intuitive that people are able to use this product . The method that we're going to use to complete the project , that has three components as such . There's the functional design of the the remote control . We're going {disfmarker} the way we'll do that I think is to to work individually initially and then come together for meetings to to work on that . Um similarly with the conceptual design , we'll start off by working individually with our own expertise on our own laptops and then we'll bring what we've done together . Um and then the detailed design will come after that . We'll pull it all together .\nIndustrial Designer: I'm a bit confused about uh what's the difference between the functional design and conceptual design ? Uh i is it just uh more detail , uh as I understand it ?\nProject Manager: I think it {disfmarker} th w we're talking the the functional design is more your um area of things where you'll be {disfmarker} we want to look at what functions we need in the remote control\nIndustrial Designer: Right .\nProject Manager: and what what specific things it it has to do\nIndustrial Designer: {gap}\nProject Manager: but the conceptual design is um perhaps bigger than that and includes the {disfmarker} how people are going to use it and and that kind of thing .",
+      "title": "AMI ES2006a, utterances 10-19"
+    },
+    {
+      "id": "ami:ES2006a:utterances:00140-00149",
+      "metadata": {
+        "dataset": "ami_qmsum",
+        "representation": "human_transcript",
+        "span_end_inclusive": true,
+        "split": "dev",
+        "team_id": "ES2006",
+        "utterance_end": 149,
+        "utterance_index_base": 0,
+        "utterance_start": 140
+      },
+      "modality": "text",
+      "retrieval_score": 4.621664080336799,
+      "score": 4.621664080336799,
+      "source_id": "ES2006a",
+      "text": "User Interface: {vocalsound} Okay , that's it . {vocalsound}\nIndustrial Designer: Thank you . Okay {vocalsound} um {vocalsound} I'll do some {disfmarker} I'll rub the features\nProject Manager: {vocalsound}\nIndustrial Designer: and let the drawing stay . {vocalsound} 'Kay um my name is Gaurav . Um {vocalsound} my favourite animal {disfmarker} one of my favourite animals is a cow . I've got no idea how to draw a cow .\nMarketing: {vocalsound}\nProject Manager: {vocalsound} Good luck .\nUser Interface: {vocalsound}\nIndustrial Designer: {vocalsound} Uh this is going to be {disfmarker}\nMarketing: They're not just like a big round body and then some really skinny legs\nIndustrial Designer: Yeah , that'll do .",
+      "title": "AMI ES2006a, utterances 140-149"
+    }
+  ],
+  "generated_answer": {
+    "abstained": false,
+    "answer": "It should be original, trendy, user‑friendly, intuitive and have unique features.",
+    "answer_items": [
+      "original",
+      "trendy",
+      "user friendly",
+      "intuitive",
+      "unique"
+    ],
+    "answer_label": "",
+    "api_called": false,
+    "cache_hit": true,
+    "cache_key": "9e5e34788eea89da42b5b457559ddd9201b7e0bf78e24f15cb2c0a695f0d180f",
+    "citations": [
+      "ami:ES2006a:utterances:00010-00019",
+      "ami:ES2006a:utterances:00230-00239"
+    ],
+    "created_at": "2026-10-14T23:57:35.949465+00:00",
+    "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+    "model_version": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+    "provider": "nvidia",
+    "sources": [
+      {
+        "id": "ami:ES2006a:utterances:00010-00019",
+        "location": {
+          "utterance_end": 19,
+          "utterance_start": 10
+        },
+        "modality": "text",
+        "source_id": "ES2006a",
+        "title": "AMI ES2006a, utterances 10-19"
+      },
+      {
+        "id": "ami:ES2006a:utterances:00230-00239",
+        "location": {
+          "utterance_end": 239,
+          "utterance_start": 230
+        },
+        "modality": "text",
+        "source_id": "ES2006a",
+        "title": "AMI ES2006a, utterances 230-239"
+      }
+    ],
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 784,
+      "prompt_tokens": 1563,
+      "total_tokens": 2347
+    }
+  },
+  "question": "What features should the remote control have?"
+}

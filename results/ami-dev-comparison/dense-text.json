@@ -1,0 +1,1344 @@
+{
+  "config": {
+    "batch_size": 4,
+    "dataset": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\ami",
+    "dataset_manifest": {
+      "available_specific_queries": 46,
+      "candidate_scope": "Within the meeting named by metadata.candidate_source_ids",
+      "chunk_utterances": 10,
+      "corpus_records": 425,
+      "dataset": "ami_qmsum",
+      "evaluation_scope": "transcript_retrieval_with_gold_utterance_spans",
+      "general_queries_excluded_from_retrieval": 8,
+      "limit": 100,
+      "media_status": "Manifest only; media not downloaded or indexed",
+      "modalities_prepared": [
+        "text"
+      ],
+      "qmsum_revision": "83d7768c1f2b4dfeb091385d3dc7e239b8e5bb7e",
+      "queries": 46,
+      "query_splits": {
+        "dev": 24,
+        "test": 22
+      },
+      "seed": 42,
+      "sources": [
+        {
+          "bytes": 50382,
+          "meeting_id": "ES2006a",
+          "sha256": "19592a4f5f6306a7f22401112c3973bbd991b739cd1ed9a3ec2084ca8801e8ec",
+          "split": "dev",
+          "upstream_split": "val",
+          "url": "https://raw.githubusercontent.com/Yale-LILY/QMSum/83d7768c1f2b4dfeb091385d3dc7e239b8e5bb7e/data/Product/val/ES2006a.json"
+        },
+        {
+          "bytes": 90101,
+          "meeting_id": "ES2006b",
+          "sha256": "fe7c362c3e2f6e2ca3a7ddcc1b36db4f247e2587636abe514b0f16f8b7b8991a",
+          "split": "dev",
+          "upstream_split": "val",
+          "url": "https://raw.githubusercontent.com/Yale-LILY/QMSum/83d7768c1f2b4dfeb091385d3dc7e239b8e5bb7e/data/Product/val/ES2006b.json"
+        },
+        {
+          "bytes": 102632,
+          "meeting_id": "ES2006c",
+          "sha256": "bf485a60f7aa0088010d06d570bc88bb01feb944353f72316e1aca7addb024eb",
+          "split": "dev",
+          "upstream_split": "val",
+          "url": "https://raw.githubusercontent.com/Yale-LILY/QMSum/83d7768c1f2b4dfeb091385d3dc7e239b8e5bb7e/data/Product/val/ES2006c.json"
+        },
+        {
+          "bytes": 123597,
+          "meeting_id": "ES2006d",
+          "sha256": "628aadbf28ab0b1f2cba5c6d6c62b0710fd1a2279f8750ea33c268fb73b90c14",
+          "split": "dev",
+          "upstream_split": "val",
+          "url": "https://raw.githubusercontent.com/Yale-LILY/QMSum/83d7768c1f2b4dfeb091385d3dc7e239b8e5bb7e/data/Product/val/ES2006d.json"
+        },
+        {
+          "bytes": 45255,
+          "meeting_id": "ES2011a",
+          "sha256": "1e2ae7b9d3a7e9cf2e6c1dcd62de5c4f4050d7366c5e6a7605bfaf5d790ff35c",
+          "split": "test",
+          "upstream_split": "test",
+          "url": "https://raw.githubusercontent.com/Yale-LILY/QMSum/83d7768c1f2b4dfeb091385d3dc7e239b8e5bb7e/data/Product/test/ES2011a.json"
+        },
+        {
+          "bytes": 63231,
+          "meeting_id": "ES2011b",
+          "sha256": "aa9c1ac75b1092e1bdb22576268831b0321147375de563be51cace51a67636f1",
+          "split": "test",
+          "upstream_split": "test",
+          "url": "https://raw.githubusercontent.com/Yale-LILY/QMSum/83d7768c1f2b4dfeb091385d3dc7e239b8e5bb7e/data/Product/test/ES2011b.json"
+        },
+        {
+          "bytes": 81576,
+          "meeting_id": "ES2011c",
+          "sha256": "0f76f60f6eeae152da331d498d384dbaf9b9b3e2d5aa705abb0ddf4ab742328a",
+          "split": "test",
+          "upstream_split": "test",
+          "url": "https://raw.githubusercontent.com/Yale-LILY/QMSum/83d7768c1f2b4dfeb091385d3dc7e239b8e5bb7e/data/Product/test/ES2011c.json"
+        },
+        {
+          "bytes": 86965,
+          "meeting_id": "ES2011d",
+          "sha256": "a5882a985364529b7c82836f0368af46d738c7bf5a830485614d61c077525519",
+          "split": "test",
+          "upstream_split": "test",
+          "url": "https://raw.githubusercontent.com/Yale-LILY/QMSum/83d7768c1f2b4dfeb091385d3dc7e239b8e5bb7e/data/Product/test/ES2011d.json"
+        }
+      ]
+    },
+    "device": "cpu",
+    "dtype": "float32",
+    "model": "google/embeddinggemma-2",
+    "model_revision": "914f7f89142e33e77833254d9c9b90c3cef7303b"
+  },
+  "corpus_fingerprint": "6ce840b9e7057eccbfa664ff78c24d96d7f6199ba7171d4d4c09efb8e74aa18e",
+  "corpus_size": 425,
+  "created_at": "2026-10-14T16:42:18.745794+00:00",
+  "index_build_seconds": 671.4156321000191,
+  "k": 5,
+  "latency_seconds": {
+    "mean": 0.30217386250539374,
+    "p95": 0.40260319999651983
+  },
+  "limitations": [
+    "Retrieval only; answer generation and answer quality were not evaluated.",
+    "Subset/custom corpus results are not directly comparable to published full-benchmark scores."
+  ],
+  "method": "dense-text",
+  "metrics": {
+    "all_support@5": 0.08333333333333333,
+    "hit_rate@5": 0.9583333333333334,
+    "mrr@5": 0.7340277777777777,
+    "ndcg@5": 0.5253001148566026,
+    "recall@5": 0.38891172260387324
+  },
+  "queries": [
+    {
+      "candidate_count": 32,
+      "candidate_source_ids": [
+        "ES2006a"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006a:utterances:00280-00289",
+          "score": 0.7885329963713344
+        },
+        {
+          "id": "ami:ES2006a:utterances:00230-00239",
+          "score": 0.7871533343168642
+        },
+        {
+          "id": "ami:ES2006a:utterances:00010-00019",
+          "score": 0.7760853692142622
+        },
+        {
+          "id": "ami:ES2006a:utterances:00240-00249",
+          "score": 0.7539765155555302
+        },
+        {
+          "id": "ami:ES2006a:utterances:00270-00279",
+          "score": 0.7526923998908026
+        }
+      ],
+      "id": "ami:ES2006a:specific:000",
+      "latency_seconds": 0.2634564000181854,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 0.625
+      },
+      "question": "What did the group discuss about the design goal of the remote control?",
+      "relevant_ids": [
+        "ami:ES2006a:utterances:00010-00019",
+        "ami:ES2006a:utterances:00230-00239",
+        "ami:ES2006a:utterances:00240-00249",
+        "ami:ES2006a:utterances:00250-00259",
+        "ami:ES2006a:utterances:00260-00269",
+        "ami:ES2006a:utterances:00270-00279",
+        "ami:ES2006a:utterances:00280-00289",
+        "ami:ES2006a:utterances:00290-00299"
+      ]
+    },
+    {
+      "candidate_count": 32,
+      "candidate_source_ids": [
+        "ES2006a"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006a:utterances:00230-00239",
+          "score": 0.7854732913089453
+        },
+        {
+          "id": "ami:ES2006a:utterances:00010-00019",
+          "score": 0.7299305270533469
+        },
+        {
+          "id": "ami:ES2006a:utterances:00280-00289",
+          "score": 0.7248157989500911
+        },
+        {
+          "id": "ami:ES2006a:utterances:00270-00279",
+          "score": 0.7201880318082432
+        },
+        {
+          "id": "ami:ES2006a:utterances:00240-00249",
+          "score": 0.6997490895570941
+        }
+      ],
+      "id": "ami:ES2006a:specific:001",
+      "latency_seconds": 0.28401279996614903,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "What are the target price, target cost and target profit of remote control when discussing the design of the remote control?",
+      "relevant_ids": [
+        "ami:ES2006a:utterances:00230-00239"
+      ]
+    },
+    {
+      "candidate_count": 32,
+      "candidate_source_ids": [
+        "ES2006a"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006a:utterances:00010-00019",
+          "score": 0.7975405540642811
+        },
+        {
+          "id": "ami:ES2006a:utterances:00240-00249",
+          "score": 0.7799503804828162
+        },
+        {
+          "id": "ami:ES2006a:utterances:00270-00279",
+          "score": 0.7597692938422437
+        },
+        {
+          "id": "ami:ES2006a:utterances:00280-00289",
+          "score": 0.7597604153305865
+        },
+        {
+          "id": "ami:ES2006a:utterances:00230-00239",
+          "score": 0.7539765395043794
+        }
+      ],
+      "id": "ami:ES2006a:specific:002",
+      "latency_seconds": 0.27853210002649575,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.5,
+        "ndcg@5": 0.6240505200038379,
+        "recall@5": 1.0
+      },
+      "question": "What did the Industrial Designer think of fashion design when discussing the design of the remote control?",
+      "relevant_ids": [
+        "ami:ES2006a:utterances:00230-00239",
+        "ami:ES2006a:utterances:00240-00249"
+      ]
+    },
+    {
+      "candidate_count": 32,
+      "candidate_source_ids": [
+        "ES2006a"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006a:utterances:00010-00019",
+          "score": 0.7827151302102178
+        },
+        {
+          "id": "ami:ES2006a:utterances:00270-00279",
+          "score": 0.7784444646304002
+        },
+        {
+          "id": "ami:ES2006a:utterances:00280-00289",
+          "score": 0.7686388850771171
+        },
+        {
+          "id": "ami:ES2006a:utterances:00230-00239",
+          "score": 0.7593916714804559
+        },
+        {
+          "id": "ami:ES2006a:utterances:00240-00249",
+          "score": 0.755068485791729
+        }
+      ],
+      "id": "ami:ES2006a:specific:003",
+      "latency_seconds": 0.29042560001835227,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.5,
+        "ndcg@5": 0.5147714448836774,
+        "recall@5": 0.5
+      },
+      "question": "Summarize the discussion about the functional design of the remote control.",
+      "relevant_ids": [
+        "ami:ES2006a:utterances:00240-00249",
+        "ami:ES2006a:utterances:00250-00259",
+        "ami:ES2006a:utterances:00260-00269",
+        "ami:ES2006a:utterances:00270-00279",
+        "ami:ES2006a:utterances:00280-00289",
+        "ami:ES2006a:utterances:00290-00299"
+      ]
+    },
+    {
+      "candidate_count": 32,
+      "candidate_source_ids": [
+        "ES2006a"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006a:utterances:00270-00279",
+          "score": 0.8290923601062604
+        },
+        {
+          "id": "ami:ES2006a:utterances:00240-00249",
+          "score": 0.8107003605408162
+        },
+        {
+          "id": "ami:ES2006a:utterances:00230-00239",
+          "score": 0.8020560095459257
+        },
+        {
+          "id": "ami:ES2006a:utterances:00280-00289",
+          "score": 0.7865121231363587
+        },
+        {
+          "id": "ami:ES2006a:utterances:00010-00019",
+          "score": 0.7668462380729173
+        }
+      ],
+      "id": "ami:ES2006a:specific:004",
+      "latency_seconds": 0.3029443999985233,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "What did the Marketing think of buttons when discussing the functional design of the remote control?",
+      "relevant_ids": [
+        "ami:ES2006a:utterances:00260-00269",
+        "ami:ES2006a:utterances:00270-00279"
+      ]
+    },
+    {
+      "candidate_count": 32,
+      "candidate_source_ids": [
+        "ES2006a"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006a:utterances:00280-00289",
+          "score": 0.7831855552345736
+        },
+        {
+          "id": "ami:ES2006a:utterances:00230-00239",
+          "score": 0.7604310513217781
+        },
+        {
+          "id": "ami:ES2006a:utterances:00010-00019",
+          "score": 0.7473414890046013
+        },
+        {
+          "id": "ami:ES2006a:utterances:00270-00279",
+          "score": 0.7409516249867381
+        },
+        {
+          "id": "ami:ES2006a:utterances:00240-00249",
+          "score": 0.7361113704356886
+        }
+      ],
+      "id": "ami:ES2006a:specific:005",
+      "latency_seconds": 0.5112775000161491,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "What did the group think of battery design when discussing the functional design of the remote control?",
+      "relevant_ids": [
+        "ami:ES2006a:utterances:00280-00289",
+        "ami:ES2006a:utterances:00290-00299"
+      ]
+    },
+    {
+      "candidate_count": 55,
+      "candidate_source_ids": [
+        "ES2006b"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006b:utterances:00040-00049",
+          "score": 0.6936414424219269
+        },
+        {
+          "id": "ami:ES2006b:utterances:00500-00509",
+          "score": 0.6934776208452474
+        },
+        {
+          "id": "ami:ES2006b:utterances:00490-00499",
+          "score": 0.6928492395437604
+        },
+        {
+          "id": "ami:ES2006b:utterances:00100-00109",
+          "score": 0.688818300939314
+        },
+        {
+          "id": "ami:ES2006b:utterances:00330-00339",
+          "score": 0.6814954262461383
+        }
+      ],
+      "id": "ami:ES2006b:specific:000",
+      "latency_seconds": 0.29482870001811534,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.48522855511632257,
+        "recall@5": 0.07692307692307693
+      },
+      "question": "Summarize the presentations on working design, technical functions, functional requirements.",
+      "relevant_ids": [
+        "ami:ES2006b:utterances:00000-00009",
+        "ami:ES2006b:utterances:00010-00019",
+        "ami:ES2006b:utterances:00020-00029",
+        "ami:ES2006b:utterances:00030-00039",
+        "ami:ES2006b:utterances:00040-00049",
+        "ami:ES2006b:utterances:00050-00059",
+        "ami:ES2006b:utterances:00060-00069",
+        "ami:ES2006b:utterances:00070-00079",
+        "ami:ES2006b:utterances:00080-00089",
+        "ami:ES2006b:utterances:00090-00099",
+        "ami:ES2006b:utterances:00100-00109",
+        "ami:ES2006b:utterances:00110-00119",
+        "ami:ES2006b:utterances:00120-00129",
+        "ami:ES2006b:utterances:00130-00139",
+        "ami:ES2006b:utterances:00140-00149",
+        "ami:ES2006b:utterances:00150-00159",
+        "ami:ES2006b:utterances:00160-00169",
+        "ami:ES2006b:utterances:00170-00179",
+        "ami:ES2006b:utterances:00180-00189",
+        "ami:ES2006b:utterances:00190-00199",
+        "ami:ES2006b:utterances:00200-00209",
+        "ami:ES2006b:utterances:00210-00219",
+        "ami:ES2006b:utterances:00220-00229",
+        "ami:ES2006b:utterances:00230-00239",
+        "ami:ES2006b:utterances:00240-00249",
+        "ami:ES2006b:utterances:00250-00259"
+      ]
+    },
+    {
+      "candidate_count": 55,
+      "candidate_source_ids": [
+        "ES2006b"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006b:utterances:00040-00049",
+          "score": 0.7461594019593051
+        },
+        {
+          "id": "ami:ES2006b:utterances:00140-00149",
+          "score": 0.7252992971167863
+        },
+        {
+          "id": "ami:ES2006b:utterances:00500-00509",
+          "score": 0.7252688115982506
+        },
+        {
+          "id": "ami:ES2006b:utterances:00100-00109",
+          "score": 0.718896386175656
+        },
+        {
+          "id": "ami:ES2006b:utterances:00410-00419",
+          "score": 0.7185104647465264
+        }
+      ],
+      "id": "ami:ES2006b:specific:001",
+      "latency_seconds": 0.3936995000112802,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "Why did Project Manager think of the advanced technology design when presenting the technical functions?",
+      "relevant_ids": [
+        "ami:ES2006b:utterances:00040-00049",
+        "ami:ES2006b:utterances:00050-00059"
+      ]
+    },
+    {
+      "candidate_count": 55,
+      "candidate_source_ids": [
+        "ES2006b"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006b:utterances:00500-00509",
+          "score": 0.7294966745763025
+        },
+        {
+          "id": "ami:ES2006b:utterances:00010-00019",
+          "score": 0.7260678037328989
+        },
+        {
+          "id": "ami:ES2006b:utterances:00160-00169",
+          "score": 0.7050300747050683
+        },
+        {
+          "id": "ami:ES2006b:utterances:00230-00239",
+          "score": 0.7002798964495286
+        },
+        {
+          "id": "ami:ES2006b:utterances:00020-00029",
+          "score": 0.6963570881386305
+        }
+      ],
+      "id": "ami:ES2006b:specific:002",
+      "latency_seconds": 0.2718612999888137,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.25,
+        "ndcg@5": 0.20210734650054757,
+        "recall@5": 0.3333333333333333
+      },
+      "question": "Why did the group think of the locator when presenting the functional requirements?",
+      "relevant_ids": [
+        "ami:ES2006b:utterances:00230-00239",
+        "ami:ES2006b:utterances:00240-00249",
+        "ami:ES2006b:utterances:00250-00259"
+      ]
+    },
+    {
+      "candidate_count": 55,
+      "candidate_source_ids": [
+        "ES2006b"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006b:utterances:00500-00509",
+          "score": 0.7104806618682885
+        },
+        {
+          "id": "ami:ES2006b:utterances:00010-00019",
+          "score": 0.688974262551261
+        },
+        {
+          "id": "ami:ES2006b:utterances:00150-00159",
+          "score": 0.6889359499989917
+        },
+        {
+          "id": "ami:ES2006b:utterances:00050-00059",
+          "score": 0.6834015945829329
+        },
+        {
+          "id": "ami:ES2006b:utterances:00120-00129",
+          "score": 0.6826021129305978
+        }
+      ],
+      "id": "ami:ES2006b:specific:003",
+      "latency_seconds": 0.25419399997917935,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.3391602052736161,
+        "recall@5": 0.034482758620689655
+      },
+      "question": "Summarize the group discussion about general requirements.",
+      "relevant_ids": [
+        "ami:ES2006b:utterances:00260-00269",
+        "ami:ES2006b:utterances:00270-00279",
+        "ami:ES2006b:utterances:00280-00289",
+        "ami:ES2006b:utterances:00290-00299",
+        "ami:ES2006b:utterances:00300-00309",
+        "ami:ES2006b:utterances:00310-00319",
+        "ami:ES2006b:utterances:00320-00329",
+        "ami:ES2006b:utterances:00330-00339",
+        "ami:ES2006b:utterances:00340-00349",
+        "ami:ES2006b:utterances:00350-00359",
+        "ami:ES2006b:utterances:00360-00369",
+        "ami:ES2006b:utterances:00370-00379",
+        "ami:ES2006b:utterances:00380-00389",
+        "ami:ES2006b:utterances:00390-00399",
+        "ami:ES2006b:utterances:00400-00409",
+        "ami:ES2006b:utterances:00410-00419",
+        "ami:ES2006b:utterances:00420-00429",
+        "ami:ES2006b:utterances:00430-00439",
+        "ami:ES2006b:utterances:00440-00449",
+        "ami:ES2006b:utterances:00450-00459",
+        "ami:ES2006b:utterances:00460-00469",
+        "ami:ES2006b:utterances:00470-00479",
+        "ami:ES2006b:utterances:00480-00489",
+        "ami:ES2006b:utterances:00490-00499",
+        "ami:ES2006b:utterances:00500-00509",
+        "ami:ES2006b:utterances:00510-00519",
+        "ami:ES2006b:utterances:00520-00529",
+        "ami:ES2006b:utterances:00530-00539",
+        "ami:ES2006b:utterances:00540-00540"
+      ]
+    },
+    {
+      "candidate_count": 55,
+      "candidate_source_ids": [
+        "ES2006b"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006b:utterances:00300-00309",
+          "score": 0.7216488598331103
+        },
+        {
+          "id": "ami:ES2006b:utterances:00500-00509",
+          "score": 0.6976467813919719
+        },
+        {
+          "id": "ami:ES2006b:utterances:00010-00019",
+          "score": 0.6885437838953993
+        },
+        {
+          "id": "ami:ES2006b:utterances:00400-00409",
+          "score": 0.6874896017745713
+        },
+        {
+          "id": "ami:ES2006b:utterances:00120-00129",
+          "score": 0.6863020403304799
+        }
+      ],
+      "id": "ami:ES2006b:specific:004",
+      "latency_seconds": 0.25970769999548793,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.3391602052736161,
+        "recall@5": 0.14285714285714285
+      },
+      "question": "What did the group think of disposable income when discussing general requirements?",
+      "relevant_ids": [
+        "ami:ES2006b:utterances:00290-00299",
+        "ami:ES2006b:utterances:00300-00309",
+        "ami:ES2006b:utterances:00310-00319",
+        "ami:ES2006b:utterances:00320-00329",
+        "ami:ES2006b:utterances:00330-00339",
+        "ami:ES2006b:utterances:00340-00349",
+        "ami:ES2006b:utterances:00350-00359"
+      ]
+    },
+    {
+      "candidate_count": 55,
+      "candidate_source_ids": [
+        "ES2006b"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006b:utterances:00360-00369",
+          "score": 0.7945779976870884
+        },
+        {
+          "id": "ami:ES2006b:utterances:00350-00359",
+          "score": 0.7913014601189698
+        },
+        {
+          "id": "ami:ES2006b:utterances:00370-00379",
+          "score": 0.7909006782773675
+        },
+        {
+          "id": "ami:ES2006b:utterances:00410-00419",
+          "score": 0.7882051256136563
+        },
+        {
+          "id": "ami:ES2006b:utterances:00470-00479",
+          "score": 0.7822369406088154
+        }
+      ],
+      "id": "ami:ES2006b:specific:005",
+      "latency_seconds": 0.2914849999942817,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.8687949224876582,
+        "recall@5": 0.5714285714285714
+      },
+      "question": "Why did Project Manager think that they should try to incorporate voice recognition when discussing general requirements?",
+      "relevant_ids": [
+        "ami:ES2006b:utterances:00350-00359",
+        "ami:ES2006b:utterances:00360-00369",
+        "ami:ES2006b:utterances:00370-00379",
+        "ami:ES2006b:utterances:00380-00389",
+        "ami:ES2006b:utterances:00390-00399",
+        "ami:ES2006b:utterances:00400-00409",
+        "ami:ES2006b:utterances:00410-00419"
+      ]
+    },
+    {
+      "candidate_count": 67,
+      "candidate_source_ids": [
+        "ES2006c"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006c:utterances:00140-00149",
+          "score": 0.6890024512933817
+        },
+        {
+          "id": "ami:ES2006c:utterances:00210-00219",
+          "score": 0.6809026377857358
+        },
+        {
+          "id": "ami:ES2006c:utterances:00420-00429",
+          "score": 0.6795333395158913
+        },
+        {
+          "id": "ami:ES2006c:utterances:00000-00009",
+          "score": 0.6714742485941846
+        },
+        {
+          "id": "ami:ES2006c:utterances:00470-00479",
+          "score": 0.6710528629400738
+        }
+      ],
+      "id": "ami:ES2006c:specific:000",
+      "latency_seconds": 0.25793180003529415,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6992148198508501,
+        "recall@5": 0.07894736842105263
+      },
+      "question": "Summarize the presentations on remote components, user interface and market trends.",
+      "relevant_ids": [
+        "ami:ES2006c:utterances:00000-00009",
+        "ami:ES2006c:utterances:00010-00019",
+        "ami:ES2006c:utterances:00020-00029",
+        "ami:ES2006c:utterances:00030-00039",
+        "ami:ES2006c:utterances:00040-00049",
+        "ami:ES2006c:utterances:00050-00059",
+        "ami:ES2006c:utterances:00060-00069",
+        "ami:ES2006c:utterances:00070-00079",
+        "ami:ES2006c:utterances:00080-00089",
+        "ami:ES2006c:utterances:00090-00099",
+        "ami:ES2006c:utterances:00100-00109",
+        "ami:ES2006c:utterances:00110-00119",
+        "ami:ES2006c:utterances:00120-00129",
+        "ami:ES2006c:utterances:00130-00139",
+        "ami:ES2006c:utterances:00140-00149",
+        "ami:ES2006c:utterances:00150-00159",
+        "ami:ES2006c:utterances:00160-00169",
+        "ami:ES2006c:utterances:00170-00179",
+        "ami:ES2006c:utterances:00180-00189",
+        "ami:ES2006c:utterances:00190-00199",
+        "ami:ES2006c:utterances:00200-00209",
+        "ami:ES2006c:utterances:00210-00219",
+        "ami:ES2006c:utterances:00220-00229",
+        "ami:ES2006c:utterances:00230-00239",
+        "ami:ES2006c:utterances:00240-00249",
+        "ami:ES2006c:utterances:00250-00259",
+        "ami:ES2006c:utterances:00260-00269",
+        "ami:ES2006c:utterances:00270-00279",
+        "ami:ES2006c:utterances:00280-00289",
+        "ami:ES2006c:utterances:00290-00299",
+        "ami:ES2006c:utterances:00300-00309",
+        "ami:ES2006c:utterances:00310-00319",
+        "ami:ES2006c:utterances:00320-00329",
+        "ami:ES2006c:utterances:00330-00339",
+        "ami:ES2006c:utterances:00340-00349",
+        "ami:ES2006c:utterances:00350-00359",
+        "ami:ES2006c:utterances:00360-00369",
+        "ami:ES2006c:utterances:00370-00379"
+      ]
+    },
+    {
+      "candidate_count": 67,
+      "candidate_source_ids": [
+        "ES2006c"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006c:utterances:00090-00099",
+          "score": 0.8183215708143939
+        },
+        {
+          "id": "ami:ES2006c:utterances:00490-00499",
+          "score": 0.813570955311599
+        },
+        {
+          "id": "ami:ES2006c:utterances:00170-00179",
+          "score": 0.7975829235605864
+        },
+        {
+          "id": "ami:ES2006c:utterances:00500-00509",
+          "score": 0.7894980851033676
+        },
+        {
+          "id": "ami:ES2006c:utterances:00330-00339",
+          "score": 0.7583506128010674
+        }
+      ],
+      "id": "ami:ES2006c:specific:001",
+      "latency_seconds": 0.29282859998056665,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.3333333333333333,
+        "ndcg@5": 0.16958010263680806,
+        "recall@5": 0.2
+      },
+      "question": "What did Industrial Designer think of the scroll wheel when presenting the user interface?",
+      "relevant_ids": [
+        "ami:ES2006c:utterances:00160-00169",
+        "ami:ES2006c:utterances:00170-00179",
+        "ami:ES2006c:utterances:00180-00189",
+        "ami:ES2006c:utterances:00190-00199",
+        "ami:ES2006c:utterances:00200-00209"
+      ]
+    },
+    {
+      "candidate_count": 67,
+      "candidate_source_ids": [
+        "ES2006c"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006c:utterances:00220-00229",
+          "score": 0.753063083743995
+        },
+        {
+          "id": "ami:ES2006c:utterances:00270-00279",
+          "score": 0.7303773114532381
+        },
+        {
+          "id": "ami:ES2006c:utterances:00240-00249",
+          "score": 0.7186141236187885
+        },
+        {
+          "id": "ami:ES2006c:utterances:00450-00459",
+          "score": 0.7117840867999234
+        },
+        {
+          "id": "ami:ES2006c:utterances:00550-00559",
+          "score": 0.7097808085055316
+        }
+      ],
+      "id": "ami:ES2006c:specific:002",
+      "latency_seconds": 0.24629719997756183,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.5,
+        "ndcg@5": 0.44149241373678083,
+        "recall@5": 0.5
+      },
+      "question": "Why did the Marketing think they should have LCD when presenting the market trends?",
+      "relevant_ids": [
+        "ami:ES2006c:utterances:00240-00249",
+        "ami:ES2006c:utterances:00250-00259",
+        "ami:ES2006c:utterances:00260-00269",
+        "ami:ES2006c:utterances:00270-00279"
+      ]
+    },
+    {
+      "candidate_count": 67,
+      "candidate_source_ids": [
+        "ES2006c"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006c:utterances:00260-00269",
+          "score": 0.7382458007221407
+        },
+        {
+          "id": "ami:ES2006c:utterances:00470-00479",
+          "score": 0.7337618813226581
+        },
+        {
+          "id": "ami:ES2006c:utterances:00540-00549",
+          "score": 0.7326128947478824
+        },
+        {
+          "id": "ami:ES2006c:utterances:00040-00049",
+          "score": 0.7231604012859832
+        },
+        {
+          "id": "ami:ES2006c:utterances:00440-00449",
+          "score": 0.7192692110004248
+        }
+      ],
+      "id": "ami:ES2006c:specific:003",
+      "latency_seconds": 0.2558185000088997,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.5,
+        "ndcg@5": 0.5147714448836774,
+        "recall@5": 0.1
+      },
+      "question": "Summarize the decision discussion about key remote control concepts.",
+      "relevant_ids": [
+        "ami:ES2006c:utterances:00370-00379",
+        "ami:ES2006c:utterances:00380-00389",
+        "ami:ES2006c:utterances:00390-00399",
+        "ami:ES2006c:utterances:00400-00409",
+        "ami:ES2006c:utterances:00410-00419",
+        "ami:ES2006c:utterances:00420-00429",
+        "ami:ES2006c:utterances:00430-00439",
+        "ami:ES2006c:utterances:00440-00449",
+        "ami:ES2006c:utterances:00450-00459",
+        "ami:ES2006c:utterances:00460-00469",
+        "ami:ES2006c:utterances:00470-00479",
+        "ami:ES2006c:utterances:00480-00489",
+        "ami:ES2006c:utterances:00490-00499",
+        "ami:ES2006c:utterances:00500-00509",
+        "ami:ES2006c:utterances:00510-00519",
+        "ami:ES2006c:utterances:00520-00529",
+        "ami:ES2006c:utterances:00530-00539",
+        "ami:ES2006c:utterances:00540-00549",
+        "ami:ES2006c:utterances:00550-00559",
+        "ami:ES2006c:utterances:00560-00569",
+        "ami:ES2006c:utterances:00570-00579",
+        "ami:ES2006c:utterances:00580-00589",
+        "ami:ES2006c:utterances:00590-00599",
+        "ami:ES2006c:utterances:00600-00609",
+        "ami:ES2006c:utterances:00610-00619",
+        "ami:ES2006c:utterances:00620-00629",
+        "ami:ES2006c:utterances:00630-00639",
+        "ami:ES2006c:utterances:00640-00649",
+        "ami:ES2006c:utterances:00650-00659",
+        "ami:ES2006c:utterances:00660-00660"
+      ]
+    },
+    {
+      "candidate_count": 67,
+      "candidate_source_ids": [
+        "ES2006c"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006c:utterances:00390-00399",
+          "score": 0.7580755509859013
+        },
+        {
+          "id": "ami:ES2006c:utterances:00400-00409",
+          "score": 0.748019023899515
+        },
+        {
+          "id": "ami:ES2006c:utterances:00420-00429",
+          "score": 0.7459466632215843
+        },
+        {
+          "id": "ami:ES2006c:utterances:00260-00269",
+          "score": 0.7422340178997242
+        },
+        {
+          "id": "ami:ES2006c:utterances:00070-00079",
+          "score": 0.7421999772236335
+        }
+      ],
+      "id": "ami:ES2006c:specific:004",
+      "latency_seconds": 0.2994969999999739,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.8318724637288826,
+        "recall@5": 0.75
+      },
+      "question": "What did the group think of the wood case when discussing the key remote control concepts?",
+      "relevant_ids": [
+        "ami:ES2006c:utterances:00390-00399",
+        "ami:ES2006c:utterances:00400-00409",
+        "ami:ES2006c:utterances:00410-00419",
+        "ami:ES2006c:utterances:00420-00429"
+      ]
+    },
+    {
+      "candidate_count": 67,
+      "candidate_source_ids": [
+        "ES2006c"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006c:utterances:00260-00269",
+          "score": 0.7509486241112043
+        },
+        {
+          "id": "ami:ES2006c:utterances:00470-00479",
+          "score": 0.7488782295040519
+        },
+        {
+          "id": "ami:ES2006c:utterances:00540-00549",
+          "score": 0.7451310944556323
+        },
+        {
+          "id": "ami:ES2006c:utterances:00240-00249",
+          "score": 0.7412204212501734
+        },
+        {
+          "id": "ami:ES2006c:utterances:00430-00439",
+          "score": 0.7290134690913908
+        }
+      ],
+      "id": "ami:ES2006c:specific:005",
+      "latency_seconds": 0.316083499987144,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.2,
+        "ndcg@5": 0.18154179253735267,
+        "recall@5": 0.3333333333333333
+      },
+      "question": "Why did the group think of the push-buttons when discussing the key remote control concepts?",
+      "relevant_ids": [
+        "ami:ES2006c:utterances:00430-00439",
+        "ami:ES2006c:utterances:00440-00449",
+        "ami:ES2006c:utterances:00450-00459"
+      ]
+    },
+    {
+      "candidate_count": 92,
+      "candidate_source_ids": [
+        "ES2006d"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006d:utterances:00000-00009",
+          "score": 0.7055688340774939
+        },
+        {
+          "id": "ami:ES2006d:utterances:00660-00669",
+          "score": 0.667085799878347
+        },
+        {
+          "id": "ami:ES2006d:utterances:00390-00399",
+          "score": 0.6586871388939209
+        },
+        {
+          "id": "ami:ES2006d:utterances:00440-00449",
+          "score": 0.6554201237438215
+        },
+        {
+          "id": "ami:ES2006d:utterances:00340-00349",
+          "score": 0.6538644620559381
+        }
+      ],
+      "id": "ami:ES2006d:specific:000",
+      "latency_seconds": 0.2540070000104606,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.3333333333333333,
+        "ndcg@5": 0.4468535299918563,
+        "recall@5": 0.09090909090909091
+      },
+      "question": "Summarize the presentation on evaluation criteria.",
+      "relevant_ids": [
+        "ami:ES2006d:utterances:00160-00169",
+        "ami:ES2006d:utterances:00170-00179",
+        "ami:ES2006d:utterances:00180-00189",
+        "ami:ES2006d:utterances:00190-00199",
+        "ami:ES2006d:utterances:00200-00209",
+        "ami:ES2006d:utterances:00210-00219",
+        "ami:ES2006d:utterances:00220-00229",
+        "ami:ES2006d:utterances:00230-00239",
+        "ami:ES2006d:utterances:00240-00249",
+        "ami:ES2006d:utterances:00250-00259",
+        "ami:ES2006d:utterances:00260-00269",
+        "ami:ES2006d:utterances:00270-00279",
+        "ami:ES2006d:utterances:00280-00289",
+        "ami:ES2006d:utterances:00290-00299",
+        "ami:ES2006d:utterances:00300-00309",
+        "ami:ES2006d:utterances:00310-00319",
+        "ami:ES2006d:utterances:00320-00329",
+        "ami:ES2006d:utterances:00330-00339",
+        "ami:ES2006d:utterances:00340-00349",
+        "ami:ES2006d:utterances:00350-00359",
+        "ami:ES2006d:utterances:00360-00369",
+        "ami:ES2006d:utterances:00370-00379",
+        "ami:ES2006d:utterances:00380-00389",
+        "ami:ES2006d:utterances:00390-00399",
+        "ami:ES2006d:utterances:00400-00409",
+        "ami:ES2006d:utterances:00410-00419",
+        "ami:ES2006d:utterances:00420-00429",
+        "ami:ES2006d:utterances:00430-00439",
+        "ami:ES2006d:utterances:00440-00449",
+        "ami:ES2006d:utterances:00450-00459",
+        "ami:ES2006d:utterances:00460-00469",
+        "ami:ES2006d:utterances:00470-00479",
+        "ami:ES2006d:utterances:00480-00489"
+      ]
+    },
+    {
+      "candidate_count": 92,
+      "candidate_source_ids": [
+        "ES2006d"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006d:utterances:00160-00169",
+          "score": 0.7738047832151843
+        },
+        {
+          "id": "ami:ES2006d:utterances:00850-00859",
+          "score": 0.7600938529215436
+        },
+        {
+          "id": "ami:ES2006d:utterances:00660-00669",
+          "score": 0.7557274764456217
+        },
+        {
+          "id": "ami:ES2006d:utterances:00760-00769",
+          "score": 0.7555195568425536
+        },
+        {
+          "id": "ami:ES2006d:utterances:00900-00909",
+          "score": 0.754696003958125
+        }
+      ],
+      "id": "ami:ES2006d:specific:001",
+      "latency_seconds": 0.29455930000403896,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 0.0,
+        "mrr@5": 0.0,
+        "ndcg@5": 0.0,
+        "recall@5": 0.0
+      },
+      "question": "Why did Project Manager agree with Marketing when assessing the criteria of matching the operating behaviour of the user?",
+      "relevant_ids": [
+        "ami:ES2006d:utterances:00220-00229",
+        "ami:ES2006d:utterances:00230-00239",
+        "ami:ES2006d:utterances:00240-00249",
+        "ami:ES2006d:utterances:00250-00259",
+        "ami:ES2006d:utterances:00260-00269",
+        "ami:ES2006d:utterances:00270-00279"
+      ]
+    },
+    {
+      "candidate_count": 92,
+      "candidate_source_ids": [
+        "ES2006d"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006d:utterances:00320-00329",
+          "score": 0.7395961114314927
+        },
+        {
+          "id": "ami:ES2006d:utterances:00660-00669",
+          "score": 0.7355567810412575
+        },
+        {
+          "id": "ami:ES2006d:utterances:00340-00349",
+          "score": 0.7350847668799547
+        },
+        {
+          "id": "ami:ES2006d:utterances:00330-00339",
+          "score": 0.7240965292561998
+        },
+        {
+          "id": "ami:ES2006d:utterances:00000-00009",
+          "score": 0.7214230528574386
+        }
+      ],
+      "id": "ami:ES2006d:specific:002",
+      "latency_seconds": 0.2781049000332132,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6548086577531307,
+        "recall@5": 0.5
+      },
+      "question": "What's the conclusion of the discussion about intuitive when presenting on evaluation criteria?",
+      "relevant_ids": [
+        "ami:ES2006d:utterances:00300-00309",
+        "ami:ES2006d:utterances:00310-00319",
+        "ami:ES2006d:utterances:00320-00329",
+        "ami:ES2006d:utterances:00330-00339",
+        "ami:ES2006d:utterances:00340-00349",
+        "ami:ES2006d:utterances:00350-00359"
+      ]
+    },
+    {
+      "candidate_count": 92,
+      "candidate_source_ids": [
+        "ES2006d"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006d:utterances:00160-00169",
+          "score": 0.7436097796080668
+        },
+        {
+          "id": "ami:ES2006d:utterances:00480-00489",
+          "score": 0.7231106733676889
+        },
+        {
+          "id": "ami:ES2006d:utterances:00470-00479",
+          "score": 0.7230282711891498
+        },
+        {
+          "id": "ami:ES2006d:utterances:00490-00499",
+          "score": 0.7212023120621555
+        },
+        {
+          "id": "ami:ES2006d:utterances:00000-00009",
+          "score": 0.7123570011157964
+        }
+      ],
+      "id": "ami:ES2006d:specific:003",
+      "latency_seconds": 0.29249850002815947,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.5,
+        "ndcg@5": 0.36005461457723403,
+        "recall@5": 0.08
+      },
+      "question": "Summarize the discussion about project finance.",
+      "relevant_ids": [
+        "ami:ES2006d:utterances:00480-00489",
+        "ami:ES2006d:utterances:00490-00499",
+        "ami:ES2006d:utterances:00500-00509",
+        "ami:ES2006d:utterances:00510-00519",
+        "ami:ES2006d:utterances:00520-00529",
+        "ami:ES2006d:utterances:00530-00539",
+        "ami:ES2006d:utterances:00540-00549",
+        "ami:ES2006d:utterances:00550-00559",
+        "ami:ES2006d:utterances:00560-00569",
+        "ami:ES2006d:utterances:00570-00579",
+        "ami:ES2006d:utterances:00580-00589",
+        "ami:ES2006d:utterances:00590-00599",
+        "ami:ES2006d:utterances:00600-00609",
+        "ami:ES2006d:utterances:00610-00619",
+        "ami:ES2006d:utterances:00620-00629",
+        "ami:ES2006d:utterances:00630-00639",
+        "ami:ES2006d:utterances:00640-00649",
+        "ami:ES2006d:utterances:00650-00659",
+        "ami:ES2006d:utterances:00660-00669",
+        "ami:ES2006d:utterances:00670-00679",
+        "ami:ES2006d:utterances:00680-00689",
+        "ami:ES2006d:utterances:00690-00699",
+        "ami:ES2006d:utterances:00700-00709",
+        "ami:ES2006d:utterances:00710-00719",
+        "ami:ES2006d:utterances:00720-00729"
+      ]
+    },
+    {
+      "candidate_count": 92,
+      "candidate_source_ids": [
+        "ES2006d"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006d:utterances:00610-00619",
+          "score": 0.7622587618586528
+        },
+        {
+          "id": "ami:ES2006d:utterances:00540-00549",
+          "score": 0.7549373820163013
+        },
+        {
+          "id": "ami:ES2006d:utterances:00620-00629",
+          "score": 0.754802196743457
+        },
+        {
+          "id": "ami:ES2006d:utterances:00250-00259",
+          "score": 0.7481007524230315
+        },
+        {
+          "id": "ami:ES2006d:utterances:00190-00199",
+          "score": 0.743009786036096
+        }
+      ],
+      "id": "ami:ES2006d:specific:004",
+      "latency_seconds": 0.36551820003660396,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.7039180890341347,
+        "recall@5": 0.6666666666666666
+      },
+      "question": "What did Marketing agree with group mates when discussing the spin wheel with LCD display?",
+      "relevant_ids": [
+        "ami:ES2006d:utterances:00600-00609",
+        "ami:ES2006d:utterances:00610-00619",
+        "ami:ES2006d:utterances:00620-00629"
+      ]
+    },
+    {
+      "candidate_count": 92,
+      "candidate_source_ids": [
+        "ES2006d"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2006d:utterances:00660-00669",
+          "score": 0.7447435122038937
+        },
+        {
+          "id": "ami:ES2006d:utterances:00260-00269",
+          "score": 0.7440042880698519
+        },
+        {
+          "id": "ami:ES2006d:utterances:00860-00869",
+          "score": 0.7216939592450325
+        },
+        {
+          "id": "ami:ES2006d:utterances:00810-00819",
+          "score": 0.7170653438953082
+        },
+        {
+          "id": "ami:ES2006d:utterances:00440-00449",
+          "score": 0.7145357586082204
+        }
+      ],
+      "id": "ami:ES2006d:specific:005",
+      "latency_seconds": 0.40260319999651983,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.3903800499921017,
+        "recall@5": 0.25
+      },
+      "question": "Why did group mates disagree with Industrial Designer when discussing whether they lost their evaluation criteria?",
+      "relevant_ids": [
+        "ami:ES2006d:utterances:00660-00669",
+        "ami:ES2006d:utterances:00670-00679",
+        "ami:ES2006d:utterances:00680-00689",
+        "ami:ES2006d:utterances:00690-00699"
+      ]
+    }
+  ],
+  "query_count": 24,
+  "query_fingerprint": "396f899cb0da08e1a38169039d43aaccbff99bcff28859596f9e561d255226b6",
+  "schema_version": 1,
+  "skipped": [],
+  "skipped_count": 0,
+  "split": "dev",
+  "supplied_source_scoped_queries": 24,
+  "task": "retrieval"
+}

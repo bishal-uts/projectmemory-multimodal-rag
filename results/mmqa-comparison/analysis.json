@@ -1,0 +1,321 @@
+{
+  "bm25": {
+    "metrics": {
+      "all_support@5": 0.5,
+      "hit_rate@5": 0.75,
+      "mrr@5": 0.6165,
+      "ndcg@5": 0.5666557763156724,
+      "recall@5": 0.6214285714285714
+    },
+    "groups": {
+      "image_required": {
+        "questions": 42,
+        "metrics": {
+          "all_support@5": 0.21428571428571427,
+          "hit_rate@5": 0.5476190476190477,
+          "mrr@5": 0.48412698412698413,
+          "ndcg@5": 0.3798939693290608,
+          "recall@5": 0.37244897959183676
+        }
+      },
+      "no_image_required": {
+        "questions": 58,
+        "metrics": {
+          "all_support@5": 0.7068965517241379,
+          "hit_rate@5": 0.896551724137931,
+          "mrr@5": 0.7123563218390805,
+          "ndcg@5": 0.7018970848232188,
+          "recall@5": 0.8017241379310345
+        }
+      },
+      "image_support": {
+        "questions": 42,
+        "macro_recall_at_5": 0.21428571428571427,
+        "hit_at_5": 0.21428571428571427
+      }
+    },
+    "index_build_seconds": 0.06989520002389327,
+    "latency_seconds": {
+      "mean": 0.001865332998568192,
+      "p95": 0.0033054000232368708
+    },
+    "corpus_fingerprint": "2ac934df42e9fbb82ba4abeb7576470af2735daba665642046db0d397a90dd4f",
+    "query_fingerprint": "e4c8eb70fd4d3d5143426d55dfd367a193d560d59459a9d0b48d0fcad66d2016"
+  },
+  "dense-text": {
+    "metrics": {
+      "all_support@5": 0.64,
+      "hit_rate@5": 0.91,
+      "mrr@5": 0.8195,
+      "ndcg@5": 0.7411011846191687,
+      "recall@5": 0.7714285714285715
+    },
+    "groups": {
+      "image_required": {
+        "questions": 42,
+        "metrics": {
+          "all_support@5": 0.23809523809523808,
+          "hit_rate@5": 0.7857142857142857,
+          "mrr@5": 0.6575396825396825,
+          "ndcg@5": 0.4952929556965712,
+          "recall@5": 0.5034013605442177
+        }
+      },
+      "no_image_required": {
+        "questions": 58,
+        "metrics": {
+          "all_support@5": 0.9310344827586207,
+          "hit_rate@5": 1.0,
+          "mrr@5": 0.9367816091954023,
+          "ndcg@5": 0.919100246942429,
+          "recall@5": 0.9655172413793104
+        }
+      },
+      "image_support": {
+        "questions": 42,
+        "macro_recall_at_5": 0.23809523809523808,
+        "hit_at_5": 0.23809523809523808
+      }
+    },
+    "index_build_seconds": 165.156845599995,
+    "latency_seconds": {
+      "mean": 0.4895479099976365,
+      "p95": 0.6293138000182807
+    },
+    "corpus_fingerprint": "2ac934df42e9fbb82ba4abeb7576470af2735daba665642046db0d397a90dd4f",
+    "query_fingerprint": "e4c8eb70fd4d3d5143426d55dfd367a193d560d59459a9d0b48d0fcad66d2016"
+  },
+  "multimodal": {
+    "metrics": {
+      "all_support@5": 0.71,
+      "hit_rate@5": 0.94,
+      "mrr@5": 0.816,
+      "ndcg@5": 0.7626957281190214,
+      "recall@5": 0.8228571428571428
+    },
+    "groups": {
+      "image_required": {
+        "questions": 42,
+        "metrics": {
+          "all_support@5": 0.42857142857142855,
+          "hit_rate@5": 0.8571428571428571,
+          "mrr@5": 0.6543650793650794,
+          "ndcg@5": 0.5565168977719256,
+          "recall@5": 0.6377551020408163
+        }
+      },
+      "no_image_required": {
+        "questions": 58,
+        "metrics": {
+          "all_support@5": 0.9137931034482759,
+          "hit_rate@5": 1.0,
+          "mrr@5": 0.9330459770114943,
+          "ndcg@5": 0.9119976397496771,
+          "recall@5": 0.9568965517241379
+        }
+      },
+      "image_support": {
+        "questions": 42,
+        "macro_recall_at_5": 0.43253968253968256,
+        "hit_at_5": 0.4523809523809524
+      }
+    },
+    "index_build_seconds": 332.9629821999697,
+    "latency_seconds": {
+      "mean": 0.15528293000068516,
+      "p95": 0.1734502000035718
+    },
+    "corpus_fingerprint": "2ac934df42e9fbb82ba4abeb7576470af2735daba665642046db0d397a90dd4f",
+    "query_fingerprint": "e4c8eb70fd4d3d5143426d55dfd367a193d560d59459a9d0b48d0fcad66d2016"
+  },
+  "image_question_changes": [
+    {
+      "id": "mmqa:299e684293fffb0f9dca76a1092c83f9",
+      "question": "There is a gorilla on the poster for which album from the list of albums for December 2012?",
+      "recall_delta": 1.0,
+      "dense_gold_retrieved": [],
+      "native_gold_retrieved": [
+        "mmqa:image:67f530545c98903843783b4fe25edf58"
+      ],
+      "gold_ids": [
+        "mmqa:image:67f530545c98903843783b4fe25edf58"
+      ]
+    },
+    {
+      "id": "mmqa:39d1230b9456528d49ced799393985d3",
+      "question": "There is a flaming torch on the logo for which team that is listed in the scoring leaders of the QMJHL 2013-14 season?",
+      "recall_delta": 1.0,
+      "dense_gold_retrieved": [],
+      "native_gold_retrieved": [
+        "mmqa:image:e35d3695a11faabf48693c565009664d"
+      ],
+      "gold_ids": [
+        "mmqa:image:e35d3695a11faabf48693c565009664d"
+      ]
+    },
+    {
+      "id": "mmqa:5ce79b8376619623506820810d8a88ff",
+      "question": "One of the players from the Generation Adidas of 2004 is standing between two trophies - who is it?",
+      "recall_delta": 1.0,
+      "dense_gold_retrieved": [],
+      "native_gold_retrieved": [
+        "mmqa:image:1a20714de645cbd481b1925f3b718843"
+      ],
+      "gold_ids": [
+        "mmqa:image:1a20714de645cbd481b1925f3b718843"
+      ]
+    },
+    {
+      "id": "mmqa:6092c0c9a97041ecce5163fdbaa186b8",
+      "question": "Which film with concentric ovals on its poster featured Raza Jaffrey as an actor?",
+      "recall_delta": 1.0,
+      "dense_gold_retrieved": [],
+      "native_gold_retrieved": [
+        "mmqa:image:35db7b5e0c399d03a866c7fbc2b6012b"
+      ],
+      "gold_ids": [
+        "mmqa:image:35db7b5e0c399d03a866c7fbc2b6012b"
+      ]
+    },
+    {
+      "id": "mmqa:ef97a6ca116a226b8e2e1deaba4b5004",
+      "question": "Which Champion(s), in Yearly results of Catamount Cup, logo has an anchor in it?",
+      "recall_delta": 1.0,
+      "dense_gold_retrieved": [],
+      "native_gold_retrieved": [
+        "mmqa:image:8c21ecba52650c1889490b9f6116a1fd"
+      ],
+      "gold_ids": [
+        "mmqa:image:8c21ecba52650c1889490b9f6116a1fd"
+      ]
+    },
+    {
+      "id": "mmqa:3244d52fd6cc8be5efe820ab231947a9",
+      "question": "Was the district that feature dwellings built into caves or Quthing District, the one with higher PFD by district of 2017 Lesotho general election?",
+      "recall_delta": 0.5,
+      "dense_gold_retrieved": [
+        "mmqa:table:6fcb22c8a3505307d1ac611eae1b02d8"
+      ],
+      "native_gold_retrieved": [
+        "mmqa:table:6fcb22c8a3505307d1ac611eae1b02d8",
+        "mmqa:image:0b9d98b6c191a68687b78f885032034d"
+      ],
+      "gold_ids": [
+        "mmqa:image:0b9d98b6c191a68687b78f885032034d",
+        "mmqa:table:6fcb22c8a3505307d1ac611eae1b02d8"
+      ]
+    },
+    {
+      "id": "mmqa:75df3e56cb07101db16c18a9335b90c8",
+      "question": "The movie with a group of canines on its poster that features Julie Parrish came out in what year?",
+      "recall_delta": 0.5,
+      "dense_gold_retrieved": [
+        "mmqa:table:0a0e3845438489987596c8ed31e4e021"
+      ],
+      "native_gold_retrieved": [
+        "mmqa:image:df13a513b2854a8edd96a2cf6a1e1b08",
+        "mmqa:table:0a0e3845438489987596c8ed31e4e021"
+      ],
+      "gold_ids": [
+        "mmqa:image:df13a513b2854a8edd96a2cf6a1e1b08",
+        "mmqa:table:0a0e3845438489987596c8ed31e4e021"
+      ]
+    },
+    {
+      "id": "mmqa:a2683d2d5cb57888f39f06ed08115ba1",
+      "question": "During what year was the S. Dharam Tej film title with a poster of a horse on it?",
+      "recall_delta": 0.5,
+      "dense_gold_retrieved": [
+        "mmqa:table:958cbe94f5635e52167172e194b0d67a"
+      ],
+      "native_gold_retrieved": [
+        "mmqa:table:958cbe94f5635e52167172e194b0d67a",
+        "mmqa:image:714038c14b64dd85ae6c43f19c2b8d61"
+      ],
+      "gold_ids": [
+        "mmqa:image:714038c14b64dd85ae6c43f19c2b8d61",
+        "mmqa:table:958cbe94f5635e52167172e194b0d67a"
+      ]
+    },
+    {
+      "id": "mmqa:f2c60a572ce83bacbf78cda7dc625b0c",
+      "question": "Does the city with a building that has a dome-shaped roof or Acerra have a larger area in square kilometers among the largest municipalities listed in the metropolitan city of Naples?",
+      "recall_delta": 0.5,
+      "dense_gold_retrieved": [
+        "mmqa:table:a1c7a417647a1dcf2656ec5e807a6a50"
+      ],
+      "native_gold_retrieved": [
+        "mmqa:table:a1c7a417647a1dcf2656ec5e807a6a50",
+        "mmqa:image:56877bab310346dba81cf01570ab8141"
+      ],
+      "gold_ids": [
+        "mmqa:image:56877bab310346dba81cf01570ab8141",
+        "mmqa:table:a1c7a417647a1dcf2656ec5e807a6a50"
+      ]
+    },
+    {
+      "id": "mmqa:ac9c96e3b92ac9227a8a5f2ccea4d780",
+      "question": "Among Orlando-Magic players in the 2007-08 playoffs, which ones have facial hair and also scored a free-throw percentage of 0.000?",
+      "recall_delta": 0.14285714285714285,
+      "dense_gold_retrieved": [
+        "mmqa:table:10556e9570d69f073d7383f064cf9f97"
+      ],
+      "native_gold_retrieved": [
+        "mmqa:table:10556e9570d69f073d7383f064cf9f97",
+        "mmqa:image:aa5fb23ed1d93d57e35e7c5823f88d10"
+      ],
+      "gold_ids": [
+        "mmqa:image:0aac2f7b9171a772b41f5a5ce44a9f0b",
+        "mmqa:image:4313ec7950fc859f851585cf54a29300",
+        "mmqa:image:aa5fb23ed1d93d57e35e7c5823f88d10",
+        "mmqa:image:ee849bed2d8eb9cdff64146cf2d57960",
+        "mmqa:image:f256634fda3d0787aa78bc2aafbcd004",
+        "mmqa:image:f50b93e2c3751d30752f40f889e49029",
+        "mmqa:table:10556e9570d69f073d7383f064cf9f97"
+      ]
+    },
+    {
+      "id": "mmqa:e723bdfa758e95165ffdbb99dab1bdc2",
+      "question": "What activity is the person performing in the S. Cole 1988 TV cover?",
+      "recall_delta": -0.5,
+      "dense_gold_retrieved": [
+        "mmqa:table:09467ef56a24a10e2cdbcfc5c11ea486"
+      ],
+      "native_gold_retrieved": [],
+      "gold_ids": [
+        "mmqa:image:282e6dbd851dc7b588773343ab24e32e",
+        "mmqa:table:09467ef56a24a10e2cdbcfc5c11ea486"
+      ]
+    },
+    {
+      "id": "mmqa:08e66ea55258dfb1e76421a0cd580108",
+      "question": "What type of piercing does Manuel Lazzari have?",
+      "recall_delta": -1.0,
+      "dense_gold_retrieved": [
+        "mmqa:image:897f52c139bd67b0453648ef089f753b"
+      ],
+      "native_gold_retrieved": [],
+      "gold_ids": [
+        "mmqa:image:897f52c139bd67b0453648ef089f753b"
+      ]
+    }
+  ],
+  "paired_bootstrap": {
+    "statistic": "native_minus_dense_text_macro_recall_at_5",
+    "paired_unit": "question_id",
+    "questions": 100,
+    "seed": 42,
+    "resamples": 10000,
+    "interval_method": "percentile_with_linear_quantile_interpolation",
+    "point_estimate": 0.051428571428571435,
+    "confidence_level": 0.95,
+    "interval": [
+      0.001428571428571428,
+      0.105
+    ],
+    "limitations": [
+      "Exploratory uncertainty over this fixed development pilot; not a held-out or full-benchmark claim.",
+      "Question-level resampling does not model dependency between questions sharing sources."
+    ]
+  }
+}

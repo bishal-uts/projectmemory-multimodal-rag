@@ -1,0 +1,323 @@
+{
+  "cases": [
+    {
+      "completed": true,
+      "condition": "text",
+      "elapsed_seconds": 20.25242440000875,
+      "evidence_ids": [
+        "ami:ES2006a:utterances:00230-00239",
+        "ami:ES2006a:utterances:00010-00019",
+        "ami:ES2006a:utterances:00140-00149"
+      ],
+      "gpu_after_request": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 2765 MiB",
+      "question": "What features should the remote control have?",
+      "result": {
+        "abstained": false,
+        "answer": "The desired features for the remote control should be trendy, user-friendly, and original, with some features that are unique to it.",
+        "answer_items": [
+          "trendy",
+          "user friendly",
+          "original",
+          "unique features"
+        ],
+        "answer_label": "",
+        "api_called": true,
+        "cache_hit": false,
+        "cache_key": "3fa9faf72d105135b18eccc8077df1c6822a37f1e1c7d8fe90ec1611843f5a2e",
+        "citations": [
+          "ami:ES2006a:utterances:00010-00019",
+          "ami:ES2006a:utterances:00230-00239"
+        ],
+        "cloud_api_called": false,
+        "created_at": "2026-10-15T01:10:28.365176+00:00",
+        "format_retries_used": 0,
+        "generation_requests": 1,
+        "local_inference": true,
+        "media_protocol": {
+          "audio": "native wav/mp3/flac, unchanged bytes",
+          "jpeg_quality": 3,
+          "max_audio_seconds_per_request": 30,
+          "max_images_and_frames": 64,
+          "max_video_seconds_per_request": 60,
+          "version": 1,
+          "video": "silent source; timestamped JPEG frames sampled at 0,1,... seconds",
+          "video_fps": 1,
+          "video_frame_long_edge": 768
+        },
+        "model": "google/gemma-4-E2B-it-qat-q4_0-gguf",
+        "model_version": "675cff42a74c774d6cb76f76d8eacb49b48c9b93",
+        "provider": "local",
+        "runtime_manifest_sha256": "1e8f2720b840e73f9a3e2194ba759262fcc01aaab863ea8ee82c1f44aabec488",
+        "runtime_version": "b11429",
+        "sources": [
+          {
+            "id": "ami:ES2006a:utterances:00010-00019",
+            "location": {
+              "utterance_end": 19,
+              "utterance_start": 10
+            },
+            "modality": "text",
+            "source_id": "ES2006a",
+            "title": "AMI ES2006a, utterances 10-19"
+          },
+          {
+            "id": "ami:ES2006a:utterances:00230-00239",
+            "location": {
+              "utterance_end": 239,
+              "utterance_start": 230
+            },
+            "modality": "text",
+            "source_id": "ES2006a",
+            "title": "AMI ES2006a, utterances 230-239"
+          }
+        ],
+        "usage": {
+          "completion_tokens": 154,
+          "prompt_tokens": 1530,
+          "total_tokens": 1684
+        }
+      }
+    },
+    {
+      "completed": true,
+      "condition": "image",
+      "elapsed_seconds": 3.270267099956982,
+      "evidence_ids": [
+        "mmqa:image:000487a1a0f36efac49107ea9a495ef9"
+      ],
+      "gpu_after_request": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 2785 MiB",
+      "question": "Briefly describe what is visibly shown in the image.",
+      "result": {
+        "abstained": false,
+        "answer": "The image displays an illustration featuring a stylized blue/silver person icon with a zig-zag hairstyle and the text 'FAT GUY STUCK IN INTERNET'.",
+        "answer_items": [
+          "A stylized blue/silver person icon with a zig-zag hairstyle and the text 'FAT GUY STUCK IN INTERNET'"
+        ],
+        "answer_label": "",
+        "api_called": true,
+        "cache_hit": false,
+        "cache_key": "411981a6529ee32b6c9d707eb20923dd6be7220ec66b1cc34d9f66ecc0094bca",
+        "citations": [
+          "mmqa:image:000487a1a0f36efac49107ea9a495ef9"
+        ],
+        "cloud_api_called": false,
+        "created_at": "2026-10-15T01:10:31.686165+00:00",
+        "format_retries_used": 1,
+        "generation_requests": 2,
+        "local_inference": true,
+        "media_protocol": {
+          "audio": "native wav/mp3/flac, unchanged bytes",
+          "jpeg_quality": 3,
+          "max_audio_seconds_per_request": 30,
+          "max_images_and_frames": 64,
+          "max_video_seconds_per_request": 60,
+          "version": 1,
+          "video": "silent source; timestamped JPEG frames sampled at 0,1,... seconds",
+          "video_fps": 1,
+          "video_frame_long_edge": 768
+        },
+        "model": "google/gemma-4-E2B-it-qat-q4_0-gguf",
+        "model_version": "675cff42a74c774d6cb76f76d8eacb49b48c9b93",
+        "provider": "local",
+        "runtime_manifest_sha256": "1e8f2720b840e73f9a3e2194ba759262fcc01aaab863ea8ee82c1f44aabec488",
+        "runtime_version": "b11429",
+        "sources": [
+          {
+            "id": "mmqa:image:000487a1a0f36efac49107ea9a495ef9",
+            "modality": "image",
+            "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\mmqa\\images\\000487a1a0f36efac49107ea9a495ef9.JPG",
+            "source_id": "000487a1a0f36efac49107ea9a495ef9",
+            "title": "Image evidence"
+          }
+        ],
+        "usage": {
+          "completion_tokens": 276,
+          "prompt_tokens": 979,
+          "total_tokens": 1255
+        }
+      }
+    },
+    {
+      "completed": false,
+      "condition": "audio",
+      "elapsed_seconds": 2.2605819999589585,
+      "error": "Local Gemma did not return a valid grounded JSON answer; no score was recorded",
+      "error_type": "GenerationError"
+    },
+    {
+      "completed": true,
+      "condition": "video",
+      "elapsed_seconds": 2.5539576999726705,
+      "evidence_ids": [
+        "av:161eb7ae8a6dbee91574:video:000000"
+      ],
+      "gpu_after_request": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 2843 MiB",
+      "question": "Briefly describe what is visible in the supplied video frames.",
+      "result": {
+        "abstained": false,
+        "answer": "The video frames display a spiral arm structure in a galaxy, with text overlaid that reads 'Spiral Arm Density Wave Theory' (av:161eb7ae8a6dbee91574:video:000000).",
+        "answer_items": [
+          "A spiral arm structure in a galaxy with text 'Spiral Arm Density Wave Theory' displayed over it."
+        ],
+        "answer_label": "",
+        "api_called": true,
+        "cache_hit": false,
+        "cache_key": "744b2af396ba6f3707c322c354fce7ebc55fae89bdb1be18d7fd12f8a24396f7",
+        "citations": [
+          "av:161eb7ae8a6dbee91574:video:000000"
+        ],
+        "cloud_api_called": false,
+        "created_at": "2026-10-15T01:10:36.510853+00:00",
+        "format_retries_used": 0,
+        "generation_requests": 1,
+        "local_inference": true,
+        "media_protocol": {
+          "audio": "native wav/mp3/flac, unchanged bytes",
+          "ffmpeg_version": "ffmpeg version 8.1.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+          "jpeg_quality": 3,
+          "max_audio_seconds_per_request": 30,
+          "max_images_and_frames": 64,
+          "max_video_seconds_per_request": 60,
+          "version": 1,
+          "video": "silent source; timestamped JPEG frames sampled at 0,1,... seconds",
+          "video_fps": 1,
+          "video_frame_long_edge": 768
+        },
+        "model": "google/gemma-4-E2B-it-qat-q4_0-gguf",
+        "model_version": "675cff42a74c774d6cb76f76d8eacb49b48c9b93",
+        "provider": "local",
+        "runtime_manifest_sha256": "1e8f2720b840e73f9a3e2194ba759262fcc01aaab863ea8ee82c1f44aabec488",
+        "runtime_version": "b11429",
+        "sources": [
+          {
+            "id": "av:161eb7ae8a6dbee91574:video:000000",
+            "location": {
+              "end_seconds": 3.0,
+              "start_seconds": 0.0
+            },
+            "modality": "video",
+            "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\av-smoke-segments\\161eb7ae8a6dbee91574\\video_000000.mp4",
+            "source_id": "file:3d873e2bd7f900809872df53cdcd3fd6f6c1a25061d02939a1d8eb8b25929b36",
+            "title": "ae4a7f67ac10b5603cae60e15308aacbfdd5d9c609299a1cd92b72beee58d27e_silent.mp4 (0.000-3.000s, video)"
+          }
+        ],
+        "usage": {
+          "completion_tokens": 159,
+          "prompt_tokens": 918,
+          "total_tokens": 1077
+        }
+      }
+    },
+    {
+      "completed": true,
+      "condition": "audio_video",
+      "elapsed_seconds": 2.6117100000265054,
+      "evidence_ids": [
+        "av:161eb7ae8a6dbee91574:video:000000",
+        "av:44310303b40297de5b86:audio:000000"
+      ],
+      "gpu_after_request": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 2857 MiB",
+      "question": "Describe the visible scene and the words or sounds heard in these synchronized three-second clips.",
+      "result": {
+        "abstained": false,
+        "answer": "The visible scene is an image of a spiral galaxy with text overlay that reads \"Spiral Arm Density Wave Theory\". There is no audio evidence provided.",
+        "answer_items": [
+          "A spiral galaxy scene with the text \"Spiral Arm Density Wave Theory\" is visible in the video frames.",
+          "No audio is provided in the evidence."
+        ],
+        "answer_label": "",
+        "api_called": true,
+        "cache_hit": false,
+        "cache_key": "234582bb8ed065af100554866368219bb8a49dbe756bdacdf7e787c6da519793",
+        "citations": [
+          "av:161eb7ae8a6dbee91574:video:000000"
+        ],
+        "cloud_api_called": false,
+        "created_at": "2026-10-15T01:10:39.121575+00:00",
+        "format_retries_used": 0,
+        "generation_requests": 1,
+        "local_inference": true,
+        "media_protocol": {
+          "audio": "native wav/mp3/flac, unchanged bytes",
+          "ffmpeg_version": "ffmpeg version 8.1.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+          "jpeg_quality": 3,
+          "max_audio_seconds_per_request": 30,
+          "max_images_and_frames": 64,
+          "max_video_seconds_per_request": 60,
+          "version": 1,
+          "video": "silent source; timestamped JPEG frames sampled at 0,1,... seconds",
+          "video_fps": 1,
+          "video_frame_long_edge": 768
+        },
+        "model": "google/gemma-4-E2B-it-qat-q4_0-gguf",
+        "model_version": "675cff42a74c774d6cb76f76d8eacb49b48c9b93",
+        "provider": "local",
+        "runtime_manifest_sha256": "1e8f2720b840e73f9a3e2194ba759262fcc01aaab863ea8ee82c1f44aabec488",
+        "runtime_version": "b11429",
+        "sources": [
+          {
+            "id": "av:161eb7ae8a6dbee91574:video:000000",
+            "location": {
+              "end_seconds": 3.0,
+              "start_seconds": 0.0
+            },
+            "modality": "video",
+            "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\av-smoke-segments\\161eb7ae8a6dbee91574\\video_000000.mp4",
+            "source_id": "file:3d873e2bd7f900809872df53cdcd3fd6f6c1a25061d02939a1d8eb8b25929b36",
+            "title": "ae4a7f67ac10b5603cae60e15308aacbfdd5d9c609299a1cd92b72beee58d27e_silent.mp4 (0.000-3.000s, video)"
+          }
+        ],
+        "usage": {
+          "completion_tokens": 146,
+          "prompt_tokens": 1107,
+          "total_tokens": 1253
+        }
+      }
+    }
+  ],
+  "completed": 4,
+  "configuration": {
+    "adapter_sha256": "e84adb3512171ecb1e937c8afb090330a60624af48e2e072bb1b8ec655d7daf3",
+    "format_retries": 1,
+    "generation_parameters": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "max_tokens": 1024,
+      "min_p": 0.0,
+      "reasoning_effort": "none",
+      "repeat_penalty": 1.0,
+      "seed": 42,
+      "stream": false,
+      "temperature": 1.0,
+      "top_k": 64,
+      "top_p": 0.95
+    },
+    "media_protocol": {
+      "audio": "native wav/mp3/flac, unchanged bytes",
+      "ffmpeg_version": "ffmpeg version 8.1.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+      "jpeg_quality": 3,
+      "max_audio_seconds_per_request": 30,
+      "max_images_and_frames": 64,
+      "max_video_seconds_per_request": 60,
+      "version": 1,
+      "video": "silent source; timestamped JPEG frames sampled at 0,1,... seconds",
+      "video_fps": 1,
+      "video_frame_long_edge": 768
+    },
+    "model_revision": "675cff42a74c774d6cb76f76d8eacb49b48c9b93",
+    "response_format": "grounded JSON schema with exact evidence citation IDs",
+    "runtime_adapter_sha256": "7835e2db70863ef822b809c4169ff03d9701ad8c519b5306f2bce78851c79d9e",
+    "runtime_manifest_sha256": "1e8f2720b840e73f9a3e2194ba759262fcc01aaab863ea8ee82c1f44aabec488",
+    "runtime_version": "b11429"
+  },
+  "created_at": "2026-10-15T01:10:08.184268+00:00",
+  "limitations": [
+    "Integration checks only; no answer accuracy is inferred.",
+    "Audio/video cases use a three-second prefix, not a full benchmark clip.",
+    "Video is processed as timestamped frames at one frame per second."
+  ],
+  "model": "google/gemma-4-E2B-it-qat-q4_0-gguf",
+  "passed": false,
+  "task": "local_generation_runtime_smoke"
+}

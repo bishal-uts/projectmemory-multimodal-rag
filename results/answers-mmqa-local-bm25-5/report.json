@@ -1,0 +1,90 @@
+{
+  "completed": 5,
+  "config": {
+    "dataset_manifest": {
+      "dataset": "multimodalqa"
+    }
+  },
+  "corpus_fingerprint": "2ac934df42e9fbb82ba4abeb7576470af2735daba665642046db0d397a90dd4f",
+  "created_at": "2026-10-15T01:21:05.665582+00:00",
+  "generator_config": {
+    "adapter_sha256": "dcc9f9047ed7a667f3c7c48201a27e230c8bba831026de709a2423eb582d5109",
+    "format_retries": 1,
+    "generation_parameters": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "max_tokens": 4096,
+      "min_p": 0.0,
+      "reasoning_effort": "none",
+      "repeat_penalty": 1.0,
+      "seed": 42,
+      "stream": false,
+      "temperature": 1.0,
+      "top_k": 64,
+      "top_p": 0.95
+    },
+    "media_protocol": {
+      "audio": "native wav/mp3/flac, unchanged bytes",
+      "ffmpeg_version": "ffmpeg version 8.1.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+      "jpeg_quality": 3,
+      "max_audio_seconds_per_request": 30,
+      "max_images_and_frames": 64,
+      "max_video_seconds_per_request": 60,
+      "version": 1,
+      "video": "silent source; timestamped JPEG frames sampled at 0,1,... seconds",
+      "video_fps": 1,
+      "video_frame_long_edge": 768
+    },
+    "model_revision": "675cff42a74c774d6cb76f76d8eacb49b48c9b93",
+    "response_format": "grounded JSON schema with exact evidence citation IDs",
+    "runtime_adapter_sha256": "7835e2db70863ef822b809c4169ff03d9701ad8c519b5306f2bce78851c79d9e",
+    "runtime_manifest_sha256": "1e8f2720b840e73f9a3e2194ba759262fcc01aaab863ea8ee82c1f44aabec488",
+    "runtime_version": "b11429"
+  },
+  "implementation": {
+    "embeddings.py": "801491498d59ffb7a40ee0f5fbaf2b8b98d4599e98e069f8b636336be32efcf1",
+    "generation.py": "60a0dd006044f302c1352eb7a2fe3e9caef8b68cdedab69b79549528adb04b72",
+    "local_generation.py": "ec9babc30f65d1d614b1a93d6456717a65696304c6ae4b2abbcbc67ff805d5ec",
+    "localruntime.py": "c0581424902f42cf58a9b3fa68599acb2664178d60269673cf43651fbbee115f",
+    "nvidia.py": "3cbc9772781c9c4a40dcdb662c6410e4e1f41bf91239a1934439ce1452ed51d6",
+    "rag.py": "ef47f39d7c128c87e4231ac4d3e693663a6135e8b8248d04036893437e9b5a14",
+    "retrieval.py": "4353b55ff8f4e9d8f9c7b6200e173aedbd97a11f90e8954f6bcb02533f7731d7"
+  },
+  "k": 5,
+  "limitations": [
+    "Lexical reference overlap is not a complete measure of factual correctness.",
+    "Gold-source citation overlap does not prove that each claim is supported.",
+    "Public benchmarks may overlap with model training/evaluation data.",
+    "This is a supplied-media QA experiment when options are present, not retrieval evaluation."
+  ],
+  "max_output_tokens": 4096,
+  "media_mode": "combined",
+  "method": "bm25",
+  "metrics": {
+    "answer_coverage": 1.0,
+    "answer_set_exact_match": 0.4,
+    "answer_set_precision": 0.6,
+    "answer_set_recall": 0.4666666666666667,
+    "citation_gold_precision": 0.64,
+    "citation_gold_recall": 0.7,
+    "token_f1": 0.5
+  },
+  "model": "google/gemma-4-E2B-it-qat-q4_0-gguf",
+  "model_versions": [
+    "675cff42a74c774d6cb76f76d8eacb49b48c9b93"
+  ],
+  "prediction_only": false,
+  "provider": "local",
+  "query_count": 5,
+  "query_fingerprint": "25566c449384a61a972033de9c8d63da1ffc9ac424b71ebc516bd34893e31d5a",
+  "questions": 5,
+  "reasoning_budget": null,
+  "retriever_config": {
+    "b": 0.75,
+    "k1": 1.5
+  },
+  "schema_version": 2,
+  "split": null,
+  "task": "answer_evaluation"
+}

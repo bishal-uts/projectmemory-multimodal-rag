@@ -1,0 +1,78 @@
+# Publish-by-allowlist. Everything at the top level stays out of the public
+# repository unless it is listed here, so unrelated files saved into this
+# folder (other coursework, build leftovers, assessment drafts, datasets,
+# models, caches) are never committed by accident. To publish a new top-level
+# file or folder, add a "!" entry below.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/LICENSE
+!/LICENSE.md
+!/pyproject.toml
+!/run.py
+!/src/
+!/tests/
+!/scripts/
+!/docs/
+!/results/
+
+# Credentials: never publish real settings, wherever they are copied.
+.env
+.env.*
+!/.env.example
+
+# Python and tooling byproducts inside published folders.
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Notes for writing the assessment report, not project documentation.
+/docs/report-literature-notes.md
+
+# Measured results. Only the reports listed here are published; new outputs
+# (reproductions, answers about your own uploaded files) stay local unless
+# deliberately added to this list.
+/results/*
+!/results/ami-dev-bm25.json
+!/results/av-data-integrity.json
+!/results/av-embedding-smoke.corpus.jsonl
+!/results/av-embedding-smoke.json
+!/results/av-media-probe.json
+!/results/av-media-silent-probe.json
+!/results/av-silent-preparation.json
+!/results/demo-av-browser.jpg
+!/results/demo-av-live.json
+!/results/embedding-smoke.json
+!/results/gemini-text-smoke.json
+!/results/local-gemma-smoke.json
+!/results/local-gemma-smoke-first-attempt.json
+!/results/local-gemma-smoke-second-attempt.json
+!/results/local-gemma-smoke-pre-schema-fix.json
+!/results/nvidia-text-smoke.json
+!/results/ami-dev-comparison/
+!/results/ami-test-comparison/
+!/results/mmqa-pilot/
+!/results/mmqa-comparison/
+!/results/answers-mmqa-bm25-5/
+!/results/answers-mmqa-local-bm25-5/
+!/results/answers-mmqa-gemini-bm25-5/
+!/results/answers-mmqa-gemini-dense-text-5/
+!/results/answers-mmqa-gemini-multimodal-5/
+!/results/answers-daily-audio-5/
+!/results/answers-daily-video-5/
+!/results/answers-daily-combined-5/
+!/results/answers-daily-gemini-audio-5/
+!/results/answers-daily-gemini-combined-5/
+!/results/final-mmqa-local-bm25/
+!/results/final-mmqa-local-dense-text/
+!/results/final-mmqa-local-multimodal/
+!/results/final-local-av-audio/
+!/results/final-local-av-video/
+!/results/final-local-av-combined/
+!/results/final-analysis/
+# Superseded attempts, kept for the provenance the documentation describes.
+!/results/pre-expansion-mmqa-local-bm25/
+!/results/pre-decoder-fix-local-av-audio/
+!/results/pre-decoder-fix-local-av-video/

@@ -1,0 +1,39 @@
+{
+  "device": "cpu",
+  "dtype": "float32",
+  "elapsed_seconds": 198.8414088000427,
+  "hits": [
+    {
+      "id": "mmqa:image:0040742ef9e12b9e1941d58900d1ee24",
+      "score": 0.5962419446389277
+    },
+    {
+      "id": "mmqa:table:03456989df76d9a8e5ea9a8e20681881",
+      "score": 0.5745816879154438
+    },
+    {
+      "id": "mmqa:image:000487a1a0f36efac49107ea9a495ef9",
+      "score": 0.5667380305098586
+    },
+    {
+      "id": "mmqa:table:008b6cde6d52a1743fb62b8adfd1e572",
+      "score": 0.535291052811355
+    }
+  ],
+  "limitation": "Runtime validation only. This is not a retrieval quality benchmark; audio and video were not tested.",
+  "modalities_tested": [
+    "text",
+    "image"
+  ],
+  "model": "google/embeddinggemma-2",
+  "passed": true,
+  "question": "In which years did the album associated with the song \"Winner\" have a single with Swingfly as the lead artist?",
+  "revision": "914f7f89142e33e77833254d9c9b90c3cef7303b",
+  "source_ids": [
+    "mmqa:table:008b6cde6d52a1743fb62b8adfd1e572",
+    "mmqa:table:03456989df76d9a8e5ea9a8e20681881",
+    "mmqa:image:000487a1a0f36efac49107ea9a495ef9",
+    "mmqa:image:0040742ef9e12b9e1941d58900d1ee24"
+  ],
+  "task": "native_text_image_runtime_smoke"
+}

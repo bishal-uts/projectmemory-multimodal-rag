@@ -1,0 +1,1179 @@
+{
+  "config": {
+    "batch_size": null,
+    "dataset": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\ami",
+    "dataset_manifest": {
+      "available_specific_queries": 46,
+      "candidate_scope": "Within the meeting named by metadata.candidate_source_ids",
+      "chunk_utterances": 10,
+      "corpus_records": 425,
+      "dataset": "ami_qmsum",
+      "evaluation_scope": "transcript_retrieval_with_gold_utterance_spans",
+      "general_queries_excluded_from_retrieval": 8,
+      "limit": 100,
+      "media_status": "Manifest only; media not downloaded or indexed",
+      "modalities_prepared": [
+        "text"
+      ],
+      "qmsum_revision": "83d7768c1f2b4dfeb091385d3dc7e239b8e5bb7e",
+      "queries": 46,
+      "query_splits": {
+        "dev": 24,
+        "test": 22
+      },
+      "seed": 42,
+      "sources": [
+        {
+          "bytes": 50382,
+          "meeting_id": "ES2006a",
+          "sha256": "19592a4f5f6306a7f22401112c3973bbd991b739cd1ed9a3ec2084ca8801e8ec",
+          "split": "dev",
+          "upstream_split": "val",
+          "url": "https://raw.githubusercontent.com/Yale-LILY/QMSum/83d7768c1f2b4dfeb091385d3dc7e239b8e5bb7e/data/Product/val/ES2006a.json"
+        },
+        {
+          "bytes": 90101,
+          "meeting_id": "ES2006b",
+          "sha256": "fe7c362c3e2f6e2ca3a7ddcc1b36db4f247e2587636abe514b0f16f8b7b8991a",
+          "split": "dev",
+          "upstream_split": "val",
+          "url": "https://raw.githubusercontent.com/Yale-LILY/QMSum/83d7768c1f2b4dfeb091385d3dc7e239b8e5bb7e/data/Product/val/ES2006b.json"
+        },
+        {
+          "bytes": 102632,
+          "meeting_id": "ES2006c",
+          "sha256": "bf485a60f7aa0088010d06d570bc88bb01feb944353f72316e1aca7addb024eb",
+          "split": "dev",
+          "upstream_split": "val",
+          "url": "https://raw.githubusercontent.com/Yale-LILY/QMSum/83d7768c1f2b4dfeb091385d3dc7e239b8e5bb7e/data/Product/val/ES2006c.json"
+        },
+        {
+          "bytes": 123597,
+          "meeting_id": "ES2006d",
+          "sha256": "628aadbf28ab0b1f2cba5c6d6c62b0710fd1a2279f8750ea33c268fb73b90c14",
+          "split": "dev",
+          "upstream_split": "val",
+          "url": "https://raw.githubusercontent.com/Yale-LILY/QMSum/83d7768c1f2b4dfeb091385d3dc7e239b8e5bb7e/data/Product/val/ES2006d.json"
+        },
+        {
+          "bytes": 45255,
+          "meeting_id": "ES2011a",
+          "sha256": "1e2ae7b9d3a7e9cf2e6c1dcd62de5c4f4050d7366c5e6a7605bfaf5d790ff35c",
+          "split": "test",
+          "upstream_split": "test",
+          "url": "https://raw.githubusercontent.com/Yale-LILY/QMSum/83d7768c1f2b4dfeb091385d3dc7e239b8e5bb7e/data/Product/test/ES2011a.json"
+        },
+        {
+          "bytes": 63231,
+          "meeting_id": "ES2011b",
+          "sha256": "aa9c1ac75b1092e1bdb22576268831b0321147375de563be51cace51a67636f1",
+          "split": "test",
+          "upstream_split": "test",
+          "url": "https://raw.githubusercontent.com/Yale-LILY/QMSum/83d7768c1f2b4dfeb091385d3dc7e239b8e5bb7e/data/Product/test/ES2011b.json"
+        },
+        {
+          "bytes": 81576,
+          "meeting_id": "ES2011c",
+          "sha256": "0f76f60f6eeae152da331d498d384dbaf9b9b3e2d5aa705abb0ddf4ab742328a",
+          "split": "test",
+          "upstream_split": "test",
+          "url": "https://raw.githubusercontent.com/Yale-LILY/QMSum/83d7768c1f2b4dfeb091385d3dc7e239b8e5bb7e/data/Product/test/ES2011c.json"
+        },
+        {
+          "bytes": 86965,
+          "meeting_id": "ES2011d",
+          "sha256": "a5882a985364529b7c82836f0368af46d738c7bf5a830485614d61c077525519",
+          "split": "test",
+          "upstream_split": "test",
+          "url": "https://raw.githubusercontent.com/Yale-LILY/QMSum/83d7768c1f2b4dfeb091385d3dc7e239b8e5bb7e/data/Product/test/ES2011d.json"
+        }
+      ]
+    },
+    "device": null,
+    "dtype": null,
+    "model": null
+  },
+  "corpus_fingerprint": "6ce840b9e7057eccbfa664ff78c24d96d7f6199ba7171d4d4c09efb8e74aa18e",
+  "corpus_size": 425,
+  "created_at": "2026-10-15T00:00:57.162007+00:00",
+  "index_build_seconds": 0.027563399984501302,
+  "k": 5,
+  "latency_seconds": {
+    "mean": 0.0001296136337755756,
+    "p95": 0.00018670002464205027
+  },
+  "limitations": [
+    "Retrieval only; answer generation and answer quality were not evaluated.",
+    "Subset/custom corpus results are not directly comparable to published full-benchmark scores."
+  ],
+  "method": "bm25",
+  "metrics": {
+    "all_support@5": 0.045454545454545456,
+    "hit_rate@5": 0.9545454545454546,
+    "mrr@5": 0.8333333333333334,
+    "ndcg@5": 0.5624195883272038,
+    "recall@5": 0.37109791575032214
+  },
+  "queries": [
+    {
+      "candidate_count": 28,
+      "candidate_source_ids": [
+        "ES2011a"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011a:utterances:00010-00019",
+          "score": 13.402182887978917
+        },
+        {
+          "id": "ami:ES2011a:utterances:00030-00039",
+          "score": 12.11535712730758
+        },
+        {
+          "id": "ami:ES2011a:utterances:00020-00029",
+          "score": 6.105220361593503
+        },
+        {
+          "id": "ami:ES2011a:utterances:00040-00049",
+          "score": 5.306996359541435
+        },
+        {
+          "id": "ami:ES2011a:utterances:00270-00275",
+          "score": 3.8811912874925003
+        }
+      ],
+      "id": "ami:ES2011a:specific:000",
+      "latency_seconds": 0.00015869998605921865,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.8687949224876582,
+        "recall@5": 0.4444444444444444
+      },
+      "question": "What did the group discuss about animal characteristics?",
+      "relevant_ids": [
+        "ami:ES2011a:utterances:00010-00019",
+        "ami:ES2011a:utterances:00020-00029",
+        "ami:ES2011a:utterances:00030-00039",
+        "ami:ES2011a:utterances:00040-00049",
+        "ami:ES2011a:utterances:00050-00059",
+        "ami:ES2011a:utterances:00060-00069",
+        "ami:ES2011a:utterances:00070-00079",
+        "ami:ES2011a:utterances:00080-00089",
+        "ami:ES2011a:utterances:00090-00099"
+      ]
+    },
+    {
+      "candidate_count": 28,
+      "candidate_source_ids": [
+        "ES2011a"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011a:utterances:00110-00119",
+          "score": 9.060206770544767
+        },
+        {
+          "id": "ami:ES2011a:utterances:00100-00109",
+          "score": 8.99285624991795
+        },
+        {
+          "id": "ami:ES2011a:utterances:00170-00179",
+          "score": 7.171501798339085
+        },
+        {
+          "id": "ami:ES2011a:utterances:00180-00189",
+          "score": 5.924606122360991
+        },
+        {
+          "id": "ami:ES2011a:utterances:00190-00199",
+          "score": 5.8603262957549775
+        }
+      ],
+      "id": "ami:ES2011a:specific:001",
+      "latency_seconds": 0.00018829997861757874,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.5531464700081437,
+        "recall@5": 0.4
+      },
+      "question": "What did Project Manager think of the call button suggested by User Interface?",
+      "relevant_ids": [
+        "ami:ES2011a:utterances:00090-00099",
+        "ami:ES2011a:utterances:00100-00109",
+        "ami:ES2011a:utterances:00110-00119",
+        "ami:ES2011a:utterances:00120-00129",
+        "ami:ES2011a:utterances:00130-00139"
+      ]
+    },
+    {
+      "candidate_count": 28,
+      "candidate_source_ids": [
+        "ES2011a"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011a:utterances:00090-00099",
+          "score": 5.883072247935505
+        },
+        {
+          "id": "ami:ES2011a:utterances:00140-00149",
+          "score": 5.3997143643766945
+        },
+        {
+          "id": "ami:ES2011a:utterances:00010-00019",
+          "score": 4.6935137445798905
+        },
+        {
+          "id": "ami:ES2011a:utterances:00080-00089",
+          "score": 4.655562087785446
+        },
+        {
+          "id": "ami:ES2011a:utterances:00130-00139",
+          "score": 4.610383913492047
+        }
+      ],
+      "id": "ami:ES2011a:specific:002",
+      "latency_seconds": 7.639999967068434e-05,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.5,
+        "ndcg@5": 0.3973220069685352,
+        "recall@5": 0.5
+      },
+      "question": "Summarize the discussion about the remote control size.",
+      "relevant_ids": [
+        "ami:ES2011a:utterances:00130-00139",
+        "ami:ES2011a:utterances:00140-00149",
+        "ami:ES2011a:utterances:00150-00159",
+        "ami:ES2011a:utterances:00160-00169"
+      ]
+    },
+    {
+      "candidate_count": 28,
+      "candidate_source_ids": [
+        "ES2011a"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011a:utterances:00190-00199",
+          "score": 23.121086227716575
+        },
+        {
+          "id": "ami:ES2011a:utterances:00180-00189",
+          "score": 11.52812444399045
+        },
+        {
+          "id": "ami:ES2011a:utterances:00260-00269",
+          "score": 9.319381491812567
+        },
+        {
+          "id": "ami:ES2011a:utterances:00230-00239",
+          "score": 8.006453302785257
+        },
+        {
+          "id": "ami:ES2011a:utterances:00240-00249",
+          "score": 7.790108091228968
+        }
+      ],
+      "id": "ami:ES2011a:specific:003",
+      "latency_seconds": 0.00015249999705702066,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.5531464700081437,
+        "recall@5": 0.4
+      },
+      "question": "What did Project Manager think of the cost constraints on the telly screen with the programming function?",
+      "relevant_ids": [
+        "ami:ES2011a:utterances:00170-00179",
+        "ami:ES2011a:utterances:00180-00189",
+        "ami:ES2011a:utterances:00190-00199",
+        "ami:ES2011a:utterances:00200-00209",
+        "ami:ES2011a:utterances:00210-00219"
+      ]
+    },
+    {
+      "candidate_count": 28,
+      "candidate_source_ids": [
+        "ES2011a"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011a:utterances:00120-00129",
+          "score": 8.879951109817396
+        },
+        {
+          "id": "ami:ES2011a:utterances:00230-00239",
+          "score": 8.835525461553368
+        },
+        {
+          "id": "ami:ES2011a:utterances:00090-00099",
+          "score": 6.924244122212482
+        },
+        {
+          "id": "ami:ES2011a:utterances:00010-00019",
+          "score": 5.214760034383218
+        },
+        {
+          "id": "ami:ES2011a:utterances:00270-00275",
+          "score": 4.978075637743771
+        }
+      ],
+      "id": "ami:ES2011a:specific:004",
+      "latency_seconds": 0.00013589998707175255,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.5,
+        "ndcg@5": 0.2960819109658652,
+        "recall@5": 0.3333333333333333
+      },
+      "question": "Why did Project Manager suggest having a clip on the remote control?",
+      "relevant_ids": [
+        "ami:ES2011a:utterances:00210-00219",
+        "ami:ES2011a:utterances:00220-00229",
+        "ami:ES2011a:utterances:00230-00239"
+      ]
+    },
+    {
+      "candidate_count": 28,
+      "candidate_source_ids": [
+        "ES2011a"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011a:utterances:00010-00019",
+          "score": 9.922054468684271
+        },
+        {
+          "id": "ami:ES2011a:utterances:00270-00275",
+          "score": 4.150419900385582
+        },
+        {
+          "id": "ami:ES2011a:utterances:00230-00239",
+          "score": 3.854402686542418
+        },
+        {
+          "id": "ami:ES2011a:utterances:00030-00039",
+          "score": 3.43811874092644
+        },
+        {
+          "id": "ami:ES2011a:utterances:00210-00219",
+          "score": 3.305712595571313
+        }
+      ],
+      "id": "ami:ES2011a:specific:005",
+      "latency_seconds": 0.00010900001507252455,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 0.0,
+        "mrr@5": 0.0,
+        "ndcg@5": 0.0,
+        "recall@5": 0.0
+      },
+      "question": "What did the group discuss about the project plan and target revenue?",
+      "relevant_ids": [
+        "ami:ES2011a:utterances:00080-00089",
+        "ami:ES2011a:utterances:00090-00099"
+      ]
+    },
+    {
+      "candidate_count": 38,
+      "candidate_source_ids": [
+        "ES2011b"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011b:utterances:00000-00009",
+          "score": 13.422926798866822
+        },
+        {
+          "id": "ami:ES2011b:utterances:00030-00039",
+          "score": 12.277458207988818
+        },
+        {
+          "id": "ami:ES2011b:utterances:00070-00079",
+          "score": 10.908256074558354
+        },
+        {
+          "id": "ami:ES2011b:utterances:00080-00089",
+          "score": 8.94254354518014
+        },
+        {
+          "id": "ami:ES2011b:utterances:00060-00069",
+          "score": 6.657311630275545
+        }
+      ],
+      "id": "ami:ES2011b:specific:000",
+      "latency_seconds": 0.00011500000255182385,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.5531464700081437,
+        "recall@5": 0.3333333333333333
+      },
+      "question": "What did the group discuss the functional design on the remote control?",
+      "relevant_ids": [
+        "ami:ES2011b:utterances:00000-00009",
+        "ami:ES2011b:utterances:00010-00019",
+        "ami:ES2011b:utterances:00020-00029",
+        "ami:ES2011b:utterances:00030-00039",
+        "ami:ES2011b:utterances:00040-00049",
+        "ami:ES2011b:utterances:00050-00059"
+      ]
+    },
+    {
+      "candidate_count": 38,
+      "candidate_source_ids": [
+        "ES2011b"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011b:utterances:00080-00089",
+          "score": 17.553350319969518
+        },
+        {
+          "id": "ami:ES2011b:utterances:00200-00209",
+          "score": 7.884952446650077
+        },
+        {
+          "id": "ami:ES2011b:utterances:00170-00179",
+          "score": 7.627333875906312
+        },
+        {
+          "id": "ami:ES2011b:utterances:00130-00139",
+          "score": 7.3756427695124405
+        },
+        {
+          "id": "ami:ES2011b:utterances:00070-00079",
+          "score": 7.173359059088081
+        }
+      ],
+      "id": "ami:ES2011b:specific:001",
+      "latency_seconds": 0.00010799994925037026,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.7860137352654724,
+        "recall@5": 0.5
+      },
+      "question": "What did the group discuss the finder button and call button?",
+      "relevant_ids": [
+        "ami:ES2011b:utterances:00070-00079",
+        "ami:ES2011b:utterances:00080-00089",
+        "ami:ES2011b:utterances:00120-00129",
+        "ami:ES2011b:utterances:00130-00139",
+        "ami:ES2011b:utterances:00140-00149",
+        "ami:ES2011b:utterances:00150-00159",
+        "ami:ES2011b:utterances:00160-00169",
+        "ami:ES2011b:utterances:00170-00179"
+      ]
+    },
+    {
+      "candidate_count": 38,
+      "candidate_source_ids": [
+        "ES2011b"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011b:utterances:00140-00149",
+          "score": 15.678496102973758
+        },
+        {
+          "id": "ami:ES2011b:utterances:00090-00099",
+          "score": 13.327511822732497
+        },
+        {
+          "id": "ami:ES2011b:utterances:00110-00119",
+          "score": 9.853329442874887
+        },
+        {
+          "id": "ami:ES2011b:utterances:00080-00089",
+          "score": 9.303471730754199
+        },
+        {
+          "id": "ami:ES2011b:utterances:00030-00039",
+          "score": 8.894741582614447
+        }
+      ],
+      "id": "ami:ES2011b:specific:002",
+      "latency_seconds": 0.00012919999426230788,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.5,
+        "ndcg@5": 0.5296347172140421,
+        "recall@5": 0.6
+      },
+      "question": "What did group members think of the speech recognition design suggested by Marketing?",
+      "relevant_ids": [
+        "ami:ES2011b:utterances:00080-00089",
+        "ami:ES2011b:utterances:00090-00099",
+        "ami:ES2011b:utterances:00100-00109",
+        "ami:ES2011b:utterances:00110-00119",
+        "ami:ES2011b:utterances:00120-00129"
+      ]
+    },
+    {
+      "candidate_count": 38,
+      "candidate_source_ids": [
+        "ES2011b"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011b:utterances:00200-00209",
+          "score": 4.059873293802247
+        },
+        {
+          "id": "ami:ES2011b:utterances:00130-00139",
+          "score": 3.8809922152214202
+        },
+        {
+          "id": "ami:ES2011b:utterances:00060-00069",
+          "score": 3.8516683994016425
+        },
+        {
+          "id": "ami:ES2011b:utterances:00120-00129",
+          "score": 3.7984707958909647
+        },
+        {
+          "id": "ami:ES2011b:utterances:00360-00369",
+          "score": 3.6629955499426754
+        }
+      ],
+      "id": "ami:ES2011b:specific:003",
+      "latency_seconds": 7.419998291879892e-05,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.3903800499921017,
+        "recall@5": 0.25
+      },
+      "question": "Summarize the discussion about the VCR / VHR / DVD capability button.",
+      "relevant_ids": [
+        "ami:ES2011b:utterances:00170-00179",
+        "ami:ES2011b:utterances:00180-00189",
+        "ami:ES2011b:utterances:00190-00199",
+        "ami:ES2011b:utterances:00200-00209"
+      ]
+    },
+    {
+      "candidate_count": 53,
+      "candidate_source_ids": [
+        "ES2011c"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011c:utterances:00030-00039",
+          "score": 12.418816561939963
+        },
+        {
+          "id": "ami:ES2011c:utterances:00260-00269",
+          "score": 8.574098256001973
+        },
+        {
+          "id": "ami:ES2011c:utterances:00060-00069",
+          "score": 6.401643942978327
+        },
+        {
+          "id": "ami:ES2011c:utterances:00040-00049",
+          "score": 5.207012187883571
+        },
+        {
+          "id": "ami:ES2011c:utterances:00100-00109",
+          "score": 5.03701000500461
+        }
+      ],
+      "id": "ami:ES2011c:specific:000",
+      "latency_seconds": 0.00012240000069141388,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.8687949224876582,
+        "recall@5": 0.36363636363636365
+      },
+      "question": "What did the group discuss about the current trend and potential materials?",
+      "relevant_ids": [
+        "ami:ES2011c:utterances:00030-00039",
+        "ami:ES2011c:utterances:00040-00049",
+        "ami:ES2011c:utterances:00050-00059",
+        "ami:ES2011c:utterances:00060-00069",
+        "ami:ES2011c:utterances:00260-00269",
+        "ami:ES2011c:utterances:00270-00279",
+        "ami:ES2011c:utterances:00280-00289",
+        "ami:ES2011c:utterances:00290-00299",
+        "ami:ES2011c:utterances:00300-00309",
+        "ami:ES2011c:utterances:00310-00319",
+        "ami:ES2011c:utterances:00320-00329"
+      ]
+    },
+    {
+      "candidate_count": 53,
+      "candidate_source_ids": [
+        "ES2011c"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011c:utterances:00260-00269",
+          "score": 10.457085601747645
+        },
+        {
+          "id": "ami:ES2011c:utterances:00510-00519",
+          "score": 7.374736161172573
+        },
+        {
+          "id": "ami:ES2011c:utterances:00020-00029",
+          "score": 7.304880395722424
+        },
+        {
+          "id": "ami:ES2011c:utterances:00000-00009",
+          "score": 7.268677943415248
+        },
+        {
+          "id": "ami:ES2011c:utterances:00190-00199",
+          "score": 5.0729308239376145
+        }
+      ],
+      "id": "ami:ES2011c:specific:001",
+      "latency_seconds": 0.00016170000890269876,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.3333333333333333,
+        "ndcg@5": 0.3065735963827292,
+        "recall@5": 0.5
+      },
+      "question": "What did the Industrial Designer say about component design?",
+      "relevant_ids": [
+        "ami:ES2011c:utterances:00010-00019",
+        "ami:ES2011c:utterances:00020-00029"
+      ]
+    },
+    {
+      "candidate_count": 53,
+      "candidate_source_ids": [
+        "ES2011c"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011c:utterances:00060-00069",
+          "score": 12.657721021914476
+        },
+        {
+          "id": "ami:ES2011c:utterances:00510-00519",
+          "score": 10.996988979271762
+        },
+        {
+          "id": "ami:ES2011c:utterances:00120-00129",
+          "score": 10.261725553239891
+        },
+        {
+          "id": "ami:ES2011c:utterances:00090-00099",
+          "score": 9.983306354547306
+        },
+        {
+          "id": "ami:ES2011c:utterances:00080-00089",
+          "score": 9.686139376246594
+        }
+      ],
+      "id": "ami:ES2011c:specific:002",
+      "latency_seconds": 0.0001281999866478145,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.7860137352654724,
+        "recall@5": 0.36363636363636365
+      },
+      "question": "What did people decide on screen usage when discussing the necessity of screen?",
+      "relevant_ids": [
+        "ami:ES2011c:utterances:00050-00059",
+        "ami:ES2011c:utterances:00060-00069",
+        "ami:ES2011c:utterances:00070-00079",
+        "ami:ES2011c:utterances:00080-00089",
+        "ami:ES2011c:utterances:00090-00099",
+        "ami:ES2011c:utterances:00100-00109",
+        "ami:ES2011c:utterances:00110-00119",
+        "ami:ES2011c:utterances:00120-00129",
+        "ami:ES2011c:utterances:00130-00139",
+        "ami:ES2011c:utterances:00140-00149",
+        "ami:ES2011c:utterances:00150-00159"
+      ]
+    },
+    {
+      "candidate_count": 53,
+      "candidate_source_ids": [
+        "ES2011c"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011c:utterances:00470-00479",
+          "score": 6.8678440653694715
+        },
+        {
+          "id": "ami:ES2011c:utterances:00480-00489",
+          "score": 6.4670188461933495
+        },
+        {
+          "id": "ami:ES2011c:utterances:00460-00469",
+          "score": 5.304780628196239
+        },
+        {
+          "id": "ami:ES2011c:utterances:00270-00279",
+          "score": 5.006814819860547
+        },
+        {
+          "id": "ami:ES2011c:utterances:00190-00199",
+          "score": 4.9073902776329605
+        }
+      ],
+      "id": "ami:ES2011c:specific:003",
+      "latency_seconds": 9.819999104365706e-05,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6366824387328317,
+        "recall@5": 0.5
+      },
+      "question": "Summarize the discussion about potential options of energy.",
+      "relevant_ids": [
+        "ami:ES2011c:utterances:00470-00479",
+        "ami:ES2011c:utterances:00480-00489",
+        "ami:ES2011c:utterances:00490-00499",
+        "ami:ES2011c:utterances:00500-00509"
+      ]
+    },
+    {
+      "candidate_count": 53,
+      "candidate_source_ids": [
+        "ES2011c"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011c:utterances:00480-00489",
+          "score": 8.507960399065928
+        },
+        {
+          "id": "ami:ES2011c:utterances:00470-00479",
+          "score": 8.411602274416389
+        },
+        {
+          "id": "ami:ES2011c:utterances:00460-00469",
+          "score": 8.001643070015923
+        },
+        {
+          "id": "ami:ES2011c:utterances:00000-00009",
+          "score": 7.0110930913710865
+        },
+        {
+          "id": "ami:ES2011c:utterances:00190-00199",
+          "score": 7.004685456740802
+        }
+      ],
+      "id": "ami:ES2011c:specific:004",
+      "latency_seconds": 0.00018670002464205027,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "What did the Industrial Designer think of the potential options of energy?",
+      "relevant_ids": [
+        "ami:ES2011c:utterances:00470-00479",
+        "ami:ES2011c:utterances:00480-00489"
+      ]
+    },
+    {
+      "candidate_count": 53,
+      "candidate_source_ids": [
+        "ES2011c"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011c:utterances:00490-00499",
+          "score": 14.570208913323503
+        },
+        {
+          "id": "ami:ES2011c:utterances:00470-00479",
+          "score": 13.07311003124164
+        },
+        {
+          "id": "ami:ES2011c:utterances:00480-00489",
+          "score": 12.503687309306313
+        },
+        {
+          "id": "ami:ES2011c:utterances:00510-00519",
+          "score": 10.986523499175881
+        },
+        {
+          "id": "ami:ES2011c:utterances:00460-00469",
+          "score": 7.7682090401689505
+        }
+      ],
+      "id": "ami:ES2011c:specific:005",
+      "latency_seconds": 0.00012129999231547117,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.7039180890341347,
+        "recall@5": 0.6666666666666666
+      },
+      "question": "What was the cost of the Kryptonite when discussing potential options of energy?",
+      "relevant_ids": [
+        "ami:ES2011c:utterances:00480-00489",
+        "ami:ES2011c:utterances:00490-00499",
+        "ami:ES2011c:utterances:00500-00509"
+      ]
+    },
+    {
+      "candidate_count": 60,
+      "candidate_source_ids": [
+        "ES2011d"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011d:utterances:00000-00009",
+          "score": 9.596398993410446
+        },
+        {
+          "id": "ami:ES2011d:utterances:00010-00019",
+          "score": 7.160554025099866
+        },
+        {
+          "id": "ami:ES2011d:utterances:00480-00489",
+          "score": 4.809711016343418
+        },
+        {
+          "id": "ami:ES2011d:utterances:00300-00309",
+          "score": 3.7229880751049866
+        },
+        {
+          "id": "ami:ES2011d:utterances:00560-00569",
+          "score": 3.674741509415108
+        }
+      ],
+      "id": "ami:ES2011d:specific:000",
+      "latency_seconds": 0.00011510000331327319,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.5531464700081437,
+        "recall@5": 0.08333333333333333
+      },
+      "question": "Summarize the discussion about detailed design of the remote control.",
+      "relevant_ids": [
+        "ami:ES2011d:utterances:00000-00009",
+        "ami:ES2011d:utterances:00010-00019",
+        "ami:ES2011d:utterances:00020-00029",
+        "ami:ES2011d:utterances:00030-00039",
+        "ami:ES2011d:utterances:00040-00049",
+        "ami:ES2011d:utterances:00050-00059",
+        "ami:ES2011d:utterances:00060-00069",
+        "ami:ES2011d:utterances:00070-00079",
+        "ami:ES2011d:utterances:00080-00089",
+        "ami:ES2011d:utterances:00090-00099",
+        "ami:ES2011d:utterances:00100-00109",
+        "ami:ES2011d:utterances:00110-00119",
+        "ami:ES2011d:utterances:00120-00129",
+        "ami:ES2011d:utterances:00130-00139",
+        "ami:ES2011d:utterances:00140-00149",
+        "ami:ES2011d:utterances:00150-00159",
+        "ami:ES2011d:utterances:00160-00169",
+        "ami:ES2011d:utterances:00170-00179",
+        "ami:ES2011d:utterances:00180-00189",
+        "ami:ES2011d:utterances:00190-00199",
+        "ami:ES2011d:utterances:00200-00209",
+        "ami:ES2011d:utterances:00210-00219",
+        "ami:ES2011d:utterances:00220-00229",
+        "ami:ES2011d:utterances:00230-00239"
+      ]
+    },
+    {
+      "candidate_count": 60,
+      "candidate_source_ids": [
+        "ES2011d"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011d:utterances:00230-00239",
+          "score": 15.403102122018227
+        },
+        {
+          "id": "ami:ES2011d:utterances:00380-00389",
+          "score": 6.673526616779894
+        },
+        {
+          "id": "ami:ES2011d:utterances:00000-00009",
+          "score": 3.9374037822194903
+        },
+        {
+          "id": "ami:ES2011d:utterances:00010-00019",
+          "score": 3.853756961016158
+        },
+        {
+          "id": "ami:ES2011d:utterances:00550-00559",
+          "score": 3.844467602905447
+        }
+      ],
+      "id": "ami:ES2011d:specific:001",
+      "latency_seconds": 0.00011060002725571394,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.5531464700081437,
+        "recall@5": 0.11764705882352941
+      },
+      "question": "Summarize the discussion about changing an aspect of the remote.",
+      "relevant_ids": [
+        "ami:ES2011d:utterances:00230-00239",
+        "ami:ES2011d:utterances:00240-00249",
+        "ami:ES2011d:utterances:00250-00259",
+        "ami:ES2011d:utterances:00260-00269",
+        "ami:ES2011d:utterances:00270-00279",
+        "ami:ES2011d:utterances:00280-00289",
+        "ami:ES2011d:utterances:00290-00299",
+        "ami:ES2011d:utterances:00300-00309",
+        "ami:ES2011d:utterances:00310-00319",
+        "ami:ES2011d:utterances:00320-00329",
+        "ami:ES2011d:utterances:00330-00339",
+        "ami:ES2011d:utterances:00340-00349",
+        "ami:ES2011d:utterances:00350-00359",
+        "ami:ES2011d:utterances:00360-00369",
+        "ami:ES2011d:utterances:00370-00379",
+        "ami:ES2011d:utterances:00380-00389",
+        "ami:ES2011d:utterances:00390-00399"
+      ]
+    },
+    {
+      "candidate_count": 60,
+      "candidate_source_ids": [
+        "ES2011d"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011d:utterances:00400-00409",
+          "score": 6.483740039496772
+        },
+        {
+          "id": "ami:ES2011d:utterances:00410-00419",
+          "score": 4.8775845287963575
+        },
+        {
+          "id": "ami:ES2011d:utterances:00560-00569",
+          "score": 3.965609897694279
+        },
+        {
+          "id": "ami:ES2011d:utterances:00510-00519",
+          "score": 3.543752449417909
+        },
+        {
+          "id": "ami:ES2011d:utterances:00040-00049",
+          "score": 3.3965836424172102
+        }
+      ],
+      "id": "ami:ES2011d:specific:002",
+      "latency_seconds": 0.00013040000339969993,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.8687949224876582,
+        "recall@5": 0.19047619047619047
+      },
+      "question": "Summarize the discussion about the process of the project.",
+      "relevant_ids": [
+        "ami:ES2011d:utterances:00390-00399",
+        "ami:ES2011d:utterances:00400-00409",
+        "ami:ES2011d:utterances:00410-00419",
+        "ami:ES2011d:utterances:00420-00429",
+        "ami:ES2011d:utterances:00430-00439",
+        "ami:ES2011d:utterances:00440-00449",
+        "ami:ES2011d:utterances:00450-00459",
+        "ami:ES2011d:utterances:00460-00469",
+        "ami:ES2011d:utterances:00470-00479",
+        "ami:ES2011d:utterances:00480-00489",
+        "ami:ES2011d:utterances:00490-00499",
+        "ami:ES2011d:utterances:00500-00509",
+        "ami:ES2011d:utterances:00510-00519",
+        "ami:ES2011d:utterances:00520-00529",
+        "ami:ES2011d:utterances:00530-00539",
+        "ami:ES2011d:utterances:00540-00549",
+        "ami:ES2011d:utterances:00550-00559",
+        "ami:ES2011d:utterances:00560-00569",
+        "ami:ES2011d:utterances:00570-00579",
+        "ami:ES2011d:utterances:00580-00589",
+        "ami:ES2011d:utterances:00590-00598"
+      ]
+    },
+    {
+      "candidate_count": 60,
+      "candidate_source_ids": [
+        "ES2011d"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011d:utterances:00230-00239",
+          "score": 10.404446777524383
+        },
+        {
+          "id": "ami:ES2011d:utterances:00000-00009",
+          "score": 10.108977771421117
+        },
+        {
+          "id": "ami:ES2011d:utterances:00050-00059",
+          "score": 10.036798271554412
+        },
+        {
+          "id": "ami:ES2011d:utterances:00390-00399",
+          "score": 9.509258473244296
+        },
+        {
+          "id": "ami:ES2011d:utterances:00570-00579",
+          "score": 9.410891520301222
+        }
+      ],
+      "id": "ami:ES2011d:specific:003",
+      "latency_seconds": 0.00013509998098015785,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.48522855511632257,
+        "recall@5": 0.11764705882352941
+      },
+      "question": "Why did the group decide to choose the aspect of the shape of the remote to change?",
+      "relevant_ids": [
+        "ami:ES2011d:utterances:00230-00239",
+        "ami:ES2011d:utterances:00240-00249",
+        "ami:ES2011d:utterances:00250-00259",
+        "ami:ES2011d:utterances:00260-00269",
+        "ami:ES2011d:utterances:00270-00279",
+        "ami:ES2011d:utterances:00280-00289",
+        "ami:ES2011d:utterances:00290-00299",
+        "ami:ES2011d:utterances:00300-00309",
+        "ami:ES2011d:utterances:00310-00319",
+        "ami:ES2011d:utterances:00320-00329",
+        "ami:ES2011d:utterances:00330-00339",
+        "ami:ES2011d:utterances:00340-00349",
+        "ami:ES2011d:utterances:00350-00359",
+        "ami:ES2011d:utterances:00360-00369",
+        "ami:ES2011d:utterances:00370-00379",
+        "ami:ES2011d:utterances:00380-00389",
+        "ami:ES2011d:utterances:00390-00399"
+      ]
+    },
+    {
+      "candidate_count": 60,
+      "candidate_source_ids": [
+        "ES2011d"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011d:utterances:00410-00419",
+          "score": 14.844541566594948
+        },
+        {
+          "id": "ami:ES2011d:utterances:00400-00409",
+          "score": 13.088747283102572
+        },
+        {
+          "id": "ami:ES2011d:utterances:00050-00059",
+          "score": 8.21061502859286
+        },
+        {
+          "id": "ami:ES2011d:utterances:00570-00579",
+          "score": 7.446507812855451
+        },
+        {
+          "id": "ami:ES2011d:utterances:00260-00269",
+          "score": 5.989026431189723
+        }
+      ],
+      "id": "ami:ES2011d:specific:004",
+      "latency_seconds": 0.00017200002912431955,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.46927872602275644,
+        "recall@5": 0.3333333333333333
+      },
+      "question": "What did the group think of the leadership in the process of the project?",
+      "relevant_ids": [
+        "ami:ES2011d:utterances:00410-00419",
+        "ami:ES2011d:utterances:00420-00429",
+        "ami:ES2011d:utterances:00430-00439"
+      ]
+    },
+    {
+      "candidate_count": 60,
+      "candidate_source_ids": [
+        "ES2011d"
+      ],
+      "hits": [
+        {
+          "id": "ami:ES2011d:utterances:00000-00009",
+          "score": 9.056360541281864
+        },
+        {
+          "id": "ami:ES2011d:utterances:00430-00439",
+          "score": 8.085800928152423
+        },
+        {
+          "id": "ami:ES2011d:utterances:00050-00059",
+          "score": 7.8092794305203785
+        },
+        {
+          "id": "ami:ES2011d:utterances:00400-00409",
+          "score": 6.98805352215218
+        },
+        {
+          "id": "ami:ES2011d:utterances:00570-00579",
+          "score": 6.739650393239765
+        }
+      ],
+      "id": "ami:ES2011d:specific:005",
+      "latency_seconds": 0.00012260000221431255,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.5,
+        "ndcg@5": 0.21398626473452756,
+        "recall@5": 0.16666666666666666
+      },
+      "question": "What did the group think of the convenience of presentation materials?",
+      "relevant_ids": [
+        "ami:ES2011d:utterances:00430-00439",
+        "ami:ES2011d:utterances:00440-00449",
+        "ami:ES2011d:utterances:00450-00459",
+        "ami:ES2011d:utterances:00460-00469",
+        "ami:ES2011d:utterances:00470-00479",
+        "ami:ES2011d:utterances:00480-00489"
+      ]
+    }
+  ],
+  "query_count": 22,
+  "query_fingerprint": "d09da427c2a17a7066b5fa41f3c293a661fa3a5a681550d5115af2bb64081a0c",
+  "schema_version": 1,
+  "skipped": [],
+  "skipped_count": 0,
+  "split": "test",
+  "supplied_source_scoped_queries": 22,
+  "task": "retrieval"
+}

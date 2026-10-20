@@ -1,0 +1,4175 @@
+{
+  "config": {
+    "batch_size": 4,
+    "dataset": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\mmqa",
+    "dataset_manifest": {
+      "available_dev_questions": 2441,
+      "corpus_records": 2015,
+      "counts_by_original_modality": {
+        "image": 920,
+        "table": 98,
+        "text": 997
+      },
+      "dataset": "multimodalqa",
+      "last_media_fetch": {
+        "archives": [
+          {
+            "archive_bytes": 2362869144,
+            "bytes_downloaded": 42633057,
+            "downloaded_files": 920,
+            "etag": "\"05be6d3ce59d82f213afb9b1734d953f-138\"",
+            "strategy": "selective_zip_ranges",
+            "url": "https://multimodalqa-images.s3-us-west-2.amazonaws.com/final_dataset_images/final_dataset_images.zip"
+          }
+        ],
+        "complete": true,
+        "dataset": "multimodalqa",
+        "downloaded_bytes": 42633057,
+        "extracted_media": 920,
+        "media_available": 920,
+        "media_missing": 0,
+        "note": "limit bounds media files; MultiModalQA uses selective ZIP ranges, Daily-Omni downloads the whole TAR archive.",
+        "requested_media": 920,
+        "selected_media_missing": 0,
+        "selected_missing_media": 920,
+        "uncompressed_bytes": 35099010
+      },
+      "missing_image_files": 0,
+      "native_multimodal_ready": true,
+      "notes": [
+        "All supplied distractor contexts are retained for each sampled question.",
+        "This sampled candidate union is not the published full benchmark protocol.",
+        "Tables are serialized as text. Image titles are metadata, not visual evidence.",
+        "Reference answers, intermediate answers, and support labels are never added to the corpus.",
+        "Multiple reference answers can be required list members, not interchangeable alternatives."
+      ],
+      "protocol": "sampled_dev_candidate_union",
+      "queries": 100,
+      "requested_limit": 100,
+      "seed": 42,
+      "selected_ids": [
+        "mmqa:024a2b24f4f7da220a879b0479ef1166",
+        "mmqa:08e66ea55258dfb1e76421a0cd580108",
+        "mmqa:0964e81cc1919b2bfcecc9dc976d93ec",
+        "mmqa:0b037ac2ba0c3eefbeb083e481ad2848",
+        "mmqa:0cfc13b8cb739d42a29ed76f1bd83b5b",
+        "mmqa:0d21c0f0123e225fd3341324ff69914b",
+        "mmqa:119c9a9bf38ca9f84a3900d7c7fd1fe5",
+        "mmqa:12b5572cf9bbb103a607a9e0b880c94a",
+        "mmqa:16db0b1e30934e4c5a7acb33d0274b5e",
+        "mmqa:1afabde176377143c6118e3828837ce9",
+        "mmqa:1bf7604eb61f9ffc258904ccd06d0b7c",
+        "mmqa:1caa45ec80d1b0388fc5d287856d6e2d",
+        "mmqa:201840ccbe232525f6d2df03275c2d41",
+        "mmqa:2056dcf5ed1c70cb799c09a023a4f73c",
+        "mmqa:23709039b4aa8be1c25b9996ee797bd2",
+        "mmqa:265da4be224029df08ddc9dec1637a29",
+        "mmqa:26c045714567d0d79f93206e54a0bc50",
+        "mmqa:28137471e8534dc68161fe6e67d1ce25",
+        "mmqa:299e684293fffb0f9dca76a1092c83f9",
+        "mmqa:29c69668f470c2b6cf572b2d6261f9a0",
+        "mmqa:29e7001b9eab4ff90e037affb341a9b7",
+        "mmqa:2d6747c32043b9e8cf2b4b169a2d14b0",
+        "mmqa:3244d52fd6cc8be5efe820ab231947a9",
+        "mmqa:38242392e2a596676ad52a7d950b0d34",
+        "mmqa:39d1230b9456528d49ced799393985d3",
+        "mmqa:3e99b830ec0f40e6ad9b94766200bb9e",
+        "mmqa:40b3e2453fe619126174d64bec19157c",
+        "mmqa:4208cf3ce3392da60fcb29c52861f2dc",
+        "mmqa:4237814d882d9a60d545c452b5ae6099",
+        "mmqa:4681d6195bf2d84751eb0cf7dd39452d",
+        "mmqa:5072f746758ffe633a82b67d5097f808",
+        "mmqa:537f0638d4b61e8452a0661efa7d27eb",
+        "mmqa:56f93603f05aefbbea86638e5d9f3982",
+        "mmqa:575502063ebc1c1f37d8c91801ea4240",
+        "mmqa:57e138f5cd33f06920fba3e7f9f6bec4",
+        "mmqa:5908d9a3d31a803bc2608e4ad4278e1f",
+        "mmqa:5a424491b67c8f949fe4c625b2153bf8",
+        "mmqa:5ac2d266863961db6b9b0e0930470367",
+        "mmqa:5bbd01ffe812cda90446bcafa7f073b8",
+        "mmqa:5ce79b8376619623506820810d8a88ff",
+        "mmqa:5f2f7caa2d2eb1f7afddcdbe8e0baa11",
+        "mmqa:5f76981c9ceaff75670a0f297a2d2c4e",
+        "mmqa:6092c0c9a97041ecce5163fdbaa186b8",
+        "mmqa:60a6292fd75a61a4095cad35dd91d389",
+        "mmqa:6557e5999ca79abbeae9335bb38eecf9",
+        "mmqa:656ea967fce612716b8a70529e94a0ba",
+        "mmqa:65e8f460c5770672deef89d632fd5f51",
+        "mmqa:6f3dcd421b0af9e382708e2eb666eb29",
+        "mmqa:6ff171b80a0f0f8144a65f16be37b24c",
+        "mmqa:70108d7aa8834f5c175e4fea6477390c",
+        "mmqa:718186c47f39b7fee2653cf964b543c0",
+        "mmqa:71baea304ccec1b8c4d450d18189f2a6",
+        "mmqa:725cff35b53790928967f609bb24985f",
+        "mmqa:74e3f341c5792ddc51267ee8386e35fe",
+        "mmqa:75df3e56cb07101db16c18a9335b90c8",
+        "mmqa:7604a6c9d42c57c955176e02e29fc039",
+        "mmqa:79c46102455f37942fcd1004316f547b",
+        "mmqa:7b5a18fe0ff6b814cc3e7e79d58dd314",
+        "mmqa:837cef2e912afee9d7cfa5105b41c9e8",
+        "mmqa:8416940791134728bf5f1b3df1b0fb55",
+        "mmqa:882a2c287902f55f5260938894488d7e",
+        "mmqa:8dec35afa356b6e28978ed460ce6a7b7",
+        "mmqa:8fb9e8c22bed5b4bde63a9361ca97966",
+        "mmqa:91332124cbe4a87de94961affa6b343f",
+        "mmqa:97dfcada221ed75c850c5a1dc9965a0d",
+        "mmqa:9a8f31fac508d9b34f3c84352ee5441e",
+        "mmqa:9bc595b3e66c665ed68306fea3da7a86",
+        "mmqa:9cd2be00cf2d49b35a2271d842e37470",
+        "mmqa:9eaf685adaccf2218cc3d8fcf8797d09",
+        "mmqa:a184c850b19090ae6a5f70b892f47ad1",
+        "mmqa:a1e42da526ff18d90cd2eda775fc3be2",
+        "mmqa:a2683d2d5cb57888f39f06ed08115ba1",
+        "mmqa:a9d7450778a447240d6a876bfb8183d2",
+        "mmqa:ac9c96e3b92ac9227a8a5f2ccea4d780",
+        "mmqa:b45f395ca3af274929e11c2e6b97572e",
+        "mmqa:b4fa630041e016caa616ebaff6c15491",
+        "mmqa:b57ddbf4426152522a18385e033d4b40",
+        "mmqa:b7f1c8c3fb6f1047bb2bb4a323d197f9",
+        "mmqa:c1ebcd4c4935a3a8d9c7a37fe52c3805",
+        "mmqa:c3b1bd64c15a8fd0a2be7bd8c1806634",
+        "mmqa:c5dee34263e4353394d8e11ab56607a2",
+        "mmqa:c5ff2b9888626ae6b4e32dc9cb0a763e",
+        "mmqa:c765c998c4211dbbc82ab5a4eef2e58e",
+        "mmqa:d7bb58ebf570f9c46f48c0d8d364e6d2",
+        "mmqa:d9f0b767936c68b568c9c84c33772604",
+        "mmqa:e53c8b463aa0deffcf6437b6eb9b5687",
+        "mmqa:e5d37e128da02571b1e5bd2297d703f1",
+        "mmqa:e723bdfa758e95165ffdbb99dab1bdc2",
+        "mmqa:e9cfe3d149fccbf737f3cca2ab607e46",
+        "mmqa:e9d115431bb3af91b67f8d57b3c8616a",
+        "mmqa:ebcd9760479f5a6590141103f01b6f19",
+        "mmqa:ee67797fad4a7e1abc07e46bcd485887",
+        "mmqa:ef97a6ca116a226b8e2e1deaba4b5004",
+        "mmqa:efbbfb49cc76d6b61ba9772b25509580",
+        "mmqa:f2c60a572ce83bacbf78cda7dc625b0c",
+        "mmqa:f7690416c7600f77f54fc4cc2e471837",
+        "mmqa:f9bd0c06771176b2c3285d14d5a09b68",
+        "mmqa:fa387bc480d5ec4098eef8cd9fc33ab7",
+        "mmqa:fd34f323c804b4ad17f5b09ecd6e619c",
+        "mmqa:fd9030eefd33f09c614afec633faf6b6"
+      ],
+      "source": "https://github.com/allenai/multimodalqa",
+      "sources": [
+        {
+          "bytes": 1310976,
+          "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\raw\\mmqa\\MMQA_dev.jsonl.gz",
+          "sha256": "2e348ca574b2dc368e84671709689070f943a59f2e08e6b6e374705deb712d31",
+          "url": "https://raw.githubusercontent.com/allenai/multimodalqa/master/dataset/MMQA_dev.jsonl.gz"
+        },
+        {
+          "bytes": 45851194,
+          "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\raw\\mmqa\\MMQA_texts.jsonl.gz",
+          "sha256": "cae3808ccc6c258e91131a3ca3dce43e629936e1496c97a288c4abb04a6ef905",
+          "url": "https://raw.githubusercontent.com/allenai/multimodalqa/master/dataset/MMQA_texts.jsonl.gz"
+        },
+        {
+          "bytes": 10344191,
+          "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\raw\\mmqa\\MMQA_tables.jsonl.gz",
+          "sha256": "8d082d254fd0bfa19bca7e2da20369c15ccb25867db3edfe46b33d59e8dbf7b1",
+          "url": "https://raw.githubusercontent.com/allenai/multimodalqa/master/dataset/MMQA_tables.jsonl.gz"
+        },
+        {
+          "bytes": 2649609,
+          "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\raw\\mmqa\\MMQA_images.jsonl.gz",
+          "sha256": "691227e1758140c51a5617a904b5e363cd44b2582a0c0e9f9fe9153d4e62d5e7",
+          "url": "https://raw.githubusercontent.com/allenai/multimodalqa/master/dataset/MMQA_images.jsonl.gz"
+        }
+      ]
+    },
+    "device": "cuda",
+    "dtype": "float32",
+    "model": "google/embeddinggemma-2",
+    "model_revision": "914f7f89142e33e77833254d9c9b90c3cef7303b"
+  },
+  "corpus_fingerprint": "2ac934df42e9fbb82ba4abeb7576470af2735daba665642046db0d397a90dd4f",
+  "corpus_size": 2015,
+  "created_at": "2026-10-14T23:57:21.474424+00:00",
+  "index_build_seconds": 165.156845599995,
+  "k": 5,
+  "latency_seconds": {
+    "mean": 0.4895479099976365,
+    "p95": 0.6293138000182807
+  },
+  "limitations": [
+    "Retrieval only; answer generation and answer quality were not evaluated.",
+    "Subset/custom corpus results are not directly comparable to published full-benchmark scores."
+  ],
+  "method": "dense-text",
+  "metrics": {
+    "all_support@5": 0.64,
+    "hit_rate@5": 0.91,
+    "mrr@5": 0.8195,
+    "ndcg@5": 0.7411011846191687,
+    "recall@5": 0.7714285714285715
+  },
+  "queries": [
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:ef0eb37ea4210dfb249c1662e97c6084",
+          "score": 0.8078212060053317
+        },
+        {
+          "id": "mmqa:text:0a22bd5cc35ea4b31cc705a3cdcb2596",
+          "score": 0.7631405052860888
+        },
+        {
+          "id": "mmqa:text:3d35339ece33d0f39edea5d22027a208",
+          "score": 0.7466799183376472
+        },
+        {
+          "id": "mmqa:text:9169bcb70c60535b47b5e8362dc413eb",
+          "score": 0.7240892881831008
+        },
+        {
+          "id": "mmqa:text:23d7c2c1a76d3c3a90715b12da0d7482",
+          "score": 0.7127852526489203
+        }
+      ],
+      "id": "mmqa:024a2b24f4f7da220a879b0479ef1166",
+      "latency_seconds": 0.5341075999895111,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "In which years did the album associated with the song \"Winner\" have a single with Swingfly as the lead artist?",
+      "relevant_ids": [
+        "mmqa:table:ef0eb37ea4210dfb249c1662e97c6084"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:image:897f52c139bd67b0453648ef089f753b",
+          "score": 0.7570183834784375
+        },
+        {
+          "id": "mmqa:text:ace492a8e9383537f57adc2dd4bca97b",
+          "score": 0.6865369334219072
+        },
+        {
+          "id": "mmqa:text:56fd55dc11f5e7f22b06a9f220c21a5e",
+          "score": 0.6775100463735163
+        },
+        {
+          "id": "mmqa:image:f1ea4a2f99a08e53324cce43101b11cf",
+          "score": 0.673635679601668
+        },
+        {
+          "id": "mmqa:text:fa9b8140aa8d5f07728555b0e0540001",
+          "score": 0.6629232482794312
+        }
+      ],
+      "id": "mmqa:08e66ea55258dfb1e76421a0cd580108",
+      "latency_seconds": 0.7172010999638587,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "What type of piercing does Manuel Lazzari have?",
+      "relevant_ids": [
+        "mmqa:image:897f52c139bd67b0453648ef089f753b"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:db4d2ba6497d66248a8863f26d6b6217",
+          "score": 0.8030207110173482
+        },
+        {
+          "id": "mmqa:text:55f0febabe833e9a2d21e8727d46f0bd",
+          "score": 0.7900410509632471
+        },
+        {
+          "id": "mmqa:text:0e48fb6956e2f2acafaecd81f2e62c06",
+          "score": 0.7036554538065636
+        },
+        {
+          "id": "mmqa:text:c53d9ee40c6198f91f6e20362bbe7b01",
+          "score": 0.699028127023565
+        },
+        {
+          "id": "mmqa:text:40cb4c059b2ca91d647f5969038d1488",
+          "score": 0.6971003355056464
+        }
+      ],
+      "id": "mmqa:0964e81cc1919b2bfcecc9dc976d93ec",
+      "latency_seconds": 0.4551209000055678,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "What is the name of the Taylor Swift song which was number-one single on the \"Billboard\" Hot Country Songs chart and the album peaked at number five on the \"Bllboard 200\" ?",
+      "relevant_ids": [
+        "mmqa:text:55f0febabe833e9a2d21e8727d46f0bd",
+        "mmqa:text:db4d2ba6497d66248a8863f26d6b6217"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:bd06692523441fa6dc1c5e21081273e5",
+          "score": 0.8037745384049579
+        },
+        {
+          "id": "mmqa:text:df8b95eac5dec2cf89b089e2c629fbc6",
+          "score": 0.7625580884044716
+        },
+        {
+          "id": "mmqa:text:eb86bb83c93021bdf9c44fa05a6cf3ed",
+          "score": 0.7408584473695103
+        },
+        {
+          "id": "mmqa:text:7b5da85d535dbf31b444861762c1b3ca",
+          "score": 0.7363747000487267
+        },
+        {
+          "id": "mmqa:text:e8f317d2aaf1237324e32df4db7b89bc",
+          "score": 0.708217188907007
+        }
+      ],
+      "id": "mmqa:0b037ac2ba0c3eefbeb083e481ad2848",
+      "latency_seconds": 0.40721119998488575,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "Did the Chase Masterson movie \"Sometimes They Come Back... for More\" come out in 2000?",
+      "relevant_ids": [
+        "mmqa:table:bd06692523441fa6dc1c5e21081273e5"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:6d5c4720ade5f95742731d9e4853345f",
+          "score": 0.8049064525022172
+        },
+        {
+          "id": "mmqa:table:facf9e1204475d1e5ca3487e5c83303c",
+          "score": 0.8019346690355679
+        },
+        {
+          "id": "mmqa:text:b7bf2ea337e35a56fd043ae7976425a7",
+          "score": 0.7541853061923564
+        },
+        {
+          "id": "mmqa:text:5cd96d4d5b7e767d533ab70dc02ef390",
+          "score": 0.7357026293620422
+        },
+        {
+          "id": "mmqa:text:4b3f6cda57e7a36aa9c88a5368a09764",
+          "score": 0.710791759177909
+        }
+      ],
+      "id": "mmqa:0cfc13b8cb739d42a29ed76f1bd83b5b",
+      "latency_seconds": 0.43502679996890947,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.5,
+        "ndcg@5": 0.6309297535714575,
+        "recall@5": 1.0
+      },
+      "question": "Which listed Indonesian lake in Sumatra has a higher max-depth (m):  Lake Dibawah or Lake Toba?",
+      "relevant_ids": [
+        "mmqa:table:facf9e1204475d1e5ca3487e5c83303c"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:7b26cf69854b3ac91a4efdef505a1158",
+          "score": 0.8428832656962244
+        },
+        {
+          "id": "mmqa:text:8511a86151c6b495fd13ff34675e3ac7",
+          "score": 0.8391420494589599
+        },
+        {
+          "id": "mmqa:text:9be0b4bd00286ecb6fcb6253e9d01ea6",
+          "score": 0.7921777385382164
+        },
+        {
+          "id": "mmqa:text:3f52895fa479f4d45ff812b950c57e38",
+          "score": 0.7166849368389292
+        },
+        {
+          "id": "mmqa:text:5e89ef810ce76ef3ee01548b106dd2ab",
+          "score": 0.703304144303722
+        }
+      ],
+      "id": "mmqa:0d21c0f0123e225fd3341324ff69914b",
+      "latency_seconds": 0.505299800017383,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "Is Tennessee Titans' Corey Davis the older or younger brother of Titus Davis, also a wide receiver?",
+      "relevant_ids": [
+        "mmqa:text:7b26cf69854b3ac91a4efdef505a1158",
+        "mmqa:text:8511a86151c6b495fd13ff34675e3ac7"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:03456989df76d9a8e5ea9a8e20681881",
+          "score": 0.8017816755581795
+        },
+        {
+          "id": "mmqa:text:4e30fbf195f6ba6395692d5ebeb83de6",
+          "score": 0.6915388972524995
+        },
+        {
+          "id": "mmqa:text:9c1b62bdecce8fbf7870b12a3b0b9881",
+          "score": 0.684398145239636
+        },
+        {
+          "id": "mmqa:text:58f20c6289b3256f421eb6ff006b0b31",
+          "score": 0.6823709283408471
+        },
+        {
+          "id": "mmqa:text:76a71322ad08d1d31205097b936939fa",
+          "score": 0.6820479768969563
+        }
+      ],
+      "id": "mmqa:119c9a9bf38ca9f84a3900d7c7fd1fe5",
+      "latency_seconds": 0.5104051999514922,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "In Shane Pow list of accolades, what was the ceremony name for the year 2016 and it was the Top 10 Most Popular Male Artistes category?",
+      "relevant_ids": [
+        "mmqa:table:03456989df76d9a8e5ea9a8e20681881"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:57725e115967972b4ae91e1d85398d4c",
+          "score": 0.769492194093417
+        },
+        {
+          "id": "mmqa:text:28ae9e9a1ea67c2c5ee838fa86a221cf",
+          "score": 0.7177993658659857
+        },
+        {
+          "id": "mmqa:text:fc6bdf9034586ddefb42ddea48bb030a",
+          "score": 0.7141831967753269
+        },
+        {
+          "id": "mmqa:text:676d1bd182e3230e01f11d89e35ffcca",
+          "score": 0.7141613503536616
+        },
+        {
+          "id": "mmqa:text:f88e5170a77a9f1ec72ae02579ebb78f",
+          "score": 0.7139606679865002
+        }
+      ],
+      "id": "mmqa:12b5572cf9bbb103a607a9e0b880c94a",
+      "latency_seconds": 0.500770199985709,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "The title of the track listing of Blues for Greeny when Little Willie John was the original artist was written by who?",
+      "relevant_ids": [
+        "mmqa:table:57725e115967972b4ae91e1d85398d4c",
+        "mmqa:text:e7fe845c139e09599bb05ab7b2789cea"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:800c2f54328e963bfbf4773211c69951",
+          "score": 0.8387144377081442
+        },
+        {
+          "id": "mmqa:text:de39440ef09db92aa50afe09c3741f2f",
+          "score": 0.7261665065878611
+        },
+        {
+          "id": "mmqa:text:dc2f1a874ceee671c6eb9a751909fcc9",
+          "score": 0.7055955072516027
+        },
+        {
+          "id": "mmqa:text:5410b384018d51821a78477ec4b1b1a4",
+          "score": 0.6962013897355892
+        },
+        {
+          "id": "mmqa:text:fa2317ef911faea44b1f06e2af441c49",
+          "score": 0.6900954961668638
+        }
+      ],
+      "id": "mmqa:16db0b1e30934e4c5a7acb33d0274b5e",
+      "latency_seconds": 0.5063100000261329,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "writer of the textbook fantastic beasts and where to find them",
+      "relevant_ids": [
+        "mmqa:text:800c2f54328e963bfbf4773211c69951"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:9a1c6eb2d737bbebe688838d124b2da9",
+          "score": 0.7825562331103587
+        },
+        {
+          "id": "mmqa:text:8f0adc1649e0dc803940e0766c4d497e",
+          "score": 0.760476325737125
+        },
+        {
+          "id": "mmqa:text:7d2ca339e1f0b4bb479391fd15aa1c7c",
+          "score": 0.6937317332334639
+        },
+        {
+          "id": "mmqa:text:b0370dedd93bf860bc2a917f72efbe58",
+          "score": 0.6511262161041391
+        },
+        {
+          "id": "mmqa:text:711973402306157be558bfe146ba06a6",
+          "score": 0.6497604862299239
+        }
+      ],
+      "id": "mmqa:1afabde176377143c6118e3828837ce9",
+      "latency_seconds": 0.4680132000357844,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.5,
+        "ndcg@5": 0.6309297535714575,
+        "recall@5": 1.0
+      },
+      "question": "lee jong suk and kim woo bin drama together",
+      "relevant_ids": [
+        "mmqa:text:8f0adc1649e0dc803940e0766c4d497e"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:40b7d2d21854b32e6e941db1db98b488",
+          "score": 0.8123847334040413
+        },
+        {
+          "id": "mmqa:text:728d9ac739b4d2b3d8b8d4f2ae97e712",
+          "score": 0.7532079907357098
+        },
+        {
+          "id": "mmqa:text:6a2df42a57fb1a4d20048883f6ab4f3c",
+          "score": 0.7350407941766306
+        },
+        {
+          "id": "mmqa:text:5d5ed7cd69f592b831484f99b5360146",
+          "score": 0.7271340833060024
+        },
+        {
+          "id": "mmqa:text:d3b58d23d8899740fb78669a9d6b80f5",
+          "score": 0.6949334720228703
+        }
+      ],
+      "id": "mmqa:1bf7604eb61f9ffc258904ccd06d0b7c",
+      "latency_seconds": 0.46447129995794967,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "In 2009 Rally Scotland, when Kris Meeke was the rally leader and 2 (20 Nov) was the day, what was the state in special stages?",
+      "relevant_ids": [
+        "mmqa:table:40b7d2d21854b32e6e941db1db98b488"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:adb3c6c2076d458091fa8e2c7acd8630",
+          "score": 0.7604158583059395
+        },
+        {
+          "id": "mmqa:table:b122ff462c9001ba871be6378922606d",
+          "score": 0.7304047284878163
+        },
+        {
+          "id": "mmqa:text:de578a2c29822b0e32182af38da9a92c",
+          "score": 0.7062293063209183
+        },
+        {
+          "id": "mmqa:text:855e27747c37ac12e6047836b5048bd6",
+          "score": 0.7022626839066155
+        },
+        {
+          "id": "mmqa:text:cf89f69e9324766632f933007c21de5c",
+          "score": 0.6960656302027851
+        }
+      ],
+      "id": "mmqa:1caa45ec80d1b0388fc5d287856d6e2d",
+      "latency_seconds": 0.46023499994771555,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.5,
+        "ndcg@5": 0.38685280723454163,
+        "recall@5": 0.5
+      },
+      "question": "The film whose cover features a man with two women around him, among films of Supriya Shukla had the actor play what character?",
+      "relevant_ids": [
+        "mmqa:image:4d5d6419f533b23fc0ccf7868c748948",
+        "mmqa:table:b122ff462c9001ba871be6378922606d"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:17692a030acbc3e0bd963445ae2bd8fb",
+          "score": 0.8389000556263168
+        },
+        {
+          "id": "mmqa:text:d2ad707c230e680b3cd9fe052baba8e9",
+          "score": 0.7235396185087937
+        },
+        {
+          "id": "mmqa:text:4148845b4dc6994e2a7949d279f0c9c3",
+          "score": 0.7203757536573558
+        },
+        {
+          "id": "mmqa:text:d62e32310b1ff84cc2a5a09393a7595b",
+          "score": 0.7162585661723448
+        },
+        {
+          "id": "mmqa:text:1d754acd061e177f78dde3e473ad1c48",
+          "score": 0.7119002020503504
+        }
+      ],
+      "id": "mmqa:201840ccbe232525f6d2df03275c2d41",
+      "latency_seconds": 0.438249500002712,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "Who were the songwriters of the song \"Jag ger dig allt\" in Melodifestivalen 1995?",
+      "relevant_ids": [
+        "mmqa:table:17692a030acbc3e0bd963445ae2bd8fb"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:1271ab259037131102682dbcdd5cdff5",
+          "score": 0.7487328556231226
+        },
+        {
+          "id": "mmqa:text:5e6305557524116548350cfd1e5eae05",
+          "score": 0.745718108512683
+        },
+        {
+          "id": "mmqa:text:919cb60e2ac95adf3dbf8c2265d8273e",
+          "score": 0.7372554698468281
+        },
+        {
+          "id": "mmqa:text:8d689fcac4b4f23214d44353db772ee2",
+          "score": 0.7257448917390509
+        },
+        {
+          "id": "mmqa:text:faf4aa9967e2150146a394882f0645f0",
+          "score": 0.6909007010548329
+        }
+      ],
+      "id": "mmqa:2056dcf5ed1c70cb799c09a023a4f73c",
+      "latency_seconds": 0.42840590002015233,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "Which country was the filming location for the movie in which Noah Huntley played King Magnus?",
+      "relevant_ids": [
+        "mmqa:table:1271ab259037131102682dbcdd5cdff5",
+        "mmqa:text:5e6305557524116548350cfd1e5eae05"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:4ffe31b0d51e21e18ea1b7c62989786d",
+          "score": 0.7427012102430738
+        },
+        {
+          "id": "mmqa:text:23e6c40e35e0bbdced2e99232f76c0ed",
+          "score": 0.6944822364363383
+        },
+        {
+          "id": "mmqa:text:48241221342246019185c17f3d210b76",
+          "score": 0.6816789235972234
+        },
+        {
+          "id": "mmqa:image:97921fc3e6a77847ca8a0d2c3665b024",
+          "score": 0.6809657698639868
+        },
+        {
+          "id": "mmqa:text:41ca9f90007de10723d28c61b28f2c85",
+          "score": 0.670949431061536
+        }
+      ],
+      "id": "mmqa:23709039b4aa8be1c25b9996ee797bd2",
+      "latency_seconds": 0.4231656999909319,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "The theatrical role played by Matthew Rhys in the play Macbeth has which hand visible?",
+      "relevant_ids": [
+        "mmqa:image:f456cfc1c41eeb85f1bb585151128d75",
+        "mmqa:table:4ffe31b0d51e21e18ea1b7c62989786d"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:ec443136244eaddb82e9b19d397f0994",
+          "score": 0.7651852094013785
+        },
+        {
+          "id": "mmqa:text:378d63b72e863d02230462620e3d87a7",
+          "score": 0.7305593304053306
+        },
+        {
+          "id": "mmqa:image:89c1b7c3c061cc80bb98d99cbbec50dd",
+          "score": 0.7236854449036396
+        },
+        {
+          "id": "mmqa:text:1ec74edabe6b8e879fee2b8c5e337e51",
+          "score": 0.7075899695773663
+        },
+        {
+          "id": "mmqa:text:ac6b2b6a0e7c0c440471983c25fdd316",
+          "score": 0.6805271478051389
+        }
+      ],
+      "id": "mmqa:265da4be224029df08ddc9dec1637a29",
+      "latency_seconds": 0.4066033000126481,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.3333333333333333,
+        "ndcg@5": 0.5,
+        "recall@5": 1.0
+      },
+      "question": "What color is Giorgio Armani's hair?",
+      "relevant_ids": [
+        "mmqa:image:89c1b7c3c061cc80bb98d99cbbec50dd"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:9e0aff16065ca82e4da3d91f72dcb075",
+          "score": 0.8013152296887734
+        },
+        {
+          "id": "mmqa:text:f1fc9f072ad502cf42efbcb0f8c24737",
+          "score": 0.7184330002843337
+        },
+        {
+          "id": "mmqa:text:e43249081af179a788d94e1e4db0d753",
+          "score": 0.7007580146758938
+        },
+        {
+          "id": "mmqa:text:4f0e9bfd0ce5aa21d90105384ef22089",
+          "score": 0.6942317263005525
+        },
+        {
+          "id": "mmqa:text:8e7ccec910a0f50e454fb9637764a1c2",
+          "score": 0.68959679543326
+        }
+      ],
+      "id": "mmqa:26c045714567d0d79f93206e54a0bc50",
+      "latency_seconds": 0.4206179999746382,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "who wrote the screenplay for the black panther movie",
+      "relevant_ids": [
+        "mmqa:text:9e0aff16065ca82e4da3d91f72dcb075"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:f9fe429ab96f37e46c0c49ae20d1a3c1",
+          "score": 0.7811598188636729
+        },
+        {
+          "id": "mmqa:text:2c7f4b3b43c18ea115626750c690873f",
+          "score": 0.7082742661053977
+        },
+        {
+          "id": "mmqa:text:6eb3e8ca317a525f39ecf477df872bdb",
+          "score": 0.7047177346677739
+        },
+        {
+          "id": "mmqa:text:22f76fd3e297e32123fbbd9406fc3ddf",
+          "score": 0.7039396196091856
+        },
+        {
+          "id": "mmqa:text:6649d909454843b7aeaf3b2793492d03",
+          "score": 0.7032280190626818
+        }
+      ],
+      "id": "mmqa:28137471e8534dc68161fe6e67d1ce25",
+      "latency_seconds": 0.4149957000045106,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "In what year was the train class that has a yellow front and white sides in the rolling stock of Arriva Trains Northern built?",
+      "relevant_ids": [
+        "mmqa:image:3fffb881119da0871d46ed872533aef9",
+        "mmqa:table:f9fe429ab96f37e46c0c49ae20d1a3c1"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:bfdbef03674dafe5176f126499612e7c",
+          "score": 0.7756871131577568
+        },
+        {
+          "id": "mmqa:table:2ea7b850032e721976d86135557fad66",
+          "score": 0.6804000307013497
+        },
+        {
+          "id": "mmqa:text:218b9a0a61fef8a3bf1af11650ab44f9",
+          "score": 0.6792801251175048
+        },
+        {
+          "id": "mmqa:image:2e04bbff2b7c240250b30a7958c92bb3",
+          "score": 0.6787600482202933
+        },
+        {
+          "id": "mmqa:text:3d35339ece33d0f39edea5d22027a208",
+          "score": 0.665179953168719
+        }
+      ],
+      "id": "mmqa:299e684293fffb0f9dca76a1092c83f9",
+      "latency_seconds": 0.4236653000116348,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 0.0,
+        "mrr@5": 0.0,
+        "ndcg@5": 0.0,
+        "recall@5": 0.0
+      },
+      "question": "There is a gorilla on the poster for which album from the list of albums for December 2012?",
+      "relevant_ids": [
+        "mmqa:image:67f530545c98903843783b4fe25edf58"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:1be6a644375d1978f79cef551600e499",
+          "score": 0.7745182561332026
+        },
+        {
+          "id": "mmqa:text:4d87aec56d5fa38a313f19468d433104",
+          "score": 0.7569376829625459
+        },
+        {
+          "id": "mmqa:text:ab4c2f10a9590753afdc7e563029c7c1",
+          "score": 0.7277450832189352
+        },
+        {
+          "id": "mmqa:text:57367d48da7f8b7491508799acb9c419",
+          "score": 0.7139973009297669
+        },
+        {
+          "id": "mmqa:text:fcb89d0e52acf4626b4e86eac8bf53ee",
+          "score": 0.7070359597635186
+        }
+      ],
+      "id": "mmqa:29c69668f470c2b6cf572b2d6261f9a0",
+      "latency_seconds": 0.45330459997057915,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.9197207891481876,
+        "recall@5": 1.0
+      },
+      "question": "Which Beatles album begins with two songs that were released together as a single, including the first single A-side written by George Harrison?",
+      "relevant_ids": [
+        "mmqa:text:1be6a644375d1978f79cef551600e499",
+        "mmqa:text:ab4c2f10a9590753afdc7e563029c7c1"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:565e4846619c3b87238e2937d67e21c9",
+          "score": 0.8013309895548517
+        },
+        {
+          "id": "mmqa:text:c3288f5653547d0e1cbfe3ebc4aa340a",
+          "score": 0.744918644553068
+        },
+        {
+          "id": "mmqa:text:78cff54f2d031033b89b2aba7f88946a",
+          "score": 0.7254171432644613
+        },
+        {
+          "id": "mmqa:text:59f5691e7d0900ef6524a4306e0add47",
+          "score": 0.7169369150747731
+        },
+        {
+          "id": "mmqa:text:2e54d03bd70990a3f8de7694487029de",
+          "score": 0.7078817002087909
+        }
+      ],
+      "id": "mmqa:29e7001b9eab4ff90e037affb341a9b7",
+      "latency_seconds": 0.45870899996953085,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "paradoxical sleep refers to which stage of sleep",
+      "relevant_ids": [
+        "mmqa:text:565e4846619c3b87238e2937d67e21c9"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:080015629b4d9e4713ef876c7a992529",
+          "score": 0.7683157245316296
+        },
+        {
+          "id": "mmqa:text:b07ec30acb2c9d2ccab77cb1a83acf81",
+          "score": 0.7146095327504862
+        },
+        {
+          "id": "mmqa:text:fb71f55c10c18db31ab16624051aebf6",
+          "score": 0.6846851475306389
+        },
+        {
+          "id": "mmqa:text:27986852cf6416b6833301740a9846fc",
+          "score": 0.6552486335264515
+        },
+        {
+          "id": "mmqa:text:b4d7b8db2ffd9f1c618e29d481b26013",
+          "score": 0.6524757477148938
+        }
+      ],
+      "id": "mmqa:2d6747c32043b9e8cf2b4b169a2d14b0",
+      "latency_seconds": 0.4406386999762617,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "Sonja Kristina starred in which musical that had lyrics by James Rado and Gerome Ragni?",
+      "relevant_ids": [
+        "mmqa:text:080015629b4d9e4713ef876c7a992529",
+        "mmqa:text:b07ec30acb2c9d2ccab77cb1a83acf81"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:6fcb22c8a3505307d1ac611eae1b02d8",
+          "score": 0.7721727379361961
+        },
+        {
+          "id": "mmqa:image:690732f6f459ed1ad9df5dd55a19d9b2",
+          "score": 0.7175663157968409
+        },
+        {
+          "id": "mmqa:text:f174437df6ce8e79ba274f1e758561fa",
+          "score": 0.6475750791805662
+        },
+        {
+          "id": "mmqa:text:7f95d528b5ff8224d445e86c66f6c8d1",
+          "score": 0.6452577130222724
+        },
+        {
+          "id": "mmqa:text:7a64013703b3612611a600267505a3a3",
+          "score": 0.633596539247326
+        }
+      ],
+      "id": "mmqa:3244d52fd6cc8be5efe820ab231947a9",
+      "latency_seconds": 0.4460450999904424,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "Was the district that feature dwellings built into caves or Quthing District, the one with higher PFD by district of 2017 Lesotho general election?",
+      "relevant_ids": [
+        "mmqa:image:0b9d98b6c191a68687b78f885032034d",
+        "mmqa:table:6fcb22c8a3505307d1ac611eae1b02d8"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:bb81768be6f7e59c127160021aff0ae5",
+          "score": 0.8230191160532025
+        },
+        {
+          "id": "mmqa:text:673faf89d290a98523276e67ab2f8c38",
+          "score": 0.762776635048969
+        },
+        {
+          "id": "mmqa:text:41938bf36ac15cfd62e8e23f56e44edf",
+          "score": 0.7218668149649337
+        },
+        {
+          "id": "mmqa:text:0b14d3004aebc3caabd3d8bf9e6920ad",
+          "score": 0.7083048051116566
+        },
+        {
+          "id": "mmqa:text:3f644b68ee3b403863e664f542326902",
+          "score": 0.7075894796514363
+        }
+      ],
+      "id": "mmqa:38242392e2a596676ad52a7d950b0d34",
+      "latency_seconds": 0.5383654999895953,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "What was the most recent year that the Portugues Golden Ball was awarded to a Defender?",
+      "relevant_ids": [
+        "mmqa:table:bb81768be6f7e59c127160021aff0ae5"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:b25ae59d6733070ff07f5a4dd4ec0ae3",
+          "score": 0.7987886167144254
+        },
+        {
+          "id": "mmqa:text:257e97a4d2db6ff869820a58e901bb5c",
+          "score": 0.7168741719840608
+        },
+        {
+          "id": "mmqa:image:47f7b3bcc15a7d5943f89a9debc4f8a0",
+          "score": 0.6917692509090035
+        },
+        {
+          "id": "mmqa:image:bc65906c182c74af9d32048a0ce907d9",
+          "score": 0.6778743039208348
+        },
+        {
+          "id": "mmqa:text:8bebd4f22588ecf6f8892dde1965ea50",
+          "score": 0.6756301116197091
+        }
+      ],
+      "id": "mmqa:39d1230b9456528d49ced799393985d3",
+      "latency_seconds": 0.632438300002832,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 0.0,
+        "mrr@5": 0.0,
+        "ndcg@5": 0.0,
+        "recall@5": 0.0
+      },
+      "question": "There is a flaming torch on the logo for which team that is listed in the scoring leaders of the QMJHL 2013-14 season?",
+      "relevant_ids": [
+        "mmqa:image:e35d3695a11faabf48693c565009664d"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:197832aff648f190df1923db1fec8612",
+          "score": 0.7835443320600307
+        },
+        {
+          "id": "mmqa:text:f985603c753b99730dfb586ec5cda082",
+          "score": 0.7012686360235618
+        },
+        {
+          "id": "mmqa:text:43df8ce36fb321e38592ef1f50af580c",
+          "score": 0.6969796321766126
+        },
+        {
+          "id": "mmqa:text:fa4e92610998e90e4c199eb4dda36e00",
+          "score": 0.6652205690937685
+        },
+        {
+          "id": "mmqa:text:d297471f716ce0585cd38ff0c964cd1f",
+          "score": 0.6622932318843608
+        }
+      ],
+      "id": "mmqa:3e99b830ec0f40e6ad9b94766200bb9e",
+      "latency_seconds": 0.4372575000161305,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "When Ravi Raja Pinisetty directed Lok Singh in a movie, was there a man with facial hair on the poster?",
+      "relevant_ids": [
+        "mmqa:image:de3de9984625c39dcd31823326d184e7",
+        "mmqa:table:197832aff648f190df1923db1fec8612"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:537aa378fb313ffef02c898e6a94ba53",
+          "score": 0.7522444193205167
+        },
+        {
+          "id": "mmqa:text:86864aa5e6c113d9d9f158820befd1bc",
+          "score": 0.7315715214529109
+        },
+        {
+          "id": "mmqa:text:36aab684c6983f2b5edd27a8769fb1e1",
+          "score": 0.7189859227789641
+        },
+        {
+          "id": "mmqa:image:37f14149aff6a2eb7060d7ead037b71c",
+          "score": 0.7173229148680131
+        },
+        {
+          "id": "mmqa:text:22f76fd3e297e32123fbbd9406fc3ddf",
+          "score": 0.6811258202444362
+        }
+      ],
+      "id": "mmqa:40b3e2453fe619126174d64bec19157c",
+      "latency_seconds": 0.4137491000001319,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "Between Snowdon or the name that features several mountains next to a body of water, which name has a higher number - TOPS, for the fleet details of British Rail Class 44?",
+      "relevant_ids": [
+        "mmqa:image:4280d47f1cf96f9c38e4874268fd996e",
+        "mmqa:table:537aa378fb313ffef02c898e6a94ba53"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:image:ff47f2e753a2a5825174438fd981716b",
+          "score": 0.7580729324982264
+        },
+        {
+          "id": "mmqa:text:1ed1a659df4ed3ab3ff8986f07ebbf43",
+          "score": 0.6917950740644462
+        },
+        {
+          "id": "mmqa:text:955b4f1cd6c9e17d4bc9e0df6c1eb9ff",
+          "score": 0.672432759367706
+        },
+        {
+          "id": "mmqa:text:703dbaa22e1bef06e4ca387104aa64b2",
+          "score": 0.6689799006186359
+        },
+        {
+          "id": "mmqa:text:a01e3322d3102a2e0bf49cceb2b6bb4b",
+          "score": 0.663108470101281
+        }
+      ],
+      "id": "mmqa:4208cf3ce3392da60fcb29c52861f2dc",
+      "latency_seconds": 0.4040837999782525,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "How many people are on the advertisement for Solarbabies?",
+      "relevant_ids": [
+        "mmqa:image:ff47f2e753a2a5825174438fd981716b"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:7640ba46e9de8cbf9d98d3f01764ae0c",
+          "score": 0.8273329264993435
+        },
+        {
+          "id": "mmqa:text:1d2972a0a2749ac55e0b201b5f0b8b6b",
+          "score": 0.7853031834182335
+        },
+        {
+          "id": "mmqa:text:66f3953bf447309f2620d94cd542d8ed",
+          "score": 0.7698975700805207
+        },
+        {
+          "id": "mmqa:text:4b14cce0aa471d4c3d6d92d3ea40f139",
+          "score": 0.7674769262361801
+        },
+        {
+          "id": "mmqa:text:f844b143a22cea4801fb12bcdc095fc2",
+          "score": 0.7626934037038027
+        }
+      ],
+      "id": "mmqa:4237814d882d9a60d545c452b5ae6099",
+      "latency_seconds": 0.42165079998085275,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "who sings sweet dreams are made of you",
+      "relevant_ids": [
+        "mmqa:text:7640ba46e9de8cbf9d98d3f01764ae0c"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:875258b23c0a852ce7cdf478b1e8030a",
+          "score": 0.8241941001281746
+        },
+        {
+          "id": "mmqa:text:9f3e609460b6b7044a68641e2da59c44",
+          "score": 0.7115612639010339
+        },
+        {
+          "id": "mmqa:text:1874f09721aeb184b16d8baaac0e5dcd",
+          "score": 0.7054461627476192
+        },
+        {
+          "id": "mmqa:text:4f9c7fa95801639e304c23743e79b6df",
+          "score": 0.7030440855844678
+        },
+        {
+          "id": "mmqa:text:68c2bfcb953b1f755026a5ec4a3c2f2a",
+          "score": 0.7006882462078285
+        }
+      ],
+      "id": "mmqa:4681d6195bf2d84751eb0cf7dd39452d",
+      "latency_seconds": 0.432912899996154,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "how many academy awards did bridge on the river kwai win",
+      "relevant_ids": [
+        "mmqa:text:875258b23c0a852ce7cdf478b1e8030a"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:9751f71d1b516312838d2f61f7fa4202",
+          "score": 0.7529375314862521
+        },
+        {
+          "id": "mmqa:text:e1635108ecbbf26f0defa770025ef669",
+          "score": 0.7495072060943052
+        },
+        {
+          "id": "mmqa:text:9431475a4f01d015498694d437ea0183",
+          "score": 0.7153878547382757
+        },
+        {
+          "id": "mmqa:image:b95286acbb525edd9a1171deef37ee48",
+          "score": 0.7008156443952931
+        },
+        {
+          "id": "mmqa:text:a6849eae463d287a49c47048d46f4ab0",
+          "score": 0.6935118460775448
+        }
+      ],
+      "id": "mmqa:5072f746758ffe633a82b67d5097f808",
+      "latency_seconds": 0.4145918999565765,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.25,
+        "ndcg@5": 0.43067655807339306,
+        "recall@5": 1.0
+      },
+      "question": "Does William Shakespeare have long or short hair in this image?",
+      "relevant_ids": [
+        "mmqa:image:b95286acbb525edd9a1171deef37ee48"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:f7fec482214d5f96d073e142cab9d73f",
+          "score": 0.8236065894462837
+        },
+        {
+          "id": "mmqa:text:edca39c9e984ac96c52b56196e9c6a28",
+          "score": 0.7548990040222087
+        },
+        {
+          "id": "mmqa:text:3ee229b88675f40ddd116d30e76a2b65",
+          "score": 0.7323813365015243
+        },
+        {
+          "id": "mmqa:text:a15ca4b50253fd1a45e8c3eadf82a8d3",
+          "score": 0.7108410097293603
+        },
+        {
+          "id": "mmqa:text:75db7c141046124eb77188929e75584d",
+          "score": 0.6898913866682951
+        }
+      ],
+      "id": "mmqa:537f0638d4b61e8452a0661efa7d27eb",
+      "latency_seconds": 0.4251393000013195,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "Was Pawl Zmarzlik the rider in the 2009 Silver Helmet in Grudziadz, Poland when R,X,0 was the details?",
+      "relevant_ids": [
+        "mmqa:table:f7fec482214d5f96d073e142cab9d73f"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:affee9ceef6b54f976a98550e68a05ac",
+          "score": 0.8108539641129395
+        },
+        {
+          "id": "mmqa:text:40170dd564539e076480aec18a257610",
+          "score": 0.7804921622081427
+        },
+        {
+          "id": "mmqa:text:ec4e617ee8a9b70d9925f11e57f750d1",
+          "score": 0.7742844302665004
+        },
+        {
+          "id": "mmqa:text:0c1bc39f99979b90393fb59a4ee4729c",
+          "score": 0.758752920780539
+        },
+        {
+          "id": "mmqa:text:17b405d199ac89922d50ffc0d4cfdba2",
+          "score": 0.7387050811751267
+        }
+      ],
+      "id": "mmqa:56f93603f05aefbbea86638e5d9f3982",
+      "latency_seconds": 0.40499139996245503,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.25,
+        "ndcg@5": 0.43067655807339306,
+        "recall@5": 1.0
+      },
+      "question": "is truth or dare movie based on a true story",
+      "relevant_ids": [
+        "mmqa:text:0c1bc39f99979b90393fb59a4ee4729c"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:999b966bb547c0293e9c117d33b4d2ff",
+          "score": 0.840180163580838
+        },
+        {
+          "id": "mmqa:text:843a4b7d1566d45aaf17009beba963aa",
+          "score": 0.781044447552089
+        },
+        {
+          "id": "mmqa:text:7a87f5a3a184d4c01e4a4cf0baee25a2",
+          "score": 0.7793643728453508
+        },
+        {
+          "id": "mmqa:text:78c241076d238ade82b8321aca9c8501",
+          "score": 0.7410000322928945
+        },
+        {
+          "id": "mmqa:text:138af387a48978ec5761141876dca4dc",
+          "score": 0.7265758277749529
+        }
+      ],
+      "id": "mmqa:575502063ebc1c1f37d8c91801ea4240",
+      "latency_seconds": 0.38690919999498874,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "Who was the player in the 1948 All-Pro Team when the Selectors were AP-1, UP-1, TSN-1, for the tackle position?",
+      "relevant_ids": [
+        "mmqa:table:999b966bb547c0293e9c117d33b4d2ff"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:ae47f8eb3d9f7d2af77c19f66a3204b6",
+          "score": 0.799208320546729
+        },
+        {
+          "id": "mmqa:text:5d7b56dcfa1672b6d13b7af06c6b476a",
+          "score": 0.7742362328687932
+        },
+        {
+          "id": "mmqa:text:af59c81ac669464a6bebe93bc59ba34b",
+          "score": 0.686125632272144
+        },
+        {
+          "id": "mmqa:text:c9e1fee630612519b98f7fdabc6c90a6",
+          "score": 0.6591322259717367
+        },
+        {
+          "id": "mmqa:text:6da3d47927cd7806263956432e0b2092",
+          "score": 0.6571643923492866
+        }
+      ],
+      "id": "mmqa:57e138f5cd33f06920fba3e7f9f6bec4",
+      "latency_seconds": 0.43022280000150204,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "Wilma Glodean Rudolph, was an American sprinter from Clarksville, Tennessee, who became a world-record-holding Olympic champion and international sports icon in track and field, due to the worldwide television coverage of the 1960 Summer Olympics, Rudolph became an international star along with other Olympic athletes such as which American former National Basketball Association player who played for the Cincinnati Royals and Milwaukee Bucks?",
+      "relevant_ids": [
+        "mmqa:text:5d7b56dcfa1672b6d13b7af06c6b476a",
+        "mmqa:text:ae47f8eb3d9f7d2af77c19f66a3204b6"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:e0ca31c77d83fd9e22dc32e5e55926c5",
+          "score": 0.759815610924518
+        },
+        {
+          "id": "mmqa:text:35851929532b7f461bb1aafad8ab1f1d",
+          "score": 0.732652915407532
+        },
+        {
+          "id": "mmqa:text:1834b45a65099a2edb1c12ab5bb08c4a",
+          "score": 0.7286935963367733
+        },
+        {
+          "id": "mmqa:text:1ef9f83e4c34c7d0f8c73b5787fb9f39",
+          "score": 0.7226315657667554
+        },
+        {
+          "id": "mmqa:text:d871e2ce1a874420e1bcd927af8e162f",
+          "score": 0.7109692955064816
+        }
+      ],
+      "id": "mmqa:5908d9a3d31a803bc2608e4ad4278e1f",
+      "latency_seconds": 0.39907789998687804,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 0.0,
+        "mrr@5": 0.0,
+        "ndcg@5": 0.0,
+        "recall@5": 0.0
+      },
+      "question": "What time of day is it at this Broadway theatre?",
+      "relevant_ids": [
+        "mmqa:image:2b2fa3beeaba99e6498af935bc6086b7"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:f4d42f4f8cb69898ff439f569b611f23",
+          "score": 0.7707185234775427
+        },
+        {
+          "id": "mmqa:text:5d149415e93840ce10e0c7a16983f0cd",
+          "score": 0.6864596670623286
+        },
+        {
+          "id": "mmqa:text:72a04cd63b52533a4de2e6a452f4cf60",
+          "score": 0.6499835314075348
+        },
+        {
+          "id": "mmqa:text:b719e4a9b36229ca6ac0ae3f01180837",
+          "score": 0.6466425332874816
+        },
+        {
+          "id": "mmqa:table:25bcf41fff8e48a3be3bc8fc24d112da",
+          "score": 0.6402427798052679
+        }
+      ],
+      "id": "mmqa:5a424491b67c8f949fe4c625b2153bf8",
+      "latency_seconds": 0.4769425000413321,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "the brand ambassador of reliance jio, is wearing what type of apparel?",
+      "relevant_ids": [
+        "mmqa:image:55bba20dd5edce505910342b8affef05",
+        "mmqa:text:f4d42f4f8cb69898ff439f569b611f23"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:cb4327e103ac397002da8bcdbecfa521",
+          "score": 0.7355243368416083
+        },
+        {
+          "id": "mmqa:text:5208e471208c3a80211f2fea150a53fd",
+          "score": 0.7242439607390934
+        },
+        {
+          "id": "mmqa:image:484facabcea54c9ff024e3348b9296ce",
+          "score": 0.6890362367198306
+        },
+        {
+          "id": "mmqa:image:26f497724381e4e9dd019092bdbde8a1",
+          "score": 0.6790028163170492
+        },
+        {
+          "id": "mmqa:text:55edd6a762d74cba1a8985c7c116673d",
+          "score": 0.6694116550416974
+        }
+      ],
+      "id": "mmqa:5ac2d266863961db6b9b0e0930470367",
+      "latency_seconds": 0.4076725000049919,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "Which municipality of Ribera d'Ebra has a higher Areakm:  La Torre de I'Espanyol or the municipality with a logo featuring a crown?",
+      "relevant_ids": [
+        "mmqa:image:548b823c324d93b5401be65fa16f91f2",
+        "mmqa:table:cb4327e103ac397002da8bcdbecfa521"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:d5b19aa1cdffb3da86eebc50a18ac309",
+          "score": 0.8228719512165175
+        },
+        {
+          "id": "mmqa:text:bec1d44115957deb4995c4e1c7a829ea",
+          "score": 0.8077156267108812
+        },
+        {
+          "id": "mmqa:text:d0100dc51e1ee7d4c22207302f503ce3",
+          "score": 0.7351641535714126
+        },
+        {
+          "id": "mmqa:text:21b13ec1cd2569a999afb33e397e852c",
+          "score": 0.707037663989384
+        },
+        {
+          "id": "mmqa:text:c4dfbb6f7a029a9e9caf57c4efd75373",
+          "score": 0.7064473566824159
+        }
+      ],
+      "id": "mmqa:5bbd01ffe812cda90446bcafa7f073b8",
+      "latency_seconds": 0.4114784999983385,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "In what year that Maxim Trankov and Maria Mukhortova won gold medals in Pairs at the Finlandia Trophy did another pair win the silver?",
+      "relevant_ids": [
+        "mmqa:table:d5b19aa1cdffb3da86eebc50a18ac309"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:2fe534028330afb04246113b54280015",
+          "score": 0.7896435434793676
+        },
+        {
+          "id": "mmqa:text:9f83482a6eb28230a6290ae65a40139d",
+          "score": 0.7649910955187664
+        },
+        {
+          "id": "mmqa:text:80a930740c97d53ce2c82b2c005ad543",
+          "score": 0.7295588019323965
+        },
+        {
+          "id": "mmqa:text:adae2500d1b51e0b109434b3859dece5",
+          "score": 0.694754285157452
+        },
+        {
+          "id": "mmqa:text:41938bf36ac15cfd62e8e23f56e44edf",
+          "score": 0.692821314434309
+        }
+      ],
+      "id": "mmqa:5ce79b8376619623506820810d8a88ff",
+      "latency_seconds": 0.46643050003331155,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 0.0,
+        "mrr@5": 0.0,
+        "ndcg@5": 0.0,
+        "recall@5": 0.0
+      },
+      "question": "One of the players from the Generation Adidas of 2004 is standing between two trophies - who is it?",
+      "relevant_ids": [
+        "mmqa:image:1a20714de645cbd481b1925f3b718843"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:eb25c81d3b2939af0c90857ad78d5751",
+          "score": 0.7627431641160244
+        },
+        {
+          "id": "mmqa:text:ab5c9299d750f6b519fbca6c410662cc",
+          "score": 0.761478147837061
+        },
+        {
+          "id": "mmqa:text:454f8daa1290ddfb3e599fbad52af852",
+          "score": 0.7345008348514303
+        },
+        {
+          "id": "mmqa:text:3d6aa38d50aa919c73ace6f45c6b47fb",
+          "score": 0.6929235502861449
+        },
+        {
+          "id": "mmqa:text:dfcff84528d4d6f698a517325aacb7f4",
+          "score": 0.6644072903775754
+        }
+      ],
+      "id": "mmqa:5f2f7caa2d2eb1f7afddcdbe8e0baa11",
+      "latency_seconds": 0.4335369999753311,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "What is the name of the sport in which the purpose is to accumulate the highest score for a \"game\", consists of eight or ten ends, and whose Swedish team consisted of Major Delaval Graham L'Eastrange Astley?",
+      "relevant_ids": [
+        "mmqa:text:ab5c9299d750f6b519fbca6c410662cc",
+        "mmqa:text:eb25c81d3b2939af0c90857ad78d5751"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:d837b66eae5737e342c251793d0d62eb",
+          "score": 0.7381949876291045
+        },
+        {
+          "id": "mmqa:table:09c9bfc9bde03daff0851d2aca8b448f",
+          "score": 0.7343632837603071
+        },
+        {
+          "id": "mmqa:text:3c5405b23042bbfe96b0fb0ec1dea6ad",
+          "score": 0.7104647921785774
+        },
+        {
+          "id": "mmqa:text:9a06ab2dc2cd06a3cb6f18d125cd732e",
+          "score": 0.6862705188838666
+        },
+        {
+          "id": "mmqa:text:23d7c2c1a76d3c3a90715b12da0d7482",
+          "score": 0.6852014813336644
+        }
+      ],
+      "id": "mmqa:5f76981c9ceaff75670a0f297a2d2c4e",
+      "latency_seconds": 0.44925900001544505,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.5,
+        "ndcg@5": 0.38685280723454163,
+        "recall@5": 0.5
+      },
+      "question": "In Mark Needham 's Chart Positions what was the artist when the song / album had the waves and the sun behind it?",
+      "relevant_ids": [
+        "mmqa:image:88dd58a188bc5c91cbbd05319ba4b0ee",
+        "mmqa:table:09c9bfc9bde03daff0851d2aca8b448f"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:f94793a2dc3c2c7f20972e67e00830dd",
+          "score": 0.741203895764354
+        },
+        {
+          "id": "mmqa:text:adb3c6c2076d458091fa8e2c7acd8630",
+          "score": 0.675765407692625
+        },
+        {
+          "id": "mmqa:text:de578a2c29822b0e32182af38da9a92c",
+          "score": 0.6712208788306995
+        },
+        {
+          "id": "mmqa:image:73d8edaa671128ded969512b468bcc87",
+          "score": 0.6559067514595084
+        },
+        {
+          "id": "mmqa:text:58ffffcbe76a7889e755bb916c61bcc9",
+          "score": 0.6549876038529815
+        }
+      ],
+      "id": "mmqa:6092c0c9a97041ecce5163fdbaa186b8",
+      "latency_seconds": 0.4272082000388764,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 0.0,
+        "mrr@5": 0.0,
+        "ndcg@5": 0.0,
+        "recall@5": 0.0
+      },
+      "question": "Which film with concentric ovals on its poster featured Raza Jaffrey as an actor?",
+      "relevant_ids": [
+        "mmqa:image:35db7b5e0c399d03a866c7fbc2b6012b"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:8abab667a523fa682b08ba35f7c30536",
+          "score": 0.8019275104874529
+        },
+        {
+          "id": "mmqa:text:b15a781d293ae9b8c8d19540d95e7fd5",
+          "score": 0.7468715500975214
+        },
+        {
+          "id": "mmqa:text:2e34b68ab3dcafae6c8eb5c31aee21f6",
+          "score": 0.649343561085133
+        },
+        {
+          "id": "mmqa:text:24cee3828c2151dbc3787df81cfe10cb",
+          "score": 0.6482496945451616
+        },
+        {
+          "id": "mmqa:text:e710cbfb59203b9bd68b6c3f8eb41e2e",
+          "score": 0.6465293925778584
+        }
+      ],
+      "id": "mmqa:60a6292fd75a61a4095cad35dd91d389",
+      "latency_seconds": 0.4413130999892019,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "Taylor Michel Momsen,  frontwoman of The Pretty Reckless, played Jenny Humphrey on what CW series?",
+      "relevant_ids": [
+        "mmqa:text:8abab667a523fa682b08ba35f7c30536",
+        "mmqa:text:b15a781d293ae9b8c8d19540d95e7fd5"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:334404b4ad72b55e383e307ba6ff30ca",
+          "score": 0.73538233535712
+        },
+        {
+          "id": "mmqa:text:bfc12c71c9e5a4a9f5187ddf09a48154",
+          "score": 0.724787482299949
+        },
+        {
+          "id": "mmqa:text:667bb3b0ebaad58914a57e990e78c3ac",
+          "score": 0.7064726533214856
+        },
+        {
+          "id": "mmqa:text:05131e903fe59cb14c198e26cbff2d53",
+          "score": 0.6627441875076634
+        },
+        {
+          "id": "mmqa:text:e11fbee90a4583cbb9b211f6b79bcbf5",
+          "score": 0.6591517825832981
+        }
+      ],
+      "id": "mmqa:6557e5999ca79abbeae9335bb38eecf9",
+      "latency_seconds": 0.41511719999834895,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "Which jockey of the Golden Cygnet Novice Hurdle winners won first: Paul Townend or Jack Kennedy?",
+      "relevant_ids": [
+        "mmqa:table:334404b4ad72b55e383e307ba6ff30ca"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:b9eff2df265f5dc2621473b9a2cc347f",
+          "score": 0.7063035328331029
+        },
+        {
+          "id": "mmqa:text:5475499c4e1e8fbd1935491fe222a380",
+          "score": 0.686562911938689
+        },
+        {
+          "id": "mmqa:text:b598f572a67cc2d570fafec4228316b2",
+          "score": 0.6763657348853387
+        },
+        {
+          "id": "mmqa:text:9675764a0fc844a326b43845fae41963",
+          "score": 0.6604369096037644
+        },
+        {
+          "id": "mmqa:image:65edeb61626c7695a25632f67571355f",
+          "score": 0.6533515490749137
+        }
+      ],
+      "id": "mmqa:656ea967fce612716b8a70529e94a0ba",
+      "latency_seconds": 0.42031829996267334,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 0.0,
+        "mrr@5": 0.0,
+        "ndcg@5": 0.0,
+        "recall@5": 0.0
+      },
+      "question": "Which Title(s), in Works of Toru Iwatani, feature an insect in their logo?",
+      "relevant_ids": [
+        "mmqa:image:ca74d74670b65689e8fa82dc69440a4e"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:6b751689d67eccd54144777eb99fb52c",
+          "score": 0.792307481656094
+        },
+        {
+          "id": "mmqa:text:ffc116bc38bc42fea39682cb553741d5",
+          "score": 0.7723836036291482
+        },
+        {
+          "id": "mmqa:table:86ae76b2ec57569a195b878b92b670d9",
+          "score": 0.7514697850005874
+        },
+        {
+          "id": "mmqa:text:cd06be0ed9a8c8f753af90b7233d4c69",
+          "score": 0.7391856440100334
+        },
+        {
+          "id": "mmqa:image:034b0e851c0c5221ba8e8507f4eb207f",
+          "score": 0.6963000168852967
+        }
+      ],
+      "id": "mmqa:65e8f460c5770672deef89d632fd5f51",
+      "latency_seconds": 0.429354100022465,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.3333333333333333,
+        "ndcg@5": 0.3065735963827292,
+        "recall@5": 0.5
+      },
+      "question": "Among the TV dramas that Sire Ma took part in, which show aired more recently: \"Relic of an Emissary\" or the show whose poster has shades of purple and pink?",
+      "relevant_ids": [
+        "mmqa:image:bd6fd9e281d679c53e481d26a1d5eb07",
+        "mmqa:table:86ae76b2ec57569a195b878b92b670d9"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:c1aa8a14df71e0ab890e8e31ae41876b",
+          "score": 0.7925068013912597
+        },
+        {
+          "id": "mmqa:text:cfccc14d1eddc05da0c095b0958d4836",
+          "score": 0.7551021740046635
+        },
+        {
+          "id": "mmqa:text:174323b92e566fbf8dc5547b81e5932f",
+          "score": 0.6608858330713435
+        },
+        {
+          "id": "mmqa:text:c467c4a77cab0af5d2a0d7724c8a01a0",
+          "score": 0.6547228388283094
+        },
+        {
+          "id": "mmqa:text:713ec29b7aea250597b8d522558978cb",
+          "score": 0.6502315162656265
+        }
+      ],
+      "id": "mmqa:6f3dcd421b0af9e382708e2eb666eb29",
+      "latency_seconds": 0.4399113000254147,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "This American comedy film starred Steve Martin, Diane Keaton and a Canadian-American actor who won what award in 1999?",
+      "relevant_ids": [
+        "mmqa:text:c1aa8a14df71e0ab890e8e31ae41876b",
+        "mmqa:text:cfccc14d1eddc05da0c095b0958d4836"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:7ecb109f0132ca9f3244ef9b234ec7c1",
+          "score": 0.7499648372982384
+        },
+        {
+          "id": "mmqa:text:c2a7313258fb2f76002c50755aa833c6",
+          "score": 0.7352547257908443
+        },
+        {
+          "id": "mmqa:table:03456989df76d9a8e5ea9a8e20681881",
+          "score": 0.7220885174558224
+        },
+        {
+          "id": "mmqa:text:77bcef613aae5121d43300fd5f5f7fbe",
+          "score": 0.6960796239679337
+        },
+        {
+          "id": "mmqa:text:5b631dd1da06f7ebcbe694d5d0a124e5",
+          "score": 0.6853292078272102
+        }
+      ],
+      "id": "mmqa:6ff171b80a0f0f8144a65f16be37b24c",
+      "latency_seconds": 0.5941826000344008,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "What were all the shows where the role was the same as the one held by Shaun Chen (陈泓宇) and Rebecca Lim (林慧玲) in the Star Awards of 2017?",
+      "relevant_ids": [
+        "mmqa:table:7ecb109f0132ca9f3244ef9b234ec7c1"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:11847cfa6bb8bbf60cd211d16938eae3",
+          "score": 0.7691918238195782
+        },
+        {
+          "id": "mmqa:text:44ad3b022ac7185f05aef73fba68eca1",
+          "score": 0.7653025987436194
+        },
+        {
+          "id": "mmqa:text:b13ca2b802fc9f0567960f94d03ba424",
+          "score": 0.7159699084803778
+        },
+        {
+          "id": "mmqa:text:e746559dc19fb80a7f0c7073c33628bc",
+          "score": 0.694821604607148
+        },
+        {
+          "id": "mmqa:text:4ca2fb4030fdc8f6e1598276a6ec7cea",
+          "score": 0.6801454444243689
+        }
+      ],
+      "id": "mmqa:70108d7aa8834f5c175e4fea6477390c",
+      "latency_seconds": 0.3985390000161715,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.9197207891481876,
+        "recall@5": 1.0
+      },
+      "question": "What dates did Canada broadcast the Instant Star season 3 (2007) episodes that featured the titular song by the artist who has had the most xmas number 1's?",
+      "relevant_ids": [
+        "mmqa:table:11847cfa6bb8bbf60cd211d16938eae3",
+        "mmqa:text:b13ca2b802fc9f0567960f94d03ba424"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:a3982ca1171691aefb906da6c8ded841",
+          "score": 0.8607413562054774
+        },
+        {
+          "id": "mmqa:text:2866b424073237c3e838b2e574f2784a",
+          "score": 0.7380038933379156
+        },
+        {
+          "id": "mmqa:text:ab097597c493a4857707234eb58af0fd",
+          "score": 0.7233447205133929
+        },
+        {
+          "id": "mmqa:text:846974e7c6d001f16289b882f639a4c4",
+          "score": 0.7139687014568903
+        },
+        {
+          "id": "mmqa:text:72c21d57a33d34affa99e0db105ffc86",
+          "score": 0.7135137352095856
+        }
+      ],
+      "id": "mmqa:718186c47f39b7fee2653cf964b543c0",
+      "latency_seconds": 0.4239231999963522,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "how many times have the carolina panthers been to the super bowl",
+      "relevant_ids": [
+        "mmqa:text:a3982ca1171691aefb906da6c8ded841"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:6a22c830dc06ff2f5aa225fbc00e6637",
+          "score": 0.800381177412241
+        },
+        {
+          "id": "mmqa:text:3630acea5146bb7ceb9be7c94863503c",
+          "score": 0.7567420619187415
+        },
+        {
+          "id": "mmqa:text:df46fef1ad619286ce8758b485646e2b",
+          "score": 0.7331201135431876
+        },
+        {
+          "id": "mmqa:text:8e204825b99c58bab188c22445b8305c",
+          "score": 0.7308003390959364
+        },
+        {
+          "id": "mmqa:text:9f79bd9b3ffca7a409d91c29552e95a6",
+          "score": 0.6958634953001284
+        }
+      ],
+      "id": "mmqa:71baea304ccec1b8c4d450d18189f2a6",
+      "latency_seconds": 0.4314005000051111,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "The coach of the year in the list of Queensland Cup honors for 2008 went to a team with what color letters on its logo?",
+      "relevant_ids": [
+        "mmqa:image:40fc7e0fe92ae80febca21b6ed88c25e",
+        "mmqa:table:6a22c830dc06ff2f5aa225fbc00e6637"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:e8836d2d0494ec84f47dc78a437edd44",
+          "score": 0.7867414097481022
+        },
+        {
+          "id": "mmqa:image:117d500aaa630023c4038b8268b309c0",
+          "score": 0.769408564841922
+        },
+        {
+          "id": "mmqa:text:b37615c8eb58bec0097c2e1ee37036d0",
+          "score": 0.7667419872375731
+        },
+        {
+          "id": "mmqa:text:d83b3a895590a8a9bcefd80b8d4f22e2",
+          "score": 0.7069364698934908
+        },
+        {
+          "id": "mmqa:text:682eeb74b1f2921fe3b1784e08edabde",
+          "score": 0.6843806990520306
+        }
+      ],
+      "id": "mmqa:725cff35b53790928967f609bb24985f",
+      "latency_seconds": 0.4344606999657117,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.5,
+        "ndcg@5": 0.6309297535714575,
+        "recall@5": 1.0
+      },
+      "question": "What color is the Santa Anita Park logo?",
+      "relevant_ids": [
+        "mmqa:image:117d500aaa630023c4038b8268b309c0"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:75133aee04e10192e8094167d7c7675c",
+          "score": 0.7195886441011257
+        },
+        {
+          "id": "mmqa:text:c2fb3d4b1d019eeecb0ee7e55c90eac5",
+          "score": 0.6978044549587992
+        },
+        {
+          "id": "mmqa:text:d8fd1af857026d34f46d6418d53056ca",
+          "score": 0.6844196652037766
+        },
+        {
+          "id": "mmqa:text:10013cd5c9aa383303d26bb5bad8480d",
+          "score": 0.6813302755724391
+        },
+        {
+          "id": "mmqa:text:421c1a0c774117406e53c2e58e09496c",
+          "score": 0.6703222042697288
+        }
+      ],
+      "id": "mmqa:74e3f341c5792ddc51267ee8386e35fe",
+      "latency_seconds": 0.42185799998696893,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 0.0,
+        "mrr@5": 0.0,
+        "ndcg@5": 0.0,
+        "recall@5": 0.0
+      },
+      "question": "Which conference does the university from CFL Draft of 1999 BC Lions season with a logo featuring the sun, a key, and a palm tree play in?",
+      "relevant_ids": [
+        "mmqa:image:8d0d2deac78525d8b1cda8d310b9d204",
+        "mmqa:text:22796fe6fd2e03fe3e672ae23cd683b4"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:0a0e3845438489987596c8ed31e4e021",
+          "score": 0.7223306135389764
+        },
+        {
+          "id": "mmqa:text:90daf3afa2e05585d16058e6da5c4eb3",
+          "score": 0.7199067454808543
+        },
+        {
+          "id": "mmqa:text:c1cdaf56c4db99938ea6d264733a2c48",
+          "score": 0.7040919357075854
+        },
+        {
+          "id": "mmqa:text:ee6f27972ddceefd31728c0a33308bb3",
+          "score": 0.6679815950813647
+        },
+        {
+          "id": "mmqa:text:8124e15b9fc251a156f3f4c910a21f99",
+          "score": 0.6612788986769506
+        }
+      ],
+      "id": "mmqa:75df3e56cb07101db16c18a9335b90c8",
+      "latency_seconds": 0.4087893000105396,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "The movie with a group of canines on its poster that features Julie Parrish came out in what year?",
+      "relevant_ids": [
+        "mmqa:image:df13a513b2854a8edd96a2cf6a1e1b08",
+        "mmqa:table:0a0e3845438489987596c8ed31e4e021"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:fd08f2efcc05907806ab8032f854ef6e",
+          "score": 0.7540155217569402
+        },
+        {
+          "id": "mmqa:text:bc089e802762385a5f36acd43c42ca2c",
+          "score": 0.6831290891899213
+        },
+        {
+          "id": "mmqa:text:91008730bc223fe995a128f8fc491a60",
+          "score": 0.6807198492214036
+        },
+        {
+          "id": "mmqa:text:0207eee13d751d76cdcc6c3f23313f23",
+          "score": 0.6771475864917851
+        },
+        {
+          "id": "mmqa:text:0d534d89ed472c7d8237edad27e29f7f",
+          "score": 0.6589816380076395
+        }
+      ],
+      "id": "mmqa:7604a6c9d42c57c955176e02e29fc039",
+      "latency_seconds": 0.44726950000040233,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "Which college in the 2013 draft class of the 2013 Seattle Seahawks season has a higher round:  The college with a star-shaped logo or Rice?",
+      "relevant_ids": [
+        "mmqa:image:0c1cec5ca5a6fb780a9cfa24d99132b1",
+        "mmqa:table:fd08f2efcc05907806ab8032f854ef6e"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:5b1ce27cb3bf4e5cf48eb9cba362851b",
+          "score": 0.7398590583421675
+        },
+        {
+          "id": "mmqa:table:c03ec36f99c7d30d46c5ef8a5640046f",
+          "score": 0.6785025990588721
+        },
+        {
+          "id": "mmqa:text:1e850613cf2c1b21172b3fbf3a5b3302",
+          "score": 0.6682525333459988
+        },
+        {
+          "id": "mmqa:text:1ee1f95ad19620a1f778c62f29f6c0d3",
+          "score": 0.6658526754743869
+        },
+        {
+          "id": "mmqa:text:263a85b97808c77255d5a0b271defd38",
+          "score": 0.6483987766639822
+        }
+      ],
+      "id": "mmqa:79c46102455f37942fcd1004316f547b",
+      "latency_seconds": 0.4545790000120178,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "Which film did Lexie Bigham act in first:  The movie featuring the song Because You Loved Me or the title with two people hugging each other on its poster?",
+      "relevant_ids": [
+        "mmqa:image:5e87b9b2bea1bc276227c35948388915",
+        "mmqa:text:5b1ce27cb3bf4e5cf48eb9cba362851b"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:6ad069bacf830f04a34aa8336e1447ec",
+          "score": 0.7686123200861351
+        },
+        {
+          "id": "mmqa:text:c4c72ffa0441761fe1ef42dffc66bc9d",
+          "score": 0.7246481546956447
+        },
+        {
+          "id": "mmqa:text:5b1e97ce3065c544d19b35776d015045",
+          "score": 0.7108189354628008
+        },
+        {
+          "id": "mmqa:table:9f2b28cba76f9644386540fe305caa19",
+          "score": 0.6857364479002287
+        },
+        {
+          "id": "mmqa:text:43ed54886ec140a2d18acb51d9ef9bc2",
+          "score": 0.682252232855959
+        }
+      ],
+      "id": "mmqa:7b5a18fe0ff6b814cc3e7e79d58dd314",
+      "latency_seconds": 0.4255334999761544,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "In the 2016 Cannes Film Festival out of competition, when Shane Black was the director, who played Misty Mountains in the English title?",
+      "relevant_ids": [
+        "mmqa:table:6ad069bacf830f04a34aa8336e1447ec",
+        "mmqa:text:c4c72ffa0441761fe1ef42dffc66bc9d"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:745028b9207a35d7b57e6bd9836d17d1",
+          "score": 0.7941775812429754
+        },
+        {
+          "id": "mmqa:text:38c865c7fe5116486fb4157e2281ef3f",
+          "score": 0.7510646419277646
+        },
+        {
+          "id": "mmqa:text:8fdc3e434bc934202bb91fbee59a2367",
+          "score": 0.7369830417720731
+        },
+        {
+          "id": "mmqa:text:587a6a259467eebd4fe6d797587d4461",
+          "score": 0.7029552981020518
+        },
+        {
+          "id": "mmqa:text:7be24352a5d029db13ee8132b1fa8356",
+          "score": 0.7015665849826469
+        }
+      ],
+      "id": "mmqa:837cef2e912afee9d7cfa5105b41c9e8",
+      "latency_seconds": 0.40629190002800897,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "George Lowe was the voice of the main character on the show that was a spin-off of what variety show?",
+      "relevant_ids": [
+        "mmqa:text:38c865c7fe5116486fb4157e2281ef3f",
+        "mmqa:text:745028b9207a35d7b57e6bd9836d17d1"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:63be0c91d17d303abc9a27d1a06034ae",
+          "score": 0.7982782002109802
+        },
+        {
+          "id": "mmqa:table:45c0604f64f2bb3a41e8480a7c911a91",
+          "score": 0.7182594882341106
+        },
+        {
+          "id": "mmqa:text:1ee1f95ad19620a1f778c62f29f6c0d3",
+          "score": 0.6906518641498222
+        },
+        {
+          "id": "mmqa:table:8c6d9208aa5571ed46287efd495813a0",
+          "score": 0.6864785098427515
+        },
+        {
+          "id": "mmqa:text:494c330430c47371bc3730e54e4f4e9f",
+          "score": 0.6798697366954791
+        }
+      ],
+      "id": "mmqa:8416940791134728bf5f1b3df1b0fb55",
+      "latency_seconds": 0.42124920000787824,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.5,
+        "ndcg@5": 0.38685280723454163,
+        "recall@5": 0.5
+      },
+      "question": "Which film did Elisha Henig act in most recently:  The title with a poster featuring a motorcycle or Grey's Anatomy?",
+      "relevant_ids": [
+        "mmqa:image:4285caa2c9b446b7aa6cc8b3c10d526c",
+        "mmqa:table:45c0604f64f2bb3a41e8480a7c911a91"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:4c451859670fa93539de7e8f03e2200b",
+          "score": 0.7875766290394675
+        },
+        {
+          "id": "mmqa:text:f4f9d17be74b18dafe389cfd5fccd57c",
+          "score": 0.7763422382232341
+        },
+        {
+          "id": "mmqa:text:9e974e9cc7fe078c359be5ff07f27612",
+          "score": 0.7536745219636455
+        },
+        {
+          "id": "mmqa:text:79a45168f83aa449e2f3c63821c367c3",
+          "score": 0.7349537833004698
+        },
+        {
+          "id": "mmqa:text:b3cd4a47dad35aac4bb4cab8c3c7f63c",
+          "score": 0.7336433197488264
+        }
+      ],
+      "id": "mmqa:882a2c287902f55f5260938894488d7e",
+      "latency_seconds": 0.4313061000430025,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "who went to the super bowl in 1999 and was the team with a Time of 4:08, in the 1998 NFL jams album?",
+      "relevant_ids": [
+        "mmqa:table:4c451859670fa93539de7e8f03e2200b",
+        "mmqa:text:f4f9d17be74b18dafe389cfd5fccd57c"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:817818fed883cb08b7c91cf17e3c9011",
+          "score": 0.8226922068829816
+        },
+        {
+          "id": "mmqa:text:374fe3c1ac6d4bc840aacb01feb8e1aa",
+          "score": 0.7390797422596981
+        },
+        {
+          "id": "mmqa:text:5e65cd8bbefa91530f4fbb808c1d2b6f",
+          "score": 0.6648890267961883
+        },
+        {
+          "id": "mmqa:text:c4ac6df148e9f4da04cdc7f780d76aed",
+          "score": 0.6642627266503516
+        },
+        {
+          "id": "mmqa:text:494c330430c47371bc3730e54e4f4e9f",
+          "score": 0.6553045336634618
+        }
+      ],
+      "id": "mmqa:8dec35afa356b6e28978ed460ce6a7b7",
+      "latency_seconds": 0.468103900027927,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "Spencer's Mountain stars an AMerican actor best known for playing Danny Williams in what television series?",
+      "relevant_ids": [
+        "mmqa:text:374fe3c1ac6d4bc840aacb01feb8e1aa",
+        "mmqa:text:817818fed883cb08b7c91cf17e3c9011"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:991912aafefc1168d6a0104d8ffdf763",
+          "score": 0.8213626916914163
+        },
+        {
+          "id": "mmqa:text:67e7b8ba69a80fa82f3c848378c3ed82",
+          "score": 0.716685032749737
+        },
+        {
+          "id": "mmqa:text:c8a07802e58d6928a57034508edc671e",
+          "score": 0.7066775062080353
+        },
+        {
+          "id": "mmqa:text:a53618f2b40afd2e9e24c0509460865f",
+          "score": 0.6948261344647656
+        },
+        {
+          "id": "mmqa:text:55f8829924aa5011dbcdaf6532308976",
+          "score": 0.6918726607548912
+        }
+      ],
+      "id": "mmqa:8fb9e8c22bed5b4bde63a9361ca97966",
+      "latency_seconds": 0.43142340000486,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "Among players who transferred into the Toronto Wolfpack during the 2018 season, consider the player who is sometimes pictured in a yellow jersey and black shorts, trying to catch a rugby ball on the field.  What date did this athlete join the Wolfpack?",
+      "relevant_ids": [
+        "mmqa:image:eee5618359bbee89942db700ba0cfe3a",
+        "mmqa:table:991912aafefc1168d6a0104d8ffdf763"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:5c1fc9b16599ea9f7ba5f9f0f327f172",
+          "score": 0.8552292690634673
+        },
+        {
+          "id": "mmqa:text:c4a4374edef31ac821c1e4433f3a70a1",
+          "score": 0.7642715920963956
+        },
+        {
+          "id": "mmqa:text:297073937d44d8f3d09c8ab91579dac0",
+          "score": 0.7469621876097545
+        },
+        {
+          "id": "mmqa:text:01fe7f97551858d1269685ca025294d5",
+          "score": 0.7385084448082754
+        },
+        {
+          "id": "mmqa:text:18c6335ddde7f59313cdd9334620d9f7",
+          "score": 0.7147169670492131
+        }
+      ],
+      "id": "mmqa:91332124cbe4a87de94961affa6b343f",
+      "latency_seconds": 0.4316357999923639,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "What was the earliest year the Tallahassee Capitals finished in 8th place?",
+      "relevant_ids": [
+        "mmqa:table:5c1fc9b16599ea9f7ba5f9f0f327f172"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:c40000cd686c370e7a67ecdf8d5aa2d1",
+          "score": 0.7722410048785077
+        },
+        {
+          "id": "mmqa:table:3a9de4de120b0aaaa886c6f4aaa935f4",
+          "score": 0.7429325642291454
+        },
+        {
+          "id": "mmqa:image:5d54aa49170f9b714d4027afb78b83e9",
+          "score": 0.7343153323135478
+        },
+        {
+          "id": "mmqa:text:1f50576f7c9b4cd4bb5010030bcc56bc",
+          "score": 0.716821984722517
+        },
+        {
+          "id": "mmqa:text:9bcfdd5bdb2092ddc182f96f61930651",
+          "score": 0.6893614426451635
+        }
+      ],
+      "id": "mmqa:97dfcada221ed75c850c5a1dc9965a0d",
+      "latency_seconds": 0.497749499976635,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "Was Nigel Hawthorne or the person who played Madge in As Time Goes By older among the people who died in British television from 2001?",
+      "relevant_ids": [
+        "mmqa:table:3a9de4de120b0aaaa886c6f4aaa935f4",
+        "mmqa:text:c40000cd686c370e7a67ecdf8d5aa2d1"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:image:6e3df75df6440d8e4633838bc459ecc3",
+          "score": 0.7702973049944493
+        },
+        {
+          "id": "mmqa:text:db4d2ba6497d66248a8863f26d6b6217",
+          "score": 0.7023557071653895
+        },
+        {
+          "id": "mmqa:image:c33461cdbf090cafe7325c8f5754d216",
+          "score": 0.6851538939032079
+        },
+        {
+          "id": "mmqa:text:c53d9ee40c6198f91f6e20362bbe7b01",
+          "score": 0.6581736312016476
+        },
+        {
+          "id": "mmqa:text:55f0febabe833e9a2d21e8727d46f0bd",
+          "score": 0.6576893782820287
+        }
+      ],
+      "id": "mmqa:9a8f31fac508d9b34f3c84352ee5441e",
+      "latency_seconds": 0.513099699979648,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "What color is the background of the I Told You So (Randy Travis song) poster?",
+      "relevant_ids": [
+        "mmqa:image:6e3df75df6440d8e4633838bc459ecc3"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:f3cff196a2c8f100a152b3a367c1a8e9",
+          "score": 0.7853172658038747
+        },
+        {
+          "id": "mmqa:text:7b8931f4312a99fafe937bfe596f6a22",
+          "score": 0.753068763829251
+        },
+        {
+          "id": "mmqa:text:9142aa27907948de55b5362f7cdb6ba3",
+          "score": 0.7253478882479809
+        },
+        {
+          "id": "mmqa:text:6da3d47927cd7806263956432e0b2092",
+          "score": 0.7190416225165123
+        },
+        {
+          "id": "mmqa:text:24792bcf09079cc207e201fc579186fc",
+          "score": 0.7152965963764357
+        }
+      ],
+      "id": "mmqa:9bc595b3e66c665ed68306fea3da7a86",
+      "latency_seconds": 0.49057289998745546,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.8503449055347546,
+        "recall@5": 1.0
+      },
+      "question": "What teams did the player who had 5.7 APG in the 1999-2000 Phoenix Suns playoffs, play for in the NBA?",
+      "relevant_ids": [
+        "mmqa:table:f3cff196a2c8f100a152b3a367c1a8e9",
+        "mmqa:text:24792bcf09079cc207e201fc579186fc"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:fea42f12eecaedf5e96821a12ccfb3a9",
+          "score": 0.7963525691085614
+        },
+        {
+          "id": "mmqa:text:b0ba60ae68099071751ac49dd6093cca",
+          "score": 0.7024414423883687
+        },
+        {
+          "id": "mmqa:text:99cb9928b8f4b5a24c9a55f59565e50c",
+          "score": 0.6883460506145676
+        },
+        {
+          "id": "mmqa:text:4f6c313b815945b3c4101de2b2c821f8",
+          "score": 0.6725476483578366
+        },
+        {
+          "id": "mmqa:text:80ae05616b02691184f7922c699b83d5",
+          "score": 0.663169447001036
+        }
+      ],
+      "id": "mmqa:9cd2be00cf2d49b35a2271d842e37470",
+      "latency_seconds": 0.520345599972643,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "In the 2014 season, did Bjornar Holmvik play for the club Kalmar FF?",
+      "relevant_ids": [
+        "mmqa:table:fea42f12eecaedf5e96821a12ccfb3a9"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:9f73b6301a8159c3db5085748ebd2f7e",
+          "score": 0.8062793271724824
+        },
+        {
+          "id": "mmqa:text:a7e4cdb07aa2c7dbdc892480f6814961",
+          "score": 0.7687296131861805
+        },
+        {
+          "id": "mmqa:text:82e426b6369e33ea35c259c96467f855",
+          "score": 0.7377494225630188
+        },
+        {
+          "id": "mmqa:text:a96d4593a4671f548a38c5b6f23cd2a6",
+          "score": 0.7311489225222166
+        },
+        {
+          "id": "mmqa:text:fcca7c16241285bc4287c9da07b90e3a",
+          "score": 0.7275030172632704
+        }
+      ],
+      "id": "mmqa:9eaf685adaccf2218cc3d8fcf8797d09",
+      "latency_seconds": 0.40344919997733086,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 0.0,
+        "mrr@5": 0.0,
+        "ndcg@5": 0.0,
+        "recall@5": 0.0
+      },
+      "question": "Which railroad with a shield-shaped logo was an original owner of GE C30-7?",
+      "relevant_ids": [
+        "mmqa:image:dcf9fc47604c0a326a57800c8f30c177"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:d464f28dd4fa803d110685ac44b1473a",
+          "score": 0.7085138636176563
+        },
+        {
+          "id": "mmqa:table:f3ab15e6e5cac5daed2c6d962a5e9c99",
+          "score": 0.706149999598258
+        },
+        {
+          "id": "mmqa:text:3789ca68dbed52b3480a5d0d7fda1d8d",
+          "score": 0.6625531100927048
+        },
+        {
+          "id": "mmqa:text:63be0c91d17d303abc9a27d1a06034ae",
+          "score": 0.6620281515856737
+        },
+        {
+          "id": "mmqa:text:a0914ca55f174cc1ac583f82e5f5cef3",
+          "score": 0.6579931264771522
+        }
+      ],
+      "id": "mmqa:a184c850b19090ae6a5f70b892f47ad1",
+      "latency_seconds": 0.4634002999518998,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "On the television show that ran from 2014-18 in which Geoff Johns was a writer, who plays dr harrison wells?",
+      "relevant_ids": [
+        "mmqa:table:f3ab15e6e5cac5daed2c6d962a5e9c99",
+        "mmqa:text:d464f28dd4fa803d110685ac44b1473a"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:a4d93f3327602502a67ae87cb01fff9e",
+          "score": 0.76742251478628
+        },
+        {
+          "id": "mmqa:text:1b0a89afb10e1e697cfed2adc18064ce",
+          "score": 0.7510493305447957
+        },
+        {
+          "id": "mmqa:text:ece73cf9deb1e5d1df5e6d50af891e9c",
+          "score": 0.7379772602982553
+        },
+        {
+          "id": "mmqa:text:cf6c3f8bbb1e4af1ea070e4ca2c7cf66",
+          "score": 0.7367571338423552
+        },
+        {
+          "id": "mmqa:text:af9652d292f0fa2a60d81625a5d71b7a",
+          "score": 0.7336747945547053
+        }
+      ],
+      "id": "mmqa:a1e42da526ff18d90cd2eda775fc3be2",
+      "latency_seconds": 0.4514983000117354,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.25,
+        "ndcg@5": 0.2640681225725909,
+        "recall@5": 0.5
+      },
+      "question": "What was the December 1969 music album by the artist who made all I do is think of you?",
+      "relevant_ids": [
+        "mmqa:table:2ea7b850032e721976d86135557fad66",
+        "mmqa:text:cf6c3f8bbb1e4af1ea070e4ca2c7cf66"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:958cbe94f5635e52167172e194b0d67a",
+          "score": 0.7636604041035108
+        },
+        {
+          "id": "mmqa:text:1ccd41ac81e5f735326eb50861f640f0",
+          "score": 0.6974703509429548
+        },
+        {
+          "id": "mmqa:image:f6007bd85a62c48ea1cb58847e1a9f2b",
+          "score": 0.6783843523303992
+        },
+        {
+          "id": "mmqa:text:0c5f13219ae9c48e7228a79d17bbe25d",
+          "score": 0.6683525956281076
+        },
+        {
+          "id": "mmqa:text:34f82b7c8367499acf67f34560501648",
+          "score": 0.6657538356277077
+        }
+      ],
+      "id": "mmqa:a2683d2d5cb57888f39f06ed08115ba1",
+      "latency_seconds": 0.6293138000182807,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "During what year was the S. Dharam Tej film title with a poster of a horse on it?",
+      "relevant_ids": [
+        "mmqa:image:714038c14b64dd85ae6c43f19c2b8d61",
+        "mmqa:table:958cbe94f5635e52167172e194b0d67a"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:dd9f729440625347b3c9b8be255048ac",
+          "score": 0.826352612670497
+        },
+        {
+          "id": "mmqa:text:7df5cb5891244a715970e3c59ee0ceaf",
+          "score": 0.718026833018354
+        },
+        {
+          "id": "mmqa:table:648c2b6c4f408e49ed729f11bd7e867d",
+          "score": 0.7175759702972124
+        },
+        {
+          "id": "mmqa:text:f8a47a0f600e1e8ad5e6bd44ed6672a2",
+          "score": 0.7128600298948242
+        },
+        {
+          "id": "mmqa:image:943fe14c4ca62dc11fdd3f3cfc0e28da",
+          "score": 0.7040289098845033
+        }
+      ],
+      "id": "mmqa:a9d7450778a447240d6a876bfb8183d2",
+      "latency_seconds": 0.45063580002170056,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "is sia in the my little pony movie",
+      "relevant_ids": [
+        "mmqa:text:dd9f729440625347b3c9b8be255048ac"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:10556e9570d69f073d7383f064cf9f97",
+          "score": 0.8503711252556093
+        },
+        {
+          "id": "mmqa:text:ad0c3a25023a89c13070599300f54e80",
+          "score": 0.7243910351342191
+        },
+        {
+          "id": "mmqa:table:f3cff196a2c8f100a152b3a367c1a8e9",
+          "score": 0.7152026807967046
+        },
+        {
+          "id": "mmqa:text:24792bcf09079cc207e201fc579186fc",
+          "score": 0.7092286630226193
+        },
+        {
+          "id": "mmqa:text:e9b4e2cb2bbe1452620f6503dbc2c3e8",
+          "score": 0.6761215468113054
+        }
+      ],
+      "id": "mmqa:ac9c96e3b92ac9227a8a5f2ccea4d780",
+      "latency_seconds": 0.4822512000100687,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.3391602052736161,
+        "recall@5": 0.14285714285714285
+      },
+      "question": "Among Orlando-Magic players in the 2007-08 playoffs, which ones have facial hair and also scored a free-throw percentage of 0.000?",
+      "relevant_ids": [
+        "mmqa:image:0aac2f7b9171a772b41f5a5ce44a9f0b",
+        "mmqa:image:4313ec7950fc859f851585cf54a29300",
+        "mmqa:image:aa5fb23ed1d93d57e35e7c5823f88d10",
+        "mmqa:image:ee849bed2d8eb9cdff64146cf2d57960",
+        "mmqa:image:f256634fda3d0787aa78bc2aafbcd004",
+        "mmqa:image:f50b93e2c3751d30752f40f889e49029",
+        "mmqa:table:10556e9570d69f073d7383f064cf9f97"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:2bcc9c0c996b9ec8d88ed230fb274ca0",
+          "score": 0.7806079634347599
+        },
+        {
+          "id": "mmqa:text:d00a20f11f893c798a5096902a624afa",
+          "score": 0.7293833235896312
+        },
+        {
+          "id": "mmqa:text:cc43f04c98ca75bed0335fb9f1d19813",
+          "score": 0.7020954077042622
+        },
+        {
+          "id": "mmqa:text:8c3c524ec114a3904890890472ececea",
+          "score": 0.691424394968912
+        },
+        {
+          "id": "mmqa:text:d8e9c6ab32058975495ecaf31f982216",
+          "score": 0.6878858191193621
+        }
+      ],
+      "id": "mmqa:b45f395ca3af274929e11c2e6b97572e",
+      "latency_seconds": 0.5109826000407338,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "In the 1986 film Liberty, which actor was cast for the role of the us president when uncle same got his nickname?",
+      "relevant_ids": [
+        "mmqa:table:2bcc9c0c996b9ec8d88ed230fb274ca0",
+        "mmqa:text:38465d7157face73d99a96c90e9b36bf"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:image:5a2697a71ac83f0776b4495cabde19dd",
+          "score": 0.7701409382569364
+        },
+        {
+          "id": "mmqa:text:73868fbd67a43e4773043d3ab54daf8c",
+          "score": 0.7143788773651536
+        },
+        {
+          "id": "mmqa:text:981ac40abd52f5ec228a8e654c10e8ba",
+          "score": 0.6949562768573377
+        },
+        {
+          "id": "mmqa:text:7661798792c9dcf13fde8ac503b673c7",
+          "score": 0.653403920999031
+        },
+        {
+          "id": "mmqa:table:fa31874337314de1b59862312ae33618",
+          "score": 0.6515932450872677
+        }
+      ],
+      "id": "mmqa:b4fa630041e016caa616ebaff6c15491",
+      "latency_seconds": 0.6581629999564029,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "What is Elmer Fudd holding?",
+      "relevant_ids": [
+        "mmqa:image:5a2697a71ac83f0776b4495cabde19dd"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:image:d0a1a6acb994db5b0b952841190d9d6c",
+          "score": 0.7243022915484306
+        },
+        {
+          "id": "mmqa:text:3bcbb1dbbe82781f9ee50ddb18d3b4ea",
+          "score": 0.7217913387007543
+        },
+        {
+          "id": "mmqa:text:330e25f927bd0fb4cab9d94e1cb2c587",
+          "score": 0.7201103813710932
+        },
+        {
+          "id": "mmqa:text:40ddc37412caf7f4cbd4fb42be97bbaf",
+          "score": 0.7042705458181877
+        },
+        {
+          "id": "mmqa:table:35020aa2d29b4f9b3787589c81da4f8b",
+          "score": 0.7022482769158997
+        }
+      ],
+      "id": "mmqa:b57ddbf4426152522a18385e033d4b40",
+      "latency_seconds": 0.4600468000280671,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.2,
+        "ndcg@5": 0.23719771276929622,
+        "recall@5": 0.5
+      },
+      "question": "Was Devotion or the film that has a title with a woman and man staring into each other's eyes the latest film to feature Marie De Becker?",
+      "relevant_ids": [
+        "mmqa:image:932b46ef53e0422c0e999500e425a3be",
+        "mmqa:table:35020aa2d29b4f9b3787589c81da4f8b"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:c53d9ee40c6198f91f6e20362bbe7b01",
+          "score": 0.7242844489088973
+        },
+        {
+          "id": "mmqa:text:7fb147cef5953b9d36da54af57e6f4e2",
+          "score": 0.6909342349229761
+        },
+        {
+          "id": "mmqa:text:1aa07fac6cbb2780b5a273a7f1215110",
+          "score": 0.6835012875810311
+        },
+        {
+          "id": "mmqa:text:fb240685314bf86672404d53e39e2468",
+          "score": 0.6728885825926852
+        },
+        {
+          "id": "mmqa:text:6724cb0089373e2cb896f2bf4848cff0",
+          "score": 0.6724566520745954
+        }
+      ],
+      "id": "mmqa:b7f1c8c3fb6f1047bb2bb4a323d197f9",
+      "latency_seconds": 0.47346049995394424,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "In the photo of the woman who sings \"Why You Gotta Be So Mean,\" what is the red shape next to her?",
+      "relevant_ids": [
+        "mmqa:image:06b20247b254715e56dce63791481df1",
+        "mmqa:text:c53d9ee40c6198f91f6e20362bbe7b01"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:f8139eca74a212f807a8081b32808db9",
+          "score": 0.8348652579471781
+        },
+        {
+          "id": "mmqa:text:5a7932839e8415e6388b73231bd7a208",
+          "score": 0.7156810557720309
+        },
+        {
+          "id": "mmqa:text:0d48a83efb6af4e2e131d13d958160dd",
+          "score": 0.6885431573916728
+        },
+        {
+          "id": "mmqa:text:98f25bff92d8943607571a18f49ab794",
+          "score": 0.6881397393885721
+        },
+        {
+          "id": "mmqa:text:fd0fefb06cb39de474fa0afd501ca989",
+          "score": 0.6801743481938154
+        }
+      ],
+      "id": "mmqa:c1ebcd4c4935a3a8d9c7a37fe52c3805",
+      "latency_seconds": 0.4599628000287339,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.8503449055347546,
+        "recall@5": 1.0
+      },
+      "question": "What is the current name of the club that Agustin Lionel Allione plays for?",
+      "relevant_ids": [
+        "mmqa:text:f8139eca74a212f807a8081b32808db9",
+        "mmqa:text:fd0fefb06cb39de474fa0afd501ca989"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:404dbded3f38c2efc7143c09771e88fc",
+          "score": 0.801044127080275
+        },
+        {
+          "id": "mmqa:text:7813c7ae67fa127637d175943254ec8d",
+          "score": 0.7882907552399107
+        },
+        {
+          "id": "mmqa:text:ede7450786dbaec8bf8e7f62439077ce",
+          "score": 0.7799032870226156
+        },
+        {
+          "id": "mmqa:table:ae09b4c3ee2e51748a34d35f3510d22d",
+          "score": 0.7723052399635787
+        },
+        {
+          "id": "mmqa:text:06352f1577ba067bef19ca90d0beac65",
+          "score": 0.7434553647219203
+        }
+      ],
+      "id": "mmqa:c3b1bd64c15a8fd0a2be7bd8c1806634",
+      "latency_seconds": 0.4530795000027865,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.3333333333333333,
+        "ndcg@5": 0.5706417189553201,
+        "recall@5": 1.0
+      },
+      "question": "The player who has won all four golf majors in a single year had what score in the second round of the 1930 U.S. Open?",
+      "relevant_ids": [
+        "mmqa:table:ae09b4c3ee2e51748a34d35f3510d22d",
+        "mmqa:text:ede7450786dbaec8bf8e7f62439077ce"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:image:c794d4a64dadb6c4ea02e1797af86cbe",
+          "score": 0.7932144955780415
+        },
+        {
+          "id": "mmqa:text:f05b28feff17b5cccec23431a543b094",
+          "score": 0.710094336210151
+        },
+        {
+          "id": "mmqa:text:90b3a8778addae417d1b20ba0911033c",
+          "score": 0.7010467499926034
+        },
+        {
+          "id": "mmqa:text:974447002e1172445d9bde5caa293419",
+          "score": 0.7004799026008204
+        },
+        {
+          "id": "mmqa:text:18272a1d3b9fd9015510dda99037544c",
+          "score": 0.6935155722910692
+        }
+      ],
+      "id": "mmqa:c5dee34263e4353394d8e11ab56607a2",
+      "latency_seconds": 0.45888819999527186,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "What is Virginia Ruzici wearing around her neck?",
+      "relevant_ids": [
+        "mmqa:image:c794d4a64dadb6c4ea02e1797af86cbe"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:85d4ff8adfa35e3a07afc734c1f8643b",
+          "score": 0.7955305681086864
+        },
+        {
+          "id": "mmqa:text:e4504f6908dc58af2381f5529049ffcf",
+          "score": 0.7042751061562077
+        },
+        {
+          "id": "mmqa:table:87158a30a8b9d87d8d0e7bc0a6304941",
+          "score": 0.679240947186605
+        },
+        {
+          "id": "mmqa:table:c0b453d6367e0b34668fe6c7d4fddbdc",
+          "score": 0.6723961331882115
+        },
+        {
+          "id": "mmqa:text:aae814459d27d58aebe0e5c7ed7e68b6",
+          "score": 0.6595083438336518
+        }
+      ],
+      "id": "mmqa:c5ff2b9888626ae6b4e32dc9cb0a763e",
+      "latency_seconds": 0.4756111000315286,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.8503449055347546,
+        "recall@5": 1.0
+      },
+      "question": "When does Alex Wolff as John Derf Backderf's film come out?",
+      "relevant_ids": [
+        "mmqa:table:85d4ff8adfa35e3a07afc734c1f8643b",
+        "mmqa:text:aae814459d27d58aebe0e5c7ed7e68b6"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:8c6d9208aa5571ed46287efd495813a0",
+          "score": 0.731049706589504
+        },
+        {
+          "id": "mmqa:text:0da71ca029860bbea47f6feb20569492",
+          "score": 0.6901804201179791
+        },
+        {
+          "id": "mmqa:text:331affcf021a3157df328407e64bf365",
+          "score": 0.6818575820360976
+        },
+        {
+          "id": "mmqa:text:a096a485ff1541339b034ab5078bef52",
+          "score": 0.6710077746806739
+        },
+        {
+          "id": "mmqa:text:e710cbfb59203b9bd68b6c3f8eb41e2e",
+          "score": 0.6688518511479654
+        }
+      ],
+      "id": "mmqa:c765c998c4211dbbc82ab5a4eef2e58e",
+      "latency_seconds": 0.48685459996340796,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.9197207891481876,
+        "recall@5": 1.0
+      },
+      "question": "On what date in 2017 will the show that Nathalia Ramos was on in 2014 come back?",
+      "relevant_ids": [
+        "mmqa:table:8c6d9208aa5571ed46287efd495813a0",
+        "mmqa:text:331affcf021a3157df328407e64bf365"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:image:69dc00bea926d95088d3829d8ba558b3",
+          "score": 0.739413670780123
+        },
+        {
+          "id": "mmqa:text:23e6c40e35e0bbdced2e99232f76c0ed",
+          "score": 0.6751095016860011
+        },
+        {
+          "id": "mmqa:text:277f0682bf9e3bb1171ff2aa14d9ed0d",
+          "score": 0.6646247135986751
+        },
+        {
+          "id": "mmqa:text:ec7a06786c42f81c6c1354d50826338e",
+          "score": 0.6639210036637919
+        },
+        {
+          "id": "mmqa:text:c0330201152476013e72494571c881bb",
+          "score": 0.6634657106763587
+        }
+      ],
+      "id": "mmqa:d7bb58ebf570f9c46f48c0d8d364e6d2",
+      "latency_seconds": 0.4700845999759622,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "What is John Surtees doing with his right hand?",
+      "relevant_ids": [
+        "mmqa:image:69dc00bea926d95088d3829d8ba558b3"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:55d9f3891d14c4dbd4a1e0067cbbbdc2",
+          "score": 0.8178748083815258
+        },
+        {
+          "id": "mmqa:text:b6ce186c0fd2b507080dae16d5b91dc1",
+          "score": 0.7721182642608821
+        },
+        {
+          "id": "mmqa:text:de8566b1949c41df8442e2fdcb73a5b7",
+          "score": 0.6901713608563522
+        },
+        {
+          "id": "mmqa:text:29124f4763a777f8c11128329e0c1eee",
+          "score": 0.6545135982742699
+        },
+        {
+          "id": "mmqa:text:13fe6df26fc35a6f0567663d7f738275",
+          "score": 0.6340167295519913
+        }
+      ],
+      "id": "mmqa:d9f0b767936c68b568c9c84c33772604",
+      "latency_seconds": 0.4740700999973342,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "Cheluva is a remake of the film Hello Brother, which is based on what 1992 Hong Kong action comedy film directed by Ringo Lam and Tsui Hark?",
+      "relevant_ids": [
+        "mmqa:text:55d9f3891d14c4dbd4a1e0067cbbbdc2",
+        "mmqa:text:b6ce186c0fd2b507080dae16d5b91dc1"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:b6e306d214926cb0f2f2a4d91663cd61",
+          "score": 0.7935493984903114
+        },
+        {
+          "id": "mmqa:text:6724cb0089373e2cb896f2bf4848cff0",
+          "score": 0.7857012607376654
+        },
+        {
+          "id": "mmqa:text:fb240685314bf86672404d53e39e2468",
+          "score": 0.733172873266271
+        },
+        {
+          "id": "mmqa:text:ac423551aab6b356e295f3fef7b16e55",
+          "score": 0.7215360341940612
+        },
+        {
+          "id": "mmqa:text:3ddf2a96c8d801459b93dd24fdf56207",
+          "score": 0.7197939920930249
+        }
+      ],
+      "id": "mmqa:e53c8b463aa0deffcf6437b6eb9b5687",
+      "latency_seconds": 0.45218890003161505,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "What role did this Australian singer-songwriter, model and actress who collaborated with Martin Brannigan play in the soap opera \"Neighbours?\"",
+      "relevant_ids": [
+        "mmqa:text:6724cb0089373e2cb896f2bf4848cff0",
+        "mmqa:text:b6e306d214926cb0f2f2a4d91663cd61"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:3ef7b10d9efd125048f3fed09642c23e",
+          "score": 0.8552118977158416
+        },
+        {
+          "id": "mmqa:text:6fea0dc3890183a47de2250bb4bc0479",
+          "score": 0.7938261000615608
+        },
+        {
+          "id": "mmqa:text:ea6dd928a5ca059145aae641dcc54922",
+          "score": 0.790923549174322
+        },
+        {
+          "id": "mmqa:text:f82400f5f625349be14bf28cf7cd3192",
+          "score": 0.7749135029705245
+        },
+        {
+          "id": "mmqa:text:0baa148e50eea9f2f17933bdf6505c28",
+          "score": 0.7390936416163664
+        }
+      ],
+      "id": "mmqa:e5d37e128da02571b1e5bd2297d703f1",
+      "latency_seconds": 1.7403128999867477,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "when did the strong museum of play open",
+      "relevant_ids": [
+        "mmqa:text:3ef7b10d9efd125048f3fed09642c23e"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:3eb9478bc1e5fb9cabe9b1569606d17b",
+          "score": 0.6804952635050316
+        },
+        {
+          "id": "mmqa:table:09467ef56a24a10e2cdbcfc5c11ea486",
+          "score": 0.6726953365644835
+        },
+        {
+          "id": "mmqa:image:1879c9f1a36102a9174c458b418c8d95",
+          "score": 0.6700981351611266
+        },
+        {
+          "id": "mmqa:text:5d82793ff60087d3b99fc7180512a389",
+          "score": 0.6680277177404048
+        },
+        {
+          "id": "mmqa:text:7df5cb5891244a715970e3c59ee0ceaf",
+          "score": 0.6664130613283504
+        }
+      ],
+      "id": "mmqa:e723bdfa758e95165ffdbb99dab1bdc2",
+      "latency_seconds": 2.293945499986876,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.5,
+        "ndcg@5": 0.38685280723454163,
+        "recall@5": 0.5
+      },
+      "question": "What activity is the person performing in the S. Cole 1988 TV cover?",
+      "relevant_ids": [
+        "mmqa:image:282e6dbd851dc7b588773343ab24e32e",
+        "mmqa:table:09467ef56a24a10e2cdbcfc5c11ea486"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:b5a87563ece757052cc69cd143b53c3d",
+          "score": 0.7566463368788634
+        },
+        {
+          "id": "mmqa:text:63b8bbdbb79ac61dd2299c3c410396cb",
+          "score": 0.6767936360628702
+        },
+        {
+          "id": "mmqa:text:c8c11dfc726b789762b98e9eb4278bad",
+          "score": 0.668552529525007
+        },
+        {
+          "id": "mmqa:text:277f0682bf9e3bb1171ff2aa14d9ed0d",
+          "score": 0.6522312470450863
+        },
+        {
+          "id": "mmqa:text:313a99a1b4055b25dd64340a06ac7de0",
+          "score": 0.635244493600579
+        }
+      ],
+      "id": "mmqa:e9cfe3d149fccbf737f3cca2ab607e46",
+      "latency_seconds": 0.4404754000133835,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "Did Sven Heidfeld or the driver who is sponsored by a company with three vertical green lines on its logo have lower losses in Group C of the 2003 Race of Champions?",
+      "relevant_ids": [
+        "mmqa:image:114bbd404a968f20cd30bcb07c5d4c95",
+        "mmqa:table:b5a87563ece757052cc69cd143b53c3d"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:ad67cde92a746755eff3f446c1eeeb4f",
+          "score": 0.8042285802802932
+        },
+        {
+          "id": "mmqa:text:4466504ac8edcda5e4d9e7df8c39f8de",
+          "score": 0.755953626881981
+        },
+        {
+          "id": "mmqa:text:8538a3bbd4aa666f19971e382073221f",
+          "score": 0.7176974655130092
+        },
+        {
+          "id": "mmqa:text:8ff30ae3205841fecdda4cfc22b785ab",
+          "score": 0.7040109981609645
+        },
+        {
+          "id": "mmqa:text:63d18960aec32c6a4db9e107df682f4c",
+          "score": 0.7022791798472428
+        }
+      ],
+      "id": "mmqa:e9d115431bb3af91b67f8d57b3c8616a",
+      "latency_seconds": 0.4503188999951817,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "Which driver on the Penske Racing team in the 1979 Trenton Twin Indy has also won the greatest number of Indy 500 races?",
+      "relevant_ids": [
+        "mmqa:table:ad67cde92a746755eff3f446c1eeeb4f",
+        "mmqa:text:f11690c52f708d0e43ee6bca273b905f"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:58eb8f467b1936834aee86981b8e2b2c",
+          "score": 0.8073399967838651
+        },
+        {
+          "id": "mmqa:text:81e09e551a5b3e576d8afe0c7bb983e1",
+          "score": 0.6635898588117359
+        },
+        {
+          "id": "mmqa:image:77f30f32c3c2671bf4d6ce637e17c40c",
+          "score": 0.6605951016671767
+        },
+        {
+          "id": "mmqa:text:54ef29146f4485287b761f992fda8df8",
+          "score": 0.6482020673335541
+        },
+        {
+          "id": "mmqa:text:1ebf0c7e987cb21a07fe37c34a75dfa4",
+          "score": 0.6451224032390658
+        }
+      ],
+      "id": "mmqa:ebcd9760479f5a6590141103f01b6f19",
+      "latency_seconds": 0.43900019995635375,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "which player of gaz metan media's featured in the clean sheets statistics of 2016/2017 Liga 1",
+      "relevant_ids": [
+        "mmqa:table:58eb8f467b1936834aee86981b8e2b2c"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:image:60514549a65e823aa7066e4d4556b8b8",
+          "score": 0.7246870843251461
+        },
+        {
+          "id": "mmqa:text:0deb90bb69e7295d5e5f7a28c9bb024b",
+          "score": 0.6628985871598926
+        },
+        {
+          "id": "mmqa:image:68fae9bf693bdbd0a71bb10dd4fcdb70",
+          "score": 0.6617952660353754
+        },
+        {
+          "id": "mmqa:image:06d36890dd0e4d7033dee0eccb45ad89",
+          "score": 0.659931878059205
+        },
+        {
+          "id": "mmqa:text:3d44c56f499aad34902ad20aab6b2173",
+          "score": 0.6530093391406566
+        }
+      ],
+      "id": "mmqa:ee67797fad4a7e1abc07e46bcd485887",
+      "latency_seconds": 0.4548920000088401,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "What kind of structure can be seen on a top right picture of Jyvaskyla?",
+      "relevant_ids": [
+        "mmqa:image:60514549a65e823aa7066e4d4556b8b8"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:76b41f46356abdd616b08a399d5409ae",
+          "score": 0.7882938824253923
+        },
+        {
+          "id": "mmqa:text:257e97a4d2db6ff869820a58e901bb5c",
+          "score": 0.7059662783927835
+        },
+        {
+          "id": "mmqa:text:f7e7547b01310ad4cb8df3a8a5567fe6",
+          "score": 0.6962053598230974
+        },
+        {
+          "id": "mmqa:text:8bebd4f22588ecf6f8892dde1965ea50",
+          "score": 0.6952921635293067
+        },
+        {
+          "id": "mmqa:text:3b36f01c07f963f7c34999fe099f797a",
+          "score": 0.6942998445600391
+        }
+      ],
+      "id": "mmqa:ef97a6ca116a226b8e2e1deaba4b5004",
+      "latency_seconds": 0.46250949997920543,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 0.0,
+        "mrr@5": 0.0,
+        "ndcg@5": 0.0,
+        "recall@5": 0.0
+      },
+      "question": "Which Champion(s), in Yearly results of Catamount Cup, logo has an anchor in it?",
+      "relevant_ids": [
+        "mmqa:image:8c21ecba52650c1889490b9f6116a1fd"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:659dfd3e5c22a64d7597cb50c6fc455e",
+          "score": 0.7927786742041002
+        },
+        {
+          "id": "mmqa:text:a6be2d56c24539cf5d59f1017bbcc756",
+          "score": 0.763369706098104
+        },
+        {
+          "id": "mmqa:text:3c3bd362b908114a7e23470d1e42802f",
+          "score": 0.7270816979158921
+        },
+        {
+          "id": "mmqa:text:3fc774b3d8b3975ed8a472bb0cabf8c2",
+          "score": 0.6979746682656093
+        },
+        {
+          "id": "mmqa:text:cc43f04c98ca75bed0335fb9f1d19813",
+          "score": 0.6797409406415519
+        }
+      ],
+      "id": "mmqa:efbbfb49cc76d6b61ba9772b25509580",
+      "latency_seconds": 0.48319810000248253,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "Which cast member played Kyle Reese and also played Pavel Chekov in three \"Star Trek\" films?",
+      "relevant_ids": [
+        "mmqa:text:659dfd3e5c22a64d7597cb50c6fc455e",
+        "mmqa:text:a6be2d56c24539cf5d59f1017bbcc756"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:table:a1c7a417647a1dcf2656ec5e807a6a50",
+          "score": 0.7872669641609327
+        },
+        {
+          "id": "mmqa:text:7cb86840844fce06d41869748052f8ba",
+          "score": 0.7186008369594595
+        },
+        {
+          "id": "mmqa:image:b0ddd3fefb31b532e1684234757c7c32",
+          "score": 0.7038574089275691
+        },
+        {
+          "id": "mmqa:text:2c7650291bd059191ca6c401141bdd29",
+          "score": 0.6847228491868472
+        },
+        {
+          "id": "mmqa:text:33d8f07a5622008e351851a86156db01",
+          "score": 0.6835390368151749
+        }
+      ],
+      "id": "mmqa:f2c60a572ce83bacbf78cda7dc625b0c",
+      "latency_seconds": 0.45270259998505935,
+      "metrics": {
+        "all_support@5": 0.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.6131471927654584,
+        "recall@5": 0.5
+      },
+      "question": "Does the city with a building that has a dome-shaped roof or Acerra have a larger area in square kilometers among the largest municipalities listed in the metropolitan city of Naples?",
+      "relevant_ids": [
+        "mmqa:image:56877bab310346dba81cf01570ab8141",
+        "mmqa:table:a1c7a417647a1dcf2656ec5e807a6a50"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:5af24afc8a31ee2660c70c2abac8c74b",
+          "score": 0.8226525559682619
+        },
+        {
+          "id": "mmqa:text:2766325bdee5751d27934ab93f1566ef",
+          "score": 0.7614168726491917
+        },
+        {
+          "id": "mmqa:text:4f9c7fa95801639e304c23743e79b6df",
+          "score": 0.6353054731058178
+        },
+        {
+          "id": "mmqa:text:c42dc8e0867a8dde6dd1144236e4da72",
+          "score": 0.6339176892705715
+        },
+        {
+          "id": "mmqa:text:3aab0fab8c885176e529dd3a569a3a0d",
+          "score": 0.6230566729099692
+        }
+      ],
+      "id": "mmqa:f7690416c7600f77f54fc4cc2e471837",
+      "latency_seconds": 0.4979651000467129,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "The Fortune Cookie (alternative UK title: Meet Whiplash Willie) is a 1966 black comedy film starring Jack Lemmon and Walter Matthau in their first on-screen collaboration, It was produced and directed by Billy Wilder, Samuel \"Billy\" Wilder was an Austrian-American filmmaker, screenwriter, producer, artist, and journalist whose career spanned more than how many decades?",
+      "relevant_ids": [
+        "mmqa:text:2766325bdee5751d27934ab93f1566ef",
+        "mmqa:text:5af24afc8a31ee2660c70c2abac8c74b"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:4b65ed13511953285a562c989e476afb",
+          "score": 0.7816982590131422
+        },
+        {
+          "id": "mmqa:table:e88aacc721d137391cf71fdcdf68e91d",
+          "score": 0.7662040833443109
+        },
+        {
+          "id": "mmqa:text:6e619ebf9799fb4916bd71a2aba7010e",
+          "score": 0.702846808136533
+        },
+        {
+          "id": "mmqa:text:3a158dcb82df09ce8d7842fef44c0bb3",
+          "score": 0.6759287868937259
+        },
+        {
+          "id": "mmqa:text:b1330cf83ede48e4907c09b613520460",
+          "score": 0.6751620957328476
+        }
+      ],
+      "id": "mmqa:f9bd0c06771176b2c3285d14d5a09b68",
+      "latency_seconds": 0.5107454000390135,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.5,
+        "ndcg@5": 0.6309297535714575,
+        "recall@5": 1.0
+      },
+      "question": "What role did actor Todd Starks play in the film Arcade?",
+      "relevant_ids": [
+        "mmqa:table:e88aacc721d137391cf71fdcdf68e91d"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:47f9058f8fc982fb0e0efc561c3ffa6d",
+          "score": 0.8100172172330208
+        },
+        {
+          "id": "mmqa:text:7661798792c9dcf13fde8ac503b673c7",
+          "score": 0.7114722574416859
+        },
+        {
+          "id": "mmqa:text:33eacd93ec0fe04796a547eaacfc7380",
+          "score": 0.709706515615506
+        },
+        {
+          "id": "mmqa:text:8ae7dcae905411cedca1826678ab0ef0",
+          "score": 0.6889099782824049
+        },
+        {
+          "id": "mmqa:text:cc7908a8b6394c2b8fc7bd05f2e9bd73",
+          "score": 0.6870707939259252
+        }
+      ],
+      "id": "mmqa:fa387bc480d5ec4098eef8cd9fc33ab7",
+      "latency_seconds": 0.4273070999770425,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "what are the children's names in the cat in the hat",
+      "relevant_ids": [
+        "mmqa:text:47f9058f8fc982fb0e0efc561c3ffa6d"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:6cb81d43e9dfbc3d3e21678d03de6b12",
+          "score": 0.8512894294712088
+        },
+        {
+          "id": "mmqa:text:28fe35a43e9684c76d7cb6857f36283d",
+          "score": 0.7937467874027593
+        },
+        {
+          "id": "mmqa:text:378723686aeb2ec5b5a1a3f64ccec1c0",
+          "score": 0.7738835700996224
+        },
+        {
+          "id": "mmqa:text:81a29745f35fba9e4a23c50c0666e4a7",
+          "score": 0.7717436902677176
+        },
+        {
+          "id": "mmqa:text:f2dc00bd0c16e73f5ad6dcb40a05ed40",
+          "score": 0.7649189167615736
+        }
+      ],
+      "id": "mmqa:fd34f323c804b4ad17f5b09ecd6e619c",
+      "latency_seconds": 0.4206387000158429,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "who wrote the song the first time i ever saw your face",
+      "relevant_ids": [
+        "mmqa:text:6cb81d43e9dfbc3d3e21678d03de6b12"
+      ]
+    },
+    {
+      "candidate_count": 2015,
+      "candidate_source_ids": null,
+      "hits": [
+        {
+          "id": "mmqa:text:fc6ad0de06ddf675e787b4c46b22a7ed",
+          "score": 0.7817381091059278
+        },
+        {
+          "id": "mmqa:text:a4702302d0f4f61065630997661e40a8",
+          "score": 0.7477971989489688
+        },
+        {
+          "id": "mmqa:text:9f6b9f4edaf7c3a4b04a0c8535bf4d82",
+          "score": 0.6990585543597835
+        },
+        {
+          "id": "mmqa:text:395c964c8987c7e0616102aae104e28f",
+          "score": 0.6954781104031874
+        },
+        {
+          "id": "mmqa:text:7b4df1606f495db36b3a4938b2c1a568",
+          "score": 0.6795065300051553
+        }
+      ],
+      "id": "mmqa:fd9030eefd33f09c614afec633faf6b6",
+      "latency_seconds": 0.4360193000175059,
+      "metrics": {
+        "all_support@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "recall@5": 1.0
+      },
+      "question": "The producer of an action-adventure video game developed by Clover Studio and published by Capcom and released in 2008 is now the head producer at what company?",
+      "relevant_ids": [
+        "mmqa:text:a4702302d0f4f61065630997661e40a8",
+        "mmqa:text:fc6ad0de06ddf675e787b4c46b22a7ed"
+      ]
+    }
+  ],
+  "query_count": 100,
+  "query_fingerprint": "e4c8eb70fd4d3d5143426d55dfd367a193d560d59459a9d0b48d0fcad66d2016",
+  "schema_version": 1,
+  "skipped": [],
+  "skipped_count": 0,
+  "split": null,
+  "supplied_source_scoped_queries": 0,
+  "task": "retrieval"
+}

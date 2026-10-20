@@ -1,0 +1,126 @@
+{
+  "question": "Describe the visible scene and the spoken explanation.",
+  "collection": "demo-av",
+  "method": "multimodal",
+  "evidence": [
+    {
+      "id": "av:aa73f3e758b6788bbcab:video:000000",
+      "title": "-jR3C_yA_G0_video.mp4 (0.000-20.000s, video)",
+      "modality": "video",
+      "text": "",
+      "source_id": "file:ae4a7f67ac10b5603cae60e15308aacbfdd5d9c609299a1cd92b72beee58d27e",
+      "score": 0.6627219196314379,
+      "location": {
+        "start_seconds": 0.0,
+        "end_seconds": 20.0
+      },
+      "media_url": "/media?collection=demo-av&id=av%3Aaa73f3e758b6788bbcab%3Avideo%3A000000",
+      "original_url": "/media?collection=demo-av&id=av%3Aaa73f3e758b6788bbcab%3Avideo%3A000000&original=1"
+    },
+    {
+      "id": "av:aa73f3e758b6788bbcab:audio:000000",
+      "title": "-jR3C_yA_G0_video.mp4 (0.000-20.000s, audio)",
+      "modality": "audio",
+      "text": "",
+      "source_id": "file:ae4a7f67ac10b5603cae60e15308aacbfdd5d9c609299a1cd92b72beee58d27e",
+      "location": {
+        "start_seconds": 0.0,
+        "end_seconds": 20.0
+      },
+      "media_url": "/media?collection=demo-av&id=av%3Aaa73f3e758b6788bbcab%3Aaudio%3A000000",
+      "original_url": "/media?collection=demo-av&id=av%3Aaa73f3e758b6788bbcab%3Aaudio%3A000000&original=1"
+    }
+  ],
+  "generated_answer": {
+    "answer": "The visible scene is a picture of a spiral galaxy, with text overlaid on it that reads \"Spiral Arm Density Wave Theory\". The spoken explanation mentions that in the early days, when the concept of spiral arms around galaxies was new, astronomers thought they were made of material that orbited the galaxy's center, similar to stars, dust, and gas.",
+    "answer_items": [
+      "The visible scene is an image of a spiral galaxy with the text \"Spiral Arm Density Wave Theory\" overlaid on it.",
+      "The spoken explanation discusses the early scientific understanding of spiral arms around galaxies, where astronomers initially believed they were made of material orbiting the galaxy's center, much like stars, dust, and gas."
+    ],
+    "citations": [
+      "av:aa73f3e758b6788bbcab:video:000000"
+    ],
+    "abstained": false,
+    "provider": "local",
+    "model": "google/gemma-4-E2B-it-qat-q4_0-gguf",
+    "model_version": "675cff42a74c774d6cb76f76d8eacb49b48c9b93",
+    "cache_hit": true,
+    "usage": {
+      "completion_tokens": 224,
+      "prompt_tokens": 4328,
+      "total_tokens": 4552
+    }
+  },
+  "evidence_plan": {
+    "policy": "whole-segment AV pairing and ranked budget selection v1",
+    "selected_ids": [
+      "av:aa73f3e758b6788bbcab:video:000000",
+      "av:aa73f3e758b6788bbcab:audio:000000"
+    ],
+    "added_ids": [],
+    "omitted": [],
+    "totals": {
+      "audio_seconds": 20.0,
+      "video_seconds": 20.0,
+      "images_and_frames": 20,
+      "media_bytes": 1177405
+    },
+    "limits": {
+      "audio_seconds": 30,
+      "video_seconds": 60,
+      "images_and_frames": 64,
+      "media_bytes": 32000000
+    },
+    "notice": ""
+  },
+  "elapsed_seconds": 16.539780599996448,
+  "verification": {
+    "recorded_at": "2026-10-15T10:34:44.684777+00:00",
+    "protocol": "public unlabelled application demo; not benchmark accuracy",
+    "browser_initial_search_seconds": 145.31,
+    "browser_initial_generation_seconds": 23.14,
+    "timing_note": "Observed single browser run; HTTP snapshot may reuse its generation cache. Not a speed benchmark.",
+    "browser_media_ready": "Both audio/video readyState=4, 20-second durations, no media errors",
+    "browser_audio_playback_seconds_observed": 6.681568,
+    "citation_limit": "The answer describes audio but cites only the silent-video record; IDs are valid, claim support is incomplete.",
+    "media_checks": [
+      {
+        "id": "av:aa73f3e758b6788bbcab:video:000000",
+        "range_status": 206,
+        "bytes": 256,
+        "content_type": "video/mp4"
+      },
+      {
+        "id": "av:aa73f3e758b6788bbcab:audio:000000",
+        "range_status": 206,
+        "bytes": 256,
+        "content_type": "audio/wav"
+      }
+    ],
+    "top1_pairing_check": {
+      "policy": "whole-segment AV pairing and ranked budget selection v1",
+      "selected_ids": [
+        "av:aa73f3e758b6788bbcab:video:000000",
+        "av:aa73f3e758b6788bbcab:audio:000000"
+      ],
+      "added_ids": [
+        "av:aa73f3e758b6788bbcab:audio:000000"
+      ],
+      "omitted": [],
+      "totals": {
+        "audio_seconds": 20.0,
+        "video_seconds": 20.0,
+        "images_and_frames": 20,
+        "media_bytes": 1177405
+      },
+      "limits": {
+        "audio_seconds": 30,
+        "video_seconds": 60,
+        "images_and_frames": 64,
+        "media_bytes": 32000000
+      },
+      "notice": "Answer uses 2 evidence records: 1 matching audio/video records added; 0 records omitted to fit local limits. Sources were not cropped."
+    },
+    "top1_cache_hit": true
+  }
+}

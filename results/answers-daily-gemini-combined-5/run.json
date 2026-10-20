@@ -1,0 +1,23 @@
+{
+  "corpus_fingerprint": "4fdcbb0cd37ff30eeb1d42db8be8ee2f8bfa9325d49c45efd36e151d4922b26b",
+  "implementation": {
+    "embeddings.py": "2714963a9a9bd9d70c2cb133cf076aa4bc3b24514e6737586031337278c8be66",
+    "generation.py": "60a0dd006044f302c1352eb7a2fe3e9caef8b68cdedab69b79549528adb04b72",
+    "nvidia.py": "3cbc9772781c9c4a40dcdb662c6410e4e1f41bf91239a1934439ce1452ed51d6",
+    "rag.py": "2abf34f45c3befd91368106363dc8d465b0cf278fedf4019250873b9be63d04b",
+    "retrieval.py": "4353b55ff8f4e9d8f9c7b6200e173aedbd97a11f90e8954f6bcb02533f7731d7"
+  },
+  "k": 5,
+  "max_output_tokens": 4096,
+  "media_mode": "combined",
+  "method": "supplied-media",
+  "model": "gemini-3.8-flash",
+  "prediction_only": false,
+  "provider": "gemini",
+  "query_fingerprint": "374b66aee8a34fe69412349e8be05f62d74d608f05236c44c2937c57d1a74a25",
+  "questions": 5,
+  "reasoning_budget": null,
+  "retriever_config": {},
+  "schema_version": 2,
+  "split": null
+}

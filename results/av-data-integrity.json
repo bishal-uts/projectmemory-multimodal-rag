@@ -1,0 +1,10 @@
+{
+  "archive": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\raw\\archives\\daily_omni\\Videos.tar",
+  "bytes": 3910892544,
+  "sha256": "5b42ca809bf1bfdc0894509755d5d5b2210994fa2e4c7149e3ce3db310db4afc",
+  "matches_huggingface_linked_etag": true,
+  "repository_revision": "bf5a6ee4c829510b7a14869e3104efeafc330b07",
+  "source_url": "https://huggingface.co/datasets/liarliar/Daily-Omni/resolve/main/Videos.tar",
+  "media_files_extracted": 188,
+  "unique_clips": 94
+}

@@ -1,0 +1,1795 @@
+{
+  "dataset": "daily_omni",
+  "purpose": "Media decoding and modality isolation check, not model quality evaluation",
+  "records": [
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000181,
+      "id": "daily_omni:video:-jR3C_yA_G0",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-jR3C_yA_G0\\-jR3C_yA_G0_video.mp4",
+      "source_id": "-jR3C_yA_G0",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:-jR3C_yA_G0",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-jR3C_yA_G0\\-jR3C_yA_G0_audio.wav",
+      "source_id": "-jR3C_yA_G0",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000181,
+      "id": "daily_omni:video:-l8djVj0FcU",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-l8djVj0FcU\\-l8djVj0FcU_video.mp4",
+      "source_id": "-l8djVj0FcU",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:-l8djVj0FcU",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-l8djVj0FcU\\-l8djVj0FcU_audio.wav",
+      "source_id": "-l8djVj0FcU",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:-spqqACI6UQ",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-spqqACI6UQ\\-spqqACI6UQ_video.mp4",
+      "source_id": "-spqqACI6UQ",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:-spqqACI6UQ",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-spqqACI6UQ\\-spqqACI6UQ_audio.wav",
+      "source_id": "-spqqACI6UQ",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:-uaTK8sa5Ms",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-uaTK8sa5Ms\\-uaTK8sa5Ms_video.mp4",
+      "source_id": "-uaTK8sa5Ms",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:-uaTK8sa5Ms",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-uaTK8sa5Ms\\-uaTK8sa5Ms_audio.wav",
+      "source_id": "-uaTK8sa5Ms",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:-xfgovG6-KU",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-xfgovG6-KU\\-xfgovG6-KU_video.mp4",
+      "source_id": "-xfgovG6-KU",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:-xfgovG6-KU",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-xfgovG6-KU\\-xfgovG6-KU_audio.wav",
+      "source_id": "-xfgovG6-KU",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000363,
+      "id": "daily_omni:video:-yWE13LbFd4",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-yWE13LbFd4\\-yWE13LbFd4_video.mp4",
+      "source_id": "-yWE13LbFd4",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:-yWE13LbFd4",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-yWE13LbFd4\\-yWE13LbFd4_audio.wav",
+      "source_id": "-yWE13LbFd4",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.001179,
+      "id": "daily_omni:video:03IZHwOh2eQ",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\03IZHwOh2eQ\\03IZHwOh2eQ_video.mp4",
+      "source_id": "03IZHwOh2eQ",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:03IZHwOh2eQ",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\03IZHwOh2eQ\\03IZHwOh2eQ_audio.wav",
+      "source_id": "03IZHwOh2eQ",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000181,
+      "id": "daily_omni:video:06b2PxvBoNU",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\06b2PxvBoNU\\06b2PxvBoNU_video.mp4",
+      "source_id": "06b2PxvBoNU",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:06b2PxvBoNU",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\06b2PxvBoNU\\06b2PxvBoNU_audio.wav",
+      "source_id": "06b2PxvBoNU",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03003,
+      "id": "daily_omni:video:0GFtqzOWnWg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0GFtqzOWnWg\\0GFtqzOWnWg_video.mp4",
+      "source_id": "0GFtqzOWnWg",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:0GFtqzOWnWg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0GFtqzOWnWg\\0GFtqzOWnWg_audio.wav",
+      "source_id": "0GFtqzOWnWg",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:0Jbc3Ah4EIc",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0Jbc3Ah4EIc\\0Jbc3Ah4EIc_video.mp4",
+      "source_id": "0Jbc3Ah4EIc",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:0Jbc3Ah4EIc",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0Jbc3Ah4EIc\\0Jbc3Ah4EIc_audio.wav",
+      "source_id": "0Jbc3Ah4EIc",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:0JjgoicpYkU",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0JjgoicpYkU\\0JjgoicpYkU_video.mp4",
+      "source_id": "0JjgoicpYkU",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:0JjgoicpYkU",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0JjgoicpYkU\\0JjgoicpYkU_audio.wav",
+      "source_id": "0JjgoicpYkU",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000181,
+      "id": "daily_omni:video:0bP2MH3LqvI",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0bP2MH3LqvI\\0bP2MH3LqvI_video.mp4",
+      "source_id": "0bP2MH3LqvI",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:0bP2MH3LqvI",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0bP2MH3LqvI\\0bP2MH3LqvI_audio.wav",
+      "source_id": "0bP2MH3LqvI",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:0bRUkLsttto",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0bRUkLsttto\\0bRUkLsttto_video.mp4",
+      "source_id": "0bRUkLsttto",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:0bRUkLsttto",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0bRUkLsttto\\0bRUkLsttto_audio.wav",
+      "source_id": "0bRUkLsttto",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000363,
+      "id": "daily_omni:video:0eJvnKwGThw",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0eJvnKwGThw\\0eJvnKwGThw_video.mp4",
+      "source_id": "0eJvnKwGThw",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:0eJvnKwGThw",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0eJvnKwGThw\\0eJvnKwGThw_audio.wav",
+      "source_id": "0eJvnKwGThw",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000363,
+      "id": "daily_omni:video:2LDriAWltwM",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\2LDriAWltwM\\2LDriAWltwM_video.mp4",
+      "source_id": "2LDriAWltwM",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:2LDriAWltwM",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\2LDriAWltwM\\2LDriAWltwM_audio.wav",
+      "source_id": "2LDriAWltwM",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:2QTiAmvygC4",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\2QTiAmvygC4\\2QTiAmvygC4_video.mp4",
+      "source_id": "2QTiAmvygC4",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:2QTiAmvygC4",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\2QTiAmvygC4\\2QTiAmvygC4_audio.wav",
+      "source_id": "2QTiAmvygC4",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.003174,
+      "id": "daily_omni:video:2t4CkOvERAI",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\2t4CkOvERAI\\2t4CkOvERAI_video.mp4",
+      "source_id": "2t4CkOvERAI",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:2t4CkOvERAI",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\2t4CkOvERAI\\2t4CkOvERAI_audio.wav",
+      "source_id": "2t4CkOvERAI",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.015192,
+      "id": "daily_omni:video:2vSF2Yh6o_k",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\2vSF2Yh6o_k\\2vSF2Yh6o_k_video.mp4",
+      "source_id": "2vSF2Yh6o_k",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:2vSF2Yh6o_k",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\2vSF2Yh6o_k\\2vSF2Yh6o_k_audio.wav",
+      "source_id": "2vSF2Yh6o_k",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:34vzrZ2SlQo",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\34vzrZ2SlQo\\34vzrZ2SlQo_video.mp4",
+      "source_id": "34vzrZ2SlQo",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:34vzrZ2SlQo",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\34vzrZ2SlQo\\34vzrZ2SlQo_audio.wav",
+      "source_id": "34vzrZ2SlQo",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000181,
+      "id": "daily_omni:video:36v-AEu7uAU",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\36v-AEu7uAU\\36v-AEu7uAU_video.mp4",
+      "source_id": "36v-AEu7uAU",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:36v-AEu7uAU",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\36v-AEu7uAU\\36v-AEu7uAU_audio.wav",
+      "source_id": "36v-AEu7uAU",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.008186,
+      "id": "daily_omni:video:3CnwUQZ6q78",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3CnwUQZ6q78\\3CnwUQZ6q78_video.mp4",
+      "source_id": "3CnwUQZ6q78",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:3CnwUQZ6q78",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3CnwUQZ6q78\\3CnwUQZ6q78_audio.wav",
+      "source_id": "3CnwUQZ6q78",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:3E4Zca1p64s",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3E4Zca1p64s\\3E4Zca1p64s_video.mp4",
+      "source_id": "3E4Zca1p64s",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:3E4Zca1p64s",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3E4Zca1p64s\\3E4Zca1p64s_audio.wav",
+      "source_id": "3E4Zca1p64s",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:3EE5WKQMBek",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3EE5WKQMBek\\3EE5WKQMBek_video.mp4",
+      "source_id": "3EE5WKQMBek",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:3EE5WKQMBek",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3EE5WKQMBek\\3EE5WKQMBek_audio.wav",
+      "source_id": "3EE5WKQMBek",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.001179,
+      "id": "daily_omni:video:3IW7578PicA",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3IW7578PicA\\3IW7578PicA_video.mp4",
+      "source_id": "3IW7578PicA",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:3IW7578PicA",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3IW7578PicA\\3IW7578PicA_audio.wav",
+      "source_id": "3IW7578PicA",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000363,
+      "id": "daily_omni:video:3fQxvz4ENDg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3fQxvz4ENDg\\3fQxvz4ENDg_video.mp4",
+      "source_id": "3fQxvz4ENDg",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:3fQxvz4ENDg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3fQxvz4ENDg\\3fQxvz4ENDg_audio.wav",
+      "source_id": "3fQxvz4ENDg",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 9.349433,
+      "id": "daily_omni:video:3gwZdkjpPds",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3gwZdkjpPds\\3gwZdkjpPds_video.mp4",
+      "source_id": "3gwZdkjpPds",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 9.334438,
+      "id": "daily_omni:audio:3gwZdkjpPds",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3gwZdkjpPds\\3gwZdkjpPds_audio.wav",
+      "source_id": "3gwZdkjpPds",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.026693,
+      "id": "daily_omni:video:3m29MQ-qPfg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3m29MQ-qPfg\\3m29MQ-qPfg_video.mp4",
+      "source_id": "3m29MQ-qPfg",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:3m29MQ-qPfg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3m29MQ-qPfg\\3m29MQ-qPfg_audio.wav",
+      "source_id": "3m29MQ-qPfg",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.026693,
+      "id": "daily_omni:video:4H8hcvNeWtg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\4H8hcvNeWtg\\4H8hcvNeWtg_video.mp4",
+      "source_id": "4H8hcvNeWtg",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:4H8hcvNeWtg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\4H8hcvNeWtg\\4H8hcvNeWtg_audio.wav",
+      "source_id": "4H8hcvNeWtg",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:4U5u7OEcHFs",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\4U5u7OEcHFs\\4U5u7OEcHFs_video.mp4",
+      "source_id": "4U5u7OEcHFs",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:4U5u7OEcHFs",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\4U5u7OEcHFs\\4U5u7OEcHFs_audio.wav",
+      "source_id": "4U5u7OEcHFs",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:4e3gNCp9dxY",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\4e3gNCp9dxY\\4e3gNCp9dxY_video.mp4",
+      "source_id": "4e3gNCp9dxY",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:4e3gNCp9dxY",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\4e3gNCp9dxY\\4e3gNCp9dxY_audio.wav",
+      "source_id": "4e3gNCp9dxY",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:540LkURTR7g",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\540LkURTR7g\\540LkURTR7g_video.mp4",
+      "source_id": "540LkURTR7g",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:540LkURTR7g",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\540LkURTR7g\\540LkURTR7g_audio.wav",
+      "source_id": "540LkURTR7g",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000363,
+      "id": "daily_omni:video:55Jas5HrzcQ",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\55Jas5HrzcQ\\55Jas5HrzcQ_video.mp4",
+      "source_id": "55Jas5HrzcQ",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:55Jas5HrzcQ",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\55Jas5HrzcQ\\55Jas5HrzcQ_audio.wav",
+      "source_id": "55Jas5HrzcQ",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:6NVr0cNiHPM",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\6NVr0cNiHPM\\6NVr0cNiHPM_video.mp4",
+      "source_id": "6NVr0cNiHPM",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:6NVr0cNiHPM",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\6NVr0cNiHPM\\6NVr0cNiHPM_audio.wav",
+      "source_id": "6NVr0cNiHPM",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000181,
+      "id": "daily_omni:video:6l8n-VJxqmU",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\6l8n-VJxqmU\\6l8n-VJxqmU_video.mp4",
+      "source_id": "6l8n-VJxqmU",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:6l8n-VJxqmU",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\6l8n-VJxqmU\\6l8n-VJxqmU_audio.wav",
+      "source_id": "6l8n-VJxqmU",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:6vKvjzuICxg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\6vKvjzuICxg\\6vKvjzuICxg_video.mp4",
+      "source_id": "6vKvjzuICxg",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:6vKvjzuICxg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\6vKvjzuICxg\\6vKvjzuICxg_audio.wav",
+      "source_id": "6vKvjzuICxg",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000181,
+      "id": "daily_omni:video:6yDJfe_9naU",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\6yDJfe_9naU\\6yDJfe_9naU_video.mp4",
+      "source_id": "6yDJfe_9naU",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:6yDJfe_9naU",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\6yDJfe_9naU\\6yDJfe_9naU_audio.wav",
+      "source_id": "6yDJfe_9naU",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:7D-gxaie6UI",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\7D-gxaie6UI\\7D-gxaie6UI_video.mp4",
+      "source_id": "7D-gxaie6UI",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:7D-gxaie6UI",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\7D-gxaie6UI\\7D-gxaie6UI_audio.wav",
+      "source_id": "7D-gxaie6UI",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000363,
+      "id": "daily_omni:video:7E6i3E-fsj4",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\7E6i3E-fsj4\\7E6i3E-fsj4_video.mp4",
+      "source_id": "7E6i3E-fsj4",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:7E6i3E-fsj4",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\7E6i3E-fsj4\\7E6i3E-fsj4_audio.wav",
+      "source_id": "7E6i3E-fsj4",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000181,
+      "id": "daily_omni:video:7yY1OWjT4zA",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\7yY1OWjT4zA\\7yY1OWjT4zA_video.mp4",
+      "source_id": "7yY1OWjT4zA",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:7yY1OWjT4zA",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\7yY1OWjT4zA\\7yY1OWjT4zA_audio.wav",
+      "source_id": "7yY1OWjT4zA",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:8TNPeimqOO0",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\8TNPeimqOO0\\8TNPeimqOO0_video.mp4",
+      "source_id": "8TNPeimqOO0",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:8TNPeimqOO0",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\8TNPeimqOO0\\8TNPeimqOO0_audio.wav",
+      "source_id": "8TNPeimqOO0",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000363,
+      "id": "daily_omni:video:8UxGzDeRIJk",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\8UxGzDeRIJk\\8UxGzDeRIJk_video.mp4",
+      "source_id": "8UxGzDeRIJk",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:8UxGzDeRIJk",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\8UxGzDeRIJk\\8UxGzDeRIJk_audio.wav",
+      "source_id": "8UxGzDeRIJk",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000181,
+      "id": "daily_omni:video:9PsvKIvzgUs",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\9PsvKIvzgUs\\9PsvKIvzgUs_video.mp4",
+      "source_id": "9PsvKIvzgUs",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:9PsvKIvzgUs",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\9PsvKIvzgUs\\9PsvKIvzgUs_audio.wav",
+      "source_id": "9PsvKIvzgUs",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000363,
+      "id": "daily_omni:video:9aGgBzToUz4",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\9aGgBzToUz4\\9aGgBzToUz4_video.mp4",
+      "source_id": "9aGgBzToUz4",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:9aGgBzToUz4",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\9aGgBzToUz4\\9aGgBzToUz4_audio.wav",
+      "source_id": "9aGgBzToUz4",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:A9fQPzZ1-hg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\A9fQPzZ1-hg\\A9fQPzZ1-hg_video.mp4",
+      "source_id": "A9fQPzZ1-hg",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:A9fQPzZ1-hg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\A9fQPzZ1-hg\\A9fQPzZ1-hg_audio.wav",
+      "source_id": "A9fQPzZ1-hg",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000181,
+      "id": "daily_omni:video:AFKgWXM1aqM",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\AFKgWXM1aqM\\AFKgWXM1aqM_video.mp4",
+      "source_id": "AFKgWXM1aqM",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:AFKgWXM1aqM",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\AFKgWXM1aqM\\AFKgWXM1aqM_audio.wav",
+      "source_id": "AFKgWXM1aqM",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:AaaTLFxIQ6o",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\AaaTLFxIQ6o\\AaaTLFxIQ6o_video.mp4",
+      "source_id": "AaaTLFxIQ6o",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:AaaTLFxIQ6o",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\AaaTLFxIQ6o\\AaaTLFxIQ6o_audio.wav",
+      "source_id": "AaaTLFxIQ6o",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:BxrolAZXZFg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\BxrolAZXZFg\\BxrolAZXZFg_video.mp4",
+      "source_id": "BxrolAZXZFg",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:BxrolAZXZFg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\BxrolAZXZFg\\BxrolAZXZFg_audio.wav",
+      "source_id": "BxrolAZXZFg",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:C6aeL83z_9Y",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\C6aeL83z_9Y\\C6aeL83z_9Y_video.mp4",
+      "source_id": "C6aeL83z_9Y",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:C6aeL83z_9Y",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\C6aeL83z_9Y\\C6aeL83z_9Y_audio.wav",
+      "source_id": "C6aeL83z_9Y",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:CC9VeHrI3Es",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\CC9VeHrI3Es\\CC9VeHrI3Es_video.mp4",
+      "source_id": "CC9VeHrI3Es",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:CC9VeHrI3Es",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\CC9VeHrI3Es\\CC9VeHrI3Es_audio.wav",
+      "source_id": "CC9VeHrI3Es",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000181,
+      "id": "daily_omni:video:ChbZLHnush8",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\ChbZLHnush8\\ChbZLHnush8_video.mp4",
+      "source_id": "ChbZLHnush8",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:ChbZLHnush8",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\ChbZLHnush8\\ChbZLHnush8_audio.wav",
+      "source_id": "ChbZLHnush8",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000363,
+      "id": "daily_omni:video:CwzjlmBLfrQ",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\CwzjlmBLfrQ\\CwzjlmBLfrQ_video.mp4",
+      "source_id": "CwzjlmBLfrQ",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:CwzjlmBLfrQ",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\CwzjlmBLfrQ\\CwzjlmBLfrQ_audio.wav",
+      "source_id": "CwzjlmBLfrQ",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:EQ-67udZEeg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\EQ-67udZEeg\\EQ-67udZEeg_video.mp4",
+      "source_id": "EQ-67udZEeg",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:EQ-67udZEeg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\EQ-67udZEeg\\EQ-67udZEeg_audio.wav",
+      "source_id": "EQ-67udZEeg",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:G267g0DpCVg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\G267g0DpCVg\\G267g0DpCVg_video.mp4",
+      "source_id": "G267g0DpCVg",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:G267g0DpCVg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\G267g0DpCVg\\G267g0DpCVg_audio.wav",
+      "source_id": "G267g0DpCVg",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:G8ywbM85GVE",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\G8ywbM85GVE\\G8ywbM85GVE_video.mp4",
+      "source_id": "G8ywbM85GVE",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:G8ywbM85GVE",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\G8ywbM85GVE\\G8ywbM85GVE_audio.wav",
+      "source_id": "G8ywbM85GVE",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:GPOv72Awo68",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\GPOv72Awo68\\GPOv72Awo68_video.mp4",
+      "source_id": "GPOv72Awo68",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:GPOv72Awo68",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\GPOv72Awo68\\GPOv72Awo68_audio.wav",
+      "source_id": "GPOv72Awo68",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000363,
+      "id": "daily_omni:video:GQEYGAJIzAM",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\GQEYGAJIzAM\\GQEYGAJIzAM_video.mp4",
+      "source_id": "GQEYGAJIzAM",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:GQEYGAJIzAM",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\GQEYGAJIzAM\\GQEYGAJIzAM_audio.wav",
+      "source_id": "GQEYGAJIzAM",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:Ggv1cJYtW8E",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\Ggv1cJYtW8E\\Ggv1cJYtW8E_video.mp4",
+      "source_id": "Ggv1cJYtW8E",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:Ggv1cJYtW8E",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\Ggv1cJYtW8E\\Ggv1cJYtW8E_audio.wav",
+      "source_id": "Ggv1cJYtW8E",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000363,
+      "id": "daily_omni:video:H6Y2KRfpRVY",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\H6Y2KRfpRVY\\H6Y2KRfpRVY_video.mp4",
+      "source_id": "H6Y2KRfpRVY",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:H6Y2KRfpRVY",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\H6Y2KRfpRVY\\H6Y2KRfpRVY_audio.wav",
+      "source_id": "H6Y2KRfpRVY",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:HIjX8OPuf-w",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\HIjX8OPuf-w\\HIjX8OPuf-w_video.mp4",
+      "source_id": "HIjX8OPuf-w",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:HIjX8OPuf-w",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\HIjX8OPuf-w\\HIjX8OPuf-w_audio.wav",
+      "source_id": "HIjX8OPuf-w",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:HOa6A7GVvEc",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\HOa6A7GVvEc\\HOa6A7GVvEc_video.mp4",
+      "source_id": "HOa6A7GVvEc",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:HOa6A7GVvEc",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\HOa6A7GVvEc\\HOa6A7GVvEc_audio.wav",
+      "source_id": "HOa6A7GVvEc",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000363,
+      "id": "daily_omni:video:HnS87Tw4amM",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\HnS87Tw4amM\\HnS87Tw4amM_video.mp4",
+      "source_id": "HnS87Tw4amM",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:HnS87Tw4amM",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\HnS87Tw4amM\\HnS87Tw4amM_audio.wav",
+      "source_id": "HnS87Tw4amM",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:IWL9AJhQCtQ",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\IWL9AJhQCtQ\\IWL9AJhQCtQ_video.mp4",
+      "source_id": "IWL9AJhQCtQ",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:IWL9AJhQCtQ",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\IWL9AJhQCtQ\\IWL9AJhQCtQ_audio.wav",
+      "source_id": "IWL9AJhQCtQ",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:IzQ2siryQrM",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\IzQ2siryQrM\\IzQ2siryQrM_video.mp4",
+      "source_id": "IzQ2siryQrM",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:IzQ2siryQrM",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\IzQ2siryQrM\\IzQ2siryQrM_audio.wav",
+      "source_id": "IzQ2siryQrM",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:JwxALozuKfY",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\JwxALozuKfY\\JwxALozuKfY_video.mp4",
+      "source_id": "JwxALozuKfY",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:JwxALozuKfY",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\JwxALozuKfY\\JwxALozuKfY_audio.wav",
+      "source_id": "JwxALozuKfY",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000363,
+      "id": "daily_omni:video:KD1yxRyFAZQ",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\KD1yxRyFAZQ\\KD1yxRyFAZQ_video.mp4",
+      "source_id": "KD1yxRyFAZQ",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:KD1yxRyFAZQ",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\KD1yxRyFAZQ\\KD1yxRyFAZQ_audio.wav",
+      "source_id": "KD1yxRyFAZQ",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:MQEcUPeAdFs",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\MQEcUPeAdFs\\MQEcUPeAdFs_video.mp4",
+      "source_id": "MQEcUPeAdFs",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:MQEcUPeAdFs",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\MQEcUPeAdFs\\MQEcUPeAdFs_audio.wav",
+      "source_id": "MQEcUPeAdFs",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 29.164263,
+      "id": "daily_omni:video:MeSA4VUjGpE",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\MeSA4VUjGpE\\MeSA4VUjGpE_video.mp4",
+      "source_id": "MeSA4VUjGpE",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 29.16425,
+      "id": "daily_omni:audio:MeSA4VUjGpE",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\MeSA4VUjGpE\\MeSA4VUjGpE_audio.wav",
+      "source_id": "MeSA4VUjGpE",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000363,
+      "id": "daily_omni:video:N62mrplIygc",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\N62mrplIygc\\N62mrplIygc_video.mp4",
+      "source_id": "N62mrplIygc",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:N62mrplIygc",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\N62mrplIygc\\N62mrplIygc_audio.wav",
+      "source_id": "N62mrplIygc",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:NAahAX62MZ0",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\NAahAX62MZ0\\NAahAX62MZ0_video.mp4",
+      "source_id": "NAahAX62MZ0",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:NAahAX62MZ0",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\NAahAX62MZ0\\NAahAX62MZ0_audio.wav",
+      "source_id": "NAahAX62MZ0",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000363,
+      "id": "daily_omni:video:PB06auioy0Y",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\PB06auioy0Y\\PB06auioy0Y_video.mp4",
+      "source_id": "PB06auioy0Y",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:PB06auioy0Y",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\PB06auioy0Y\\PB06auioy0Y_audio.wav",
+      "source_id": "PB06auioy0Y",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000363,
+      "id": "daily_omni:video:PHe0bXAIuk0",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\PHe0bXAIuk0\\PHe0bXAIuk0_video.mp4",
+      "source_id": "PHe0bXAIuk0",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:PHe0bXAIuk0",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\PHe0bXAIuk0\\PHe0bXAIuk0_audio.wav",
+      "source_id": "PHe0bXAIuk0",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:PSyedQl9IiQ",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\PSyedQl9IiQ\\PSyedQl9IiQ_video.mp4",
+      "source_id": "PSyedQl9IiQ",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:PSyedQl9IiQ",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\PSyedQl9IiQ\\PSyedQl9IiQ_audio.wav",
+      "source_id": "PSyedQl9IiQ",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000363,
+      "id": "daily_omni:video:PYqmI0Hiaho",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\PYqmI0Hiaho\\PYqmI0Hiaho_video.mp4",
+      "source_id": "PYqmI0Hiaho",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:PYqmI0Hiaho",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\PYqmI0Hiaho\\PYqmI0Hiaho_audio.wav",
+      "source_id": "PYqmI0Hiaho",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:QFNwukuWJ4I",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\QFNwukuWJ4I\\QFNwukuWJ4I_video.mp4",
+      "source_id": "QFNwukuWJ4I",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:QFNwukuWJ4I",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\QFNwukuWJ4I\\QFNwukuWJ4I_audio.wav",
+      "source_id": "QFNwukuWJ4I",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:QnGwAUTM1fY",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\QnGwAUTM1fY\\QnGwAUTM1fY_video.mp4",
+      "source_id": "QnGwAUTM1fY",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:QnGwAUTM1fY",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\QnGwAUTM1fY\\QnGwAUTM1fY_audio.wav",
+      "source_id": "QnGwAUTM1fY",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:SB4NLADmT_k",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\SB4NLADmT_k\\SB4NLADmT_k_video.mp4",
+      "source_id": "SB4NLADmT_k",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:SB4NLADmT_k",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\SB4NLADmT_k\\SB4NLADmT_k_audio.wav",
+      "source_id": "SB4NLADmT_k",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:SlFS0VJ20tU",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\SlFS0VJ20tU\\SlFS0VJ20tU_video.mp4",
+      "source_id": "SlFS0VJ20tU",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:SlFS0VJ20tU",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\SlFS0VJ20tU\\SlFS0VJ20tU_audio.wav",
+      "source_id": "SlFS0VJ20tU",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:TPS22HRRY1k",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\TPS22HRRY1k\\TPS22HRRY1k_video.mp4",
+      "source_id": "TPS22HRRY1k",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:TPS22HRRY1k",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\TPS22HRRY1k\\TPS22HRRY1k_audio.wav",
+      "source_id": "TPS22HRRY1k",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000363,
+      "id": "daily_omni:video:UGMDV82m3Ro",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\UGMDV82m3Ro\\UGMDV82m3Ro_video.mp4",
+      "source_id": "UGMDV82m3Ro",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:UGMDV82m3Ro",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\UGMDV82m3Ro\\UGMDV82m3Ro_audio.wav",
+      "source_id": "UGMDV82m3Ro",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.026693,
+      "id": "daily_omni:video:VFntoBRGF1A",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\VFntoBRGF1A\\VFntoBRGF1A_video.mp4",
+      "source_id": "VFntoBRGF1A",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:VFntoBRGF1A",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\VFntoBRGF1A\\VFntoBRGF1A_audio.wav",
+      "source_id": "VFntoBRGF1A",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:Z0JDTBGh4D8",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\Z0JDTBGh4D8\\Z0JDTBGh4D8_video.mp4",
+      "source_id": "Z0JDTBGh4D8",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:Z0JDTBGh4D8",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\Z0JDTBGh4D8\\Z0JDTBGh4D8_audio.wav",
+      "source_id": "Z0JDTBGh4D8",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000181,
+      "id": "daily_omni:video:_t2geYpykFo",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\_t2geYpykFo\\_t2geYpykFo_video.mp4",
+      "source_id": "_t2geYpykFo",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:_t2geYpykFo",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\_t2geYpykFo\\_t2geYpykFo_audio.wav",
+      "source_id": "_t2geYpykFo",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:cFkYpIKWH5A",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\cFkYpIKWH5A\\cFkYpIKWH5A_video.mp4",
+      "source_id": "cFkYpIKWH5A",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:cFkYpIKWH5A",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\cFkYpIKWH5A\\cFkYpIKWH5A_audio.wav",
+      "source_id": "cFkYpIKWH5A",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:d6b4OmUFt7I",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\d6b4OmUFt7I\\d6b4OmUFt7I_video.mp4",
+      "source_id": "d6b4OmUFt7I",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:d6b4OmUFt7I",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\d6b4OmUFt7I\\d6b4OmUFt7I_audio.wav",
+      "source_id": "d6b4OmUFt7I",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.016,
+      "id": "daily_omni:video:eLPe7xp0jRw",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\eLPe7xp0jRw\\eLPe7xp0jRw_video.mp4",
+      "source_id": "eLPe7xp0jRw",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.016,
+      "id": "daily_omni:audio:eLPe7xp0jRw",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\eLPe7xp0jRw\\eLPe7xp0jRw_audio.wav",
+      "source_id": "eLPe7xp0jRw",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:h7ljgWAgb0E",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\h7ljgWAgb0E\\h7ljgWAgb0E_video.mp4",
+      "source_id": "h7ljgWAgb0E",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:h7ljgWAgb0E",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\h7ljgWAgb0E\\h7ljgWAgb0E_audio.wav",
+      "source_id": "h7ljgWAgb0E",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000181,
+      "id": "daily_omni:video:h_0DNygeF8A",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\h_0DNygeF8A\\h_0DNygeF8A_video.mp4",
+      "source_id": "h_0DNygeF8A",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:h_0DNygeF8A",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\h_0DNygeF8A\\h_0DNygeF8A_audio.wav",
+      "source_id": "h_0DNygeF8A",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:jsCsIW8zFvQ",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\jsCsIW8zFvQ\\jsCsIW8zFvQ_video.mp4",
+      "source_id": "jsCsIW8zFvQ",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:jsCsIW8zFvQ",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\jsCsIW8zFvQ\\jsCsIW8zFvQ_audio.wav",
+      "source_id": "jsCsIW8zFvQ",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:nDFO_EDadEg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\nDFO_EDadEg\\nDFO_EDadEg_video.mp4",
+      "source_id": "nDFO_EDadEg",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:nDFO_EDadEg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\nDFO_EDadEg\\nDFO_EDadEg_audio.wav",
+      "source_id": "nDFO_EDadEg",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:nbsGrFj-Z7o",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\nbsGrFj-Z7o\\nbsGrFj-Z7o_video.mp4",
+      "source_id": "nbsGrFj-Z7o",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:nbsGrFj-Z7o",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\nbsGrFj-Z7o\\nbsGrFj-Z7o_audio.wav",
+      "source_id": "nbsGrFj-Z7o",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:nbuHTaMV8ok",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\nbuHTaMV8ok\\nbuHTaMV8ok_video.mp4",
+      "source_id": "nbuHTaMV8ok",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:nbuHTaMV8ok",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\nbuHTaMV8ok\\nbuHTaMV8ok_audio.wav",
+      "source_id": "nbuHTaMV8ok",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000181,
+      "id": "daily_omni:video:pUqmv-KY0Q4",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\pUqmv-KY0Q4\\pUqmv-KY0Q4_video.mp4",
+      "source_id": "pUqmv-KY0Q4",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:pUqmv-KY0Q4",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\pUqmv-KY0Q4\\pUqmv-KY0Q4_audio.wav",
+      "source_id": "pUqmv-KY0Q4",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03003,
+      "id": "daily_omni:video:u2gwhTt-B5M",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\u2gwhTt-B5M\\u2gwhTt-B5M_video.mp4",
+      "source_id": "u2gwhTt-B5M",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:u2gwhTt-B5M",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\u2gwhTt-B5M\\u2gwhTt-B5M_audio.wav",
+      "source_id": "u2gwhTt-B5M",
+      "video_stream_count": 0
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.03003,
+      "id": "daily_omni:video:vAvLt3QI904",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\vAvLt3QI904\\vAvLt3QI904_video.mp4",
+      "source_id": "vAvLt3QI904",
+      "video_stream_count": 1
+    },
+    {
+      "audio_stream_count": 1,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:vAvLt3QI904",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\vAvLt3QI904\\vAvLt3QI904_audio.wav",
+      "source_id": "vAvLt3QI904",
+      "video_stream_count": 0
+    }
+  ],
+  "records_probed": 188,
+  "videos_with_embedded_audio": [
+    "daily_omni:video:-jR3C_yA_G0",
+    "daily_omni:video:-l8djVj0FcU",
+    "daily_omni:video:-spqqACI6UQ",
+    "daily_omni:video:-uaTK8sa5Ms",
+    "daily_omni:video:-xfgovG6-KU",
+    "daily_omni:video:-yWE13LbFd4",
+    "daily_omni:video:03IZHwOh2eQ",
+    "daily_omni:video:06b2PxvBoNU",
+    "daily_omni:video:0GFtqzOWnWg",
+    "daily_omni:video:0Jbc3Ah4EIc",
+    "daily_omni:video:0JjgoicpYkU",
+    "daily_omni:video:0bP2MH3LqvI",
+    "daily_omni:video:0bRUkLsttto",
+    "daily_omni:video:0eJvnKwGThw",
+    "daily_omni:video:2LDriAWltwM",
+    "daily_omni:video:2QTiAmvygC4",
+    "daily_omni:video:2t4CkOvERAI",
+    "daily_omni:video:2vSF2Yh6o_k",
+    "daily_omni:video:34vzrZ2SlQo",
+    "daily_omni:video:36v-AEu7uAU",
+    "daily_omni:video:3CnwUQZ6q78",
+    "daily_omni:video:3E4Zca1p64s",
+    "daily_omni:video:3EE5WKQMBek",
+    "daily_omni:video:3IW7578PicA",
+    "daily_omni:video:3fQxvz4ENDg",
+    "daily_omni:video:3gwZdkjpPds",
+    "daily_omni:video:3m29MQ-qPfg",
+    "daily_omni:video:4H8hcvNeWtg",
+    "daily_omni:video:4U5u7OEcHFs",
+    "daily_omni:video:4e3gNCp9dxY",
+    "daily_omni:video:540LkURTR7g",
+    "daily_omni:video:55Jas5HrzcQ",
+    "daily_omni:video:6NVr0cNiHPM",
+    "daily_omni:video:6l8n-VJxqmU",
+    "daily_omni:video:6vKvjzuICxg",
+    "daily_omni:video:6yDJfe_9naU",
+    "daily_omni:video:7D-gxaie6UI",
+    "daily_omni:video:7E6i3E-fsj4",
+    "daily_omni:video:7yY1OWjT4zA",
+    "daily_omni:video:8TNPeimqOO0",
+    "daily_omni:video:8UxGzDeRIJk",
+    "daily_omni:video:9PsvKIvzgUs",
+    "daily_omni:video:9aGgBzToUz4",
+    "daily_omni:video:A9fQPzZ1-hg",
+    "daily_omni:video:AFKgWXM1aqM",
+    "daily_omni:video:AaaTLFxIQ6o",
+    "daily_omni:video:BxrolAZXZFg",
+    "daily_omni:video:C6aeL83z_9Y",
+    "daily_omni:video:CC9VeHrI3Es",
+    "daily_omni:video:ChbZLHnush8",
+    "daily_omni:video:CwzjlmBLfrQ",
+    "daily_omni:video:EQ-67udZEeg",
+    "daily_omni:video:G267g0DpCVg",
+    "daily_omni:video:G8ywbM85GVE",
+    "daily_omni:video:GPOv72Awo68",
+    "daily_omni:video:GQEYGAJIzAM",
+    "daily_omni:video:Ggv1cJYtW8E",
+    "daily_omni:video:H6Y2KRfpRVY",
+    "daily_omni:video:HIjX8OPuf-w",
+    "daily_omni:video:HOa6A7GVvEc",
+    "daily_omni:video:HnS87Tw4amM",
+    "daily_omni:video:IWL9AJhQCtQ",
+    "daily_omni:video:IzQ2siryQrM",
+    "daily_omni:video:JwxALozuKfY",
+    "daily_omni:video:KD1yxRyFAZQ",
+    "daily_omni:video:MQEcUPeAdFs",
+    "daily_omni:video:MeSA4VUjGpE",
+    "daily_omni:video:N62mrplIygc",
+    "daily_omni:video:NAahAX62MZ0",
+    "daily_omni:video:PB06auioy0Y",
+    "daily_omni:video:PHe0bXAIuk0",
+    "daily_omni:video:PSyedQl9IiQ",
+    "daily_omni:video:PYqmI0Hiaho",
+    "daily_omni:video:QFNwukuWJ4I",
+    "daily_omni:video:QnGwAUTM1fY",
+    "daily_omni:video:SB4NLADmT_k",
+    "daily_omni:video:SlFS0VJ20tU",
+    "daily_omni:video:TPS22HRRY1k",
+    "daily_omni:video:UGMDV82m3Ro",
+    "daily_omni:video:VFntoBRGF1A",
+    "daily_omni:video:Z0JDTBGh4D8",
+    "daily_omni:video:_t2geYpykFo",
+    "daily_omni:video:cFkYpIKWH5A",
+    "daily_omni:video:d6b4OmUFt7I",
+    "daily_omni:video:eLPe7xp0jRw",
+    "daily_omni:video:h7ljgWAgb0E",
+    "daily_omni:video:h_0DNygeF8A",
+    "daily_omni:video:jsCsIW8zFvQ",
+    "daily_omni:video:nDFO_EDadEg",
+    "daily_omni:video:nbsGrFj-Z7o",
+    "daily_omni:video:nbuHTaMV8ok",
+    "daily_omni:video:pUqmv-KY0Q4",
+    "daily_omni:video:u2gwhTt-B5M",
+    "daily_omni:video:vAvLt3QI904"
+  ]
+}

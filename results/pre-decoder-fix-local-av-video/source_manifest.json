@@ -1,0 +1,4108 @@
+{
+  "audio_normalizations": [
+    {
+      "channels": 2,
+      "compression": "NONE",
+      "id": "daily_omni:audio:-jR3C_yA_G0",
+      "normalized_duration_seconds": 30.0,
+      "operation": "retain unchanged PCM prefix; remove terminal frames only",
+      "original_duration_seconds": 30.0001875,
+      "original_frames": 480003,
+      "output": {
+        "bytes": 1920044,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni-local-normalized\\media\\d069248ea6254377d2ef_30s.wav",
+        "sha256": "001bd62da1fa3d18d4fd286a444aa57b9204b5bec1c593582829fc2466b9392f"
+      },
+      "removed_duration_seconds": 0.0001875,
+      "removed_frames": 3,
+      "removed_samples_all_channels": 6,
+      "removed_samples_per_channel": 3,
+      "retained_frames": 480000,
+      "sample_rate": 16000,
+      "sample_width_bytes": 2,
+      "source": {
+        "bytes": 1920090,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-jR3C_yA_G0\\-jR3C_yA_G0_audio.wav",
+        "sha256": "d069248ea6254377d2efd34fbf33fb2057284e01c2cdda0685c235c3afa9f841"
+      }
+    },
+    {
+      "channels": 2,
+      "compression": "NONE",
+      "id": "daily_omni:audio:-spqqACI6UQ",
+      "normalized_duration_seconds": 30.0,
+      "operation": "retain unchanged PCM prefix; remove terminal frames only",
+      "original_duration_seconds": 30.0001875,
+      "original_frames": 480003,
+      "output": {
+        "bytes": 1920044,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni-local-normalized\\media\\d078e8424d1dfb9a17e8_30s.wav",
+        "sha256": "6a86e3bd12989e3b75c6a1a0473dbe6fb45956a4f3afca4fb6f178ee7ee9247a"
+      },
+      "removed_duration_seconds": 0.0001875,
+      "removed_frames": 3,
+      "removed_samples_all_channels": 6,
+      "removed_samples_per_channel": 3,
+      "retained_frames": 480000,
+      "sample_rate": 16000,
+      "sample_width_bytes": 2,
+      "source": {
+        "bytes": 1920090,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-spqqACI6UQ\\-spqqACI6UQ_audio.wav",
+        "sha256": "d078e8424d1dfb9a17e86fd7b2faa96452229fb05388a02c534d74e211666175"
+      }
+    },
+    {
+      "channels": 2,
+      "compression": "NONE",
+      "id": "daily_omni:audio:0GFtqzOWnWg",
+      "normalized_duration_seconds": 30.0,
+      "operation": "retain unchanged PCM prefix; remove terminal frames only",
+      "original_duration_seconds": 30.0001875,
+      "original_frames": 480003,
+      "output": {
+        "bytes": 1920044,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni-local-normalized\\media\\6e112024d1cbcaccd729_30s.wav",
+        "sha256": "fb6df25a243fe8e5bca8f39b28acbd2a17988f1a53ac12ee8be907df00166abc"
+      },
+      "removed_duration_seconds": 0.0001875,
+      "removed_frames": 3,
+      "removed_samples_all_channels": 6,
+      "removed_samples_per_channel": 3,
+      "retained_frames": 480000,
+      "sample_rate": 16000,
+      "sample_width_bytes": 2,
+      "source": {
+        "bytes": 1920090,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0GFtqzOWnWg\\0GFtqzOWnWg_audio.wav",
+        "sha256": "6e112024d1cbcaccd729c3ac89d7028bc51b8f246c10fb8cdd1a3f55ca42f6ae"
+      }
+    },
+    {
+      "channels": 2,
+      "compression": "NONE",
+      "id": "daily_omni:audio:0bP2MH3LqvI",
+      "normalized_duration_seconds": 30.0,
+      "operation": "retain unchanged PCM prefix; remove terminal frames only",
+      "original_duration_seconds": 30.0001875,
+      "original_frames": 480003,
+      "output": {
+        "bytes": 1920044,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni-local-normalized\\media\\61c5b6d35426074c6fed_30s.wav",
+        "sha256": "f8406c82560df2e0dbc55f2bda0d6e1276548a3042720f89d1e7dd0aa67ed722"
+      },
+      "removed_duration_seconds": 0.0001875,
+      "removed_frames": 3,
+      "removed_samples_all_channels": 6,
+      "removed_samples_per_channel": 3,
+      "retained_frames": 480000,
+      "sample_rate": 16000,
+      "sample_width_bytes": 2,
+      "source": {
+        "bytes": 1920090,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0bP2MH3LqvI\\0bP2MH3LqvI_audio.wav",
+        "sha256": "61c5b6d35426074c6fed491c89a80a6bf6bf7425aedb070e93709137a9c0cb3c"
+      }
+    },
+    {
+      "channels": 2,
+      "compression": "NONE",
+      "id": "daily_omni:audio:2t4CkOvERAI",
+      "normalized_duration_seconds": 30.0,
+      "operation": "retain unchanged PCM prefix; remove terminal frames only",
+      "original_duration_seconds": 30.0001875,
+      "original_frames": 480003,
+      "output": {
+        "bytes": 1920044,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni-local-normalized\\media\\f90b4e6375b204871252_30s.wav",
+        "sha256": "f9f0d737f86ed6db08b1707241c879a31575c90831666669d0baf9ef5ace96d5"
+      },
+      "removed_duration_seconds": 0.0001875,
+      "removed_frames": 3,
+      "removed_samples_all_channels": 6,
+      "removed_samples_per_channel": 3,
+      "retained_frames": 480000,
+      "sample_rate": 16000,
+      "sample_width_bytes": 2,
+      "source": {
+        "bytes": 1920090,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\2t4CkOvERAI\\2t4CkOvERAI_audio.wav",
+        "sha256": "f90b4e6375b2048712528311cf4581a0c380db24c999865cd74d5ceda00af7a2"
+      }
+    },
+    {
+      "channels": 2,
+      "compression": "NONE",
+      "id": "daily_omni:audio:2vSF2Yh6o_k",
+      "normalized_duration_seconds": 30.0,
+      "operation": "retain unchanged PCM prefix; remove terminal frames only",
+      "original_duration_seconds": 30.0001875,
+      "original_frames": 480003,
+      "output": {
+        "bytes": 1920044,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni-local-normalized\\media\\2540b65455b8f0bdadb1_30s.wav",
+        "sha256": "8bf602428bd7c455e140c7bf272ec013c50ddaa7e51a770c4fdc7f05da1572dd"
+      },
+      "removed_duration_seconds": 0.0001875,
+      "removed_frames": 3,
+      "removed_samples_all_channels": 6,
+      "removed_samples_per_channel": 3,
+      "retained_frames": 480000,
+      "sample_rate": 16000,
+      "sample_width_bytes": 2,
+      "source": {
+        "bytes": 1920090,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\2vSF2Yh6o_k\\2vSF2Yh6o_k_audio.wav",
+        "sha256": "2540b65455b8f0bdadb1b196d1531ce75316ab2804ea62bfd26bb1860f083667"
+      }
+    },
+    {
+      "channels": 2,
+      "compression": "NONE",
+      "id": "daily_omni:audio:3EE5WKQMBek",
+      "normalized_duration_seconds": 30.0,
+      "operation": "retain unchanged PCM prefix; remove terminal frames only",
+      "original_duration_seconds": 30.0001875,
+      "original_frames": 480003,
+      "output": {
+        "bytes": 1920044,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni-local-normalized\\media\\01ebb11b6de8b5fe75bb_30s.wav",
+        "sha256": "90b751d5cda212ae2ac0e581894599b14cd55d528614930cea87ee74a8c85257"
+      },
+      "removed_duration_seconds": 0.0001875,
+      "removed_frames": 3,
+      "removed_samples_all_channels": 6,
+      "removed_samples_per_channel": 3,
+      "retained_frames": 480000,
+      "sample_rate": 16000,
+      "sample_width_bytes": 2,
+      "source": {
+        "bytes": 1920090,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3EE5WKQMBek\\3EE5WKQMBek_audio.wav",
+        "sha256": "01ebb11b6de8b5fe75bb217a7162f0cfc8d65af9e407522187e2ad4957826b20"
+      }
+    },
+    {
+      "channels": 2,
+      "compression": "NONE",
+      "id": "daily_omni:audio:4e3gNCp9dxY",
+      "normalized_duration_seconds": 30.0,
+      "operation": "retain unchanged PCM prefix; remove terminal frames only",
+      "original_duration_seconds": 30.0001875,
+      "original_frames": 480003,
+      "output": {
+        "bytes": 1920044,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni-local-normalized\\media\\36e4f3a6d78c61c2a921_30s.wav",
+        "sha256": "ab96a836ebfeee6bd37b2e94ad12cd85058969594e213921a1c13470b846194e"
+      },
+      "removed_duration_seconds": 0.0001875,
+      "removed_frames": 3,
+      "removed_samples_all_channels": 6,
+      "removed_samples_per_channel": 3,
+      "retained_frames": 480000,
+      "sample_rate": 16000,
+      "sample_width_bytes": 2,
+      "source": {
+        "bytes": 1920090,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\4e3gNCp9dxY\\4e3gNCp9dxY_audio.wav",
+        "sha256": "36e4f3a6d78c61c2a9216bc14567f7ce8aae8a119c6e7b7ccb0b7ea231b561ba"
+      }
+    },
+    {
+      "channels": 2,
+      "compression": "NONE",
+      "id": "daily_omni:audio:7yY1OWjT4zA",
+      "normalized_duration_seconds": 30.0,
+      "operation": "retain unchanged PCM prefix; remove terminal frames only",
+      "original_duration_seconds": 30.0001875,
+      "original_frames": 480003,
+      "output": {
+        "bytes": 1920044,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni-local-normalized\\media\\498f6da44304968895b8_30s.wav",
+        "sha256": "b6b8153d43c378d133fdf3845908b5eb9e145a058e4b24250285fd4d56bcb8e5"
+      },
+      "removed_duration_seconds": 0.0001875,
+      "removed_frames": 3,
+      "removed_samples_all_channels": 6,
+      "removed_samples_per_channel": 3,
+      "retained_frames": 480000,
+      "sample_rate": 16000,
+      "sample_width_bytes": 2,
+      "source": {
+        "bytes": 1920090,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\7yY1OWjT4zA\\7yY1OWjT4zA_audio.wav",
+        "sha256": "498f6da44304968895b87f02fe96ffda5aaf2de9b6f31ec0f274551aa685387f"
+      }
+    },
+    {
+      "channels": 2,
+      "compression": "NONE",
+      "id": "daily_omni:audio:AFKgWXM1aqM",
+      "normalized_duration_seconds": 30.0,
+      "operation": "retain unchanged PCM prefix; remove terminal frames only",
+      "original_duration_seconds": 30.0001875,
+      "original_frames": 480003,
+      "output": {
+        "bytes": 1920044,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni-local-normalized\\media\\57fbbe7bfa4c4d369d9c_30s.wav",
+        "sha256": "5667daa8aeb298f9a841e81d3b3c4c6775dff18a096c4a175e22346818c75ee4"
+      },
+      "removed_duration_seconds": 0.0001875,
+      "removed_frames": 3,
+      "removed_samples_all_channels": 6,
+      "removed_samples_per_channel": 3,
+      "retained_frames": 480000,
+      "sample_rate": 16000,
+      "sample_width_bytes": 2,
+      "source": {
+        "bytes": 1920090,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\AFKgWXM1aqM\\AFKgWXM1aqM_audio.wav",
+        "sha256": "57fbbe7bfa4c4d369d9cd15ae42c1ed6d8c1dee1e6404c48e7bce8d45306ba15"
+      }
+    },
+    {
+      "channels": 2,
+      "compression": "NONE",
+      "id": "daily_omni:audio:Ggv1cJYtW8E",
+      "normalized_duration_seconds": 30.0,
+      "operation": "retain unchanged PCM prefix; remove terminal frames only",
+      "original_duration_seconds": 30.0001875,
+      "original_frames": 480003,
+      "output": {
+        "bytes": 1920044,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni-local-normalized\\media\\4a164a8d8973b9233859_30s.wav",
+        "sha256": "1baea236f2ece24b552b9bef2b36e5043699153fdf3e47aa51dbe5fb0b90eac9"
+      },
+      "removed_duration_seconds": 0.0001875,
+      "removed_frames": 3,
+      "removed_samples_all_channels": 6,
+      "removed_samples_per_channel": 3,
+      "retained_frames": 480000,
+      "sample_rate": 16000,
+      "sample_width_bytes": 2,
+      "source": {
+        "bytes": 1920090,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\Ggv1cJYtW8E\\Ggv1cJYtW8E_audio.wav",
+        "sha256": "4a164a8d8973b92338594808931f3e2ad031adf73a8c4fe857349f728d2f30a4"
+      }
+    },
+    {
+      "channels": 2,
+      "compression": "NONE",
+      "id": "daily_omni:audio:IWL9AJhQCtQ",
+      "normalized_duration_seconds": 30.0,
+      "operation": "retain unchanged PCM prefix; remove terminal frames only",
+      "original_duration_seconds": 30.0001875,
+      "original_frames": 480003,
+      "output": {
+        "bytes": 1920044,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni-local-normalized\\media\\b32767b60026b2ec9b1c_30s.wav",
+        "sha256": "9425bfe97c6079129e93a1a3f64d7749b451808a574081bdcf5af6d88888df5f"
+      },
+      "removed_duration_seconds": 0.0001875,
+      "removed_frames": 3,
+      "removed_samples_all_channels": 6,
+      "removed_samples_per_channel": 3,
+      "retained_frames": 480000,
+      "sample_rate": 16000,
+      "sample_width_bytes": 2,
+      "source": {
+        "bytes": 1920090,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\IWL9AJhQCtQ\\IWL9AJhQCtQ_audio.wav",
+        "sha256": "b32767b60026b2ec9b1c599b64fff84c27e0c7e98812e73e96a0f69f5d5dd528"
+      }
+    },
+    {
+      "channels": 2,
+      "compression": "NONE",
+      "id": "daily_omni:audio:QFNwukuWJ4I",
+      "normalized_duration_seconds": 30.0,
+      "operation": "retain unchanged PCM prefix; remove terminal frames only",
+      "original_duration_seconds": 30.0001875,
+      "original_frames": 480003,
+      "output": {
+        "bytes": 1920044,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni-local-normalized\\media\\068ac921a536e2cc3b8a_30s.wav",
+        "sha256": "92709ece73e159cd8a9c58b30cb879575e111e24849c02149bc02fae6e5ae796"
+      },
+      "removed_duration_seconds": 0.0001875,
+      "removed_frames": 3,
+      "removed_samples_all_channels": 6,
+      "removed_samples_per_channel": 3,
+      "retained_frames": 480000,
+      "sample_rate": 16000,
+      "sample_width_bytes": 2,
+      "source": {
+        "bytes": 1920090,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\QFNwukuWJ4I\\QFNwukuWJ4I_audio.wav",
+        "sha256": "068ac921a536e2cc3b8a8f99df2c206e1f381daacaa39c02294148a6af83296b"
+      }
+    },
+    {
+      "channels": 2,
+      "compression": "NONE",
+      "id": "daily_omni:audio:Z0JDTBGh4D8",
+      "normalized_duration_seconds": 30.0,
+      "operation": "retain unchanged PCM prefix; remove terminal frames only",
+      "original_duration_seconds": 30.0001875,
+      "original_frames": 480003,
+      "output": {
+        "bytes": 1920044,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni-local-normalized\\media\\c3aa91d27eafa2ca760f_30s.wav",
+        "sha256": "6837d42c2743aa65859464fb4f2d6d17ecafdef1e3be5d411c1f5de65864cc03"
+      },
+      "removed_duration_seconds": 0.0001875,
+      "removed_frames": 3,
+      "removed_samples_all_channels": 6,
+      "removed_samples_per_channel": 3,
+      "retained_frames": 480000,
+      "sample_rate": 16000,
+      "sample_width_bytes": 2,
+      "source": {
+        "bytes": 1920090,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\Z0JDTBGh4D8\\Z0JDTBGh4D8_audio.wav",
+        "sha256": "c3aa91d27eafa2ca760f8ff9b9143805a528ff68062b9ce1c013cdaf7d3f3a89"
+      }
+    },
+    {
+      "channels": 2,
+      "compression": "NONE",
+      "id": "daily_omni:audio:_t2geYpykFo",
+      "normalized_duration_seconds": 30.0,
+      "operation": "retain unchanged PCM prefix; remove terminal frames only",
+      "original_duration_seconds": 30.0001875,
+      "original_frames": 480003,
+      "output": {
+        "bytes": 1920044,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni-local-normalized\\media\\23802b16390ce1002b6d_30s.wav",
+        "sha256": "c8babf9d23751e6e4256cdf8db924cf803c846f3df06f1d8fe18e0275b89929f"
+      },
+      "removed_duration_seconds": 0.0001875,
+      "removed_frames": 3,
+      "removed_samples_all_channels": 6,
+      "removed_samples_per_channel": 3,
+      "retained_frames": 480000,
+      "sample_rate": 16000,
+      "sample_width_bytes": 2,
+      "source": {
+        "bytes": 1920090,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\_t2geYpykFo\\_t2geYpykFo_audio.wav",
+        "sha256": "23802b16390ce1002b6df44c195823e6e9b44b1af41c773f278197ea4ef68b96"
+      }
+    },
+    {
+      "channels": 2,
+      "compression": "NONE",
+      "id": "daily_omni:audio:jsCsIW8zFvQ",
+      "normalized_duration_seconds": 30.0,
+      "operation": "retain unchanged PCM prefix; remove terminal frames only",
+      "original_duration_seconds": 30.0001875,
+      "original_frames": 480003,
+      "output": {
+        "bytes": 1920044,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni-local-normalized\\media\\68050a42baf7cee3c996_30s.wav",
+        "sha256": "dce5845525ec25292d7689f2f00d1ec15a7b57d9024eb948ee4d881f487bb0ef"
+      },
+      "removed_duration_seconds": 0.0001875,
+      "removed_frames": 3,
+      "removed_samples_all_channels": 6,
+      "removed_samples_per_channel": 3,
+      "retained_frames": 480000,
+      "sample_rate": 16000,
+      "sample_width_bytes": 2,
+      "source": {
+        "bytes": 1920090,
+        "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\jsCsIW8zFvQ\\jsCsIW8zFvQ_audio.wav",
+        "sha256": "68050a42baf7cee3c996771ebd87303b879428e4f134f626f5973be99aa73352"
+      }
+    }
+  ],
+  "corpus_records": 32,
+  "corpus_records_fingerprint": "79ed8af863b8fb53311ac09876138ae0847932697dae6f697a35de5128b0861a",
+  "dataset": "daily_omni_local_boundary_normalized_subset",
+  "eligibility": {
+    "both_modalities_required": true,
+    "cropping_or_reencoding": "terminal PCM frame removal only; no resampling or video changes",
+    "full_clips_only": false,
+    "full_video_clips_only": true,
+    "max_audio_seconds": 30,
+    "max_combined_media_bytes": 32000000,
+    "max_effective_audio_seconds": 30,
+    "max_silent_video_seconds": 60,
+    "max_source_audio_seconds": 30.001,
+    "max_terminal_audio_trim_seconds": 0.001
+  },
+  "eligible_ids": [
+    "daily_omni:01805ff4fed82906889f",
+    "daily_omni:09b550d047d769960847",
+    "daily_omni:09dbf9a65ccc419903ec",
+    "daily_omni:12667de94f73d36ce378",
+    "daily_omni:13886a7bdf222861ba18",
+    "daily_omni:16b2f7328d268bcf193f",
+    "daily_omni:1d20538acabb6bc8742a",
+    "daily_omni:223c60604d2be57e0f7a",
+    "daily_omni:22a74416ef7169cb8910",
+    "daily_omni:26b2333f603f17c255e7",
+    "daily_omni:283bca8a676f4241aba0",
+    "daily_omni:28ab26f7156b1ce93011",
+    "daily_omni:2b8aaf64bb428b631c92",
+    "daily_omni:2c4d5e479396c10f6ef9",
+    "daily_omni:316dda717f283f454b19",
+    "daily_omni:3730e8fe7ecfe622bbb8",
+    "daily_omni:3c07657bfb431403772e",
+    "daily_omni:3d164af51cc69dffd74d",
+    "daily_omni:41f305f4d180fd1b55d4",
+    "daily_omni:43c2f74708a890fca3ce",
+    "daily_omni:44d0325d624a6af2c185",
+    "daily_omni:48a2358a5fc1abcc94eb",
+    "daily_omni:53942bdb70ba20da55cc",
+    "daily_omni:5ac7dd02ab853ac71edb",
+    "daily_omni:5bea29b1be2f2215e8c0",
+    "daily_omni:5c965c2b287d6c52aa98",
+    "daily_omni:5f32c1ffbb41fc90c7d5",
+    "daily_omni:5f5858abb2eb0212b227",
+    "daily_omni:6532d961bcea8a4b42e0",
+    "daily_omni:6a76dbf8d0063eb045ce",
+    "daily_omni:774d258c771023b18ce7",
+    "daily_omni:780de343cad7d66fb710",
+    "daily_omni:7c3a3e335f923faf2e5e",
+    "daily_omni:897c241f3de901967b0a",
+    "daily_omni:8a388f102cd24263e6b5",
+    "daily_omni:9182aa2bc29ccfdeadde",
+    "daily_omni:92855c356a7433fd80c0",
+    "daily_omni:92febc2dbf0f06de423f",
+    "daily_omni:9a11e0c4e5bf28408edf",
+    "daily_omni:9afd53c9e6022ab7fdc7",
+    "daily_omni:9d167784ca8769578119",
+    "daily_omni:ad1eb8260dc5939aea96",
+    "daily_omni:b6ea2fc47d43fb25916a",
+    "daily_omni:b76a1f0c7be701f7fb29",
+    "daily_omni:c6a3fc2eed99fc93a1de",
+    "daily_omni:db2162b8e0887724b7ea",
+    "daily_omni:ddade24c57b2a63d2f5e",
+    "daily_omni:e8db1ed8a7dbbfc521df",
+    "daily_omni:eca3945e2985e5e3fd5f",
+    "daily_omni:f019241c231f9a607cd9",
+    "daily_omni:f66be1bdce466b136af7",
+    "daily_omni:fcd0e0c4b6159f2ce056"
+  ],
+  "excluded_queries": [
+    {
+      "id": "daily_omni:01805ff4fed82906889f",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "3CnwUQZ6q78"
+    },
+    {
+      "id": "daily_omni:0bbba795fe1c1c7a55b0",
+      "reasons": [
+        "daily_omni:audio:PB06auioy0Y:audio_duration_exceeds_30s"
+      ],
+      "video_id": "PB06auioy0Y"
+    },
+    {
+      "id": "daily_omni:0c282b77ae56e285f0ee",
+      "reasons": [
+        "daily_omni:video:A9fQPzZ1-hg:video_duration_exceeds_60s",
+        "daily_omni:audio:A9fQPzZ1-hg:audio_duration_exceeds_30s"
+      ],
+      "video_id": "A9fQPzZ1-hg"
+    },
+    {
+      "id": "daily_omni:11be6165e8bc4aee28af",
+      "reasons": [
+        "daily_omni:audio:H6Y2KRfpRVY:audio_duration_exceeds_30s"
+      ],
+      "video_id": "H6Y2KRfpRVY"
+    },
+    {
+      "id": "daily_omni:12667de94f73d36ce378",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "vAvLt3QI904"
+    },
+    {
+      "id": "daily_omni:13886a7bdf222861ba18",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "nDFO_EDadEg"
+    },
+    {
+      "id": "daily_omni:1b365d870fbab2dbf050",
+      "reasons": [
+        "daily_omni:audio:PYqmI0Hiaho:audio_duration_exceeds_30s"
+      ],
+      "video_id": "PYqmI0Hiaho"
+    },
+    {
+      "id": "daily_omni:1c4fcfd3e40d42453069",
+      "reasons": [
+        "daily_omni:video:8TNPeimqOO0:video_duration_exceeds_60s",
+        "daily_omni:audio:8TNPeimqOO0:audio_duration_exceeds_30s"
+      ],
+      "video_id": "8TNPeimqOO0"
+    },
+    {
+      "id": "daily_omni:26b2333f603f17c255e7",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "h7ljgWAgb0E"
+    },
+    {
+      "id": "daily_omni:27a1d48634f0551ce5b4",
+      "reasons": [
+        "daily_omni:video:3E4Zca1p64s:video_duration_exceeds_60s",
+        "daily_omni:audio:3E4Zca1p64s:audio_duration_exceeds_30s"
+      ],
+      "video_id": "3E4Zca1p64s"
+    },
+    {
+      "id": "daily_omni:283bca8a676f4241aba0",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "nbsGrFj-Z7o"
+    },
+    {
+      "id": "daily_omni:28ab26f7156b1ce93011",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "4U5u7OEcHFs"
+    },
+    {
+      "id": "daily_omni:29e36181b39b7447677a",
+      "reasons": [
+        "daily_omni:video:EQ-67udZEeg:video_duration_exceeds_60s",
+        "daily_omni:audio:EQ-67udZEeg:audio_duration_exceeds_30s"
+      ],
+      "video_id": "EQ-67udZEeg"
+    },
+    {
+      "id": "daily_omni:2b8aaf64bb428b631c92",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "pUqmv-KY0Q4"
+    },
+    {
+      "id": "daily_omni:2fd1b6e7ff91cb46e645",
+      "reasons": [
+        "daily_omni:audio:eLPe7xp0jRw:audio_duration_exceeds_30s"
+      ],
+      "video_id": "eLPe7xp0jRw"
+    },
+    {
+      "id": "daily_omni:3c029e940094a2a52ef1",
+      "reasons": [
+        "daily_omni:video:BxrolAZXZFg:video_duration_exceeds_60s",
+        "daily_omni:audio:BxrolAZXZFg:audio_duration_exceeds_30s"
+      ],
+      "video_id": "BxrolAZXZFg"
+    },
+    {
+      "id": "daily_omni:3c07657bfb431403772e",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "ChbZLHnush8"
+    },
+    {
+      "id": "daily_omni:41f305f4d180fd1b55d4",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "u2gwhTt-B5M"
+    },
+    {
+      "id": "daily_omni:42c5ed8524e4187b3b02",
+      "reasons": [
+        "daily_omni:video:TPS22HRRY1k:video_duration_exceeds_60s",
+        "daily_omni:audio:TPS22HRRY1k:audio_duration_exceeds_30s"
+      ],
+      "video_id": "TPS22HRRY1k"
+    },
+    {
+      "id": "daily_omni:43c2f74708a890fca3ce",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "SlFS0VJ20tU"
+    },
+    {
+      "id": "daily_omni:43ed363af07f5c65149f",
+      "reasons": [
+        "daily_omni:video:G267g0DpCVg:video_duration_exceeds_60s",
+        "daily_omni:audio:G267g0DpCVg:audio_duration_exceeds_30s"
+      ],
+      "video_id": "G267g0DpCVg"
+    },
+    {
+      "id": "daily_omni:44d0325d624a6af2c185",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "HOa6A7GVvEc"
+    },
+    {
+      "id": "daily_omni:44d217ab8e68a50b2d5d",
+      "reasons": [
+        "daily_omni:video:NAahAX62MZ0:video_duration_exceeds_60s",
+        "daily_omni:audio:NAahAX62MZ0:audio_duration_exceeds_30s"
+      ],
+      "video_id": "NAahAX62MZ0"
+    },
+    {
+      "id": "daily_omni:48a2358a5fc1abcc94eb",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "h_0DNygeF8A"
+    },
+    {
+      "id": "daily_omni:53942bdb70ba20da55cc",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "AaaTLFxIQ6o"
+    },
+    {
+      "id": "daily_omni:562c395c1c31e3e355e6",
+      "reasons": [
+        "daily_omni:video:540LkURTR7g:video_duration_exceeds_60s",
+        "daily_omni:audio:540LkURTR7g:audio_duration_exceeds_30s"
+      ],
+      "video_id": "540LkURTR7g"
+    },
+    {
+      "id": "daily_omni:5ac7dd02ab853ac71edb",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "MeSA4VUjGpE"
+    },
+    {
+      "id": "daily_omni:5bea29b1be2f2215e8c0",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "d6b4OmUFt7I"
+    },
+    {
+      "id": "daily_omni:5c965c2b287d6c52aa98",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "6yDJfe_9naU"
+    },
+    {
+      "id": "daily_omni:5dada2e2ad71d87d81e3",
+      "reasons": [
+        "daily_omni:video:MQEcUPeAdFs:video_duration_exceeds_60s",
+        "daily_omni:audio:MQEcUPeAdFs:audio_duration_exceeds_30s"
+      ],
+      "video_id": "MQEcUPeAdFs"
+    },
+    {
+      "id": "daily_omni:5f064dcc54db4f10ba1a",
+      "reasons": [
+        "daily_omni:video:HIjX8OPuf-w:video_duration_exceeds_60s",
+        "daily_omni:audio:HIjX8OPuf-w:audio_duration_exceeds_30s"
+      ],
+      "video_id": "HIjX8OPuf-w"
+    },
+    {
+      "id": "daily_omni:5f32c1ffbb41fc90c7d5",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "6vKvjzuICxg"
+    },
+    {
+      "id": "daily_omni:614cc3b43cbb9961fba6",
+      "reasons": [
+        "daily_omni:video:3m29MQ-qPfg:video_duration_exceeds_60s",
+        "daily_omni:audio:3m29MQ-qPfg:audio_duration_exceeds_30s"
+      ],
+      "video_id": "3m29MQ-qPfg"
+    },
+    {
+      "id": "daily_omni:631cb714ad6f9a28af53",
+      "reasons": [
+        "daily_omni:video:4H8hcvNeWtg:video_duration_exceeds_60s",
+        "daily_omni:audio:4H8hcvNeWtg:audio_duration_exceeds_30s"
+      ],
+      "video_id": "4H8hcvNeWtg"
+    },
+    {
+      "id": "daily_omni:63758336f32343e80241",
+      "reasons": [
+        "daily_omni:audio:9aGgBzToUz4:audio_duration_exceeds_30s"
+      ],
+      "video_id": "9aGgBzToUz4"
+    },
+    {
+      "id": "daily_omni:6532d961bcea8a4b42e0",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "-xfgovG6-KU"
+    },
+    {
+      "id": "daily_omni:6a76dbf8d0063eb045ce",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "cFkYpIKWH5A"
+    },
+    {
+      "id": "daily_omni:6bc79685d480c366aff2",
+      "reasons": [
+        "daily_omni:audio:GQEYGAJIzAM:audio_duration_exceeds_30s"
+      ],
+      "video_id": "GQEYGAJIzAM"
+    },
+    {
+      "id": "daily_omni:72ad51eaad5841282337",
+      "reasons": [
+        "daily_omni:video:2QTiAmvygC4:video_duration_exceeds_60s",
+        "daily_omni:audio:2QTiAmvygC4:audio_duration_exceeds_30s"
+      ],
+      "video_id": "2QTiAmvygC4"
+    },
+    {
+      "id": "daily_omni:73e7ead6833e615e3b06",
+      "reasons": [
+        "daily_omni:video:JwxALozuKfY:video_duration_exceeds_60s",
+        "daily_omni:audio:JwxALozuKfY:audio_duration_exceeds_30s"
+      ],
+      "video_id": "JwxALozuKfY"
+    },
+    {
+      "id": "daily_omni:73ef421166d1e1631cfd",
+      "reasons": [
+        "daily_omni:audio:3fQxvz4ENDg:audio_duration_exceeds_30s"
+      ],
+      "video_id": "3fQxvz4ENDg"
+    },
+    {
+      "id": "daily_omni:74394768fd4c0d9ecf70",
+      "reasons": [
+        "daily_omni:video:6NVr0cNiHPM:video_duration_exceeds_60s",
+        "daily_omni:audio:6NVr0cNiHPM:audio_duration_exceeds_30s"
+      ],
+      "video_id": "6NVr0cNiHPM"
+    },
+    {
+      "id": "daily_omni:7497ac203ff11eca881f",
+      "reasons": [
+        "daily_omni:video:0Jbc3Ah4EIc:video_duration_exceeds_60s",
+        "daily_omni:audio:0Jbc3Ah4EIc:audio_duration_exceeds_30s"
+      ],
+      "video_id": "0Jbc3Ah4EIc"
+    },
+    {
+      "id": "daily_omni:7534ba4789cff510494e",
+      "reasons": [
+        "daily_omni:video:QnGwAUTM1fY:video_duration_exceeds_60s",
+        "daily_omni:audio:QnGwAUTM1fY:audio_duration_exceeds_30s"
+      ],
+      "video_id": "QnGwAUTM1fY"
+    },
+    {
+      "id": "daily_omni:774d258c771023b18ce7",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "-l8djVj0FcU"
+    },
+    {
+      "id": "daily_omni:780de343cad7d66fb710",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "0bRUkLsttto"
+    },
+    {
+      "id": "daily_omni:7dbd53b3200d1305b70d",
+      "reasons": [
+        "daily_omni:video:7D-gxaie6UI:video_duration_exceeds_60s",
+        "daily_omni:audio:7D-gxaie6UI:audio_duration_exceeds_30s"
+      ],
+      "video_id": "7D-gxaie6UI"
+    },
+    {
+      "id": "daily_omni:897c241f3de901967b0a",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "03IZHwOh2eQ"
+    },
+    {
+      "id": "daily_omni:8d790bd936c392d55a88",
+      "reasons": [
+        "daily_omni:video:IzQ2siryQrM:video_duration_exceeds_60s",
+        "daily_omni:audio:IzQ2siryQrM:audio_duration_exceeds_30s"
+      ],
+      "video_id": "IzQ2siryQrM"
+    },
+    {
+      "id": "daily_omni:9182aa2bc29ccfdeadde",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "9PsvKIvzgUs"
+    },
+    {
+      "id": "daily_omni:92855c356a7433fd80c0",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "-uaTK8sa5Ms"
+    },
+    {
+      "id": "daily_omni:9851c6a05fcfe3b9942d",
+      "reasons": [
+        "daily_omni:video:SB4NLADmT_k:video_duration_exceeds_60s",
+        "daily_omni:audio:SB4NLADmT_k:audio_duration_exceeds_30s"
+      ],
+      "video_id": "SB4NLADmT_k"
+    },
+    {
+      "id": "daily_omni:9a11e0c4e5bf28408edf",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "36v-AEu7uAU"
+    },
+    {
+      "id": "daily_omni:9afd53c9e6022ab7fdc7",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "3gwZdkjpPds"
+    },
+    {
+      "id": "daily_omni:9b5cb34c6ec5bfaa02f7",
+      "reasons": [
+        "daily_omni:audio:2LDriAWltwM:audio_duration_exceeds_30s"
+      ],
+      "video_id": "2LDriAWltwM"
+    },
+    {
+      "id": "daily_omni:9fff66d7eb7faaa7599a",
+      "reasons": [
+        "daily_omni:audio:7E6i3E-fsj4:audio_duration_exceeds_30s"
+      ],
+      "video_id": "7E6i3E-fsj4"
+    },
+    {
+      "id": "daily_omni:a2d25e18d8cd0e601327",
+      "reasons": [
+        "daily_omni:audio:PHe0bXAIuk0:audio_duration_exceeds_30s"
+      ],
+      "video_id": "PHe0bXAIuk0"
+    },
+    {
+      "id": "daily_omni:a30a4c549ee8804da0ca",
+      "reasons": [
+        "daily_omni:video:C6aeL83z_9Y:video_duration_exceeds_60s",
+        "daily_omni:audio:C6aeL83z_9Y:audio_duration_exceeds_30s"
+      ],
+      "video_id": "C6aeL83z_9Y"
+    },
+    {
+      "id": "daily_omni:a340f927f8648aa5ae67",
+      "reasons": [
+        "daily_omni:video:CC9VeHrI3Es:video_duration_exceeds_60s",
+        "daily_omni:audio:CC9VeHrI3Es:audio_duration_exceeds_30s"
+      ],
+      "video_id": "CC9VeHrI3Es"
+    },
+    {
+      "id": "daily_omni:ac092ce9e6729e72a25b",
+      "reasons": [
+        "daily_omni:audio:2LDriAWltwM:audio_duration_exceeds_30s"
+      ],
+      "video_id": "2LDriAWltwM"
+    },
+    {
+      "id": "daily_omni:acae9b8c1c0e64c6d304",
+      "reasons": [
+        "daily_omni:audio:HnS87Tw4amM:audio_duration_exceeds_30s"
+      ],
+      "video_id": "HnS87Tw4amM"
+    },
+    {
+      "id": "daily_omni:b6ea2fc47d43fb25916a",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "6l8n-VJxqmU"
+    },
+    {
+      "id": "daily_omni:b76a1f0c7be701f7fb29",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "nbuHTaMV8ok"
+    },
+    {
+      "id": "daily_omni:b7b36e7bd89149d56a41",
+      "reasons": [
+        "daily_omni:audio:-yWE13LbFd4:audio_duration_exceeds_30s"
+      ],
+      "video_id": "-yWE13LbFd4"
+    },
+    {
+      "id": "daily_omni:b9dceee7c18d6223cc51",
+      "reasons": [
+        "daily_omni:audio:8UxGzDeRIJk:audio_duration_exceeds_30s"
+      ],
+      "video_id": "8UxGzDeRIJk"
+    },
+    {
+      "id": "daily_omni:c1ccfe2b398fb5c43297",
+      "reasons": [
+        "daily_omni:video:VFntoBRGF1A:video_duration_exceeds_60s",
+        "daily_omni:audio:VFntoBRGF1A:audio_duration_exceeds_30s"
+      ],
+      "video_id": "VFntoBRGF1A"
+    },
+    {
+      "id": "daily_omni:c336b38444b5e9b5dd2d",
+      "reasons": [
+        "daily_omni:video:0JjgoicpYkU:video_duration_exceeds_60s",
+        "daily_omni:audio:0JjgoicpYkU:audio_duration_exceeds_30s"
+      ],
+      "video_id": "0JjgoicpYkU"
+    },
+    {
+      "id": "daily_omni:c6a3fc2eed99fc93a1de",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "G8ywbM85GVE"
+    },
+    {
+      "id": "daily_omni:c719ed1eadf05a3999bc",
+      "reasons": [
+        "daily_omni:video:GPOv72Awo68:video_duration_exceeds_60s",
+        "daily_omni:audio:GPOv72Awo68:audio_duration_exceeds_30s"
+      ],
+      "video_id": "GPOv72Awo68"
+    },
+    {
+      "id": "daily_omni:c80ca097995c485465e4",
+      "reasons": [
+        "daily_omni:audio:UGMDV82m3Ro:audio_duration_exceeds_30s"
+      ],
+      "video_id": "UGMDV82m3Ro"
+    },
+    {
+      "id": "daily_omni:d2bb3dc054273040b8fc",
+      "reasons": [
+        "daily_omni:audio:0eJvnKwGThw:audio_duration_exceeds_30s"
+      ],
+      "video_id": "0eJvnKwGThw"
+    },
+    {
+      "id": "daily_omni:d66d28b5a0fd5b23ae1b",
+      "reasons": [
+        "daily_omni:audio:55Jas5HrzcQ:audio_duration_exceeds_30s"
+      ],
+      "video_id": "55Jas5HrzcQ"
+    },
+    {
+      "id": "daily_omni:ddade24c57b2a63d2f5e",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "06b2PxvBoNU"
+    },
+    {
+      "id": "daily_omni:e9a20b08ccd582858fa2",
+      "reasons": [
+        "daily_omni:audio:KD1yxRyFAZQ:audio_duration_exceeds_30s"
+      ],
+      "video_id": "KD1yxRyFAZQ"
+    },
+    {
+      "id": "daily_omni:eca3945e2985e5e3fd5f",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "34vzrZ2SlQo"
+    },
+    {
+      "id": "daily_omni:f2b8d4a70a8c07e51e7e",
+      "reasons": [
+        "daily_omni:video:PSyedQl9IiQ:video_duration_exceeds_60s",
+        "daily_omni:audio:PSyedQl9IiQ:audio_duration_exceeds_30s"
+      ],
+      "video_id": "PSyedQl9IiQ"
+    },
+    {
+      "id": "daily_omni:f448f5edbe709f52475e",
+      "reasons": [
+        "daily_omni:audio:N62mrplIygc:audio_duration_exceeds_30s"
+      ],
+      "video_id": "N62mrplIygc"
+    },
+    {
+      "id": "daily_omni:f66be1bdce466b136af7",
+      "reasons": [
+        "deterministic_20_question_limit"
+      ],
+      "video_id": "3IW7578PicA"
+    },
+    {
+      "id": "daily_omni:f9b102cb4aca05ce8649",
+      "reasons": [
+        "daily_omni:audio:55Jas5HrzcQ:audio_duration_exceeds_30s"
+      ],
+      "video_id": "55Jas5HrzcQ"
+    },
+    {
+      "id": "daily_omni:ffc5d355a81607c5b1df",
+      "reasons": [
+        "daily_omni:audio:CwzjlmBLfrQ:audio_duration_exceeds_30s"
+      ],
+      "video_id": "CwzjlmBLfrQ"
+    }
+  ],
+  "experiment": "known-video QA with explicit terminal audio rounding normalization",
+  "media_audit": [
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:-jR3C_yA_G0",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-jR3C_yA_G0\\-jR3C_yA_G0_audio.wav",
+      "reasons": [],
+      "sha256": "d069248ea6254377d2efd34fbf33fb2057284e01c2cdda0685c235c3afa9f841",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:-l8djVj0FcU",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-l8djVj0FcU\\-l8djVj0FcU_audio.wav",
+      "reasons": [],
+      "sha256": "5be7757f3787342691c178b8ac3b30ccf440ba36fb20ddafba913c4c13fc7bac",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:-spqqACI6UQ",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-spqqACI6UQ\\-spqqACI6UQ_audio.wav",
+      "reasons": [],
+      "sha256": "d078e8424d1dfb9a17e86fd7b2faa96452229fb05388a02c534d74e211666175",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:-uaTK8sa5Ms",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-uaTK8sa5Ms\\-uaTK8sa5Ms_audio.wav",
+      "reasons": [],
+      "sha256": "fdf6f1c086d2a0abc315c5f2a6d336c6a23e41f6e67f0adab385805764c11f81",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:-xfgovG6-KU",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-xfgovG6-KU\\-xfgovG6-KU_audio.wav",
+      "reasons": [],
+      "sha256": "adb6ba23c87146d9ee5d20c03a5b13cba8b8cff0db4b138b68efbde465ef084d",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:-yWE13LbFd4",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-yWE13LbFd4\\-yWE13LbFd4_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "f66458dd5a17a3996a10738cc974185d878cd67516ad4a64ced6f9285a451bbf",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:03IZHwOh2eQ",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\03IZHwOh2eQ\\03IZHwOh2eQ_audio.wav",
+      "reasons": [],
+      "sha256": "284a61e092e272fef87fb7bfb68edc24e28789785197b7aa1812e217b74a8e2b",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:06b2PxvBoNU",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\06b2PxvBoNU\\06b2PxvBoNU_audio.wav",
+      "reasons": [],
+      "sha256": "240b4513d4de9fff9d5449b9cbcec0f5077b977f8395e6767953bbde96b8380d",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:0GFtqzOWnWg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0GFtqzOWnWg\\0GFtqzOWnWg_audio.wav",
+      "reasons": [],
+      "sha256": "6e112024d1cbcaccd729c3ac89d7028bc51b8f246c10fb8cdd1a3f55ca42f6ae",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:0Jbc3Ah4EIc",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0Jbc3Ah4EIc\\0Jbc3Ah4EIc_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "50ae4789ddc47ee1ef897903c2e2b9fb68b5b7a1a09b1b2b119a6ce006f69c1b",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:0JjgoicpYkU",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0JjgoicpYkU\\0JjgoicpYkU_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "9d404004e8f74c531aea8335df213e45cfff8d2b49303865c3f16e3cf5d674e9",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:0bP2MH3LqvI",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0bP2MH3LqvI\\0bP2MH3LqvI_audio.wav",
+      "reasons": [],
+      "sha256": "61c5b6d35426074c6fed491c89a80a6bf6bf7425aedb070e93709137a9c0cb3c",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:0bRUkLsttto",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0bRUkLsttto\\0bRUkLsttto_audio.wav",
+      "reasons": [],
+      "sha256": "1eb20937b4da08648f8ea263cc0a731a119a35d4dbcb88c307e0f07253a28d29",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:0eJvnKwGThw",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\0eJvnKwGThw\\0eJvnKwGThw_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "cb6ab0896b3ffa3751706269708d5004e52dee93770a1af6f524ee2bd23f1c91",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:2LDriAWltwM",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\2LDriAWltwM\\2LDriAWltwM_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "a0e499070f2d6401c36c787465674858f4a39bd83b16f0581ff548d48f20e737",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:2QTiAmvygC4",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\2QTiAmvygC4\\2QTiAmvygC4_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "b71c92e03971712673a14312e9c144c77b7d7e54a787e01896731228588bad52",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:2t4CkOvERAI",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\2t4CkOvERAI\\2t4CkOvERAI_audio.wav",
+      "reasons": [],
+      "sha256": "f90b4e6375b2048712528311cf4581a0c380db24c999865cd74d5ceda00af7a2",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:2vSF2Yh6o_k",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\2vSF2Yh6o_k\\2vSF2Yh6o_k_audio.wav",
+      "reasons": [],
+      "sha256": "2540b65455b8f0bdadb1b196d1531ce75316ab2804ea62bfd26bb1860f083667",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:34vzrZ2SlQo",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\34vzrZ2SlQo\\34vzrZ2SlQo_audio.wav",
+      "reasons": [],
+      "sha256": "0fd611dd1a581a910e39b218cb6460438952aa950b79eea748ccfed940f2e780",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:36v-AEu7uAU",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\36v-AEu7uAU\\36v-AEu7uAU_audio.wav",
+      "reasons": [],
+      "sha256": "523cf41de248ec17d2d897ed521dc072f03e7ded456e34a27cd3293077f90aa8",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:3CnwUQZ6q78",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3CnwUQZ6q78\\3CnwUQZ6q78_audio.wav",
+      "reasons": [],
+      "sha256": "e450eef2f25805b923da95f38b45777690e2dfe00bfd5ea127375c1ec9669304",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:3E4Zca1p64s",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3E4Zca1p64s\\3E4Zca1p64s_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "fe5fafd2871b3cf1eae945b3e28951a2c9a7fa048c6a07c197acaa0c06c9a874",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:3EE5WKQMBek",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3EE5WKQMBek\\3EE5WKQMBek_audio.wav",
+      "reasons": [],
+      "sha256": "01ebb11b6de8b5fe75bb217a7162f0cfc8d65af9e407522187e2ad4957826b20",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:3IW7578PicA",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3IW7578PicA\\3IW7578PicA_audio.wav",
+      "reasons": [],
+      "sha256": "667b8830fd9f0762dac27b6c00ba9c3492185d4ef81805c059be0c75e74bcf0b",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:3fQxvz4ENDg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3fQxvz4ENDg\\3fQxvz4ENDg_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "f44672df92ab2a0b4a853782f97e437d9fa8a3d50209d86c5f93c99e3ad77924",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 597482,
+      "duration_seconds": 9.334438,
+      "id": "daily_omni:audio:3gwZdkjpPds",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3gwZdkjpPds\\3gwZdkjpPds_audio.wav",
+      "reasons": [],
+      "sha256": "7895f570b712355d1d77fad363ef3e2315b5a4406bcc47a152052155db185d27",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:3m29MQ-qPfg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\3m29MQ-qPfg\\3m29MQ-qPfg_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "e6d2ebe45e0c264ae1b59185b67948d4f0d00b4e26925874a58c92770bf5ba3d",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:4H8hcvNeWtg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\4H8hcvNeWtg\\4H8hcvNeWtg_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "8c0ce8362eed299bfa95c2b3a50181fd5c93cc7f516dec999fa36a16b7a12bf3",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:4U5u7OEcHFs",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\4U5u7OEcHFs\\4U5u7OEcHFs_audio.wav",
+      "reasons": [],
+      "sha256": "aab86ada42d75872f9d07867ebb0e2b4f4de906b3c5fb2f84cd1ab636273606f",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:4e3gNCp9dxY",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\4e3gNCp9dxY\\4e3gNCp9dxY_audio.wav",
+      "reasons": [],
+      "sha256": "36e4f3a6d78c61c2a9216bc14567f7ce8aae8a119c6e7b7ccb0b7ea231b561ba",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:540LkURTR7g",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\540LkURTR7g\\540LkURTR7g_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "35fc13fd3f13345d65b75bb3b5e23ba9c6f4f652cca65f1bb258a520cf56b2c9",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:55Jas5HrzcQ",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\55Jas5HrzcQ\\55Jas5HrzcQ_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "af8dfb7852af72f298e7a4bc0030b09deb65725b46a1b7939cc1a9c511ce2589",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:6NVr0cNiHPM",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\6NVr0cNiHPM\\6NVr0cNiHPM_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "363c5d63b05e64bc7aba13abad97abbc99620276d8741bf0955e2a2fa523582f",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:6l8n-VJxqmU",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\6l8n-VJxqmU\\6l8n-VJxqmU_audio.wav",
+      "reasons": [],
+      "sha256": "3dc11a00fd7508cf4a0138676c364203cf8e2764251219957f00763c10db9191",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:6vKvjzuICxg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\6vKvjzuICxg\\6vKvjzuICxg_audio.wav",
+      "reasons": [],
+      "sha256": "a749f21c2fc4dbf8d2f0cce64f9bad8714c57df702badc80e2b8a7da69019cd5",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:6yDJfe_9naU",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\6yDJfe_9naU\\6yDJfe_9naU_audio.wav",
+      "reasons": [],
+      "sha256": "5c7a6d6d3ccf22cea2b29f8b7400646377f692527e4c513c4f52977721d91554",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:7D-gxaie6UI",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\7D-gxaie6UI\\7D-gxaie6UI_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "45e728529602566ee0a6361f1ec83702ef92e750577bb88c832dec4bd94cf4e5",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:7E6i3E-fsj4",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\7E6i3E-fsj4\\7E6i3E-fsj4_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "399ea5c3c6f7deec0b573eab84742f43d4d09912eb91c3a5aff675551edebb5f",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:7yY1OWjT4zA",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\7yY1OWjT4zA\\7yY1OWjT4zA_audio.wav",
+      "reasons": [],
+      "sha256": "498f6da44304968895b87f02fe96ffda5aaf2de9b6f31ec0f274551aa685387f",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:8TNPeimqOO0",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\8TNPeimqOO0\\8TNPeimqOO0_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "a11654f98cb22cdaafbec4be2fc584b982646eb67364285670bf6a380010081c",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:8UxGzDeRIJk",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\8UxGzDeRIJk\\8UxGzDeRIJk_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "8d8fbd5b806a926330c06f09faf003ee9a047b72c1f0c2024e236165e954e4b3",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:9PsvKIvzgUs",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\9PsvKIvzgUs\\9PsvKIvzgUs_audio.wav",
+      "reasons": [],
+      "sha256": "274746d6e3c0c4c589c802e1ce25c30643fece86e888f7e76eb7e6e77e64de2b",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:9aGgBzToUz4",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\9aGgBzToUz4\\9aGgBzToUz4_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "e099949d980ece0dc3585154fd8a44cfa03c33c5b51edb4d1c1a9ef971d55835",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:A9fQPzZ1-hg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\A9fQPzZ1-hg\\A9fQPzZ1-hg_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "d943fdc3eceb81bcf55572b93e0b530cc38ff9e5b18f5a97332f64b11ffc484e",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:AFKgWXM1aqM",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\AFKgWXM1aqM\\AFKgWXM1aqM_audio.wav",
+      "reasons": [],
+      "sha256": "57fbbe7bfa4c4d369d9cd15ae42c1ed6d8c1dee1e6404c48e7bce8d45306ba15",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:AaaTLFxIQ6o",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\AaaTLFxIQ6o\\AaaTLFxIQ6o_audio.wav",
+      "reasons": [],
+      "sha256": "577c0cac4c37f6a62aff74444816b957a47b415751e2d583c70d961e4a435133",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:BxrolAZXZFg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\BxrolAZXZFg\\BxrolAZXZFg_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "cd55e033e6d804ebd82a709a8102bcd5edc9d6ab0eb2fa4b448afd50d8d66720",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:C6aeL83z_9Y",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\C6aeL83z_9Y\\C6aeL83z_9Y_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "eaf14082116b1f631d7d5fa315a4d36fd62a18af34d2078e348f6eec8ff9326b",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:CC9VeHrI3Es",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\CC9VeHrI3Es\\CC9VeHrI3Es_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "4c720f8118470f65f06ff335d88d86ba95429aa12b43be3777aa0e4a780197c5",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:ChbZLHnush8",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\ChbZLHnush8\\ChbZLHnush8_audio.wav",
+      "reasons": [],
+      "sha256": "5f2176f3a58d7647abcaa3b4e31688c2b6d818fe22770875f2ea6aec8967f95c",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:CwzjlmBLfrQ",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\CwzjlmBLfrQ\\CwzjlmBLfrQ_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "384d1bc0e2b96206d5e6c3f358963558761ae81e410599835f4f503db840ce36",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:EQ-67udZEeg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\EQ-67udZEeg\\EQ-67udZEeg_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "dc5a423f7033cdfa28cd668d1b3dcd5f7a951b17f043472e16e1c425b7dfc078",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:G267g0DpCVg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\G267g0DpCVg\\G267g0DpCVg_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "c5d8338ce76f27069cbef6ca69339f39f2c8215ae1bca87528d87693c8dee2e8",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:G8ywbM85GVE",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\G8ywbM85GVE\\G8ywbM85GVE_audio.wav",
+      "reasons": [],
+      "sha256": "38868e42a55fa2300dc8eecf6d6622708441b02b73264fed792cad2351a35f5c",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:GPOv72Awo68",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\GPOv72Awo68\\GPOv72Awo68_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "eb1bc5132ab533ec7b3489fab900d752488ffb37bd3ad0b17d35dd7409d2f2bc",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:GQEYGAJIzAM",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\GQEYGAJIzAM\\GQEYGAJIzAM_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "bed949497112d7d1f26cada6818d25c60538c6d2de44bb4dc5947c8e0096f6f1",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:Ggv1cJYtW8E",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\Ggv1cJYtW8E\\Ggv1cJYtW8E_audio.wav",
+      "reasons": [],
+      "sha256": "4a164a8d8973b92338594808931f3e2ad031adf73a8c4fe857349f728d2f30a4",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:H6Y2KRfpRVY",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\H6Y2KRfpRVY\\H6Y2KRfpRVY_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "ad778f67eb4a9b7281fd0036a0baa45d26f5d83c43388bac460eeab0cb661f44",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:HIjX8OPuf-w",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\HIjX8OPuf-w\\HIjX8OPuf-w_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "ca56a033aec281d3ada928bc1a03430d7dd17439f0761ee58c0acb6714540e0c",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:HOa6A7GVvEc",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\HOa6A7GVvEc\\HOa6A7GVvEc_audio.wav",
+      "reasons": [],
+      "sha256": "58f9f53ed3b41ad9d07d173e7d459660d79f7abab55fda7e31e7be7996d37d12",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:HnS87Tw4amM",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\HnS87Tw4amM\\HnS87Tw4amM_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "0c2fd391eb9ff7293a4e24b2bd2bcf274ea6e7572aae98213bc518974f1ff8c1",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:IWL9AJhQCtQ",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\IWL9AJhQCtQ\\IWL9AJhQCtQ_audio.wav",
+      "reasons": [],
+      "sha256": "b32767b60026b2ec9b1c599b64fff84c27e0c7e98812e73e96a0f69f5d5dd528",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:IzQ2siryQrM",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\IzQ2siryQrM\\IzQ2siryQrM_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "1747742865785b1b2d7a49125afa13410de48d5afb1d10eb78d216edc7fdfd8a",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:JwxALozuKfY",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\JwxALozuKfY\\JwxALozuKfY_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "e6c3f06416902c58be62b74e337347840807083e438f3f751d79fd5252792bee",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:KD1yxRyFAZQ",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\KD1yxRyFAZQ\\KD1yxRyFAZQ_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "0af4ceea512265618c0c76935fdb7d840a08276e0304ee9e133df2cc209b391e",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:MQEcUPeAdFs",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\MQEcUPeAdFs\\MQEcUPeAdFs_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "fd43612ba4b282f9ec29b6c4f0f1088dda485c96037b819feaa0a06ac101fe0f",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 1866590,
+      "duration_seconds": 29.16425,
+      "id": "daily_omni:audio:MeSA4VUjGpE",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\MeSA4VUjGpE\\MeSA4VUjGpE_audio.wav",
+      "reasons": [],
+      "sha256": "d6eee9f638798ee979f0a7d741c6a08c767348feff3e54988e62e9e9c6bff6de",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:N62mrplIygc",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\N62mrplIygc\\N62mrplIygc_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "ba83c6387d45da762c205cfac50e38944a7728148710fa7c061d463dd06dffb2",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:NAahAX62MZ0",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\NAahAX62MZ0\\NAahAX62MZ0_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "bae81e52e2fc2e25cd77d79da7613b95e312280ad43f5888083f00b31b7a0e83",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:PB06auioy0Y",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\PB06auioy0Y\\PB06auioy0Y_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "0cba1730dd7912d4136cc336ab9fbc7b4c4833cf9438576c9dfba76ac13b6204",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:PHe0bXAIuk0",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\PHe0bXAIuk0\\PHe0bXAIuk0_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "bf23a296a5567ef4e675dd9b51e3b998e2a75579c2d0e49644f810ea18b9f073",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:PSyedQl9IiQ",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\PSyedQl9IiQ\\PSyedQl9IiQ_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "0a267d10b37d07c5035cecf947494b24d21710fe2d5d803d4e52270898b0fb9d",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:PYqmI0Hiaho",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\PYqmI0Hiaho\\PYqmI0Hiaho_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "4d34b67bbe0d0dcbfd27aff75c9eedda048d1b46776f632e9387dd1147e7e172",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:QFNwukuWJ4I",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\QFNwukuWJ4I\\QFNwukuWJ4I_audio.wav",
+      "reasons": [],
+      "sha256": "068ac921a536e2cc3b8a8f99df2c206e1f381daacaa39c02294148a6af83296b",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:QnGwAUTM1fY",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\QnGwAUTM1fY\\QnGwAUTM1fY_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "8982b103c21cd47ce2b63194ba8ddbd00c3a17fb1fd1cd25a585cbb4572ce913",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:SB4NLADmT_k",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\SB4NLADmT_k\\SB4NLADmT_k_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "554e25d848b4a2b2c48d1077c3b675db899758ede22145d1cec80400691b9e56",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:SlFS0VJ20tU",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\SlFS0VJ20tU\\SlFS0VJ20tU_audio.wav",
+      "reasons": [],
+      "sha256": "4d0ef4747a5aa75c0834bb9b3a4e33346a781c217db5a9652e59f42c6f6e2a96",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:TPS22HRRY1k",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\TPS22HRRY1k\\TPS22HRRY1k_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "5fd9637f45e9dda9623d6c1fd464551a854016c51a64cd47433a3a7ee06566b9",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:UGMDV82m3Ro",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\UGMDV82m3Ro\\UGMDV82m3Ro_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "7e3c92d8700296737aa581881c07716719d873f1a90210ed74f764e52bd3d254",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 3840102,
+      "duration_seconds": 60.000375,
+      "id": "daily_omni:audio:VFntoBRGF1A",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\VFntoBRGF1A\\VFntoBRGF1A_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "08a01bc3ab3edf884167c8ad92f0156bfa8ac9165f0f07d8c65ebc280d3b7062",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:Z0JDTBGh4D8",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\Z0JDTBGh4D8\\Z0JDTBGh4D8_audio.wav",
+      "reasons": [],
+      "sha256": "c3aa91d27eafa2ca760f8ff9b9143805a528ff68062b9ce1c013cdaf7d3f3a89",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:_t2geYpykFo",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\_t2geYpykFo\\_t2geYpykFo_audio.wav",
+      "reasons": [],
+      "sha256": "23802b16390ce1002b6df44c195823e6e9b44b1af41c773f278197ea4ef68b96",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:cFkYpIKWH5A",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\cFkYpIKWH5A\\cFkYpIKWH5A_audio.wav",
+      "reasons": [],
+      "sha256": "02e290b16b21e59cae524c7ae79ccdedc4fb822389d8c84b26baee28dda9e807",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:d6b4OmUFt7I",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\d6b4OmUFt7I\\d6b4OmUFt7I_audio.wav",
+      "reasons": [],
+      "sha256": "fea200019ad102a964bc3a98803baa478a92e1b75a5e213fca54f3d1bf37aea5",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "bytes": 1921102,
+      "duration_seconds": 30.016,
+      "id": "daily_omni:audio:eLPe7xp0jRw",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\eLPe7xp0jRw\\eLPe7xp0jRw_audio.wav",
+      "reasons": [
+        "audio_duration_exceeds_30s"
+      ],
+      "sha256": "b129438f5a2e97adeac1a4e14758f96ec7bb6f4068143139969ddc7a49590c19",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:h7ljgWAgb0E",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\h7ljgWAgb0E\\h7ljgWAgb0E_audio.wav",
+      "reasons": [],
+      "sha256": "eca3743e9255a65aa4b0a6ae0cc8721bddcea6864c7a4068efa9f705f2e794b1",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:h_0DNygeF8A",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\h_0DNygeF8A\\h_0DNygeF8A_audio.wav",
+      "reasons": [],
+      "sha256": "1a0e13537ef82c518e4b0d5834438fb76404612756c804bbd90816f74f114cfc",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:jsCsIW8zFvQ",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\jsCsIW8zFvQ\\jsCsIW8zFvQ_audio.wav",
+      "reasons": [],
+      "sha256": "68050a42baf7cee3c996771ebd87303b879428e4f134f626f5973be99aa73352",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:nDFO_EDadEg",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\nDFO_EDadEg\\nDFO_EDadEg_audio.wav",
+      "reasons": [],
+      "sha256": "176764d7687bdde773b8cfa343582ddd2ddddef501784b2479ebbde9e752b902",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:nbsGrFj-Z7o",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\nbsGrFj-Z7o\\nbsGrFj-Z7o_audio.wav",
+      "reasons": [],
+      "sha256": "3cb387f7987a5a8e23c45669278e1eff45e1857be44d75e531165b001d3868a8",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:nbuHTaMV8ok",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\nbuHTaMV8ok\\nbuHTaMV8ok_audio.wav",
+      "reasons": [],
+      "sha256": "e7284c9d24d548fa5825ce0566c3e6e0ae4b95860f6cd5354d71954d2ec19a79",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:pUqmv-KY0Q4",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\pUqmv-KY0Q4\\pUqmv-KY0Q4_audio.wav",
+      "reasons": [],
+      "sha256": "afdc7be035682f289f467e6d3485161d7a1854bc3a49b528945577a126ad4b51",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:u2gwhTt-B5M",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\u2gwhTt-B5M\\u2gwhTt-B5M_audio.wav",
+      "reasons": [],
+      "sha256": "d295b1ded412d25163d53ed9800c9d501ac663fdb30fe0a91f973947b395294c",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 1,
+      "boundary_normalization_plan": {
+        "channels": 2,
+        "compression": "NONE",
+        "normalized_duration_seconds": 30.0,
+        "operation": "retain unchanged PCM prefix; remove terminal frames only",
+        "original_duration_seconds": 30.0001875,
+        "original_frames": 480003,
+        "removed_duration_seconds": 0.0001875,
+        "removed_frames": 3,
+        "removed_samples_all_channels": 6,
+        "removed_samples_per_channel": 3,
+        "retained_frames": 480000,
+        "sample_rate": 16000,
+        "sample_width_bytes": 2
+      },
+      "bytes": 1920090,
+      "duration_seconds": 30.000188,
+      "id": "daily_omni:audio:vAvLt3QI904",
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\vAvLt3QI904\\vAvLt3QI904_audio.wav",
+      "reasons": [],
+      "sha256": "13a74e072681173e32d72844bf8ee46d14e8211481e0b02b00cc80c0f1c9e0de",
+      "video_streams": 0
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1273067,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:-jR3C_yA_G0",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\ae4a7f67ac10b5603cae60e15308aacbfdd5d9c609299a1cd92b72beee58d27e_silent.mp4",
+      "reasons": [],
+      "sha256": "3d873e2bd7f900809872df53cdcd3fd6f6c1a25061d02939a1d8eb8b25929b36",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1268542,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:-l8djVj0FcU",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\60cc9461f316080abbe174d8d0954bca8c40980811fd2ad0d12a21fe49f74ed6_silent.mp4",
+      "reasons": [],
+      "sha256": "a42356b896f4c7600719bb042abe1b68158eebd2274ae8713e2d77f68d9cf9cd",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1092029,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:-spqqACI6UQ",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\9cdb60bbcc631731cd1d1b72aa6c1ec88bd8293fe288c5f8589f1747dd7dd6b9_silent.mp4",
+      "reasons": [],
+      "sha256": "81cce5cdb22b065bf0693be124f9489179dc3f86254a40ca3a0d6a0484604d48",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2603937,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:-uaTK8sa5Ms",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\0e87a9a996d57326f85d2aae5009af0b0b189a32839f4c4a283d81338d730607_silent.mp4",
+      "reasons": [],
+      "sha256": "0ec79a6e24323be5bea30b657359ef84b52db2aa78cf4c97c0d88071b3972748",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2926219,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:-xfgovG6-KU",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\941657569d5119c4ea73aac015540dce33fe376bba9b985015fea9d844d5d472_silent.mp4",
+      "reasons": [],
+      "sha256": "68a8ed6a30b5c67e9db620536c987f3a2ec962cffd8c456e9503aec00e5eeabf",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 4708124,
+      "duration_seconds": 60.0,
+      "id": "daily_omni:video:-yWE13LbFd4",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\562b36738bb6128f68f9b7d24b67912022dbe90dc560aca3a24c8d714b58d69d_silent.mp4",
+      "reasons": [],
+      "sha256": "cf8e2bc3610a5df7cad257932729e9b69e287b6927d9509d137b1fd942bb4f41",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1012094,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:03IZHwOh2eQ",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\29ffdf1ed98316f07f09c19a830abf27bb668f28554f9d2d71b7378736eac3ae_silent.mp4",
+      "reasons": [],
+      "sha256": "ef95b4a4630a71faa6e4da891ad19453f4cd76ea882a8920b6aa4d683ec515d7",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1925454,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:06b2PxvBoNU",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\986cc683d895638256da3706db7d3b97db851e774f05902667045c2ec272728a_silent.mp4",
+      "reasons": [],
+      "sha256": "1800a1cb3884d2e329164948a4a06e86904a9661d92a8920b968afc05ea5daaf",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1799941,
+      "duration_seconds": 30.03003,
+      "id": "daily_omni:video:0GFtqzOWnWg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\bf1a1d00822b74102faa267de5fed38d466fd97d03a12c4e59da5972eec8c4b9_silent.mp4",
+      "reasons": [],
+      "sha256": "8b6aa309fc910dabf4535f2248bb387b216a80c6c4740cd3dd7b96923a800349",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2992449,
+      "duration_seconds": 60.018,
+      "id": "daily_omni:video:0Jbc3Ah4EIc",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\2bc69acc55475a1ef6b0427d8bc39b04b26358ff0e81d664a2fd7641c2579ca4_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "067b7c8ffb8435ddaa7f86bf9a2dc6e5a4f1882b989d6e4d8d6ebbf2f5887151",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 3755987,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:0JjgoicpYkU",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\77dd8c2ea3e8f74dc94d7bb257be947575acdd3750bb72605a03131b9dfb5fde_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "59dd1e4f4062e22e523523e94997be71d299bf58e1f3896e02d326fd7b2b43d2",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1029484,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:0bP2MH3LqvI",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\8c6dd4951a9fbadf29f7e1f2092fe1b9a9f5ece4f6b57de006638880aedd6925_silent.mp4",
+      "reasons": [],
+      "sha256": "c469715aa5367b1cbcce6e60fa30513d0066d19dd2e36590ae681e36fc1be7f7",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2498055,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:0bRUkLsttto",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\e1b612f1cae7f8b467402b92a82da59013214539016abd45ed8dddba14af9639_silent.mp4",
+      "reasons": [],
+      "sha256": "2ce5f23c61724d54eb30681db1ca3e5c3853d4d1e30ababbf08bff513e2a4745",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 3864279,
+      "duration_seconds": 60.0,
+      "id": "daily_omni:video:0eJvnKwGThw",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\5f276a2cd6d258b810c5074285c44c7bdcec23a998170512252ad12bcbd43bc4_silent.mp4",
+      "reasons": [],
+      "sha256": "bb0d805b1325c1661fac107a9449df81e0983a7c08c9ced711db3ebad61039cd",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 3366651,
+      "duration_seconds": 60.0,
+      "id": "daily_omni:video:2LDriAWltwM",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\47c98d7d86a279e848fc316763cbe8ee80f12144c8b13ca79aac64eb3638813e_silent.mp4",
+      "reasons": [],
+      "sha256": "ef0c672f1d885de50ee1c77b7dc5985947f9ce37fe1785f2f7df80716948e911",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2654887,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:2QTiAmvygC4",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\5c7c15cd8c1ddde824648bc3900b5ace3ed2882c1a08c7b56b40b634786e964b_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "07e3dc846baaed3323959808365372a1c76a292eea70b0dfecf764336ec93449",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 886701,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:2t4CkOvERAI",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\860eaef0419465890848a4361e06ac9237052b82437304654e3814eae3ff11b0_silent.mp4",
+      "reasons": [],
+      "sha256": "d974dee4aaeb2b937d934788eb8d815d5382a55d01be1ac489a2317a957e7708",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 3657296,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:2vSF2Yh6o_k",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\6443da601a18a482b8aaa7b10fca826df02bd0a5624193f09443d415f6e8755f_silent.mp4",
+      "reasons": [],
+      "sha256": "5672fff941541202099c1105de49aa7362193272705dea1c27aa2e07486dedc6",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 750647,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:34vzrZ2SlQo",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\2ef6a7b2e35238889d5c13ea69817bc486b969c5ce85cef3de2c46a3a1f5933a_silent.mp4",
+      "reasons": [],
+      "sha256": "041c970448258a49d516dadea125bc1781a50bd07b4a4ed4b2c91b3f3b92c4a6",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 3488943,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:36v-AEu7uAU",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\ad4d9779df5e852c87a6417df608708b21f27fc3846892cec2257f2ae166d539_silent.mp4",
+      "reasons": [],
+      "sha256": "2d3143e9c2cb9cd0c630bed715a450045aa3a6f9af502e9962d611888d3a6623",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1464892,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:3CnwUQZ6q78",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\c36ce9b66f22e1d701b4af1b2e120820bf7574fb245d7fcaa6df75679b22a459_silent.mp4",
+      "reasons": [],
+      "sha256": "83f8c749f35fa9ff361f489b9b979e5d32d0775a1b660c0e4b7e98d6b4afcc9e",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 3767344,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:3E4Zca1p64s",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\ea0f7b4d4b380e4e743d954d6ab1d7b2360040679d7a13376b6ba1417c41f7c2_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "87d8bf9f029da401b8ff85bdc82228e1d33b643d1f76f3eaa1ec341c1f375c30",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1471771,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:3EE5WKQMBek",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\cdeddfd8b41dc3289003e4c9c453617a67ced4b9063fb3a38cb34de6c6a54a67_silent.mp4",
+      "reasons": [],
+      "sha256": "a42b9fd55cee4cf71c63fd5e50dd0d6a35114a74a51a037a2285ab6cfa14ab7e",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 811379,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:3IW7578PicA",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\06d46d1f883f7280f0b868cae25f0f6a69f7b570b221be009a5233fa14d46ced_silent.mp4",
+      "reasons": [],
+      "sha256": "9db55f3b95ce03365b9c72b0b9e8b717672142e179e73cf3a818434218ffe421",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1982041,
+      "duration_seconds": 60.0,
+      "id": "daily_omni:video:3fQxvz4ENDg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\77db50a32c6059d0c55947bf18aa016d87b31cfd587c772d103acde38914dd8e_silent.mp4",
+      "reasons": [],
+      "sha256": "68a5ba4b925c454c1bed4483bf6648497c069f6109bb2b8ea74815fcb7e70e23",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 586791,
+      "duration_seconds": 9.28,
+      "id": "daily_omni:video:3gwZdkjpPds",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\f74fb3ac017efc7b5d3a6fd647eaba50d4d2a9578f56adff43cfbf914dc27753_silent.mp4",
+      "reasons": [],
+      "sha256": "f64e703a9d11852ae2b76583f438549e9d55a7c8dfede2252f05fa5b6c101291",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1310670,
+      "duration_seconds": 60.026693,
+      "id": "daily_omni:video:3m29MQ-qPfg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\400b2b52c5fea791184ab3fa266a5f2071e73de20e3110189b81d398d583d840_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "c211c6414540c814da8c1b77067e64d069a6e173042101383d568014959e74a2",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2519225,
+      "duration_seconds": 60.026693,
+      "id": "daily_omni:video:4H8hcvNeWtg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\38148dc2c7a9c18f3c783be377a4ca6767bf01d493aa9c28be91783e2ebc56fd_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "cd60f88a10213427040cbfdfee982353892dad199c71e7108d1d4c7bb04f3946",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 741654,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:4U5u7OEcHFs",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\c1cebcbc3b558b8a02efe34a1f6113692971456b7382a40a20b1fab5c1bc6e8b_silent.mp4",
+      "reasons": [],
+      "sha256": "5c2a5de75bc795d5f654d6259421fe0f44e8ae8cd4b4fd675c9d8e823f45d9b6",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 711905,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:4e3gNCp9dxY",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\97341f30ff27d8941d9d1574535bcc82e68529100bc6cd463d50111071988472_silent.mp4",
+      "reasons": [],
+      "sha256": "477e4880acc95cca798a1554b4c128b6c30562f2b83dbf3b4bbc0ec4a9d04e24",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1967827,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:540LkURTR7g",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\7cdcc95822289c448c744d3b1aea68850640a86a9fe4920c207034bbfe9f9bf9_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "c5a191c4d2bd4694a5bc2b38725e2b1c5d1d001e2243bcfaea88f27381c2bcfc",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1979965,
+      "duration_seconds": 60.0,
+      "id": "daily_omni:video:55Jas5HrzcQ",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\56a4c4d49ac52b4ce5d24abab4e88d3a15efe4132d09edd0eac35660165e5b64_silent.mp4",
+      "reasons": [],
+      "sha256": "25f8c2ec845d838e8be68280b3dda16e09e8b24c3498e5fec456bda8eca6ded3",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 3008176,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:6NVr0cNiHPM",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\9d4a60bf46b82b70f9fd338294dd7e90a1c58186be10dc0407d4435f8f27621d_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "5a6483690d84d61635ccd6a62a0bfb4a7f77048f22a8ab86c2b7906f286eb27d",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1068247,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:6l8n-VJxqmU",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\4a40b9ebfe71651dc14f6c8aba5491d6337d5e7c648f575f64cbeffd97cc693d_silent.mp4",
+      "reasons": [],
+      "sha256": "73edb1b505f5599b19f842cb4e7f7d313a570e834d55493dbae9c97fee76e7f2",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2521818,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:6vKvjzuICxg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\9369cbcabd0462c5e778c588225a08d82b876c9ed447339f090408d7c9864b73_silent.mp4",
+      "reasons": [],
+      "sha256": "423be35bc6e8fbc7aba98d8cfa4d9a6d60713f2fd7df60514d620d79459424ea",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1067114,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:6yDJfe_9naU",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\7bb37cb2e28fd6f855a4dbe23ceccbdbf1d8eda1092f23357628a4d0a58b6675_silent.mp4",
+      "reasons": [],
+      "sha256": "85313408cc8f3bf47100bb7cd093882e7cb48bee57c9c135de9fbf4657785bfe",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 4058327,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:7D-gxaie6UI",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\0e99225b99295f94c335188fed9349edac0c06f1f8fe9fb607d28b45dac9117d_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "461748fb54ade8570c4e19cdb0aa10b7f207a0f9189965e959065c90e4961132",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 4266860,
+      "duration_seconds": 60.0,
+      "id": "daily_omni:video:7E6i3E-fsj4",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\822155a4eda7b2bf5563b05834bc2660b9e1eb759e025d03c534e3b4430bedaa_silent.mp4",
+      "reasons": [],
+      "sha256": "e35f492ccbd762d02bfccb9519c99371d40f830143c48163287693011ece8e3b",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 972649,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:7yY1OWjT4zA",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\97a8c04e6f5ee3a062c03bea65b0381f0051bdc8ab27332cde885fda4bbeb65e_silent.mp4",
+      "reasons": [],
+      "sha256": "c3ea71b074973436ecdd80d407f2ac9d84b8b377c69381065c0e3bc0c21266f4",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2667441,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:8TNPeimqOO0",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\54cb56d4109dd94fa851c57ed9d9132089b38dbc37f82526f234dad584f7ab56_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "22bc65a4b2b30218f6c91d3ae13575116728b74a99549042c7fa387aa9186938",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 6000008,
+      "duration_seconds": 60.0,
+      "id": "daily_omni:video:8UxGzDeRIJk",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\5788a41dc83463c7d0f183b734c64f7959709cb97a4bb40ad720c15e2949efaf_silent.mp4",
+      "reasons": [],
+      "sha256": "e7f7c2af3812e96c88cbd31814a4950eca9e077235af158cf3344828342a7b47",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1799487,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:9PsvKIvzgUs",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\6cf9a9c24dc3545c98098ea8ab1a3adeb805d17b295225e22cafafb59601de51_silent.mp4",
+      "reasons": [],
+      "sha256": "48a5d42908228e007fce8826e32093420908dec724b1a8efff325b0b39bd7c2d",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 3659038,
+      "duration_seconds": 60.0,
+      "id": "daily_omni:video:9aGgBzToUz4",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\72f8f5df6dfbb40dd179bf45b6b4c90dc575a9f828dae771536c1455c1190aed_silent.mp4",
+      "reasons": [],
+      "sha256": "9c47b8d3fd741b1408eb80a6ac98c41be914db11a2c0bd107c9f964e43e26c88",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1060410,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:A9fQPzZ1-hg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\7539e51741f881ba68d5a2d007f1896f3fa95a62752afa09539ddc81c2bc154d_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "eaf3d5c4e3f558a15e9e0fcd82c9912161afbd29e8182d1016c0df5ae2c6a82c",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2955501,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:AFKgWXM1aqM",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\7c455538c562acfa898825d31ea4c1adf3aa29ba5840a704c5358c34088cb2ce_silent.mp4",
+      "reasons": [],
+      "sha256": "2f307c969f39c91e03f35383988adaca5ba19aee5a5c9174d49008eba4f0cbba",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1769878,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:AaaTLFxIQ6o",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\2f153b9689752eb1a46c80a6a637674f68601896bac9b70d5ec7bd64ca7fc73b_silent.mp4",
+      "reasons": [],
+      "sha256": "a91157758cd3f66e164c9e240473dec57779878dfe72502569b854ba8855b56f",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 3170309,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:BxrolAZXZFg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\94e74a3250ef5e6b38eb31479b5d07e0f41e87233c19315b7f5964e89e4687e7_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "10baab042371e17a06c0821a41ec7541fb9ad809b0cc772dea4938155660a20e",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1960858,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:C6aeL83z_9Y",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\a32472a3e5bba788c13604c4aa87e41e7e0af66978a2acf6455e7d4c163e7545_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "e58a67883867c15dcd69393feeecec2508e2a4e09e0e716621c406d5a82e6936",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2758736,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:CC9VeHrI3Es",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\138ba4b41f6e99b9f43e42f00bed59ad24e2465cd4ba2a85405a576c7c1d031f_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "45d350a1f2e64536e09b6d176c3540d254ca0755b925f9852a844426f63647ea",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1560741,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:ChbZLHnush8",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\7e959c70fec77322929542bf9254c5d8e5a825955056790e0992384792934479_silent.mp4",
+      "reasons": [],
+      "sha256": "45cd21b74a7c0e5f1c734b3898ad305c653d491ef35c79246159607bafdb2e04",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2867450,
+      "duration_seconds": 60.0,
+      "id": "daily_omni:video:CwzjlmBLfrQ",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\3b39ac4809b9534f7117920981ac13df4cf2e580a3ddb31b0007b025c166255f_silent.mp4",
+      "reasons": [],
+      "sha256": "402d79261a5980b0e56cd4139515f8b52fdcb98a54288fc9ff2617a9f256fe70",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 636604,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:EQ-67udZEeg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\11343804908224318e4f8bcc7177c4e5cb80355034c17262da371eb23a074be1_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "8eed348e361b04cef4822f53dc11e40f14b7e4644795dffc2b7cc83130d3b078",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2562114,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:G267g0DpCVg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\95abf07a6416320fca5c8c1f54b8705c225dd32e9e60a1143dbc317d47751b62_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "0249b803053f7c1747e4df5a763b64e287fcd429d772f32f61ac3a068a1fccea",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1704302,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:G8ywbM85GVE",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\b0bb9c98b9d61e72ad7ac08d99c75cf953a3dc7cc9cd1b82d0e37d7c2d03be32_silent.mp4",
+      "reasons": [],
+      "sha256": "dbcb3e7e7ce997d99a5d1fe59507a76fafd8a01af6c8927104c1442b58cf4d61",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2856017,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:GPOv72Awo68",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\a2ca813903a40efffa2d44c0445be77991cbc7cb10cd4bb068cb1d25d519ebe8_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "89e032b4f5997e2f97113c9b53ea670817c43851afb0f2b3f272ecd33ae2e62d",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2470386,
+      "duration_seconds": 60.0,
+      "id": "daily_omni:video:GQEYGAJIzAM",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\a946e29cd6ac23606f9feab8100c816cffe969e47b852cda0f496406139dae08_silent.mp4",
+      "reasons": [],
+      "sha256": "5c96bc1a1bf4335aab38b37a676107e486e4a9e24049373d4079c6a2c58ffdae",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 724656,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:Ggv1cJYtW8E",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\00f5f61241089553bdd4dbd0dd8aa4f44631265636609b28d250d08d3bc71f9d_silent.mp4",
+      "reasons": [],
+      "sha256": "68a9042ddda8553fbd1f23c50754c3de68e1ceb58232d3d06ec21dd10d24c4f4",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2772194,
+      "duration_seconds": 60.0,
+      "id": "daily_omni:video:H6Y2KRfpRVY",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\0f69330353c1bc1ef17786d659ef8d60e64c31cf288b6f379d2f52e9bbc94905_silent.mp4",
+      "reasons": [],
+      "sha256": "cd61e24508d326eab53ecc5c971fbbe41a999db28d7db264a3670e3e77781052",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2296762,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:HIjX8OPuf-w",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\097d5fbaf4f7e17d7d68f65230a4c8bf6312ec13c1d46620cf927decdb728dfc_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "8c18210bbbe388e12a497ecc875da96841cd2e222a00927c073d61c9d7252be6",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 614592,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:HOa6A7GVvEc",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\f00db055c7d48f09c7033298878e8964851808fca982df45d3344a425eca66f1_silent.mp4",
+      "reasons": [],
+      "sha256": "267a29d1cafb5b23c01a9db26cf27388ade91ce80a3426fe897dfcc3d04d39b2",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1686812,
+      "duration_seconds": 60.0,
+      "id": "daily_omni:video:HnS87Tw4amM",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\3994bcebb4cd00b8c42eb9a5262fd3e14b84011f8258e9e96e40903e3a0d5979_silent.mp4",
+      "reasons": [],
+      "sha256": "9b9ecae1ceef3b9a3a8cab0896373830c5452d07cc5e011fc1d50013cc273f44",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1156819,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:IWL9AJhQCtQ",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\0a3e34d588594e7189db49b977c25f205c028481a6f6f49cd18a1d71c654a87f_silent.mp4",
+      "reasons": [],
+      "sha256": "2afc957fff096a4dbd862d108950cd91fb644b8a79095ab4b2779cbb4abff934",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1649449,
+      "duration_seconds": 60.018292,
+      "id": "daily_omni:video:IzQ2siryQrM",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\d1b2f5dc0520c64286ebba1a4caff8b226c0d47611a1d98f4a8414505582a621_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "55bac891a46dd018d6159e1abd7abbef05a5669f28b409cc1f823ab928873f89",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2866112,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:JwxALozuKfY",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\54d666d9d3ed6140c0d8aa50ba680eeaf3e49fb2f4b4c03215fec786fd002efa_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "fcc006ddc47617d1514df09f2f1610b84b6d0a4748dde1d230541e542656c3b5",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 3227800,
+      "duration_seconds": 60.0,
+      "id": "daily_omni:video:KD1yxRyFAZQ",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\8271ff13c09ed828a3cfe55712f963dddbd416ce5f5d4b86f7acafcacb0c0df4_silent.mp4",
+      "reasons": [],
+      "sha256": "7f34ac53c4d3b1e3d191713f5da7de1233ec000a8a1b70fa160071bc4c05ef35",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 5762071,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:MQEcUPeAdFs",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\f47887045db3ca23d314cdc84d54c14e54cafef9153be30de2268e7100ce4c97_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "34dfbc6f66b77bd3ef5805653220fba8082914c86f87832f4a9c4f68b17eb8ab",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1119530,
+      "duration_seconds": 29.154125,
+      "id": "daily_omni:video:MeSA4VUjGpE",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\26e295ca869423ce182876be441dc92cd85603c903526ac70e038d078cd9179e_silent.mp4",
+      "reasons": [],
+      "sha256": "6bd9083b10dbd51365a29291c9c53e546fb904d8abb48d320c89eaa6b1c9007f",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2520984,
+      "duration_seconds": 60.0,
+      "id": "daily_omni:video:N62mrplIygc",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\5259eeda8de39ea57253eca58aeda61f8c9ec4c9ded2bb849599e4c7ad8fe735_silent.mp4",
+      "reasons": [],
+      "sha256": "64fbe7272750b16436625c3927ecdb8736a09213795c33bb76fe5b547d446672",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 4080075,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:NAahAX62MZ0",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\ac7d9399f2c05528f259d5b838428674417fee47625103cc6eb234e12c4d917d_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "c203afccab4a7be48e49ddfdf9350b9f5f8af42d673f13217d169b7c8ca6060f",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2815205,
+      "duration_seconds": 60.0,
+      "id": "daily_omni:video:PB06auioy0Y",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\2e3e1b2540e5f32e6c3975464533628ea7324e2e3f161c03206b46f2fdb1fde9_silent.mp4",
+      "reasons": [],
+      "sha256": "a693e91de07eaaf568bb62e470bb01f5810e72446b9b513e830df90007e4362f",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2924840,
+      "duration_seconds": 60.0,
+      "id": "daily_omni:video:PHe0bXAIuk0",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\13c6e8f683868c6a62e6993fcd03e3484da5f6139f08454c8270bb618951f1c5_silent.mp4",
+      "reasons": [],
+      "sha256": "773d8ae26c151593413ea71bf02416b13eb23cc1176df8fe167a0ed6593ac977",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1191769,
+      "duration_seconds": 60.018,
+      "id": "daily_omni:video:PSyedQl9IiQ",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\f9489469b87182b452e01af9590563c6d41db3b5af785fd6bfbde38251383357_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "d3ea76a5108fc77ed3fd7a1058dc4af5f577c1e417ce0ed6a93e992d201445c4",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 6093282,
+      "duration_seconds": 60.0,
+      "id": "daily_omni:video:PYqmI0Hiaho",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\185446d3fd45f7edaf0a9b73408246c86d30e15bec7d1b16da8af27a06c5d269_silent.mp4",
+      "reasons": [],
+      "sha256": "fbecca4343b1ed4e452e3986532385ff840eda222d709e007c3d7b1299009480",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2702272,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:QFNwukuWJ4I",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\b95d2f87c0b1a6b8db71cea6adf0eaed6bdbe93a187d1ea929278dc25054a3b4_silent.mp4",
+      "reasons": [],
+      "sha256": "6d8717a41485e34e8054621a119eda447564ea11d405d3271a2528f549fccc3a",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 5807535,
+      "duration_seconds": 60.026,
+      "id": "daily_omni:video:QnGwAUTM1fY",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\bf0d2016267e94276a0b5b33b70ac0b3bdf3b4b5eea3a0dce2fd5618ad8be3bc_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "c3aa8f6e710473a2b72bbdbdb100c1a89108f7bb790c83becb217722e6570cf0",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2778766,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:SB4NLADmT_k",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\0c3a3e26637ee0a4d0f8e136eec2ac05bb0a51568ae6f2e9684b8976d537b516_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "5ca65429824df86d55a5bf511bcd44c73b4f4be8e6314ae5aaf5b96c48234b50",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1055808,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:SlFS0VJ20tU",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\830ac56ac366a833ff685495fd19b87477f5bb50a4a79a1e6b4c63d8261cacc5_silent.mp4",
+      "reasons": [],
+      "sha256": "77cd06cb629fd12e8b77df5ce3c2c57aae297488c098a501d50e718976f8483f",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 784284,
+      "duration_seconds": 60.026633,
+      "id": "daily_omni:video:TPS22HRRY1k",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\9191a2c20b54e29bfdb44c681a6aa57cec64943557dc0c17c3624bcd9509c480_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "3a11cd2463abfbeb7e8ca4168c62790ba722b56e72bdd5fa7fd59a854a6e8b5d",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 3841034,
+      "duration_seconds": 60.0,
+      "id": "daily_omni:video:UGMDV82m3Ro",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\2fbe1c0181f1f3274c8705861ccefae842fcae54dadc00e16039f0be946ed819_silent.mp4",
+      "reasons": [],
+      "sha256": "daf84a258a34f12e8b1eb333b66565d57e31df7e1573125a1cc475de8966de26",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 3360878,
+      "duration_seconds": 60.026693,
+      "id": "daily_omni:video:VFntoBRGF1A",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\1a5a288eea95d2cbc18e8dd80a3b6b1e5fcd2301adc3f905a796b2150a973141_silent.mp4",
+      "reasons": [
+        "video_duration_exceeds_60s"
+      ],
+      "sha256": "6326a7d7a9083a046cffdc89606ec2d2f10c2b84b9dc1e35709e97578656ee99",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 137286,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:Z0JDTBGh4D8",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\f15ee00451adfb69f10e4199254d32f17ca0bef8d49441489803c57702c3dd47_silent.mp4",
+      "reasons": [],
+      "sha256": "04d589b2d8661494ded5353da2eff437e161ac286b1841a7f7e3c65ea839fe3b",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1562549,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:_t2geYpykFo",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\69524ad686cc43d55e8d7b08291188acdb9f6314c2b2b65c2b37554260a08c5e_silent.mp4",
+      "reasons": [],
+      "sha256": "b5bf9c8836a1d88709598de4ef536fe22a9a257b0f8f6b8811e527544d6d3df0",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 900629,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:cFkYpIKWH5A",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\a3d6822d6f217835a09ddb26d3e81caba74de0dc794e4afddfde043583acd9ae_silent.mp4",
+      "reasons": [],
+      "sha256": "4c430774b2b908b218da94ec63556789a08cfc5d0109a60c4abefc047239606c",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2021491,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:d6b4OmUFt7I",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\d63ba80151a5596c662ee5bcb7a3aff781039e16b49a549cc266b8813ae98baa_silent.mp4",
+      "reasons": [],
+      "sha256": "6ee395a81d23b66422c8460b9d46e8f5afce88e1be7351a122df558392a6b12d",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1584364,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:eLPe7xp0jRw",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\ab855b8ed2c7600b3bbe6701d92a77cc5469ff6c1a7d4bbfe661e13cc631542d_silent.mp4",
+      "reasons": [],
+      "sha256": "770eda0d50e7fa467c1b06e26eed58f6b135f667f09822a0c53be0f217c6b0aa",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1899524,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:h7ljgWAgb0E",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\81ff1dddee047fc7b5989db3382a09519f019468ef1860d74334e1b9450e6d2d_silent.mp4",
+      "reasons": [],
+      "sha256": "8a4a7cf40fbe5d9720c4390552a1870ecb8c406050c4c343374be316cb20aaf8",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1023511,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:h_0DNygeF8A",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\78d751c68efe6f092335e00d86b18882ef23f2e673099b0416255992d42f67b3_silent.mp4",
+      "reasons": [],
+      "sha256": "bf45c07b5d6fb1f17260a7b60ae2bb805791076aa945feb588c6dfffc56b13af",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2310594,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:jsCsIW8zFvQ",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\633c01cbc0022e2800502ec1406d6b223d7183f0ef4be6635bf5000649368090_silent.mp4",
+      "reasons": [],
+      "sha256": "280105ad360760358378886e1fe76d35d281db3ec231bda88ce650fddcdac33a",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 2481147,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:nDFO_EDadEg",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\fb2f101cd7939cf3541ec651c5868ff5f8118ff640469aa19f4238dc849394a9_silent.mp4",
+      "reasons": [],
+      "sha256": "01087f6178d86f82a9b713bd540c3094148d1529a4789efee4065164e9962c65",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1945816,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:nbsGrFj-Z7o",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\bb356d57556cacd3b50050dee885c610b10df50924d51f21eeb93336499fddb6_silent.mp4",
+      "reasons": [],
+      "sha256": "b8341a1ec491518339c619f90cdd265d0eb03f3e45447efc6618f9462398e164",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 898001,
+      "duration_seconds": 30.03,
+      "id": "daily_omni:video:nbuHTaMV8ok",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\626bf1997ba286935688fedf5e7aa2c98c7f91b827a0cfe01263188594d8bb11_silent.mp4",
+      "reasons": [],
+      "sha256": "4ab473a99a7ae379fb5c6afabafee37ed2860c29dc8666ba5e786ed9410613fc",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 1965303,
+      "duration_seconds": 30.0,
+      "id": "daily_omni:video:pUqmv-KY0Q4",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\85956d46988d00aaf969c704672fb1809fea5078dfcc48f884901a8781d11b0b_silent.mp4",
+      "reasons": [],
+      "sha256": "ffd49f2c92cddae4cf91b50332364545d9a8ecc89803997e9fee9a05c78f1a82",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 941180,
+      "duration_seconds": 30.03003,
+      "id": "daily_omni:video:u2gwhTt-B5M",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\f02e05251a5786550d4d1ff2618c32cb5d26c91b07593e9cc79b236afefe9fcd_silent.mp4",
+      "reasons": [],
+      "sha256": "27721d9854197661a37e73ad70b69785613fe5e1eb019bccbe1daa4e1e5f4ee3",
+      "video_streams": 1
+    },
+    {
+      "audio_streams": 0,
+      "bytes": 4916376,
+      "duration_seconds": 30.03003,
+      "id": "daily_omni:video:vAvLt3QI904",
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\70efaaf5820c6f9b513cd1a860d05f026f820b362e1f80533fea04fde5be3fdf_silent.mp4",
+      "reasons": [],
+      "sha256": "be8610d84b3544431bc194192a5162733c29b892ae6704140032eb82d25070d9",
+      "video_streams": 1
+    }
+  ],
+  "missing_media_by_modality": {},
+  "native_media_fingerprint": "4f462361d098366ad86042c306abd991a054cd0ee36e15f8b0969fa4afcd2ec2",
+  "native_multimodal_ready": true,
+  "normalized_audio_files": 16,
+  "notes": [
+    "Use the exact same queries for audio-only, visual-only, and combined evaluation.",
+    "Known-video multiple-choice QA is not collection retrieval; Recall/MRR do not apply.",
+    "Audio and video are required jointly even for single-modality ablations.",
+    "Short-clip filtering creates a duration-biased subset, not a full-benchmark score.",
+    "Video is represented by the local adapter as timestamped frames at 1 FPS.",
+    "Passing duration/byte checks cannot guarantee model context fit or answer quality.",
+    "No model inference or API requests were made during subset preparation.",
+    "Query IDs, question text, choices, and labels are unchanged; corpus audio paths/metadata record normalization.",
+    "This is a boundary-normalized experiment, not an untouched full-clip benchmark.",
+    "Only PCM WAV sources in (30,30.001] seconds may lose at most 1 ms of terminal samples.",
+    "All retained PCM bytes, channel counts, sample widths, and sample rates are unchanged.",
+    "Original audio files and all full silent video files are unchanged."
+  ],
+  "preparation_script": {
+    "bytes": 20043,
+    "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\scripts\\prepare_local_av_eval.py",
+    "sha256": "391efd79748cdce529629f109913660d550e65541ffce09fc191e416f7b3cdf9"
+  },
+  "protocol": "known_video_qa",
+  "queries": 20,
+  "query_fingerprint": "b8e03f826d63dd2ed4d45876d507c9dd892514a39522f85a1456f30c8dfc6495",
+  "question_type_counts": {
+    "AV Event Alignment": 1,
+    "Comparative": 2,
+    "Context understanding": 2,
+    "Event Sequence": 7,
+    "Inference": 5,
+    "Reasoning": 3
+  },
+  "schema_version": 1,
+  "selected_ids": [
+    "daily_omni:09b550d047d769960847",
+    "daily_omni:09dbf9a65ccc419903ec",
+    "daily_omni:16b2f7328d268bcf193f",
+    "daily_omni:1d20538acabb6bc8742a",
+    "daily_omni:223c60604d2be57e0f7a",
+    "daily_omni:22a74416ef7169cb8910",
+    "daily_omni:2c4d5e479396c10f6ef9",
+    "daily_omni:316dda717f283f454b19",
+    "daily_omni:3730e8fe7ecfe622bbb8",
+    "daily_omni:3d164af51cc69dffd74d",
+    "daily_omni:5f5858abb2eb0212b227",
+    "daily_omni:7c3a3e335f923faf2e5e",
+    "daily_omni:8a388f102cd24263e6b5",
+    "daily_omni:92febc2dbf0f06de423f",
+    "daily_omni:9d167784ca8769578119",
+    "daily_omni:ad1eb8260dc5939aea96",
+    "daily_omni:db2162b8e0887724b7ea",
+    "daily_omni:e8db1ed8a7dbbfc521df",
+    "daily_omni:f019241c231f9a607cd9",
+    "daily_omni:fcd0e0c4b6159f2ce056"
+  ],
+  "selected_media_ids": [
+    "daily_omni:audio:-jR3C_yA_G0",
+    "daily_omni:audio:-spqqACI6UQ",
+    "daily_omni:audio:0GFtqzOWnWg",
+    "daily_omni:audio:0bP2MH3LqvI",
+    "daily_omni:audio:2t4CkOvERAI",
+    "daily_omni:audio:2vSF2Yh6o_k",
+    "daily_omni:audio:3EE5WKQMBek",
+    "daily_omni:audio:4e3gNCp9dxY",
+    "daily_omni:audio:7yY1OWjT4zA",
+    "daily_omni:audio:AFKgWXM1aqM",
+    "daily_omni:audio:Ggv1cJYtW8E",
+    "daily_omni:audio:IWL9AJhQCtQ",
+    "daily_omni:audio:QFNwukuWJ4I",
+    "daily_omni:audio:Z0JDTBGh4D8",
+    "daily_omni:audio:_t2geYpykFo",
+    "daily_omni:audio:jsCsIW8zFvQ",
+    "daily_omni:video:-jR3C_yA_G0",
+    "daily_omni:video:-spqqACI6UQ",
+    "daily_omni:video:0GFtqzOWnWg",
+    "daily_omni:video:0bP2MH3LqvI",
+    "daily_omni:video:2t4CkOvERAI",
+    "daily_omni:video:2vSF2Yh6o_k",
+    "daily_omni:video:3EE5WKQMBek",
+    "daily_omni:video:4e3gNCp9dxY",
+    "daily_omni:video:7yY1OWjT4zA",
+    "daily_omni:video:AFKgWXM1aqM",
+    "daily_omni:video:Ggv1cJYtW8E",
+    "daily_omni:video:IWL9AJhQCtQ",
+    "daily_omni:video:QFNwukuWJ4I",
+    "daily_omni:video:Z0JDTBGh4D8",
+    "daily_omni:video:_t2geYpykFo",
+    "daily_omni:video:jsCsIW8zFvQ"
+  ],
+  "selected_questions_with_untouched_audio": [],
+  "selection": {
+    "answer_or_prediction_based_selection": false,
+    "eligible_query_count": 52,
+    "excluded_query_count": 80,
+    "order": "ascending query ID (lexicographic)",
+    "rule": "sample up to 20 eligible queries without replacement from ascending query IDs using Python random.Random(seed); publish in ascending ID order",
+    "scope": "existing prepared source queries only; not the full Daily-Omni benchmark",
+    "seed": 42,
+    "selected_query_count": 20,
+    "source_query_count": 100
+  },
+  "source_dataset_dir": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni",
+  "source_files": [
+    {
+      "bytes": 130660,
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni\\corpus.jsonl",
+      "sha256": "b99ab9b70067f0936f581317973e434df643b1bb940be77fc54b4576bafb625d"
+    },
+    {
+      "bytes": 100272,
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni\\queries.jsonl",
+      "sha256": "bb9dd005c549ba24f43de7494ffdedbc14084d1d28347c68d4d9572d13d8aee8"
+    },
+    {
+      "bytes": 6527,
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\prepared\\daily-omni\\manifest.json",
+      "sha256": "fb8068421b1bb0038a50d8c3b18b7c6c8994f00396ba6878250727b25322e111"
+    }
+  ],
+  "source_native_media_fingerprint": "c8d9aa3cd3115e5b1df5dfa8ba791c5c4812513642425d12b1dcba0d589b437f",
+  "unique_videos": 16
+}

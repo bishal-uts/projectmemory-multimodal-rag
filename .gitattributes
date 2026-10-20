@@ -1,0 +1,5 @@
+# Store every file byte-for-byte, with no CRLF/LF conversion. The results
+# record SHA-256 hashes of source and report files (for example
+# results/final-analysis/summary.json and each run.json); converting line
+# endings on commit or checkout would stop those recorded hashes verifying.
+* -text

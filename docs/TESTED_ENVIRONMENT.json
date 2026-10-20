@@ -1,0 +1,21 @@
+{
+  "python": "3.11.9",
+  "platform": "Windows x64",
+  "gpu": "NVIDIA RTX 4060 Laptop GPU, 8188 MiB",
+  "packages": {
+    "torch": "2.12.1+cu130",
+    "numpy": "2.4.3",
+    "sentence-transformers": "6.1.0",
+    "transformers": "5.19.0",
+    "pillow": "12.1.1",
+    "soundfile": "0.14.0",
+    "torchcodec": "0.17.0",
+    "pymupdf": "1.27.2.3",
+    "pytest": "9.0.2",
+    "matplotlib": "3.10.9",
+    "huggingface-hub": "1.33.0",
+    "safetensors": "0.8.0",
+    "accelerate": null
+  },
+  "note": "Observed environment, not a portable dependency lock; CUDA wheel/driver compatibility must be checked on another machine. Local generation uses the separately pinned llama.cpp CUDA12.4 runtime."
+}

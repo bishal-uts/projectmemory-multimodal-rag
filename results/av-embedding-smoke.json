@@ -1,0 +1,84 @@
+{
+  "device": "cpu",
+  "dtype": "float32",
+  "elapsed_seconds": 89.62442569999257,
+  "hits": [
+    {
+      "id": "av:161eb7ae8a6dbee91574:video:000000",
+      "score": 0.7169702208221006
+    },
+    {
+      "id": "av:44310303b40297de5b86:audio:000000",
+      "score": 0.5858537283453416
+    }
+  ],
+  "limitation": "Runtime smoke only, not a retrieval or QA quality benchmark. Only the first few seconds of one real clip were encoded, with at most three sampled visual frames. No generated answer or relevance label is inferred from this test.",
+  "modalities_tested": [
+    "audio",
+    "video"
+  ],
+  "model": "google/embeddinggemma-2",
+  "passed": true,
+  "prefix_seconds": 3,
+  "question": "What visual transition occurs as the narrator finishes stating 'Our Whirlpool Galaxy is a good model for this'?",
+  "records": [
+    {
+      "id": "av:161eb7ae8a6dbee91574:video:000000",
+      "metadata": {
+        "audio_included": false,
+        "benchmark_source_id": "-jR3C_yA_G0",
+        "chunk_seconds": 3.0,
+        "dataset": "daily_omni",
+        "duration_seconds": 3.0,
+        "end_seconds": 3.0,
+        "max_duration_seconds": 3.0,
+        "media_available": true,
+        "representation": "physical_media_segment",
+        "source_duration": 30.0,
+        "source_file": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\silent\\ae4a7f67ac10b5603cae60e15308aacbfdd5d9c609299a1cd92b72beee58d27e_silent.mp4",
+        "source_sha256": "3d873e2bd7f900809872df53cdcd3fd6f6c1a25061d02939a1d8eb8b25929b36",
+        "source_stream_index": 0,
+        "source_stream_start_seconds": 0.0,
+        "start_seconds": 0.0,
+        "timing_precision": "video_frame"
+      },
+      "modality": "video",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\av-smoke-segments\\161eb7ae8a6dbee91574\\video_000000.mp4",
+      "source_id": "file:3d873e2bd7f900809872df53cdcd3fd6f6c1a25061d02939a1d8eb8b25929b36",
+      "text": "",
+      "title": "ae4a7f67ac10b5603cae60e15308aacbfdd5d9c609299a1cd92b72beee58d27e_silent.mp4 (0.000-3.000s, video)"
+    },
+    {
+      "id": "av:44310303b40297de5b86:audio:000000",
+      "metadata": {
+        "audio_included": true,
+        "benchmark_source_id": "-jR3C_yA_G0",
+        "chunk_seconds": 3.0,
+        "dataset": "daily_omni",
+        "duration_seconds": 3.0,
+        "end_seconds": 3.0,
+        "max_duration_seconds": 3.0,
+        "media_available": true,
+        "representation": "physical_media_segment",
+        "source_duration": 30.000188,
+        "source_file": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\daily_omni\\Videos\\-jR3C_yA_G0\\-jR3C_yA_G0_audio.wav",
+        "source_sha256": "d069248ea6254377d2efd34fbf33fb2057284e01c2cdda0685c235c3afa9f841",
+        "source_stream_index": 0,
+        "source_stream_start_seconds": 0.0,
+        "start_seconds": 0.0,
+        "timing_precision": "audio_sample"
+      },
+      "modality": "audio",
+      "path": "D:\\AI Workspace\\Codex Workspace\\University Projects\\Multimodal Rag with Embedding Gemma\\data\\media\\av-smoke-segments\\44310303b40297de5b86\\audio_000000.wav",
+      "source_id": "file:d069248ea6254377d2efd34fbf33fb2057284e01c2cdda0685c235c3afa9f841",
+      "text": "",
+      "title": "-jR3C_yA_G0_audio.wav (0.000-3.000s, audio)"
+    }
+  ],
+  "revision": "914f7f89142e33e77833254d9c9b90c3cef7303b",
+  "source_dataset": "daily_omni",
+  "source_id": "-jR3C_yA_G0",
+  "task": "native_audio_video_runtime_smoke",
+  "threads": 2,
+  "torch_version": "2.12.1+cu130"
+}

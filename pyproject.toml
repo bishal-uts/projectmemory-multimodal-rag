@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "projectmemory"
+version = "0.1.0"
+description = "Reproducible multimodal retrieval experiments for an Advanced NLP project"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+embeddings = ["sentence-transformers==6.1.0", "transformers==5.19.0", "numpy", "pillow", "soundfile", "torchcodec"]
+dev = ["pytest>=8"]
+analysis = ["matplotlib==3.10.9"]
+ingestion = ["pymupdf>=1.26", "pillow>=11", "soundfile", "torchcodec"]
+
+[project.scripts]
+projectmemory = "projectmemory.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+projectmemory = ["web/*.html"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
