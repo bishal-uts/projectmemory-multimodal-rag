@@ -1,0 +1,131 @@
+{
+  "identical_answers": 19,
+  "identical_evidence": 20,
+  "identical_metrics": 19,
+  "note": "The three original MMQA runs used local_generation.py before the video-only decoder repair (media protocol v1); the new run uses the repaired file (v2). The repair changed video frame sampling only, which MMQA evidence (text, tables, images) never uses. generator-control.json re-runs original native questions with the repaired file to check that answers are unchanged.",
+  "original_local_generation": "ec9babc30f65d1d614b1a93d6456717a65696304c6ae4b2abbcbc67ff805d5ec",
+  "questions": 20,
+  "rerun_local_generation": "5217eba9f1f686924dfcb10f5768ecc4b6fd2256030497fe7e055d06e9828986",
+  "rows": [
+    {
+      "id": "mmqa:024a2b24f4f7da220a879b0479ef1166",
+      "same_answer": false,
+      "same_evidence": true,
+      "same_metrics": false
+    },
+    {
+      "id": "mmqa:08e66ea55258dfb1e76421a0cd580108",
+      "same_answer": true,
+      "same_evidence": true,
+      "same_metrics": true
+    },
+    {
+      "id": "mmqa:0964e81cc1919b2bfcecc9dc976d93ec",
+      "same_answer": true,
+      "same_evidence": true,
+      "same_metrics": true
+    },
+    {
+      "id": "mmqa:0b037ac2ba0c3eefbeb083e481ad2848",
+      "same_answer": true,
+      "same_evidence": true,
+      "same_metrics": true
+    },
+    {
+      "id": "mmqa:0cfc13b8cb739d42a29ed76f1bd83b5b",
+      "same_answer": true,
+      "same_evidence": true,
+      "same_metrics": true
+    },
+    {
+      "id": "mmqa:0d21c0f0123e225fd3341324ff69914b",
+      "same_answer": true,
+      "same_evidence": true,
+      "same_metrics": true
+    },
+    {
+      "id": "mmqa:119c9a9bf38ca9f84a3900d7c7fd1fe5",
+      "same_answer": true,
+      "same_evidence": true,
+      "same_metrics": true
+    },
+    {
+      "id": "mmqa:12b5572cf9bbb103a607a9e0b880c94a",
+      "same_answer": true,
+      "same_evidence": true,
+      "same_metrics": true
+    },
+    {
+      "id": "mmqa:16db0b1e30934e4c5a7acb33d0274b5e",
+      "same_answer": true,
+      "same_evidence": true,
+      "same_metrics": true
+    },
+    {
+      "id": "mmqa:1afabde176377143c6118e3828837ce9",
+      "same_answer": true,
+      "same_evidence": true,
+      "same_metrics": true
+    },
+    {
+      "id": "mmqa:1bf7604eb61f9ffc258904ccd06d0b7c",
+      "same_answer": true,
+      "same_evidence": true,
+      "same_metrics": true
+    },
+    {
+      "id": "mmqa:1caa45ec80d1b0388fc5d287856d6e2d",
+      "same_answer": true,
+      "same_evidence": true,
+      "same_metrics": true
+    },
+    {
+      "id": "mmqa:201840ccbe232525f6d2df03275c2d41",
+      "same_answer": true,
+      "same_evidence": true,
+      "same_metrics": true
+    },
+    {
+      "id": "mmqa:2056dcf5ed1c70cb799c09a023a4f73c",
+      "same_answer": true,
+      "same_evidence": true,
+      "same_metrics": true
+    },
+    {
+      "id": "mmqa:23709039b4aa8be1c25b9996ee797bd2",
+      "same_answer": true,
+      "same_evidence": true,
+      "same_metrics": true
+    },
+    {
+      "id": "mmqa:265da4be224029df08ddc9dec1637a29",
+      "same_answer": true,
+      "same_evidence": true,
+      "same_metrics": true
+    },
+    {
+      "id": "mmqa:26c045714567d0d79f93206e54a0bc50",
+      "same_answer": true,
+      "same_evidence": true,
+      "same_metrics": true
+    },
+    {
+      "id": "mmqa:28137471e8534dc68161fe6e67d1ce25",
+      "same_answer": true,
+      "same_evidence": true,
+      "same_metrics": true
+    },
+    {
+      "id": "mmqa:299e684293fffb0f9dca76a1092c83f9",
+      "same_answer": true,
+      "same_evidence": true,
+      "same_metrics": true
+    },
+    {
+      "id": "mmqa:29c69668f470c2b6cf572b2d6261f9a0",
+      "same_answer": true,
+      "same_evidence": true,
+      "same_metrics": true
+    }
+  ]
+}

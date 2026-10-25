@@ -1,0 +1,1280 @@
+{
+  "diagnostics": {
+    "image_only_rankings": {
+      "embeddinggemma_pixels": {
+        "image_hit@5": 0.6666666666666666,
+        "image_recall@5": 0.6547619047619048,
+        "median_first_gold_rank": 2.0,
+        "mrr": 0.5469517662865006,
+        "per_question": [
+          {
+            "gold_image_ranks": [
+              3
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:08e66ea55258dfb1e76421a0cd580108",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.3333333333333333
+          },
+          {
+            "gold_image_ranks": [
+              8
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:1caa45ec80d1b0388fc5d287856d6e2d",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.125
+          },
+          {
+            "gold_image_ranks": [
+              2
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:23709039b4aa8be1c25b9996ee797bd2",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.5
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:265da4be224029df08ddc9dec1637a29",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              7
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:28137471e8534dc68161fe6e67d1ce25",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.14285714285714285
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:299e684293fffb0f9dca76a1092c83f9",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:3244d52fd6cc8be5efe820ab231947a9",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:39d1230b9456528d49ced799393985d3",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              13
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:3e99b830ec0f40e6ad9b94766200bb9e",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.07692307692307693
+          },
+          {
+            "gold_image_ranks": [
+              4
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:40b3e2453fe619126174d64bec19157c",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.25
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:4208cf3ce3392da60fcb29c52861f2dc",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:5072f746758ffe633a82b67d5097f808",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              3
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:5908d9a3d31a803bc2608e4ad4278e1f",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.3333333333333333
+          },
+          {
+            "gold_image_ranks": [
+              6
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:5a424491b67c8f949fe4c625b2153bf8",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.16666666666666666
+          },
+          {
+            "gold_image_ranks": [
+              3
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:5ac2d266863961db6b9b0e0930470367",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.3333333333333333
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:5ce79b8376619623506820810d8a88ff",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              114
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:5f76981c9ceaff75670a0f297a2d2c4e",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.008771929824561403
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:6092c0c9a97041ecce5163fdbaa186b8",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              9
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:656ea967fce612716b8a70529e94a0ba",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.1111111111111111
+          },
+          {
+            "gold_image_ranks": [
+              2
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:65e8f460c5770672deef89d632fd5f51",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.5
+          },
+          {
+            "gold_image_ranks": [
+              24
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:71baea304ccec1b8c4d450d18189f2a6",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.041666666666666664
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:725cff35b53790928967f609bb24985f",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              3
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:74e3f341c5792ddc51267ee8386e35fe",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.3333333333333333
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:75df3e56cb07101db16c18a9335b90c8",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              13
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:7604a6c9d42c57c955176e02e29fc039",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.07692307692307693
+          },
+          {
+            "gold_image_ranks": [
+              69
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:79c46102455f37942fcd1004316f547b",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.014492753623188406
+          },
+          {
+            "gold_image_ranks": [
+              51
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:8416940791134728bf5f1b3df1b0fb55",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.0196078431372549
+          },
+          {
+            "gold_image_ranks": [
+              3
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:8fb9e8c22bed5b4bde63a9361ca97966",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.3333333333333333
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:9a8f31fac508d9b34f3c84352ee5441e",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              2
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:9eaf685adaccf2218cc3d8fcf8797d09",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.5
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:a2683d2d5cb57888f39f06ed08115ba1",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              1,
+              2,
+              4,
+              9,
+              11,
+              15
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:ac9c96e3b92ac9227a8a5f2ccea4d780",
+            "recall@5": 0.5,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:b4fa630041e016caa616ebaff6c15491",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              23
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:b57ddbf4426152522a18385e033d4b40",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.043478260869565216
+          },
+          {
+            "gold_image_ranks": [
+              10
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:b7f1c8c3fb6f1047bb2bb4a323d197f9",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.1
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:c5dee34263e4353394d8e11ab56607a2",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:d7bb58ebf570f9c46f48c0d8d364e6d2",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              356
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:e723bdfa758e95165ffdbb99dab1bdc2",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.0028089887640449437
+          },
+          {
+            "gold_image_ranks": [
+              8
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:e9cfe3d149fccbf737f3cca2ab607e46",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.125
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:ee67797fad4a7e1abc07e46bcd485887",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              2
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:ef97a6ca116a226b8e2e1deaba4b5004",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.5
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:f2c60a572ce83bacbf78cda7dc625b0c",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          }
+        ],
+        "questions": 42
+      },
+      "embeddinggemma_titles": {
+        "image_hit@5": 0.42857142857142855,
+        "image_recall@5": 0.42857142857142855,
+        "median_first_gold_rank": 9.5,
+        "mrr": 0.3339977851617469,
+        "per_question": [
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:08e66ea55258dfb1e76421a0cd580108",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              48
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:1caa45ec80d1b0388fc5d287856d6e2d",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.020833333333333332
+          },
+          {
+            "gold_image_ranks": [
+              2
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:23709039b4aa8be1c25b9996ee797bd2",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.5
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:265da4be224029df08ddc9dec1637a29",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              3
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:28137471e8534dc68161fe6e67d1ce25",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.3333333333333333
+          },
+          {
+            "gold_image_ranks": [
+              57
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:299e684293fffb0f9dca76a1092c83f9",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.017543859649122806
+          },
+          {
+            "gold_image_ranks": [
+              17
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:3244d52fd6cc8be5efe820ab231947a9",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.058823529411764705
+          },
+          {
+            "gold_image_ranks": [
+              6
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:39d1230b9456528d49ced799393985d3",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.16666666666666666
+          },
+          {
+            "gold_image_ranks": [
+              13
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:3e99b830ec0f40e6ad9b94766200bb9e",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.07692307692307693
+          },
+          {
+            "gold_image_ranks": [
+              6
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:40b3e2453fe619126174d64bec19157c",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.16666666666666666
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:4208cf3ce3392da60fcb29c52861f2dc",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:5072f746758ffe633a82b67d5097f808",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:5908d9a3d31a803bc2608e4ad4278e1f",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              33
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:5a424491b67c8f949fe4c625b2153bf8",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.030303030303030304
+          },
+          {
+            "gold_image_ranks": [
+              5
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:5ac2d266863961db6b9b0e0930470367",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.2
+          },
+          {
+            "gold_image_ranks": [
+              136
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:5ce79b8376619623506820810d8a88ff",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.007352941176470588
+          },
+          {
+            "gold_image_ranks": [
+              183
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:5f76981c9ceaff75670a0f297a2d2c4e",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.00546448087431694
+          },
+          {
+            "gold_image_ranks": [
+              103
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:6092c0c9a97041ecce5163fdbaa186b8",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.009708737864077669
+          },
+          {
+            "gold_image_ranks": [
+              253
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:656ea967fce612716b8a70529e94a0ba",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.003952569169960474
+          },
+          {
+            "gold_image_ranks": [
+              38
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:65e8f460c5770672deef89d632fd5f51",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.02631578947368421
+          },
+          {
+            "gold_image_ranks": [
+              4
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:71baea304ccec1b8c4d450d18189f2a6",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.25
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:725cff35b53790928967f609bb24985f",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              4
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:74e3f341c5792ddc51267ee8386e35fe",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.25
+          },
+          {
+            "gold_image_ranks": [
+              13
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:75df3e56cb07101db16c18a9335b90c8",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.07692307692307693
+          },
+          {
+            "gold_image_ranks": [
+              82
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:7604a6c9d42c57c955176e02e29fc039",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.012195121951219513
+          },
+          {
+            "gold_image_ranks": [
+              384
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:79c46102455f37942fcd1004316f547b",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.0026041666666666665
+          },
+          {
+            "gold_image_ranks": [
+              445
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:8416940791134728bf5f1b3df1b0fb55",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.0022471910112359553
+          },
+          {
+            "gold_image_ranks": [
+              218
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:8fb9e8c22bed5b4bde63a9361ca97966",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.0045871559633027525
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:9a8f31fac508d9b34f3c84352ee5441e",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              3
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:9eaf685adaccf2218cc3d8fcf8797d09",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.3333333333333333
+          },
+          {
+            "gold_image_ranks": [
+              53
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:a2683d2d5cb57888f39f06ed08115ba1",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.018867924528301886
+          },
+          {
+            "gold_image_ranks": [
+              7,
+              8,
+              131,
+              142,
+              196,
+              234
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:ac9c96e3b92ac9227a8a5f2ccea4d780",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.14285714285714285
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:b4fa630041e016caa616ebaff6c15491",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              393
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:b57ddbf4426152522a18385e033d4b40",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.002544529262086514
+          },
+          {
+            "gold_image_ranks": [
+              12
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:b7f1c8c3fb6f1047bb2bb4a323d197f9",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.08333333333333333
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:c5dee34263e4353394d8e11ab56607a2",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:d7bb58ebf570f9c46f48c0d8d364e6d2",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              179
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:e723bdfa758e95165ffdbb99dab1bdc2",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.00558659217877095
+          },
+          {
+            "gold_image_ranks": [
+              168
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:e9cfe3d149fccbf737f3cca2ab607e46",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.005952380952380952
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:ee67797fad4a7e1abc07e46bcd485887",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              77
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:ef97a6ca116a226b8e2e1deaba4b5004",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.012987012987012988
+          },
+          {
+            "gold_image_ranks": [
+              5
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:f2c60a572ce83bacbf78cda7dc625b0c",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.2
+          }
+        ],
+        "questions": 42
+      },
+      "siglip2_pixels": {
+        "image_hit@5": 0.5,
+        "image_recall@5": 0.4801587301587302,
+        "median_first_gold_rank": 6.5,
+        "mrr": 0.3726767138110489,
+        "per_question": [
+          {
+            "gold_image_ranks": [
+              5
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:08e66ea55258dfb1e76421a0cd580108",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.2
+          },
+          {
+            "gold_image_ranks": [
+              112
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:1caa45ec80d1b0388fc5d287856d6e2d",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.008928571428571428
+          },
+          {
+            "gold_image_ranks": [
+              15
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:23709039b4aa8be1c25b9996ee797bd2",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.06666666666666667
+          },
+          {
+            "gold_image_ranks": [
+              137
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:265da4be224029df08ddc9dec1637a29",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.0072992700729927005
+          },
+          {
+            "gold_image_ranks": [
+              3
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:28137471e8534dc68161fe6e67d1ce25",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.3333333333333333
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:299e684293fffb0f9dca76a1092c83f9",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:3244d52fd6cc8be5efe820ab231947a9",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:39d1230b9456528d49ced799393985d3",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              169
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:3e99b830ec0f40e6ad9b94766200bb9e",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.005917159763313609
+          },
+          {
+            "gold_image_ranks": [
+              3
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:40b3e2453fe619126174d64bec19157c",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.3333333333333333
+          },
+          {
+            "gold_image_ranks": [
+              17
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:4208cf3ce3392da60fcb29c52861f2dc",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.058823529411764705
+          },
+          {
+            "gold_image_ranks": [
+              22
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:5072f746758ffe633a82b67d5097f808",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.045454545454545456
+          },
+          {
+            "gold_image_ranks": [
+              3
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:5908d9a3d31a803bc2608e4ad4278e1f",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.3333333333333333
+          },
+          {
+            "gold_image_ranks": [
+              3
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:5a424491b67c8f949fe4c625b2153bf8",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.3333333333333333
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:5ac2d266863961db6b9b0e0930470367",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:5ce79b8376619623506820810d8a88ff",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              32
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:5f76981c9ceaff75670a0f297a2d2c4e",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.03125
+          },
+          {
+            "gold_image_ranks": [
+              2
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:6092c0c9a97041ecce5163fdbaa186b8",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.5
+          },
+          {
+            "gold_image_ranks": [
+              78
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:656ea967fce612716b8a70529e94a0ba",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.01282051282051282
+          },
+          {
+            "gold_image_ranks": [
+              8
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:65e8f460c5770672deef89d632fd5f51",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.125
+          },
+          {
+            "gold_image_ranks": [
+              34
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:71baea304ccec1b8c4d450d18189f2a6",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.029411764705882353
+          },
+          {
+            "gold_image_ranks": [
+              185
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:725cff35b53790928967f609bb24985f",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.005405405405405406
+          },
+          {
+            "gold_image_ranks": [
+              3
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:74e3f341c5792ddc51267ee8386e35fe",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.3333333333333333
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:75df3e56cb07101db16c18a9335b90c8",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:7604a6c9d42c57c955176e02e29fc039",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              5
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:79c46102455f37942fcd1004316f547b",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.2
+          },
+          {
+            "gold_image_ranks": [
+              11
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:8416940791134728bf5f1b3df1b0fb55",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.09090909090909091
+          },
+          {
+            "gold_image_ranks": [
+              15
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:8fb9e8c22bed5b4bde63a9361ca97966",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.06666666666666667
+          },
+          {
+            "gold_image_ranks": [
+              636
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:9a8f31fac508d9b34f3c84352ee5441e",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.0015723270440251573
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:9eaf685adaccf2218cc3d8fcf8797d09",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              15
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:a2683d2d5cb57888f39f06ed08115ba1",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.06666666666666667
+          },
+          {
+            "gold_image_ranks": [
+              1,
+              6,
+              10,
+              13,
+              32,
+              42
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:ac9c96e3b92ac9227a8a5f2ccea4d780",
+            "recall@5": 0.16666666666666666,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              412
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:b4fa630041e016caa616ebaff6c15491",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.0024271844660194173
+          },
+          {
+            "gold_image_ranks": [
+              87
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:b57ddbf4426152522a18385e033d4b40",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.011494252873563218
+          },
+          {
+            "gold_image_ranks": [
+              8
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:b7f1c8c3fb6f1047bb2bb4a323d197f9",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.125
+          },
+          {
+            "gold_image_ranks": [
+              4
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:c5dee34263e4353394d8e11ab56607a2",
+            "recall@5": 1.0,
+            "reciprocal_rank": 0.25
+          },
+          {
+            "gold_image_ranks": [
+              88
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:d7bb58ebf570f9c46f48c0d8d364e6d2",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.011363636363636364
+          },
+          {
+            "gold_image_ranks": [
+              39
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:e723bdfa758e95165ffdbb99dab1bdc2",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.02564102564102564
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:e9cfe3d149fccbf737f3cca2ab607e46",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:ee67797fad4a7e1abc07e46bcd485887",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          },
+          {
+            "gold_image_ranks": [
+              27
+            ],
+            "hit@5": 0.0,
+            "id": "mmqa:ef97a6ca116a226b8e2e1deaba4b5004",
+            "recall@5": 0.0,
+            "reciprocal_rank": 0.037037037037037035
+          },
+          {
+            "gold_image_ranks": [
+              1
+            ],
+            "hit@5": 1.0,
+            "id": "mmqa:f2c60a572ce83bacbf78cda7dc625b0c",
+            "recall@5": 1.0,
+            "reciprocal_rank": 1.0
+          }
+        ],
+        "questions": 42
+      }
+    }
+  },
+  "gold_image_recall": {
+    "bm25": {
+      "any_gold_image@5": 0.21428571428571427,
+      "image_support_recall@5": 0.21428571428571427,
+      "questions": 42
+    },
+    "dense-text": {
+      "any_gold_image@5": 0.23809523809523808,
+      "image_support_recall@5": 0.23809523809523808,
+      "questions": 42
+    },
+    "multimodal": {
+      "any_gold_image@5": 0.4523809523809524,
+      "image_support_recall@5": 0.43253968253968256,
+      "questions": 42
+    },
+    "separate-encoders": {
+      "any_gold_image@5": 0.30952380952380953,
+      "image_support_recall@5": 0.2896825396825397,
+      "questions": 42
+    }
+  },
+  "image_only_note": "Ranks only the 920 images for the questions with labelled images, ignoring text and fusion. EmbeddingGemma titles is the dense-text representation of images; pixels is the native one.",
+  "method": "separate-encoders",
+  "metrics": {
+    "bm25": {
+      "all_support@5": 0.5,
+      "hit_rate@5": 0.75,
+      "mrr@5": 0.6165,
+      "ndcg@5": 0.5666557763156724,
+      "recall@5": 0.6214285714285714
+    },
+    "dense-text": {
+      "all_support@5": 0.64,
+      "hit_rate@5": 0.91,
+      "mrr@5": 0.8195,
+      "ndcg@5": 0.7411011846191687,
+      "recall@5": 0.7714285714285715
+    },
+    "multimodal": {
+      "all_support@5": 0.71,
+      "hit_rate@5": 0.94,
+      "mrr@5": 0.816,
+      "ndcg@5": 0.7626957281190214,
+      "recall@5": 0.8228571428571428
+    },
+    "separate-encoders": {
+      "all_support@5": 0.61,
+      "hit_rate@5": 0.84,
+      "mrr@5": 0.7448333333333333,
+      "ndcg@5": 0.6717524640167549,
+      "recall@5": 0.7228571428571429
+    }
+  },
+  "note": "Added on 24 October 2026, after the three-method comparison had been run and reported, on the same development questions. Encoders, fusion rule and k were fixed before scoring.",
+  "recall_by_image_need": {
+    "bm25": {
+      "needs_image": {
+        "questions": 42,
+        "recall@5": 0.37244897959183676
+      },
+      "no_image": {
+        "questions": 58,
+        "recall@5": 0.8017241379310345
+      }
+    },
+    "dense-text": {
+      "needs_image": {
+        "questions": 42,
+        "recall@5": 0.5034013605442177
+      },
+      "no_image": {
+        "questions": 58,
+        "recall@5": 0.9655172413793104
+      }
+    },
+    "multimodal": {
+      "needs_image": {
+        "questions": 42,
+        "recall@5": 0.6377551020408163
+      },
+      "no_image": {
+        "questions": 58,
+        "recall@5": 0.9568965517241379
+      }
+    },
+    "separate-encoders": {
+      "needs_image": {
+        "questions": 42,
+        "recall@5": 0.4710884353741497
+      },
+      "no_image": {
+        "questions": 58,
+        "recall@5": 0.9051724137931034
+      }
+    }
+  },
+  "schema_version": 1
+}

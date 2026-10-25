@@ -1,0 +1,22 @@
+{
+  "model": "google/siglip2-so400m-patch14-384",
+  "revision": "e8e487298228002f3d8a82e0cd5c8ea9c567f57f",
+  "transformers": "5.20.2",
+  "torch": "2.14.1+cpu",
+  "python": "3.11.16",
+  "host": "hpc-exec07.hpc.uts.edu.au",
+  "device": "cpu",
+  "threads": 16,
+  "dtype": "float32",
+  "images": 920,
+  "questions": 100,
+  "dimension": 1152,
+  "text_max_tokens": 64,
+  "questions_truncated": 2,
+  "longest_question_tokens": 81,
+  "load_seconds": 2.5,
+  "image_seconds": 468.0,
+  "image_processing": "SigLIP 2 processor defaults (resize to 384x384); RGB conversion",
+  "text_processing": "Question text as written, padded to 64 tokens, no prompt template",
+  "output_sha256": "e8197be7fb25e981065bcd3c9181310fbfb4ae40bdd7160bf03dfc4398d7ea84"
+}

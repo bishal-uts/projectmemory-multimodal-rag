@@ -1,0 +1,14 @@
+#!/bin/bash
+# SigLIP 2 embeddings for the separate-encoder baseline. CPU only, so it needs no GPU slot.
+# Submit from ~/projectmemory-siglip on Cetus: qsub siglip_embed.pbs
+#PBS -N pm-siglip2
+#PBS -q interq
+#PBS -l select=1:ncpus=16:mem=48gb
+#PBS -l walltime=01:30:00
+#PBS -j oe
+set -euo pipefail
+cd "$HOME/projectmemory-siglip"
+mkdir -p logs out
+export HF_HOME="$HOME/hf_cache" HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
+export OMP_NUM_THREADS=16 MKL_NUM_THREADS=16
+venv/bin/python -u siglip_embed.py --bundle data --output out/siglip2-mmqa.npz > logs/siglip2-embed.log 2>&1

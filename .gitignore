@@ -72,6 +72,10 @@ __pycache__/
 !/results/final-local-av-video/
 !/results/final-local-av-combined/
 !/results/final-analysis/
+# Separate-encoder baseline (SigLIP 2 + text, rank fusion), added after the main runs.
+!/results/separate-encoders/
+!/results/final-mmqa-local-separate-encoders/
+!/results/control-mmqa-local-multimodal-v2/
 # Superseded attempts, kept for the provenance the documentation describes.
 !/results/pre-expansion-mmqa-local-bm25/
 !/results/pre-decoder-fix-local-av-audio/

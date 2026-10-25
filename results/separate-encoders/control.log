@@ -1,0 +1,34 @@
+Answered 1/20 questions
+Answered 2/20 questions
+Answered 3/20 questions
+Answered 4/20 questions
+Answered 5/20 questions
+Answered 6/20 questions
+Answered 7/20 questions
+Answered 8/20 questions
+Answered 9/20 questions
+Answered 10/20 questions
+Answered 11/20 questions
+Answered 12/20 questions
+Answered 13/20 questions
+Answered 14/20 questions
+Answered 15/20 questions
+Answered 16/20 questions
+Answered 17/20 questions
+Answered 18/20 questions
+Answered 19/20 questions
+Answered 20/20 questions
+{
+  "questions": 20,
+  "identical_answers": 19,
+  "identical_metrics": 19,
+  "identical_evidence": 20,
+  "original_local_generation": "ec9babc30f65d1d614b1a93d6456717a65696304c6ae4b2abbcbc67ff805d5ec",
+  "rerun_local_generation": "5217eba9f1f686924dfcb10f5768ecc4b6fd2256030497fe7e055d06e9828986",
+  "note": "The three original MMQA runs used local_generation.py before the video-only decoder repair (media protocol v1); the new run uses the repaired file (v2). The repair changed video frame sampling only, which MMQA evidence (text, tables, images) never uses. generator-control.json re-runs original native questions with the repaired file to check that answers are unchanged."
+}
+
+real	1m3.574s
+user	0m0.015s
+sys	0m0.031s
+control exit 0

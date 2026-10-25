@@ -1,0 +1,79 @@
+Loading weights:   0%|          | 0/413 [00:00<?, ?it/s]Loading weights:  18%|#7        | 73/413 [00:00<00:00, 716.12it/s]Loading weights:  35%|###5      | 145/413 [00:00<00:00, 624.78it/s]Loading weights:  51%|#####     | 209/413 [00:00<00:00, 619.83it/s]Loading weights:  67%|######6   | 275/413 [00:00<00:00, 626.79it/s]Loading weights:  83%|########2 | 341/413 [00:00<00:00, 616.71it/s]Loading weights:  99%|#########8| 407/413 [00:00<00:00, 568.12it/s]Loading weights: 100%|##########| 413/413 [00:00<00:00, 599.01it/s]
+Loading weights:   0%|          | 0/1376 [00:00<?, ?it/s]Loading weights:   6%|6         | 87/1376 [00:00<00:01, 864.41it/s]Loading weights:  13%|#2        | 174/1376 [00:00<00:01, 666.02it/s]Loading weights:  18%|#7        | 244/1376 [00:00<00:02, 560.16it/s]Loading weights:  22%|##2       | 303/1376 [00:00<00:01, 540.41it/s]Loading weights:  26%|##6       | 359/1376 [00:00<00:02, 504.81it/s]Loading weights:  30%|##9       | 411/1376 [00:00<00:01, 483.41it/s]Loading weights:  33%|###3      | 460/1376 [00:00<00:01, 461.22it/s]Loading weights:  40%|###9      | 545/1376 [00:00<00:01, 553.06it/s]Loading weights:  44%|####3     | 602/1376 [00:01<00:01, 524.07it/s]Loading weights:  48%|####7     | 656/1376 [00:01<00:01, 475.61it/s]Loading weights:  51%|#####1    | 705/1376 [00:01<00:01, 430.18it/s]Loading weights:  55%|#####4    | 750/1376 [00:01<00:03, 203.39it/s]Loading weights:  57%|#####6    | 784/1376 [00:02<00:03, 180.90it/s]Loading weights:  61%|######    | 839/1376 [00:02<00:02, 232.60it/s]Loading weights:  65%|######4   | 890/1376 [00:02<00:01, 278.12it/s]Loading weights:  69%|######9   | 950/1376 [00:02<00:01, 338.93it/s]Loading weights:  72%|#######2  | 996/1376 [00:02<00:01, 364.76it/s]Loading weights:  77%|#######6  | 1056/1376 [00:02<00:00, 418.16it/s]Loading weights:  81%|########  | 1109/1376 [00:02<00:00, 439.14it/s]Loading weights:  84%|########4 | 1160/1376 [00:02<00:00, 432.06it/s]Loading weights:  88%|########7 | 1208/1376 [00:03<00:00, 361.28it/s]Loading weights:  91%|######### | 1249/1376 [00:03<00:00, 337.96it/s]Loading weights:  93%|#########3| 1286/1376 [00:03<00:00, 315.71it/s]Loading weights:  96%|#########5| 1320/1376 [00:03<00:00, 308.25it/s]Loading weights:  98%|#########8| 1353/1376 [00:03<00:00, 292.22it/s]Loading weights: 100%|##########| 1376/1376 [00:03<00:00, 358.58it/s]
+{
+  "metrics": {
+    "bm25": {
+      "all_support@5": 0.5,
+      "hit_rate@5": 0.75,
+      "mrr@5": 0.6165,
+      "ndcg@5": 0.5666557763156724,
+      "recall@5": 0.6214285714285714
+    },
+    "dense-text": {
+      "all_support@5": 0.64,
+      "hit_rate@5": 0.91,
+      "mrr@5": 0.8195,
+      "ndcg@5": 0.7411011846191687,
+      "recall@5": 0.7714285714285715
+    },
+    "multimodal": {
+      "all_support@5": 0.71,
+      "hit_rate@5": 0.94,
+      "mrr@5": 0.816,
+      "ndcg@5": 0.7626957281190214,
+      "recall@5": 0.8228571428571428
+    },
+    "separate-encoders": {
+      "recall@5": 0.7228571428571429,
+      "hit_rate@5": 0.84,
+      "mrr@5": 0.7448333333333333,
+      "ndcg@5": 0.6717524640167549,
+      "all_support@5": 0.61
+    }
+  },
+  "gold_image_recall": {
+    "bm25": {
+      "questions": 42,
+      "image_support_recall@5": 0.21428571428571427,
+      "any_gold_image@5": 0.21428571428571427
+    },
+    "dense-text": {
+      "questions": 42,
+      "image_support_recall@5": 0.23809523809523808,
+      "any_gold_image@5": 0.23809523809523808
+    },
+    "multimodal": {
+      "questions": 42,
+      "image_support_recall@5": 0.43253968253968256,
+      "any_gold_image@5": 0.4523809523809524
+    },
+    "separate-encoders": {
+      "questions": 42,
+      "image_support_recall@5": 0.2896825396825397,
+      "any_gold_image@5": 0.30952380952380953
+    }
+  },
+  "image_only": {
+    "siglip2_pixels": {
+      "questions": 42,
+      "image_recall@5": 0.4801587301587302,
+      "image_hit@5": 0.5,
+      "mrr": 0.3726767138110489,
+      "median_first_gold_rank": 6.5
+    },
+    "embeddinggemma_titles": {
+      "questions": 42,
+      "image_recall@5": 0.42857142857142855,
+      "image_hit@5": 0.42857142857142855,
+      "mrr": 0.3339977851617469,
+      "median_first_gold_rank": 9.5
+    },
+    "embeddinggemma_pixels": {
+      "questions": 42,
+      "image_recall@5": 0.6547619047619048,
+      "image_hit@5": 0.6666666666666666,
+      "mrr": 0.5469517662865006,
+      "median_first_gold_rank": 2.0
+    }
+  }
+}

@@ -162,6 +162,17 @@ unsupported. Cached embeddings allow interrupted index builds to resume.
 See [MMQA results](docs/MMQA_RESULTS.md) for the full comparison's current status,
 and [measured project status](docs/STATUS.md) for existing AMI results.
 
+### Separate-encoder baseline
+
+A conventional multimodal RAG baseline was added on 24 October 2026, after the main
+comparison: EmbeddingGemma 2 text embeddings for passages and tables, SigLIP 2
+(`google/siglip2-so400m-patch14-384`) for image pixels, and reciprocal rank fusion
+(k=60), on the same 100 MMQA questions with the same local generator. Native
+multimodal retrieval stayed ahead: Recall@5 **82.29% versus 72.29%**, and answer
+exact match **22% versus 16%** (paired 95% interval for the difference: -1 to +13
+points). See the [baseline results and caveats](results/separate-encoders/README.md)
+and `scripts/run_separate_encoders.py`.
+
 EmbeddingGemma native text/image and real audio/video runtime checks have passed. These checks
 establish compatibility, not retrieval quality:
 
